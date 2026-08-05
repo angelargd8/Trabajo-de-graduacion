@@ -453,65 +453,6 @@
       \verb 10.1145/2702613.2732864
       \endverb
     \endentry
-    \entry{oberhauser2023vredstream}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=c6a34c850cfd3a4234bedabf703200ff}{%
-           family={Oberhauser},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IARIA}%
-      }
-      \strng{namehash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{fullhash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{fullhashraw}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{bibnamehash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{authorbibnamehash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{authornamehash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{authorfullhash}{c6a34c850cfd3a4234bedabf703200ff}
-      \strng{authorfullhashraw}{c6a34c850cfd3a4234bedabf703200ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{VR-EDStream+EDA}: Immersively Visualizing and Animating Event and Data Streams and Event-Driven Architectures in Virtual Reality}
-      \field{year}{2023}
-      \field{dateera}{ce}
-    \endentry
-    \entry{edmunds2006mixed}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=12f384b5954875c6be45b062277632db}{%
-           family={Edmunds},
-           familyi={E\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=bfbb48709fb8c3d77b6eb3ac15d331c6}{%
-           family={Pai},
-           familyi={P\bibinitperiod},
-           given={D.\bibnamedelimi K.},
-           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{fullhash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{fullhashraw}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{bibnamehash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{authorbibnamehash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{authornamehash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{authorfullhash}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \strng{authorfullhashraw}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{2006 5th {IEEE} and {ACM} International Symposium on Mixed and Augmented Reality}
-      \field{year}{2006}
-      \field{dateera}{ce}
-    \endentry
     \entry{berkman2021igroup}{article}{}{}
       \name{author}{2}{}{%
         {{hash=d04cdfd0c9aa0c5f1f7e63a23a6402f6}{%
@@ -582,7 +523,9 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{edmunds2006mixed}
   \missing{hoover2010bio}
+  \missing{oberhauser2023vredstream}
   \missing{park2014design}
 \endrefsection
 \endinput

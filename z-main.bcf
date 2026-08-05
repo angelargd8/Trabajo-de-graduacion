@@ -2421,6 +2421,20 @@
     <bcf:citekey order="28" intorder="1">castro2026immersive</bcf:citekey>
     <bcf:citekey order="29" intorder="1">hoover2010bio</bcf:citekey>
     <bcf:citekey order="30" intorder="1">park2014design</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">lee2025concert</bcf:citekey>
+    <bcf:citekey order="31" intorder="3">yan2020social</bcf:citekey>
+    <bcf:citekey order="31" intorder="4">kim2022multiview</bcf:citekey>
+    <bcf:citekey order="31" intorder="5">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">yannakakis2011experience</bcf:citekey>
+    <bcf:citekey order="33" intorder="2">khaled2013design</bcf:citekey>
+    <bcf:citekey order="33" intorder="3">craveirinha2015designing</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="34" intorder="2">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="35" intorder="2">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="35" intorder="3">lee2023viewing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  5 AUG 2026 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  5 AUG 2026 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -921,7 +921,21 @@ Package biblatex Info: ... file 'z-main.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                edmunds2006mixed
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                hoover2010bio
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                oberhauser2023vredstream
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -971,6 +985,12 @@ Package biblatex Info: Reference segment=0 on input line 109.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package babel Info: Main language set to 'spanish'.
+
+LaTeX Warning: Citation 'oberhauser2023vredstream' undefined on input line 110.
+
+
+LaTeX Warning: Citation 'edmunds2006mixed' undefined on input line 110.
+
 Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)                    date: 2026-08-05 11:53:37
 (epstopdf)                    size: 353392 bytes
@@ -1075,7 +1095,14 @@ LaTeX Info: Redefining \% on input line 2.
 
 ] [12
 
-] (b-resumen.tex) [13
+] (b-resumen.tex
+
+LaTeX Warning: Citation 'oberhauser2023vredstream' on page 13 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'edmunds2006mixed' on page 13 undefined on input line 3.
+
+) [13
 
 ] [14
 
@@ -1085,7 +1112,14 @@ LaTeX Info: Redefining \% on input line 2.
 
 ]
 Cap\'{\i }tulo 1.
-(d-introduccion.tex [1
+(d-introduccion.tex
+
+LaTeX Warning: Citation 'oberhauser2023vredstream' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'edmunds2006mixed' on page 1 undefined on input line 7.
+
+[1
 
 ]) [2]
 Cap\'{\i }tulo 2.
@@ -1102,11 +1136,11 @@ LaTeX Warning: Citation 'park2014design' on page 3 undefined on input line 1.
 
 ]
 Cap\'{\i }tulo 3.
-(f-justificacion.tex) [5] [6
-
-]
+(f-justificacion.tex [5]) [6]
 Cap\'{\i }tulo 4.
-(g-objetivos.tex) [7] [8
+(g-objetivos.tex) [7
+
+] [8
 
 ]
 Cap\'{\i }tulo 5.
@@ -1158,29 +1192,29 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: 6C7DCE014082FA140149B574A0F40CAF;3284.
+(rerunfilecheck)             Checksum: EFF297D62E31A1AFE38A9A1FA9837451;3284.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30450 strings out of 467510
- 584165 string characters out of 5408795
- 1469638 words of memory out of 5000000
- 59165 multiletter control sequences out of 15000+600000
+ 30439 strings out of 467510
+ 583733 string characters out of 5408795
+ 1469518 words of memory out of 5000000
+ 59157 multiletter control sequences out of 15000+600000
  643208 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,79p,2572b,2339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,8n,79p,2572b,2339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:formula} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
- <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on z-main.pdf (46 pages, 296739 bytes).
+ <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on z-main.pdf (46 pages, 298833 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
+ 951 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
