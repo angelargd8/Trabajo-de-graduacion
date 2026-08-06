@@ -410,6 +410,7 @@ INPUT .\g-objetivos.tex
 INPUT .\g-objetivos.tex
 INPUT .\g-objetivos.tex
 INPUT g-objetivos.tex
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 INPUT .\h-alcance.tex
 INPUT .\h-alcance.tex
 INPUT .\h-alcance.tex
@@ -437,7 +438,6 @@ INPUT .\l-recomendaciones.tex
 INPUT .\l-recomendaciones.tex
 INPUT .\l-recomendaciones.tex
 INPUT l-recomendaciones.tex
-INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT .\n-anexos.tex
@@ -454,12 +454,12 @@ INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ect
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
-INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
-INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss2488.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss2488.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.pk
