@@ -370,6 +370,7 @@ INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 OUTPUT z-main.toc
 INPUT .\z-main.lof
 INPUT .\z-main.lof
@@ -384,7 +385,6 @@ INPUT .\b-resumen.tex
 INPUT .\b-resumen.tex
 INPUT .\b-resumen.tex
 INPUT b-resumen.tex
-INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 INPUT .\c-abstract.tex
 INPUT .\c-abstract.tex
 INPUT .\c-abstract.tex
@@ -421,12 +421,13 @@ INPUT .\i-marco_teorico.tex
 INPUT .\i-marco_teorico.tex
 INPUT .\i-marco_teorico.tex
 INPUT i-marco_teorico.tex
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
 INPUT .\j-capitulos.tex
 INPUT .\j-capitulos.tex
 INPUT .\j-capitulos.tex
 INPUT .\j-capitulos.tex
 INPUT j-capitulos.tex
-INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT .\k-conclusiones.tex
 INPUT .\k-conclusiones.tex
@@ -456,6 +457,8 @@ INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss2488.pk

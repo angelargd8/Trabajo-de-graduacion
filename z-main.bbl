@@ -581,6 +581,50 @@
       \verb 10.1007/s10055-025-01301-2
       \endverb
     \endentry
+    \entry{Datta2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1da481fd1e201b3def0b4bcc5aebd259}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5384584465c230e5ef0b4efe4869ce9f}{%
+           family={Knox},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=69b866d0b66e7abb453feaedb886c48a}{%
+           family={Bronnenberg},
+           familyi={B\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ff3f1f9e15c698738ce87a67fbbfa5c}
+      \strng{fullhash}{453195d4d8b7a40b9622b24cf86e9866}
+      \strng{fullhashraw}{453195d4d8b7a40b9622b24cf86e9866}
+      \strng{bibnamehash}{453195d4d8b7a40b9622b24cf86e9866}
+      \strng{authorbibnamehash}{453195d4d8b7a40b9622b24cf86e9866}
+      \strng{authornamehash}{3ff3f1f9e15c698738ce87a67fbbfa5c}
+      \strng{authorfullhash}{453195d4d8b7a40b9622b24cf86e9866}
+      \strng{authorfullhashraw}{453195d4d8b7a40b9622b24cf86e9866}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Marketing Science}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Changing their tune: How consumers' adoption of online streaming affects music consumption and discovery}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{5\bibrangedash 21}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1287/mksc.2017.1051
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
