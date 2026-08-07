@@ -18,31 +18,40 @@
 \contentsline {subsection}{\numberline {6.1.2}El videoclip como experiencia audiovisual}{11}{subsection*.22}%
 \contentsline {subsection}{\numberline {6.1.3}Experiencias musicales en realidad virtual}{11}{subsection*.23}%
 \contentsline {subsection}{\numberline {6.1.4}Videojuegos musicales e interacción con la música}{12}{subsection*.24}%
-\contentsline {section}{\numberline {6.2}Desarrollo de experiencias de realidad virtual en Unity}{12}{section*.25}%
-\contentsline {subsection}{\numberline {6.2.1}Realidad virtual y entornos virtuales interactivos}{12}{subsection*.26}%
-\contentsline {subsection}{\numberline {6.2.2}Unity}{12}{subsection*.27}%
-\contentsline {subsection}{\numberline {6.2.3}C\#}{12}{subsection*.28}%
-\contentsline {subsection}{\numberline {6.2.4}Plantilla de realidad virtual y escena de muestra de Unity}{13}{subsection*.29}%
-\contentsline {subsection}{\numberline {6.2.5}\emph {XR Origin} e interacción mediante controladores de movimiento}{13}{subsection*.30}%
-\contentsline {section}{\numberline {6.3}Presencia y evaluación de la experiencia}{14}{section*.31}%
-\contentsline {subsection}{\numberline {6.3.1}}{14}{subsection*.32}%
-\contentsline {subsection}{\numberline {6.3.2}}{14}{subsection*.33}%
-\contentsline {subsection}{\numberline {6.3.3}}{14}{subsection*.34}%
-\contentsline {subsection}{\numberline {6.3.4}}{14}{subsection*.35}%
-\contentsline {section}{\numberline {6.4}}{14}{section*.36}%
-\contentsline {subsection}{\numberline {6.4.1}}{14}{subsection*.37}%
-\contentsline {subsection}{\numberline {6.4.2}}{14}{subsection*.38}%
-\contentsline {subsection}{\numberline {6.4.3}}{14}{subsection*.39}%
-\contentsline {subsection}{\numberline {6.4.4}}{14}{subsection*.40}%
-\contentsline {chapter}{\numberline {7}Derivación de la dinámica del mecanismo}{15}{chapter*.41}%
-\contentsline {section}{\numberline {7.1}Dinámica de cuerpos rígidos}{15}{section*.42}%
-\contentsline {section}{\numberline {7.2}Restricciones}{15}{section*.43}%
-\contentsline {subsection}{\numberline {7.2.1}Mecanismos de lazo cerrado}{15}{subsection*.44}%
-\contentsline {subsubsection}{Mecanismo de cuatro barras}{15}{section*.45}%
-\contentsline {chapter}{\numberline {8}Control del sistema mecánico}{17}{chapter*.46}%
-\contentsline {section}{\numberline {8.1}La ecuación del manipulador}{17}{section*.47}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{19}{chapter*.49}%
-\contentsline {chapter}{\numberline {10}Recomendaciones}{21}{chapter*.50}%
-\contentsline {chapter}{\numberline {11}Bibliograf\'{\i }a}{23}{chapter*.52}%
-\contentsline {chapter}{\numberline {12}Anexos}{25}{chapter*.53}%
-\contentsline {section}{\numberline {12.1}Planos de construcción}{25}{section*.54}%
+\contentsline {subsection}{\numberline {6.1.5}Generación procedural de contenido}{12}{subsection*.25}%
+\contentsline {section}{\numberline {6.2}Desarrollo de experiencias de realidad virtual en Unity}{13}{section*.26}%
+\contentsline {subsection}{\numberline {6.2.1}Realidad virtual y entornos virtuales interactivos}{13}{subsection*.27}%
+\contentsline {subsection}{\numberline {6.2.2}Unity}{13}{subsection*.28}%
+\contentsline {subsection}{\numberline {6.2.3}C\#}{13}{subsection*.29}%
+\contentsline {subsection}{\numberline {6.2.4}Plantilla de realidad virtual y escena de muestra de Unity}{13}{subsection*.30}%
+\contentsline {subsection}{\numberline {6.2.5}\emph {XR Origin} e interacción mediante controladores de movimiento}{14}{subsection*.31}%
+\contentsline {section}{\numberline {6.3}Presencia y evaluación de la experiencia}{14}{section*.32}%
+\contentsline {subsection}{\numberline {6.3.1}Presencia en realidad virtual}{14}{subsection*.33}%
+\contentsline {subsection}{\numberline {6.3.2}\emph {I-Group Presence Questionnaire}}{14}{subsection*.34}%
+\contentsline {subsection}{\numberline {6.3.3}Evaluación de experiencias musicales en VR}{14}{subsection*.35}%
+\contentsline {section}{\numberline {6.4}Arquitectura dirigida por eventos y secuenciación inmersiva}{15}{section*.36}%
+\contentsline {subsection}{\numberline {6.4.1}Eventos y coordinación de sistemas interactivos}{15}{subsection*.37}%
+\contentsline {subsection}{\numberline {6.4.2}Eventos en entornos virtuales y mixtos}{15}{subsection*.38}%
+\contentsline {subsection}{\numberline {6.4.3}Secuenciación autoral para videoclips musicales en VR}{15}{subsection*.39}%
+\contentsline {section}{\numberline {6.5}Presencia y evaluación de la experiencia}{16}{section*.40}%
+\contentsline {subsection}{\numberline {6.5.1}}{16}{subsection*.41}%
+\contentsline {subsection}{\numberline {6.5.2}}{16}{subsection*.42}%
+\contentsline {subsection}{\numberline {6.5.3}}{16}{subsection*.43}%
+\contentsline {subsection}{\numberline {6.5.4}}{16}{subsection*.44}%
+\contentsline {section}{\numberline {6.6}}{16}{section*.45}%
+\contentsline {subsection}{\numberline {6.6.1}}{16}{subsection*.46}%
+\contentsline {subsection}{\numberline {6.6.2}}{16}{subsection*.47}%
+\contentsline {subsection}{\numberline {6.6.3}}{16}{subsection*.48}%
+\contentsline {subsection}{\numberline {6.6.4}}{16}{subsection*.49}%
+\contentsline {chapter}{\numberline {7}Derivación de la dinámica del mecanismo}{17}{chapter*.50}%
+\contentsline {section}{\numberline {7.1}Dinámica de cuerpos rígidos}{17}{section*.51}%
+\contentsline {section}{\numberline {7.2}Restricciones}{17}{section*.52}%
+\contentsline {subsection}{\numberline {7.2.1}Mecanismos de lazo cerrado}{17}{subsection*.53}%
+\contentsline {subsubsection}{Mecanismo de cuatro barras}{17}{section*.54}%
+\contentsline {chapter}{\numberline {8}Control del sistema mecánico}{19}{chapter*.55}%
+\contentsline {section}{\numberline {8.1}La ecuación del manipulador}{19}{section*.56}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{21}{chapter*.58}%
+\contentsline {chapter}{\numberline {10}Recomendaciones}{23}{chapter*.59}%
+\contentsline {chapter}{\numberline {11}Bibliograf\'{\i }a}{25}{chapter*.61}%
+\contentsline {chapter}{\numberline {12}Anexos}{29}{chapter*.62}%
+\contentsline {section}{\numberline {12.1}Planos de construcción}{29}{section*.63}%

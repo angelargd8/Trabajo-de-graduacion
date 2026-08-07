@@ -618,11 +618,313 @@
       \field{volume}{37}
       \field{year}{2018}
       \field{dateera}{ce}
-      \true{nocite}
       \field{pages}{5\bibrangedash 21}
       \range{pages}{17}
       \verb{doi}
       \verb 10.1287/mksc.2017.1051
+      \endverb
+    \endentry
+    \entry{barboza2015digital}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=34d726ab34798aee5c7cfc85c49eeee7}{%
+           family={Barboza},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi M.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{fullhash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{fullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{bibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorbibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authornamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorfullhash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorfullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comunicação e Sociedade}
+      \field{month}{6}
+      \field{title}{Digital narratives: a study of the {Arcade Fire} interactive music videos}
+      \field{volume}{27}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{387\bibrangedash 402}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.17231/comsoc.27(2015).2108
+      \endverb
+    \endentry
+    \entry{saiyidatul2024narrative}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=fe1d5cef8bcfa93e936887143269d2ab}{%
+           family={Saiyidatul},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06f6eb37650e0e67f42e5c48ff8d38ec}{%
+           family={Zaini},
+           familyi={Z\bibinitperiod},
+           given={H.\bibnamedelimi B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=11dc5919d9fdf6740f7b43bb876fd7d0}{%
+           family={Yusoff},
+           familyi={Y\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{08a36c7bcdca06a8c3a4c4d020635b43}
+      \strng{fullhash}{4a1fd9801ee81178e190de04538a468f}
+      \strng{fullhashraw}{4a1fd9801ee81178e190de04538a468f}
+      \strng{bibnamehash}{4a1fd9801ee81178e190de04538a468f}
+      \strng{authorbibnamehash}{4a1fd9801ee81178e190de04538a468f}
+      \strng{authornamehash}{08a36c7bcdca06a8c3a4c4d020635b43}
+      \strng{authorfullhash}{4a1fd9801ee81178e190de04538a468f}
+      \strng{authorfullhashraw}{4a1fd9801ee81178e190de04538a468f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exploring The Interplay of Narrative In Music Videos And Its Influence on Listeners' Experience}
+      \field{year}{2024}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mandanici2018good}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=c21a9b594fc90b12a0f62534a636bc0d}{%
+           family={Mandanici},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5305a0ab6befccb493e6d3acf588d45b}{%
+           family={Munaro},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d7a2cdc6bf9a06358d1a3b35f6239805}{%
+           family={Altieri},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6652acc5a7f3c48ef63c75785c23d15c}{%
+           family={Canazza},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=53f5faee7126df3889da4234efc4dd65}{%
+           family={Pretto},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8459513c3dbfd1f2dc6291ecc4dfd540}{%
+           family={Menegatti},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{2be49590d8e76e17a149818412400677}
+      \strng{fullhash}{f84ae342ab9f0fa5081a4f9baad51383}
+      \strng{fullhashraw}{f84ae342ab9f0fa5081a4f9baad51383}
+      \strng{bibnamehash}{f84ae342ab9f0fa5081a4f9baad51383}
+      \strng{authorbibnamehash}{f84ae342ab9f0fa5081a4f9baad51383}
+      \strng{authornamehash}{2be49590d8e76e17a149818412400677}
+      \strng{authorfullhash}{f84ae342ab9f0fa5081a4f9baad51383}
+      \strng{authorfullhashraw}{f84ae342ab9f0fa5081a4f9baad51383}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{ACM} International Conference Proceeding Series}
+      \field{month}{11}
+      \field{title}{The `Good or bad?' Game: Stimulating listening skills through playful engagement}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{177\bibrangedash 182}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3284869.3284917
+      \endverb
+    \endentry
+    \entry{pichlmair2007levels}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=d770448c98eba6620b2a0da2389814d8}{%
+           family={Pichlmair},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bfaa1c5069bc8eabaca297a42c45f491}{%
+           family={Kayali},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{fullhash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{fullhashraw}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{bibnamehash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{authorbibnamehash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{authornamehash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{authorfullhash}{5140a5dc8c19e4301fab563d3198d019}
+      \strng{authorfullhashraw}{5140a5dc8c19e4301fab563d3198d019}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Situated Play, Proceedings of {DiGRA} 2007 Conference}
+      \field{title}{Levels of Sound: On the Principles of Interactivity in Music Video Games}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.26503/dl.v2007i1.326
+      \endverb
+    \endentry
+    \entry{merienne2016virtual}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee7c7ff5f2174c84099010ad8466bd1e}{%
+           family={Merienne},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{CRC} Press}%
+      }
+      \strng{namehash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{fullhash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{fullhashraw}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{bibnamehash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{authorbibnamehash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{authornamehash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{authorfullhash}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \strng{authorfullhashraw}{ee7c7ff5f2174c84099010ad8466bd1e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of Computer Science and Technology, Second Edition}
+      \field{title}{Virtual Reality: Principles and Applications}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1081/e-ecst2-140000194
+      \endverb
+    \endentry
+    \entry{unity2026engine}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Unity Engine: 2D \& 3D Development Platform}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://unity.com/products/unity-engine
+      \endverb
+      \verb{url}
+      \verb https://unity.com/products/unity-engine
+      \endverb
+    \endentry
+    \entry{unity2026vroverview}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{VR} development in Unity}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/cn/2022.3/Manual/VROverview.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/cn/2022.3/Manual/VROverview.html
+      \endverb
+    \endentry
+    \entry{microsoft2026csharp}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction - {C\#} language specification}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/introduction
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/introduction
+      \endverb
+    \endentry
+    \entry{unity2026scripting}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Unity Manual: Introduction to programming in Unity}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/Manual/intro-to-scripting.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/Manual/intro-to-scripting.html
+      \endverb
+    \endentry
+    \entry{unity2026vrtemplate}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{VR} Template Quick Start Guide}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
+      \endverb
+    \endentry
+    \entry{unity2026xritoolkit}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Unity Manual: {XR} Interaction Toolkit}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \endverb
+    \endentry
+    \entry{unity2026xrinput}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Unity Manual: {XR} input options}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
       \endverb
     \endentry
   \enddatalist
