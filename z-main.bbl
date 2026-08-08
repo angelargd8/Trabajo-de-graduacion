@@ -816,10 +816,25 @@
       \endverb
     \endentry
     \entry{unity2026engine}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity Engine: 2D \& 3D Development Platform}
+      \field{title}{Unity Engine: 2D \& 3D Development Platform | Unity}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -832,10 +847,25 @@
       \endverb
     \endentry
     \entry{unity2026vroverview}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{VR} development in Unity}
+      \field{title}{{VR} development in Unity - Unity Manual}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -848,10 +878,24 @@
       \endverb
     \endentry
     \entry{microsoft2026csharp}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Introduction - {C\#} language specification}
+      \field{title}{Introduction - {C\#} language specification | Microsoft Learn}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -864,10 +908,25 @@
       \endverb
     \endentry
     \entry{unity2026scripting}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity Manual: Introduction to programming in Unity}
+      \field{title}{Unity - Manual: Introduction to programming in Unity}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -880,10 +939,25 @@
       \endverb
     \endentry
     \entry{unity2026vrtemplate}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{VR} Template Quick Start Guide}
+      \field{title}{{VR} Template Quick Start Guide | {VR} | 9.2.3}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -896,10 +970,25 @@
       \endverb
     \endentry
     \entry{unity2026xritoolkit}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity Manual: {XR} Interaction Toolkit}
+      \field{title}{Unity - Manual: {XR} Interaction Toolkit}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -912,10 +1001,25 @@
       \endverb
     \endentry
     \entry{unity2026xrinput}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity Manual: {XR} input options}
+      \field{title}{Unity - Manual: {XR} input options}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
@@ -925,6 +1029,234 @@
       \endverb
       \verb{url}
       \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
+      \endverb
+    \endentry
+    \entry{eugster2003publish}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b8795a58db30b9ed752dd1c1302ea095}{%
+           family={Eugster},
+           familyi={E\bibinitperiod},
+           given={P.\bibnamedelimi T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8249d3322b6173f79804b79ddc0f9c81}{%
+           family={Felber},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=aecb64f8058bfef71deb28fc57a00b16}{%
+           family={Kermarrec},
+           familyi={K\bibinitperiod},
+           given={A.-M.},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1ecd39842cf4a161aaf5f596b288e12}
+      \strng{fullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{fullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{bibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authorbibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authornamehash}{f1ecd39842cf4a161aaf5f596b288e12}
+      \strng{authorfullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authorfullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{ACM} Computing Surveys}
+      \field{number}{2}
+      \field{title}{The Many Faces of Publish/Subscribe}
+      \field{volume}{35}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{114\bibrangedash 131}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1145/857076.857078
+      \endverb
+    \endentry
+    \entry{unity2026scriptableevents}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Utilice objetos {ScriptableObjects} como canales de eventos en su código | Unity}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
+      \endverb
+      \verb{url}
+      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
+      \endverb
+    \endentry
+    \entry{van2003gamepulse}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=f76dcf2fa9685c072b1574f1afbc11d5}{%
+           family={Van},
+           familyi={V\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dc76eef66c89440e4e5275de607ffbfe}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3afba00ba0540848331b0930a3335291}{%
+           family={Huiberts},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c25e678f34ac1390aa26805c5fd739e0}
+      \strng{fullhash}{98cb57d53e6b2067768d915b4242914a}
+      \strng{fullhashraw}{98cb57d53e6b2067768d915b4242914a}
+      \strng{bibnamehash}{98cb57d53e6b2067768d915b4242914a}
+      \strng{authorbibnamehash}{98cb57d53e6b2067768d915b4242914a}
+      \strng{authornamehash}{c25e678f34ac1390aa26805c5fd739e0}
+      \strng{authorfullhash}{98cb57d53e6b2067768d915b4242914a}
+      \strng{authorfullhashraw}{98cb57d53e6b2067768d915b4242914a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Game Pulse-Timing Game Events and Music Events}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/301770510_The_Game_Pulse_-Timing_Game_Events_and_Music_Events
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/301770510_The_Game_Pulse_-Timing_Game_Events_and_Music_Events
+      \endverb
+    \endentry
+    \entry{chen2022synchronization}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=de50b5d1a17c1f55ddd0fae271024073}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=326e7e67b0b4605a06b13d7b7d37ab75}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=80373f932d5cb79158fef04808840c4a}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{285643e98622aae7df83abdb517b753d}
+      \strng{fullhash}{78e43e8ae770284bfa10f531cd38107b}
+      \strng{fullhashraw}{78e43e8ae770284bfa10f531cd38107b}
+      \strng{bibnamehash}{78e43e8ae770284bfa10f531cd38107b}
+      \strng{authorbibnamehash}{78e43e8ae770284bfa10f531cd38107b}
+      \strng{authornamehash}{285643e98622aae7df83abdb517b753d}
+      \strng{authorfullhash}{78e43e8ae770284bfa10f531cd38107b}
+      \strng{authorfullhashraw}{78e43e8ae770284bfa10f531cd38107b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{GameSys} 2022 - Proceedings of the 2022 Game Systems Workshop, Part of {MMSys} 2022}
+      \field{month}{6}
+      \field{title}{Synchronization in Games Sound: An Audiovisual Study on Player Experience and Performance}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{22\bibrangedash 28}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3534085.3534342
+      \endverb
+    \endentry
+    \entry{unity2026timeline}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Timeline overview - Unity Manual}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/es/2018.4/Manual/TimelineOverview.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/es/2018.4/Manual/TimelineOverview.html
+      \endverb
+    \endentry
+    \entry{unity2026signalemitter}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Class {SignalEmitter} | Timeline | 1.6.5}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/Packages/com.unity.timeline%401.6/api/UnityEngine.Timeline.SignalEmitter.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/Packages/com.unity.timeline%401.6/api/UnityEngine.Timeline.SignalEmitter.html
       \endverb
     \endentry
   \enddatalist

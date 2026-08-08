@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  7 AUG 2026 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  7 AUG 2026 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,10 +841,10 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count494
 \@quotereset=\count495
 (z-main.aux
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 )
 \openout1 = `z-main.aux'.
 
@@ -965,7 +965,7 @@ Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=223, 141.52875pt x 209.78375pt>
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=219, 141.52875pt x 209.78375pt>
 File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 165.
@@ -1098,60 +1098,71 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12]
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
- [13] [14])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [13]
+Underfull \vbox (badness 1924) has occurred while \output is active []
 
- [15] [16] (j-capitulos.tex
+ [14]
+Underfull \vbox (badness 6995) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 6995) has occurred while \output is active []
+
+ [16]) [17] (j-capitulos.tex [18
+
+]
 Cap\'{\i }tulo 7.
-[17
-
-] [18
+[19] [20
 
 ]
 Cap\'{\i }tulo 8.
-) [19] [20
+) [21] [22
 
 ]
 Cap\'{\i }tulo 9.
-(k-conclusiones.tex) [21] [22
+(k-conclusiones.tex) [23] [24
 
 ]
 Cap\'{\i }tulo 10.
-(l-recomendaciones.tex) [23] [24
+(l-recomendaciones.tex) [25] [26
 
 ]
 Cap\'{\i }tulo 11.
-[25
+[27
 
-] [26] [27] [28
+] [28]
+Overfull \hbox (1.93355pt too wide) in paragraph at lines 438--438
+[]\T1/cmr/m/n/10.95 P. T. Eugs-ter, P. A. Fel-ber y A.[]M. Ker-ma-rrec, ``The Many Fa-ces of Pu-blish/Subscribe,''
+ []
+
+[29] [30
 
 ]
 Cap\'{\i }tulo 12.
-(n-anexos.tex) [29]
+(n-anexos.tex) [31]
 No file z-main.gls.
-[30] (z-main.aux
-LaTeX Info: Redefining \sptext on input line 65.
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-LaTeX Info: Redefining \sptext on input line 74.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
+[32] (z-main.aux
+LaTeX Info: Redefining \sptext on input line 77.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+LaTeX Info: Redefining \sptext on input line 86.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 )
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: 7EF029DAEE6D5FF1031711347E04EEF7;9630.
+(rerunfilecheck)             Checksum: 8CEE1FED0688B4446CE95FCA632D8591;10032.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30568 strings out of 467510
- 587437 string characters out of 5408795
- 1476471 words of memory out of 5000000
- 59236 multiletter control sequences out of 15000+600000
+ 30592 strings out of 467510
+ 588583 string characters out of 5408795
+ 1476933 words of memory out of 5000000
+ 59253 multiletter control sequences out of 15000+600000
  643907 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,8n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1162,9 +1173,9 @@ pdfTeX warning (dest): name{glo:formula} has been referenced but does not exist,
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on z-main.pdf (50 pages, 378639 bytes).
+Output written on z-main.pdf (52 pages, 396418 bytes).
 PDF statistics:
- 1289 PDF objects out of 1440 (max. 8388607)
- 145 named destinations out of 1000 (max. 500000)
- 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1342 PDF objects out of 1440 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 438 words of extra memory for PDF output out of 10000 (max. 10000000)
 

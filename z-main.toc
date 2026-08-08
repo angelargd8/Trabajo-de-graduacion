@@ -26,32 +26,31 @@
 \contentsline {subsection}{\numberline {6.2.4}Plantilla de realidad virtual y escena de muestra de Unity}{13}{subsection*.30}%
 \contentsline {subsection}{\numberline {6.2.5}\emph {XR Origin} e interacción mediante controladores de movimiento}{14}{subsection*.31}%
 \contentsline {section}{\numberline {6.3}Presencia y evaluación de la experiencia}{14}{section*.32}%
-\contentsline {subsection}{\numberline {6.3.1}Presencia en realidad virtual}{14}{subsection*.33}%
-\contentsline {subsection}{\numberline {6.3.2}\emph {I-Group Presence Questionnaire}}{14}{subsection*.34}%
-\contentsline {subsection}{\numberline {6.3.3}Evaluación de experiencias musicales en VR}{14}{subsection*.35}%
-\contentsline {section}{\numberline {6.4}Arquitectura dirigida por eventos y secuenciación inmersiva}{15}{section*.36}%
-\contentsline {subsection}{\numberline {6.4.1}Eventos y coordinación de sistemas interactivos}{15}{subsection*.37}%
-\contentsline {subsection}{\numberline {6.4.2}Eventos en entornos virtuales y mixtos}{15}{subsection*.38}%
-\contentsline {subsection}{\numberline {6.4.3}Secuenciación autoral para videoclips musicales en VR}{15}{subsection*.39}%
-\contentsline {section}{\numberline {6.5}Presencia y evaluación de la experiencia}{16}{section*.40}%
-\contentsline {subsection}{\numberline {6.5.1}}{16}{subsection*.41}%
-\contentsline {subsection}{\numberline {6.5.2}}{16}{subsection*.42}%
-\contentsline {subsection}{\numberline {6.5.3}}{16}{subsection*.43}%
-\contentsline {subsection}{\numberline {6.5.4}}{16}{subsection*.44}%
-\contentsline {section}{\numberline {6.6}}{16}{section*.45}%
-\contentsline {subsection}{\numberline {6.6.1}}{16}{subsection*.46}%
-\contentsline {subsection}{\numberline {6.6.2}}{16}{subsection*.47}%
-\contentsline {subsection}{\numberline {6.6.3}}{16}{subsection*.48}%
-\contentsline {subsection}{\numberline {6.6.4}}{16}{subsection*.49}%
-\contentsline {chapter}{\numberline {7}Derivación de la dinámica del mecanismo}{17}{chapter*.50}%
-\contentsline {section}{\numberline {7.1}Dinámica de cuerpos rígidos}{17}{section*.51}%
-\contentsline {section}{\numberline {7.2}Restricciones}{17}{section*.52}%
-\contentsline {subsection}{\numberline {7.2.1}Mecanismos de lazo cerrado}{17}{subsection*.53}%
-\contentsline {subsubsection}{Mecanismo de cuatro barras}{17}{section*.54}%
-\contentsline {chapter}{\numberline {8}Control del sistema mecánico}{19}{chapter*.55}%
-\contentsline {section}{\numberline {8.1}La ecuación del manipulador}{19}{section*.56}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{21}{chapter*.58}%
-\contentsline {chapter}{\numberline {10}Recomendaciones}{23}{chapter*.59}%
-\contentsline {chapter}{\numberline {11}Bibliograf\'{\i }a}{25}{chapter*.61}%
-\contentsline {chapter}{\numberline {12}Anexos}{29}{chapter*.62}%
-\contentsline {section}{\numberline {12.1}Planos de construcción}{29}{section*.63}%
+\contentsline {subsection}{\numberline {6.3.1}Concepto de presencia en realidad virtual}{14}{subsection*.33}%
+\contentsline {subsection}{\numberline {6.3.2}Diferencias entre inmersión y presencia}{14}{subsection*.34}%
+\contentsline {subsection}{\numberline {6.3.3}\emph {I-Group Presence Questionnaire}}{14}{subsection*.35}%
+\contentsline {subsection}{\numberline {6.3.4}Presencia espacial}{15}{subsection*.36}%
+\contentsline {subsection}{\numberline {6.3.5}Involucramiento}{15}{subsection*.37}%
+\contentsline {subsection}{\numberline {6.3.6}Realismo percibido}{15}{subsection*.38}%
+\contentsline {section}{\numberline {6.4}Arquitectura basada en eventos}{15}{section*.39}%
+\contentsline {subsection}{\numberline {6.4.1}Arquitectura dirigida por eventos}{15}{subsection*.40}%
+\contentsline {subsection}{\numberline {6.4.2}Eventos, productores y consumidores}{16}{subsection*.41}%
+\contentsline {subsection}{\numberline {6.4.3}Publicación, suscripción y comunicación desacoplada}{16}{subsection*.42}%
+\contentsline {subsection}{\numberline {6.4.4}Canales de eventos mediante ScriptableObjects}{16}{subsection*.43}%
+\contentsline {section}{\numberline {6.5}Secuenciación audiovisual en Unity}{16}{section*.44}%
+\contentsline {subsection}{\numberline {6.5.1}Sincronización entre música y elementos audiovisuales}{16}{subsection*.45}%
+\contentsline {subsection}{\numberline {6.5.2}Eventos temporizados}{17}{subsection*.46}%
+\contentsline {subsection}{\numberline {6.5.3}Eventos visuales, auditivos e interactivos}{17}{subsection*.47}%
+\contentsline {subsection}{\numberline {6.5.4}\emph {Timeline}, pistas, clips, señales e integración con eventos}{17}{subsection*.48}%
+\contentsline {chapter}{\numberline {7}...}{19}{chapter*.49}%
+\contentsline {section}{\numberline {7.1}..}{19}{section*.50}%
+\contentsline {section}{\numberline {7.2}...}{19}{section*.51}%
+\contentsline {subsection}{\numberline {7.2.1}...}{19}{subsection*.52}%
+\contentsline {subsubsection}{...}{19}{section*.53}%
+\contentsline {chapter}{\numberline {8}...}{21}{chapter*.54}%
+\contentsline {section}{\numberline {8.1}...}{21}{section*.55}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{23}{chapter*.57}%
+\contentsline {chapter}{\numberline {10}Recomendaciones}{25}{chapter*.58}%
+\contentsline {chapter}{\numberline {11}Bibliograf\'{\i }a}{27}{chapter*.60}%
+\contentsline {chapter}{\numberline {12}Anexos}{31}{chapter*.61}%
+\contentsline {section}{\numberline {12.1}Planos de construcción}{31}{section*.62}%
