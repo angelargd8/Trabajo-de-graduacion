@@ -423,6 +423,11 @@ INPUT .\i-marco_teorico.tex
 INPUT i-marco_teorico.tex
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbi1200.tfm
+INPUT .\j-metodologia.tex
+INPUT .\j-metodologia.tex
+INPUT .\j-metodologia.tex
+INPUT .\j-metodologia.tex
+INPUT j-metodologia.tex
 INPUT .\j-capitulos.tex
 INPUT .\j-capitulos.tex
 INPUT .\j-capitulos.tex

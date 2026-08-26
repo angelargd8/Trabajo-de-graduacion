@@ -1259,6 +1259,36 @@
       \verb https://docs.unity3d.com/Packages/com.unity.timeline%401.6/api/UnityEngine.Timeline.SignalEmitter.html
       \endverb
     \endentry
+    \entry{kobo}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ec132f50e38173eb74a3d2b9a342734f}{%
+           family={{KoboToolbox}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{fullhash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{fullhashraw}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{bibnamehash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{authorbibnamehash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{authornamehash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{authorfullhash}{ec132f50e38173eb74a3d2b9a342734f}
+      \strng{authorfullhashraw}{ec132f50e38173eb74a3d2b9a342734f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About us | KoboToolbox}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kobotoolbox.org/about-us/
+      \endverb
+      \verb{url}
+      \verb https://www.kobotoolbox.org/about-us/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
