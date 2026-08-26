@@ -1259,6 +1259,67 @@
       \verb https://docs.unity3d.com/Packages/com.unity.timeline%401.6/api/UnityEngine.Timeline.SignalEmitter.html
       \endverb
     \endentry
+    \entry{scriptableobjects}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{10}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Create modular game architecture in Unity with ScriptableObjects (Unity 6 edition)}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
+      \endverb
+      \verb{url}
+      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
+      \endverb
+    \endentry
+    \entry{metaquest}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meta Quest 3S: visor de realidad virtual de última generación | Meta (es-MX)}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \endverb
+      \verb{url}
+      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \endverb
+    \endentry
     \entry{kobo}{online}{}{}
       \name{author}{1}{}{%
         {{hash=ec132f50e38173eb74a3d2b9a342734f}{%

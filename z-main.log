@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  26 AUG 2026 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  26 AUG 2026 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -965,7 +965,7 @@ Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
-<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=243, 141.52875pt x 209.78375pt>
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=251, 141.52875pt x 209.78375pt>
 File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 165.
@@ -1095,10 +1095,13 @@ Cap\'{\i }tulo 6.
 (i-marco_teorico.tex [11]
 Underfull \vbox (badness 1067) has occurred while \output is active []
 
- [12] [13] [14] [15] [16])
-Underfull \vbox (badness 1158) has occurred while \output is active []
+ [12] [13]
+Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [17] [18]
+ [14] [15]
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [16] [17]) [18]
 Cap\'{\i }tulo 7.
 (j-metodologia.tex) [19
 
@@ -1148,23 +1151,23 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: FBDF4D50A384F1376F2E281EAA756C86;10822.
+(rerunfilecheck)             Checksum: 58803FC516F41AEBE2F2D0F632C2B062;11098.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30618 strings out of 467510
- 589140 string characters out of 5408795
- 1476988 words of memory out of 5000000
- 59269 multiletter control sequences out of 15000+600000
+ 30630 strings out of 467510
+ 589528 string characters out of 5408795
+ 1478114 words of memory out of 5000000
+ 59277 multiletter control sequences out of 15000+600000
  643907 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,8n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on z-main.pdf (54 pages, 402795 bytes).
+Output written on z-main.pdf (54 pages, 411876 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1420 PDF objects out of 1440 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 
