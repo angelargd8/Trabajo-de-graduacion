@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber z-main"] 1787768540.2915 "z-main.bcf" "z-main.bbl" "z-main" 1787768548.61735 0
-  "m-bibliografia.bib" 1787767623 11870 ad4e8552e0c7199d875d0e019772d74d ""
-  "z-main.bcf" 1787768548 118306 b4ecf8c21ba4f4c28b98c360922e46a3 "pdflatex"
+["biber z-main"] 1787788590.96772 "z-main.bcf" "z-main.bbl" "z-main" 1787788594.54329 0
+  "m-bibliografia.bib" 1787784587 11941 7fe9b2bf0820c6943111f1dc853e94fa ""
+  "z-main.bcf" 1787788594 117419 e44a9598ed7452e45bde89fac2c863ce "pdflatex"
   (generated)
   "z-main.bbl"
   "z-main.blg"
   (rewritten before read)
-["pdflatex"] 1787768546.51988 "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" "z-main.pdf" "z-main" 1787768548.61852 0
+["pdflatex"] 1787788592.66857 "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" "z-main.pdf" "z-main" 1787788594.54389 0
   "0-datos_estudiante.tex" 1786035448 3115 00c8d889822af3ae11c749cdb317fcc3 ""
   "1-opciones_adicionales.tex" 1787681909 1267 10d946af38defb5dc6f0b0fc81990dd0 ""
   "2-paquetes_y_comandos_usuario.tex" 1785952417 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -183,13 +183,13 @@
   "a-prefacio.tex" 1786166189 0 d41d8cd98f00b204e9800998ecf8427e ""
   "b-resumen.tex" 1786027447 1830 eedd8c2ec8df442d26bfb68ab7ee1219 ""
   "c-abstract.tex" 1786039768 1615 e3756a5a6c42a3f6dce39a8b8314ef5a ""
-  "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" 1787681910 13305 8ad58f52602bb855f259da7c1978dcfd ""
+  "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" 1787784568 13338 73982f59391fb6a19298fcbc4cdf9647 ""
   "d-introduccion.tex" 1786027545 4103 512937f2f83c582fc526805679b0913f ""
   "e-antecedentes.tex" 1786027614 39 597ca05cd620e0c5779f4af6e4c430ff ""
   "f-justificacion.tex" 1785995875 5137 9f18c6fed1990bb7c629d9efce79674c ""
   "g-objetivos.tex" 1785996292 1076 196ae2284b3fa4ea57fd5e4228a777af ""
   "h-alcance.tex" 1786165633 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "i-marco_teorico.tex" 1787768537 21958 f179622d9042c4e93067cc392e5e8c30 ""
+  "i-marco_teorico.tex" 1787788588 21621 5f57114dc1d03d58c22e4209ea07bd90 ""
   "j-capitulos.tex" 1786165506 676 7621eadb0a58101d33cb6a77dbe991bf ""
   "j-metodologia.tex" 1787681911 117 f82e67b250dd96b7e2036bd3c3ad2943 ""
   "k-conclusiones.tex" 1785952417 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -197,15 +197,15 @@
   "n-anexos.tex" 1785952417 33 e89213870a66c38c17322116dcc5594a ""
   "o-glosario.tex" 1785952417 255 156163cce50b85326ebf430574664150 ""
   "plantilla/escudoUVGnegro.eps" 1785952417 353392 6b41f544f9470c4be57df74868753215 ""
-  "z-main.aux" 1787768548 23528 87f6dd480ba8bbd391fcd7380a8af178 "pdflatex"
-  "z-main.bbl" 1787768542 57565 9eb89810138873f34ba1d0f1eeaf3435 "biber z-main"
+  "z-main.aux" 1787788594 22554 9a4b967a89d8c5887ee85abc1dba2b44 "pdflatex"
+  "z-main.bbl" 1787788592 57565 76606d1c459eb8a17af6d30820b2a795 "biber z-main"
   "z-main.gls" 0 -1 0 ""
-  "z-main.lof" 1787768548 320 bd6096b5a9b83e6a1f794fa37984256b "pdflatex"
-  "z-main.lot" 1787768548 413 95014f11967f204d7baa6c6901c23578 "pdflatex"
-  "z-main.out" 1787768548 11098 58803fc516f41aebe2f2d0f632c2b062 "pdflatex"
-  "z-main.run.xml" 1787768548 2420 cc83eef706e687bcfd907d32c2bf918f "pdflatex"
-  "z-main.tex" 1787681910 13305 8ad58f52602bb855f259da7c1978dcfd ""
-  "z-main.toc" 1787768548 5498 0b3f688f6d50e0c4d4c28ac73831a5d2 "pdflatex"
+  "z-main.lof" 1787788594 320 bd6096b5a9b83e6a1f794fa37984256b "pdflatex"
+  "z-main.lot" 1787788594 413 95014f11967f204d7baa6c6901c23578 "pdflatex"
+  "z-main.out" 1787788594 11098 58803fc516f41aebe2f2d0f632c2b062 "pdflatex"
+  "z-main.run.xml" 1787788594 2420 cc83eef706e687bcfd907d32c2bf918f "pdflatex"
+  "z-main.tex" 1787784568 13338 73982f59391fb6a19298fcbc4cdf9647 ""
+  "z-main.toc" 1787788594 5498 0b3f688f6d50e0c4d4c28ac73831a5d2 "pdflatex"
   (generated)
   "z-main.aux"
   "z-main.bcf"

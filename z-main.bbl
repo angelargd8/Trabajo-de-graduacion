@@ -624,6 +624,38 @@
       \verb 10.1287/mksc.2017.1051
       \endverb
     \endentry
+    \entry{barboza2015digital}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=34d726ab34798aee5c7cfc85c49eeee7}{%
+           family={Barboza},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi M.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{fullhash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{fullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{bibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorbibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authornamehash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorfullhash}{34d726ab34798aee5c7cfc85c49eeee7}
+      \strng{authorfullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comunicação e Sociedade}
+      \field{month}{6}
+      \field{title}{Digital narratives: a study of the {Arcade Fire} interactive music videos}
+      \field{volume}{27}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{387\bibrangedash 402}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.17231/comsoc.27(2015).2108
+      \endverb
+    \endentry
     \entry{saiyidatul2024narrative}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=fe1d5cef8bcfa93e936887143269d2ab}{%
@@ -657,38 +689,6 @@
       \field{title}{Exploring The Interplay of Narrative In Music Videos And Its Influence on Listeners' Experience}
       \field{year}{2024}
       \field{dateera}{ce}
-    \endentry
-    \entry{barboza2015digital}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=34d726ab34798aee5c7cfc85c49eeee7}{%
-           family={Barboza},
-           familyi={B\bibinitperiod},
-           given={E.\bibnamedelimi M.\bibnamedelimi R.},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{fullhash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{fullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{bibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{authorbibnamehash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{authornamehash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{authorfullhash}{34d726ab34798aee5c7cfc85c49eeee7}
-      \strng{authorfullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Comunicação e Sociedade}
-      \field{month}{6}
-      \field{title}{Digital narratives: a study of the {Arcade Fire} interactive music videos}
-      \field{volume}{27}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{387\bibrangedash 402}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.17231/comsoc.27(2015).2108
-      \endverb
     \endentry
     \entry{mandanici2018good}{inproceedings}{}{}
       \name{author}{6}{}{%
@@ -815,7 +815,7 @@
       \verb 10.1081/e-ecst2-140000194
       \endverb
     \endentry
-    \entry{unity2026engine}{online}{}{}
+    \entry{unity2026xritoolkit}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
            family={{Unity Technologies}},
@@ -830,6 +830,37 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Unity - Manual: {XR} Interaction Toolkit}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \endverb
+      \verb{url}
+      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \endverb
+    \endentry
+    \entry{unity2026engine}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
+           family={{Unity Technologies}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -860,7 +891,7 @@
       \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -921,7 +952,7 @@
       \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -938,38 +969,7 @@
       \verb https://docs.unity3d.com/Manual/intro-to-scripting.html
       \endverb
     \endentry
-    \entry{unity2026vrtemplate}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
-           family={{Unity Technologies}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{fullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{fullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{bibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{authorbibnamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{authornamehash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
-      \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{VR} Template Quick Start Guide | {VR} | 9.2.3}
-      \field{urlday}{6}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
-      \endverb
-      \verb{url}
-      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
-      \endverb
-    \endentry
-    \entry{unity2026xritoolkit}{online}{}{}
+    \entry{scriptableobjects}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
            family={{Unity Technologies}},
@@ -988,19 +988,49 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity - Manual: {XR} Interaction Toolkit}
+      \field{title}{Create modular game architecture in Unity with ScriptableObjects (Unity 6 edition)}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
       \endverb
       \verb{url}
-      \verb https://docs.unity3d.com/Manual/com.unity.xr.interaction.toolkit.html
+      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
       \endverb
     \endentry
-    \entry{unity2026xrinput}{online}{}{}
+    \entry{metaquest}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meta Quest 3S: visor de realidad virtual de última generación | Meta (es-MX)}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \endverb
+      \verb{url}
+      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \endverb
+    \endentry
+    \entry{unity2026vrtemplate}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
            family={{Unity Technologies}},
@@ -1019,61 +1049,19 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Unity - Manual: {XR} input options}
+      \field{title}{{VR} Template Quick Start Guide | {VR} | 9.2.3}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
+      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
       \endverb
       \verb{url}
-      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
+      \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
       \endverb
     \endentry
-    \entry{eugster2003publish}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=b8795a58db30b9ed752dd1c1302ea095}{%
-           family={Eugster},
-           familyi={E\bibinitperiod},
-           given={P.\bibnamedelimi T.},
-           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=8249d3322b6173f79804b79ddc0f9c81}{%
-           family={Felber},
-           familyi={F\bibinitperiod},
-           given={P.\bibnamedelimi A.},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=aecb64f8058bfef71deb28fc57a00b16}{%
-           family={Kermarrec},
-           familyi={K\bibinitperiod},
-           given={A.-M.},
-           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{f1ecd39842cf4a161aaf5f596b288e12}
-      \strng{fullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \strng{fullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \strng{bibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \strng{authorbibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \strng{authornamehash}{f1ecd39842cf4a161aaf5f596b288e12}
-      \strng{authorfullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \strng{authorfullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{{ACM} Computing Surveys}
-      \field{number}{2}
-      \field{title}{The Many Faces of Publish/Subscribe}
-      \field{volume}{35}
-      \field{year}{2003}
-      \field{dateera}{ce}
-      \field{pages}{114\bibrangedash 131}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1145/857076.857078
-      \endverb
-    \endentry
-    \entry{unity2026scriptableevents}{online}{}{}
+    \entry{unity2026xrinput}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
            family={{Unity Technologies}},
@@ -1092,16 +1080,16 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Utilice objetos {ScriptableObjects} como canales de eventos en su código | Unity}
+      \field{title}{Unity - Manual: {XR} input options}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
+      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
       \endverb
       \verb{url}
-      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
+      \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
       \endverb
     \endentry
     \entry{van2003gamepulse}{online}{}{}
@@ -1259,7 +1247,49 @@
       \verb https://docs.unity3d.com/Packages/com.unity.timeline%401.6/api/UnityEngine.Timeline.SignalEmitter.html
       \endverb
     \endentry
-    \entry{scriptableobjects}{online}{}{}
+    \entry{eugster2003publish}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b8795a58db30b9ed752dd1c1302ea095}{%
+           family={Eugster},
+           familyi={E\bibinitperiod},
+           given={P.\bibnamedelimi T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8249d3322b6173f79804b79ddc0f9c81}{%
+           family={Felber},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=aecb64f8058bfef71deb28fc57a00b16}{%
+           family={Kermarrec},
+           familyi={K\bibinitperiod},
+           given={A.-M.},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1ecd39842cf4a161aaf5f596b288e12}
+      \strng{fullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{fullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{bibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authorbibnamehash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authornamehash}{f1ecd39842cf4a161aaf5f596b288e12}
+      \strng{authorfullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \strng{authorfullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{ACM} Computing Surveys}
+      \field{number}{2}
+      \field{title}{The Many Faces of Publish/Subscribe}
+      \field{volume}{35}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{114\bibrangedash 131}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1145/857076.857078
+      \endverb
+    \endentry
+    \entry{unity2026scriptableevents}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
            family={{Unity Technologies}},
@@ -1274,50 +1304,20 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{10}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Create modular game architecture in Unity with ScriptableObjects (Unity 6 edition)}
+      \field{title}{Utilice objetos {ScriptableObjects} como canales de eventos en su código | Unity}
       \field{urlday}{6}
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
+      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
       \endverb
       \verb{url}
-      \verb https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6
-      \endverb
-    \endentry
-    \entry{metaquest}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
-           family={{Meta}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Meta Quest 3S: visor de realidad virtual de última generación | Meta (es-MX)}
-      \field{urlday}{25}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
-      \endverb
-      \verb{url}
-      \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \verb https://unity.com/es/how-to/scriptableobjects-event-channels-game-code
       \endverb
     \endentry
     \entry{kobo}{online}{}{}
@@ -1334,8 +1334,8 @@
       \strng{authornamehash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhashraw}{ec132f50e38173eb74a3d2b9a342734f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{About us | KoboToolbox}

@@ -2390,127 +2390,115 @@
     <bcf:citekey order="14" intorder="14" nocite="1">berkman2021igroup</bcf:citekey>
     <bcf:citekey order="15" intorder="15" nocite="1">castro2026immersive</bcf:citekey>
     <bcf:citekey order="16" intorder="16" nocite="1">Datta2018</bcf:citekey>
-    <bcf:citekey order="17" intorder="17" nocite="1">saiyidatul2024narrative</bcf:citekey>
-    <bcf:citekey order="18" intorder="18" nocite="1">barboza2015digital</bcf:citekey>
+    <bcf:citekey order="17" intorder="17" nocite="1">barboza2015digital</bcf:citekey>
+    <bcf:citekey order="18" intorder="18" nocite="1">saiyidatul2024narrative</bcf:citekey>
     <bcf:citekey order="19" intorder="19" nocite="1">mandanici2018good</bcf:citekey>
     <bcf:citekey order="20" intorder="20" nocite="1">pichlmair2007levels</bcf:citekey>
     <bcf:citekey order="21" intorder="21" nocite="1">merienne2016virtual</bcf:citekey>
-    <bcf:citekey order="22" intorder="22" nocite="1">unity2026engine</bcf:citekey>
-    <bcf:citekey order="23" intorder="23" nocite="1">unity2026vroverview</bcf:citekey>
-    <bcf:citekey order="24" intorder="24" nocite="1">microsoft2026csharp</bcf:citekey>
-    <bcf:citekey order="25" intorder="25" nocite="1">unity2026scripting</bcf:citekey>
-    <bcf:citekey order="26" intorder="26" nocite="1">unity2026vrtemplate</bcf:citekey>
-    <bcf:citekey order="27" intorder="27" nocite="1">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="28" intorder="28" nocite="1">unity2026xrinput</bcf:citekey>
-    <bcf:citekey order="29" intorder="29" nocite="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="30" intorder="30" nocite="1">unity2026scriptableevents</bcf:citekey>
+    <bcf:citekey order="22" intorder="22" nocite="1">unity2026xritoolkit</bcf:citekey>
+    <bcf:citekey order="23" intorder="23" nocite="1">unity2026engine</bcf:citekey>
+    <bcf:citekey order="24" intorder="24" nocite="1">unity2026vroverview</bcf:citekey>
+    <bcf:citekey order="25" intorder="25" nocite="1">microsoft2026csharp</bcf:citekey>
+    <bcf:citekey order="26" intorder="26" nocite="1">unity2026scripting</bcf:citekey>
+    <bcf:citekey order="27" intorder="27" nocite="1">scriptableobjects</bcf:citekey>
+    <bcf:citekey order="28" intorder="28" nocite="1">metaquest</bcf:citekey>
+    <bcf:citekey order="29" intorder="29" nocite="1">unity2026vrtemplate</bcf:citekey>
+    <bcf:citekey order="30" intorder="30" nocite="1">unity2026xrinput</bcf:citekey>
     <bcf:citekey order="31" intorder="31" nocite="1">van2003gamepulse</bcf:citekey>
     <bcf:citekey order="32" intorder="32" nocite="1">chen2022synchronization</bcf:citekey>
     <bcf:citekey order="33" intorder="33" nocite="1">unity2026timeline</bcf:citekey>
     <bcf:citekey order="34" intorder="34" nocite="1">unity2026signalemitter</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">rivas2025diseno</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">lo2023immersive</bcf:citekey>
-    <bcf:citekey order="38" intorder="2">lee2025concert</bcf:citekey>
-    <bcf:citekey order="38" intorder="3">yan2020social</bcf:citekey>
-    <bcf:citekey order="38" intorder="4">kim2022multiview</bcf:citekey>
-    <bcf:citekey order="38" intorder="5">lee2023viewing</bcf:citekey>
-    <bcf:citekey order="38" intorder="6">cacciuttolo2021welcome</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">yannakakis2011experience</bcf:citekey>
-    <bcf:citekey order="39" intorder="2">khaled2013design</bcf:citekey>
-    <bcf:citekey order="39" intorder="3">craveirinha2015designing</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">lo2023immersive</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">lee2023viewing</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">yannakakis2011experience</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">craveirinha2015designing</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="50" intorder="2">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="52" intorder="2">lo2023immersive</bcf:citekey>
-    <bcf:citekey order="52" intorder="3">lee2023viewing</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Datta2018</bcf:citekey>
-    <bcf:citekey order="54" intorder="2">barboza2015digital</bcf:citekey>
-    <bcf:citekey order="54" intorder="3">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="54" intorder="4">yannakakis2011experience</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">Datta2018</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">saiyidatul2024narrative</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">barboza2015digital</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">onderdijk2023concert</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">lo2023immersive</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">kim2022multiview</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">lee2023viewing</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">lee2025concert</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">yan2020social</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">cacciuttolo2021welcome</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">rivas2025diseno</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">mandanici2018good</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">pichlmair2007levels</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">yannakakis2011experience</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">khaled2013design</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">craveirinha2015designing</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">merienne2016virtual</bcf:citekey>
-    <bcf:citekey order="71" intorder="2">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">merienne2016virtual</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">unity2026engine</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">unity2026engine</bcf:citekey>
-    <bcf:citekey order="74" intorder="2">unity2026vroverview</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">microsoft2026csharp</bcf:citekey>
-    <bcf:citekey order="75" intorder="2">unity2026scripting</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">unity2026scripting</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">scriptableobjects</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">metaquest</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">unity2026vroverview</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">unity2026vrtemplate</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="82" intorder="2">unity2026xrinput</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="83" intorder="2">chen2022synchronization</bcf:citekey>
-    <bcf:citekey order="83" intorder="3">unity2026timeline</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">chen2022synchronization</bcf:citekey>
+    <bcf:citekey order="35" intorder="35" nocite="1">eugster2003publish</bcf:citekey>
+    <bcf:citekey order="36" intorder="36" nocite="1">unity2026scriptableevents</bcf:citekey>
+    <bcf:citekey order="37" intorder="37" nocite="1">kobo</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">rivas2025diseno</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="41" intorder="2">lee2025concert</bcf:citekey>
+    <bcf:citekey order="41" intorder="3">yan2020social</bcf:citekey>
+    <bcf:citekey order="41" intorder="4">kim2022multiview</bcf:citekey>
+    <bcf:citekey order="41" intorder="5">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="41" intorder="6">cacciuttolo2021welcome</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">yannakakis2011experience</bcf:citekey>
+    <bcf:citekey order="42" intorder="2">khaled2013design</bcf:citekey>
+    <bcf:citekey order="42" intorder="3">craveirinha2015designing</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">edmunds2006mixed</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">berkman2021igroup</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">yannakakis2011experience</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">craveirinha2015designing</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">edmunds2006mixed</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">berkman2021igroup</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="55" intorder="2">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="55" intorder="3">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Datta2018</bcf:citekey>
+    <bcf:citekey order="57" intorder="2">barboza2015digital</bcf:citekey>
+    <bcf:citekey order="57" intorder="3">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="57" intorder="4">yannakakis2011experience</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">Datta2018</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">saiyidatul2024narrative</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">barboza2015digital</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">onderdijk2023concert</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">lo2023immersive</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">kim2022multiview</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">lee2023viewing</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">lee2025concert</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">yan2020social</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">cacciuttolo2021welcome</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">rivas2025diseno</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">mandanici2018good</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">pichlmair2007levels</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">yannakakis2011experience</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">khaled2013design</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">craveirinha2015designing</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">merienne2016virtual</bcf:citekey>
+    <bcf:citekey order="74" intorder="2">unity2026xritoolkit</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">merienne2016virtual</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">unity2026engine</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">unity2026engine</bcf:citekey>
+    <bcf:citekey order="77" intorder="2">unity2026vroverview</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">microsoft2026csharp</bcf:citekey>
+    <bcf:citekey order="78" intorder="2">unity2026scripting</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">unity2026scripting</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">scriptableobjects</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">metaquest</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">unity2026vroverview</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">unity2026vrtemplate</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">unity2026xritoolkit</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">unity2026xritoolkit</bcf:citekey>
+    <bcf:citekey order="85" intorder="2">unity2026xrinput</bcf:citekey>
     <bcf:citekey order="86" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="87" intorder="2">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">unity2026timeline</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">unity2026signalemitter</bcf:citekey>
-    <bcf:citekey order="90" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="90" intorder="2">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="91" intorder="1">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="91" intorder="2">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="92" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="86" intorder="2">chen2022synchronization</bcf:citekey>
+    <bcf:citekey order="86" intorder="3">unity2026timeline</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">chen2022synchronization</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">edmunds2006mixed</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">unity2026timeline</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">unity2026signalemitter</bcf:citekey>
     <bcf:citekey order="93" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="94" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="95" intorder="1">unity2026scriptableevents</bcf:citekey>
-    <bcf:citekey order="96" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="96" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="97" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="97" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="98" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="93" intorder="2">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="94" intorder="2">edmunds2006mixed</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">eugster2003publish</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">eugster2003publish</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">unity2026scriptableevents</bcf:citekey>
     <bcf:citekey order="99" intorder="1">berkman2021igroup</bcf:citekey>
     <bcf:citekey order="99" intorder="2">castro2026immersive</bcf:citekey>
     <bcf:citekey order="100" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="101" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="102" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="103" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="104" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="105" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="106" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">kobo</bcf:citekey>
+    <bcf:citekey order="100" intorder="2">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">kobo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
