@@ -217,18 +217,16 @@ Cuando una sección se inició de manera individual desde el menú, la aplicaci�
 Este mecanismo permitió mantener un único flujo de transición y reutilizar las mismas escenas para la reproducción completa y las pruebas individuales.
 
 \subsection{Optimización y validación técnica}
-Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Particularmente, se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
+Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
 
-También se revisaron modelos, materiales, texturas e iluminación con el objetivo de disminuir el costo de renderizado sin modificar de forma significativa la estética definida para cada escena.
-
+También se optimizaron los materiales utilizados en los escenarios. Para elementos como vegetación se utilizaron materiales opacos con \emph{Alpha Clipping} en lugar de superficies transparentes, y se deshabilitaron propiedades visuales que no eran necesarias, como la recepción de sombras, los reflejos del entorno y los reflejos especulares. En objetos repetidos se habilitó \emph{GPU Instancing} para facilitar su renderizado conjunto.
+Asimismo, se revisaron modelos, texturas e iluminación con el objetivo de reducir el costo de renderizado sin modificar de manera significativa la estética definida para cada escena.
+Las modificaciones se realizaron de manera iterativa y se generaron nuevas compilaciones para comprobar su comportamiento directamente en el dispositivo.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/MatExampleOptimizacion.png}
-    \caption{Material optimizado.}
+    \includegraphics[width=0.5\textwidth]{Assets/MatExampleOptimizacion.png}
+    \caption{Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}
 \end{figure}
-
-Las modificaciones se realizaron de manera iterativa y se generaron nuevas compilaciones para comprobar su comportamiento directamente en el dispositivo.
-
 
 \subsection{Administración de objetos}
 

@@ -67,16 +67,16 @@
 \contentsline {subsection}{\numberline {7.4.7}Ejecución de la secuencia}{30}{subsection*.80}%
 \contentsline {subsection}{\numberline {7.4.8}Integración entre escenas}{30}{subsection*.81}%
 \contentsline {subsection}{\numberline {7.4.9}Optimización y validación técnica}{31}{subsection*.83}%
-\contentsline {subsection}{\numberline {7.4.10}Administración de objetos}{33}{subsection*.85}%
-\contentsline {subsection}{\numberline {7.4.11}Pruebas en el dispositivo objetivo}{33}{subsection*.86}%
+\contentsline {subsection}{\numberline {7.4.10}Administración de objetos}{32}{subsection*.85}%
+\contentsline {subsection}{\numberline {7.4.11}Pruebas en el dispositivo objetivo}{32}{subsection*.86}%
 \contentsline {subsection}{\numberline {7.4.12}Validación funcional}{33}{subsection*.87}%
 \contentsline {section}{\numberline {7.5}Participantes y entorno de evaluación}{33}{section*.88}%
-\contentsline {subsection}{\numberline {7.5.1}Participantes}{34}{subsection*.89}%
-\contentsline {subsection}{\numberline {7.5.2}Entorno de evaluación}{34}{subsection*.90}%
+\contentsline {subsection}{\numberline {7.5.1}Participantes}{33}{subsection*.89}%
+\contentsline {subsection}{\numberline {7.5.2}Entorno de evaluación}{33}{subsection*.90}%
 \contentsline {subsection}{\numberline {7.5.3}Entorno de evaluación}{34}{subsection*.91}%
-\contentsline {section}{\numberline {7.6}Aplicación del I-Group Presence Questionnaire}{35}{section*.92}%
-\contentsline {subsection}{\numberline {7.6.1}Digitalización del instrumento}{35}{subsection*.93}%
-\contentsline {subsection}{\numberline {7.6.2}Procedimiento}{35}{subsection*.94}%
+\contentsline {section}{\numberline {7.6}Aplicación del I-Group Presence Questionnaire}{34}{section*.92}%
+\contentsline {subsection}{\numberline {7.6.1}Digitalización del instrumento}{34}{subsection*.93}%
+\contentsline {subsection}{\numberline {7.6.2}Procedimiento}{34}{subsection*.94}%
 \contentsline {subsection}{\numberline {7.6.3}Análisis de resultados}{35}{subsection*.95}%
 \contentsline {subsection}{\numberline {7.6.4}Análisis descriptivo}{35}{subsection*.96}%
 \contentsline {chapter}{\numberline {8}...}{37}{chapter*.97}%
