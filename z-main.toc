@@ -60,10 +60,10 @@
 \contentsline {section}{\numberline {7.4}Implementación de la arquitectura dirigida por eventos}{26}{section*.70}%
 \contentsline {subsection}{\numberline {7.4.1}Arquitectura general}{27}{subsection*.71}%
 \contentsline {subsection}{\numberline {7.4.2}Control de flujo de la aplicacion}{27}{subsection*.72}%
-\contentsline {subsection}{\numberline {7.4.3}Control de flujo de la aplicacion}{29}{subsection*.74}%
+\contentsline {subsection}{\numberline {7.4.3}Control de flujo de la aplicacion}{28}{subsection*.74}%
 \contentsline {subsection}{\numberline {7.4.4}Preparación de escenas}{29}{subsection*.76}%
-\contentsline {subsection}{\numberline {7.4.5}Implementación de la secuenciación audiovisual}{30}{subsection*.78}%
-\contentsline {subsection}{\numberline {7.4.6}Definición de eventos temporizados}{30}{subsection*.79}%
+\contentsline {subsection}{\numberline {7.4.5}Implementación de la secuenciación audiovisual}{29}{subsection*.78}%
+\contentsline {subsection}{\numberline {7.4.6}Definición de eventos temporizados}{29}{subsection*.79}%
 \contentsline {subsection}{\numberline {7.4.7}Ejecución de la secuencia}{30}{subsection*.80}%
 \contentsline {subsection}{\numberline {7.4.8}Integración entre escenas}{30}{subsection*.81}%
 \contentsline {subsection}{\numberline {7.4.9}Optimización y validación técnica}{31}{subsection*.83}%
