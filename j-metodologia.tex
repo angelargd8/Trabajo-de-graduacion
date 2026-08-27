@@ -1,8 +1,300 @@
 %
-\section{Diseño metodológico}
+El presente capítulo describe la metodología utilizada para el desarrollo de la experiencia de realidad virtual (VR por sus siglas en inglés) basada en la canción de Los Skeepers. Se detallan los procesos de conceptualización, diseño, implementación y evaluación, así como las herramientas y recursos usados en cada etapa del proyecto.
 
-\section{Procedimiento}
+\section{Conceptualización y diseño de la experiencia}
+La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. Para ello se tomó como punto de partida la canción y las propuestas creativas de los integrantes de Los Skeepers, quienes definieron la estética y las mecánicas de juego que deseaban incluir en la experiencia.
 
-\section{Herramientas y recursos}
+\subsection{Dirección artística}
+La dirección artística se desarrolló en conjunto con los integrantes de la banda, quienes elaboraron la canción, moodboards con referencias visuales para representar la estética deseada de sus personajes, ambientes y propuestas de minijuegos. Estas referencias permitieron identificar colores, estilos, vestuarios, escenarios y elementos visuales con la identidad que cada artista buscaba transmitir. 
+La propuesta general tomó como punto de partida la temática de la canción, relacionada con la transición hacia la vida adulta y los distintos desafíos asociados con esta etapa. A partir de esta idea, cada integrante propuso una estética y una mecánica que representasen su sección dentro de la experiencia.
+Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de VR. A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
 
-\section{Evaluación}
+
+\subsection{Análisis de la obra musical}
+La canción abordó la transición de los integrantes a la vida adulta y los diferentes desafíos que enfrentan en esta etapa. A partir de esta temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+12       & $3.2$  & $3.43$    & 23    & 13      \\ \hline
+aun & no & esta & terminada & jajas \\ \hline
+         &     &        &       &         \\ \hline
+         &     &        &       &         \\ \hline
+\end{tabular}
+\caption[Tabla de la estructura de la cancion]{Tabla de estructura de la canción. Análisis de la estructura temporal de la canción, con la duración de cada sección y los elementos visuales asociados a cada una.} 
+\label{cuadro:tablaprueba}
+\end{table}
+
+
+\subsection{Diseño de la experiencia interactiva}
+Las propuestas conceptuales se transformaron en mecánicas de interacción que pudieran ejecutarse mediante los controles de VR. Cada sección se diseñó como un minijuego asociado con uno de los miembros de la banda y con una identidad visual propia. 
+Las mecánicas conceptuales definidas fueron: 
+
+- Danniel: una experiencia de disparos en la que el usuario utiliza un arma para enfrentarse a objetivos en un recorrido. 
+
+- Joaquín: una mecánica de combate en la que el usuario utiliza una espada para enfrentarse a enemigos. 
+
+- Alex: una experiencia inspirada en una cabina de dinero, en la que el usuario debe de recolectar la mayor cantidad posible de billetes que se encuentran en movimiento. 
+De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo técnico en VR.  
+
+
+\section{Selección de herramientas y recursos}
+Después de definir la experiencia se seleccionaron las herramientas necesarias para su implementación. La elección considero el desarrollo de aplicaciones VR, la programación de interacciones, la creación y modificación de recursos tridimencionales y la ejecución autónoma de la experiencia en los visores de Meta Quest.
+
+\subsection{Plataforma de desarrollo}
+Se escogió Unity como motor principal de desarrollo debido a sus herramientas para creación de entornos tridimensionales y aplicaciones en VR. El proyecto esta configurado desde la plantilla que proporciona Unity y se utilizaron los componentes proporcionados por el XR Interaction Toolkit para establecer el seguimiento del visor y de los controles. 
+
+Se configuró un XR Origin como sistema de referencia del usuario dentro de la experiencia. A partir de este se administraron la cámara y los controladores utilizados para locomoción selección y manipulación de los elementos interactivos. Mientras que en cada escena de los integrantes se configuraron los elementos de interacción específicos para cada minijuego.
+
+C\# se utilizó como lenguaje de programación para implementar las mecánicas, la administración de escenas, los eventos y los distintos sistemas que controlaron el comportamiento de la experiencia. 
+
+\subsection{Tecnologías utilizadas y entorno de ejecución}
+
+Las pruebas de funcionamiento se realizaron durante el desarrollo conectado con Unity como mediantes compilaciones Android instaladas y ejecutadas directamente en los visores. Para la validación del rendimiento se priorizó la ejecución autónoma, debido a que este representó las condiciones reales de funcionamiento de la aplicación.
+Esto es debido a que al correrlo con la conexión a Unity mediante QuestLink, este corre desde las caracteristicas de la computadora. 
+
+Acerca del software se utilizó Unity 6.3 LTS.
+
+
+Mientras que los visores Meta Quest 3s: 
+
+- Procesador Snapdragon XR2 Gen 2
+
+- 8 GB de memoria RAM
+
+- Batería de 4.324 mAH
+
+- Lentes Fresnel con una resolución de 1832 x 1920 píxeles por ojo
+
+Este dispositivo cuenta con seguimiento de controladores y manos, tecnología háptica y audio espacial 3D integrado. \cite{metaquest}
+
+
+Y el equipo utilizado para el desarrollo de pruebas en Unity contó con las siguientes caracteristicas: 
+
+- Procesador: Intel Core i9-149000HX
+
+- Memoria Ram: 64 GB
+
+- GPU: Nvidia GeForce RTX 4060
+
+\section{Desarrollo del videojuego base}
+Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las esccenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
+
+\subsection{Configuración del proyecto y plantilla VR de Unity}
+Primero se seleccionó esta plantilla desde el Hub de Unity y luego se configuro el proyecto desde esta plantilla. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/plantillaVRUnityHub.png}
+    \caption{Seleccion de la plantilla VR desde Unity Hub.}
+\end{figure}
+
+Luego de inicializar el proyecto con la plantilla se configuro los BuilProfiles para cambiarlo de la plataforma de Windows a Meta Quest. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/BuildProfiles.png}
+    \caption{Configuracion de Build Profiles para Meta Quest.}
+\end{figure}
+
+Se aseguró que en XR Plug-in Magement no tenga ningún error con Android y en el caso que si tenga aplicar "Fix-all".
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/ProjectSettings.png}
+    \caption{Configuracion de XR Plug-in Management para Android.}
+\end{figure}
+
+También se revisó que PhysX este habilitado para el motor de físicas para GameObjects, que en este caso es el XROrigin
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/physics.png}
+    \caption{Configuracion del motor de fisicas del proyecto.}
+\end{figure}
+
+Al tener la configuración inicial correctamente, la plantilla VR trae dos escenas, una donde solo se encuentra el XROrigin y otra en donde hay un escenario interactivo donde se puede ver todas las funciones de XROrigin. 
+En este caso, la BasicScene se usó como plantilla para la escena de Bootstrap.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/XROrigin.png}
+    \caption{Estructura inicial del XROrigin en la escena base.}
+\end{figure}
+
+
+\subsection{Construcción de escenas}
+La aplicación esta dividida en escenas independientes para facilitar su organización, carga y optimización. Se creó una escena de menú, desde la cual se inició la experiencia, una escena de carga de carga dutante las transiciones y diferentes escenas asociadas con las secciones de las canciones. 
+Cada escena de experiencia incorporó su propio ambiente, iluminación y props. Los props fueron seleccionados durante la dirección artistica se incorporaron y ajustaron para mantener la identidad visual relacionada con las referencias proporcionadas por los artistas. 
+Las escenas se organizaron de manera que pudieran ejecutarse  tanto como parte de la secuencia completa como de forma individual para facilitar pruebas y el acceso desde el menu, pensando en la rejugabilidad del juego.
+
+
+\subsection{Implementacion de escenas}
+Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Depdendiendo de la escena, los movimientos del usuadio se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
+Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
+
+
+\section{Implementación de la arquitectura dirigida por eventos}
+Para organizar la comunicación entre los sistemas se implemento una Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés). Este enfoque permitió separar la lógica correspondiente al menú, las transiciones, la carga de escenas y las mécanicas propias de cada sección, evitanto dependencias directas innecesarias entre componentes. 
+
+\subsection{Arquitectura general}
+La comunicación se estructuró mediante componentes productores y consumidores de eventos. Los productores notificaron que una determinada acción había ocurrido, mientras que los consumidores respondieron únicamente a los eventos necesarios para su funcionamiento. 
+Para esta comunicación se usaron ScriptableObjects como canales de eventos. Entre los eventos principales se incluyeron solicitudes de inicio de una experiencia, inicio de transición, finalización de carga, entrada al menú y finalización de una sección. 
+
+Esta estructura permitió que un componente pudiera generar una accion sin necesitar una referencia directa a todos los sistemas que debían de responder a ella. 
+
+
+\subsection{Control de flujo de la aplicacion}
+
+Se creó un Bootstrap persistente encargado de almacenar los sistemas generales utilizados durante toda la ejecución de la aplicación. Dentro de esta estructura se incorporó el AppStateMachine y el SceneFlowManager. 
+
+El AppStateMachine administró los estados generales de la aplicación: inicio, menú principal, carga, experiencia y finalización. El SceneFlowManager se encargó de realizar la carga y la descarga de las escenas correspondientes. 
+
+De esta forma, los cambios entre escenas no se ejecutaron directamente desde los botones o las mécanicas, sino que por medio de solicitudes que fueron procesadas por los sistemas responsables del flujo general. 
+
+Para crear la escena de Bootstrap, se copió la escena de BasicScene y colocó el XROrigin dentro de un GameObject vacio y se nombró como XRSystem, que este fue nuestro sistema de locomocion para toda la experiencia y no tener que estar cargando el prefabricado de XROrigin en todas las escenas. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/XRSystems.png}
+    \caption{Sistema XR persistente utilizado para la locomocion.}
+\end{figure}
+
+
+\subsection{Control de flujo de la aplicacion}
+
+Se usó ScriptableObjects para almacenar la configuración de la experiencia y de sus escenas. ExperienceDefinitionSO definió la experiencia completa y el orden de sus secciones, mientras que ExperienceSceneDefinitionSO almacenó la información correspondiente a cada escena.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSceneDefinitionSO.png}
+    \caption{Configuracion de ExperienceSceneDefinitionSO.}
+\end{figure}
+
+Cuando el usuario seleccionó una opción desde el menú, se generó un ExperienceRequest que indicó la experiencia seleccionada, la escena inicial y si debía reproducirse únicamente dicha escena o continuar con la secuencia completa. Esta estructura permitió utilizar el mismo sistema tanto para reproducir toda la experiencia como para acceder a una sección específica.
+
+
+\subsection{Preparación de escenas}
+
+Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. Este componente administró los sistemas que debían prepararse antes de comenzar la interacción.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSceneBootstrap.png}
+    \caption{Configuracion de ExperienceSceneBootstrap.}
+\end{figure}
+
+
+Los componentes que realizaron tareas de preparación implementaron la interfaz IExperiencePreloadable. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
+
+Una vez finalizada la preparación se emitió el evento ExperienceReady, que indicó a los sistemas de la escena que podían iniciar la música, las mecánicas y la secuencia correspondiente.
+
+\subsection{Implementación de la secuenciación audiovisual}
+La experiencia se organizó temporalmente utilizando la canción como referencia común para los cambios visuales, auditivos e interactivos. La secuenciación permitió establecer cuándo debían habilitarse o modificarse los distintos elementos durante su reproducción.
+
+
+\subsection{Definición de eventos temporizados}
+Se identificaron momentos específicos de la canción en los que debían producirse cambios dentro de la experiencia. Estos se organizaron de acuerdo con el tiempo de reproducción y el tipo de acción requerida.
+
+Los eventos se clasificaron principalmente como visuales, auditivos o interactivos. Dentro de ellos se contemplaron cambios de escena, activación de elementos, modificación de iluminación, inicio o finalización de mecánicas y transiciones.
+
+La definición previa de estos momentos permitió conservar un control autoral sobre la relación entre la música y los estímulos presentados al usuario.
+
+
+\subsection{Ejecución de la secuencia}
+Unity Timeline se utilizó como herramienta para organizar temporalmente los diferentes elementos de la secuencia. La reproducción se inició únicamente después de que la escena hubiera terminado su proceso de preparación.
+
+El SequenceDirector se encargó de iniciar la secuencia al recibir el evento ExperienceReady. A partir de ese momento se ejecutaron las activaciones y modificaciones definidas para la escena de acuerdo con el tiempo establecido.
+
+Los eventos de Timeline se integraron con los canales de eventos para permitir que una señal temporal pudiera generar respuestas en otros componentes sin requerir referencias directas entre ellos.
+
+\subsection{Integración entre escenas}
+
+La finalización de cada sección se comunicó mediante eventos al sistema encargado del flujo de la aplicación. Cuando la experiencia se ejecutó en modo completo, el sistema determinó la siguiente escena de acuerdo con el orden definido previamente en el ScriptableObject de ExperienceDefinitionSO para la experiencia completa.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/EXPPunkoExperienceDefinitionSO.png}
+    \caption{Definicion de la experiencia completa mediante ExperienceDefinitionSO.}
+\end{figure}
+Cuando una sección se inició de manera individual desde el menú, la aplicación evitó continuar automáticamente hacia las siguientes escenas.
+
+Este mecanismo permitió mantener un único flujo de transición y reutilizar las mismas escenas para la reproducción completa y las pruebas individuales.
+
+\subsection{Optimización y validación técnica}
+Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Particularmente, se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
+
+También se revisaron modelos, materiales, texturas e iluminación con el objetivo de disminuir el costo de renderizado sin modificar de forma significativa la estética definida para cada escena.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/MatExampleOptimizacion.png}
+    \caption{Material optimizado.}
+\end{figure}
+
+Las modificaciones se realizaron de manera iterativa y se generaron nuevas compilaciones para comprobar su comportamiento directamente en el dispositivo.
+
+
+\subsection{Administración de objetos}
+
+Los objetos que debían crearse y eliminarse repetidamente durante una escena se administraron mediante \emph{object pooling}. De esta forma se reutilizaron instancias existentes en lugar de realizar procesos frecuentes de creación y destrucción durante la ejecución.
+
+Este procedimiento se utilizó en sistemas como proyectiles, enemigos y segmentos reutilizables. Además, determinados objetos fueron preparados durante la etapa de carga mediante los componentes de \emph{preloading}.
+
+El objetivo fue trasladar operaciones de mayor costo hacia momentos controlados de preparación y reducir interrupciones durante la reproducción de la experiencia.
+
+
+\subsection{Pruebas en el dispositivo objetivo}
+Se generaron compilaciones Android que fueron instaladas y ejecutadas directamente en los visores Meta Quest. Estas pruebas permitieron evaluar el comportamiento real de la aplicación sin depender de los recursos de la computadora utilizada durante el desarrollo.
+
+Durante las pruebas se observaron principalmente tiempos de carga, interrupciones durante la reproducción, estabilidad de las escenas y respuesta de las mecánicas. Para complementar el análisis se utilizó Android Logcat para identificar mensajes y comportamientos asociados con problemas detectados durante la ejecución.
+
+A partir de estas pruebas se realizaron ajustes progresivos en la cantidad de objetos, preparación de contenido y administración de recursos.
+
+\subsection{Validación funcional}
+La validación funcional comprobó que cada escena pudiera cargarse correctamente, iniciar sus sistemas después del proceso de preparación y ejecutar las interacciones definidas.
+
+También se verificó la continuidad entre escenas, la reproducción individual desde el menú y el funcionamiento de las mecánicas implementadas.
+
+Posteriormente se comprobó la correspondencia temporal entre la reproducción musical y los eventos configurados para identificar desajustes antes de realizar las pruebas con participantes.
+
+
+\section{Participantes y entorno de evaluación}
+Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Se planteó trabajar con aproximadamente 30 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.
+\subsection{Participantes}
+Los participantes fueron definidos mediante un muestreo no probabilístico por conveniencia entre estudiantes inscritos en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle de Guatemala. Como criterio de inclusión se estableció que fueran mayores de edad, sin requerir experiencia previa con dispositivos de VR.
+
+La actividad se planteó dentro del contexto académico del curso; sin embargo, el uso de las respuestas para fines de investigación se condicionó a la aceptación de un consentimiento informado. Los estudiantes que no autorizaran el uso de sus datos podrían realizar la actividad académica sin que sus respuestas fueran incorporadas al análisis de la investigación.
+
+
+\subsection{Entorno de evaluación}
+
+Las sesiones se planificaron en un espacio físico despejado y supervisado dentro de la Universidad del Valle de Guatemala. Cada participante utilizaría un visor Meta Quest para experimentar el prototipo desarrollado en Unity y posteriormente respondería el IPQ mediante un formulario implementado en KoboToolbox.
+
+Se estimó una duración de entre 10 y 20 minutos por sesión. Antes de comenzar se proporcionarían instrucciones sobre el funcionamiento de los controles y el procedimiento de la prueba.
+
+Debido al uso de VR, se consideraron como posibles riesgos el mareo, la desorientación y la fatiga visual temporal. Para reducirlos se estableció la posibilidad de realizar pausas o finalizar inmediatamente la experiencia. En caso de presentar síntomas, se retiraría el visor y el participante permanecería en un área tranquila hasta sentirse recuperado.
+
+\subsection{Entorno de evaluación}
+No se planificó recopilar nombres u otros identificadores directos. Las respuestas se asociarían con códigos y se almacenarían en KoboToolbox mediante una cuenta protegida por contraseña.
+
+El acceso a los datos se limitó a la investigadora y su asesora. La información se conservaría durante un año después de finalizar la investigación y posteriormente sería eliminada. El consentimiento informado se incorporaría como parte del proceso previo a la participación.
+
+\section{Aplicación del I-Group Presence Questionnaire}
+Después de la interacción con el entorno virtual se utilizaría el IPQ para recopilar información sobre la percepción subjetiva de presencia. El instrumento se aplicaría inmediatamente después de finalizar la experiencia para conservar una valoración reciente de la interacción realizada.
+
+
+\subsection{Digitalización del instrumento}
+El I-Group Presence Questionnaire se implementó mediante un formulario digital en KoboToolbox. Se conservaron los ítems y escalas correspondientes al instrumento utilizado \cite{berkman2021igroup}.
+
+El formulario permitió almacenar las respuestas de manera estructurada y posteriormente exportarlas para su análisis.
+
+\subsection{Procedimiento}
+Cada sesión se estructuró en tres etapas: explicación inicial y consentimiento informado, interacción con el prototipo en realidad virtual y aplicación posterior del IPQ.
+
+Antes de utilizar el visor se proporcionarían las instrucciones necesarias para interactuar con la experiencia. Al finalizar, el participante respondería individualmente el formulario en KoboToolbox. Las respuestas autorizadas para fines de investigación serían posteriormente exportadas y utilizadas en el análisis descriptivo.
+
+
+\subsection{Análisis de resultados}
+Las respuestas obtenidas mediante el IPQ se procesaron de acuerdo con las dimensiones definidas por el instrumento. El análisis se planteó principalmente de forma descriptiva, debido a que el objetivo fue caracterizar la percepción de presencia generada por la experiencia desarrollada.
+\subsection{Análisis descriptivo}
+Para cada dimensión se calculó medidas descriptivas que permitieron representar el comportamiento general de las respuestas. Se consideraron principalmente la puntuación promedio y la dispersión observada entre participantes.
+
+También se analizó el ítem correspondiente a presencia general para complementar la interpretación de las tres dimensiones principales.
+
+Los resultados se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.

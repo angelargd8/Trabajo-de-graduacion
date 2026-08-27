@@ -7,6 +7,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{22}{figure.caption.63}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{23}{figure.caption.64}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{24}{figure.caption.65}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{25}{figure.caption.66}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{26}{figure.caption.67}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Sistema XR persistente utilizado para la locomocion.}}{28}{figure.caption.73}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Configuracion de ExperienceSceneDefinitionSO.}}{29}{figure.caption.75}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Configuracion de ExperienceSceneBootstrap.}}{29}{figure.caption.77}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Definicion de la experiencia completa mediante ExperienceDefinitionSO.}}{31}{figure.caption.82}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Material optimizado.}}{32}{figure.caption.84}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
