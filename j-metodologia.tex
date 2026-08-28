@@ -11,17 +11,43 @@ Las propuestas iniciales de los artistas fueron posteriormente revisadas para de
 
 
 \subsection{Análisis de la obra musical}
-La canción abordó la transición de los integrantes a la vida adulta y los diferentes desafíos que enfrentan en esta etapa. A partir de esta temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
-\begin{table}[h]
-\begin{tabular}{|l|l|l|l|l|}
+A partir de la temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
+
+\begin{table}[H]
+\centering
+\caption{Análisis de la estructura de la canción y su relación con la experiencia VR.}
+\label{tab:estructura_cancion}
+
+\small
+\begin{tabular}{@{}p{1.8cm} p{2.1cm} p{3.2cm} p{2.5cm} p{3.2cm}@{}}
 \hline
-12       & $3.2$  & $3.43$    & 23    & 13      \\ \hline
-aun & no & esta & terminada & jajas \\ \hline
-         &     &        &       &         \\ \hline
-         &     &        &       &         \\ \hline
+\textbf{Sección / tiempo} &
+\textbf{Integrante} &
+\textbf{Intención narrativa o visual} &
+\textbf{Mecánica} &
+\textbf{Eventos principales} \\
+\hline
+
+[Tiempo] &
+Alex &
+Representación visual asociada con su sección de la canción. &
+Recolección de dinero dentro de una cabina. &
+Aparición de billetes, activación del minijuego y transición. \\
+
+[Tiempo] &
+Danniel &
+Sección orientada a una experiencia de mayor acción durante el recorrido. &
+Disparos contra objetivos. &
+Inicio del recorrido, aparición de enemigos y transición de escena. \\
+
+[Tiempo] &
+Joaquín &
+Representación de una situación de enfrentamiento asociada con su sección. &
+Combate mediante espada. &
+Aparición de enemigos, activación del combate y finalización de la sección. \\
+
+\hline
 \end{tabular}
-\caption[Tabla de la estructura de la cancion]{Tabla de estructura de la canción. Análisis de la estructura temporal de la canción, con la duración de cada sección y los elementos visuales asociados a cada una.} 
-\label{cuadro:tablaprueba}
 \end{table}
 
 
@@ -34,6 +60,7 @@ Las mecánicas conceptuales definidas fueron:
 - Joaquín: una mecánica de combate en la que el usuario utiliza una espada para enfrentarse a enemigos. 
 
 - Alex: una experiencia inspirada en una cabina de dinero, en la que el usuario debe de recolectar la mayor cantidad posible de billetes que se encuentran en movimiento. 
+
 De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo técnico en VR.  
 
 
@@ -50,18 +77,18 @@ C\# se utilizó como lenguaje de programación para implementar las mecánicas, 
 \subsection{Tecnologías utilizadas y entorno de ejecución}
 
 Las pruebas de funcionamiento se realizaron durante el desarrollo conectado con Unity como mediantes compilaciones Android instaladas y ejecutadas directamente en los visores. Para la validación del rendimiento se priorizó la ejecución autónoma, debido a que este representó las condiciones reales de funcionamiento de la aplicación.
-Esto es debido a que al correrlo con la conexión a Unity mediante QuestLink, este corre desde las caracteristicas de la computadora. 
+Esto es debido a que al correrlo con la conexión a Unity mediante Quest Link, este corre desde las caracteristicas de la computadora. 
 
 Acerca del software se utilizó Unity 6.3 LTS.
 
 
 Mientras que los visores Meta Quest 3s: 
 
-- Procesador Snapdragon XR2 Gen 2
+- Procesador: Snapdragon XR2 Gen 2
 
-- 8 GB de memoria RAM
+- Memoria RAM: 8 GB
 
-- Batería de 4.324 mAH
+- Batería: 4.324 mAH
 
 - Lentes Fresnel con una resolución de 1832 x 1920 píxeles por ojo
 
@@ -72,7 +99,7 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity contó con las sigu
 
 - Procesador: Intel Core i9-149000HX
 
-- Memoria Ram: 64 GB
+- Memoria RAM:64 GB
 
 - GPU: Nvidia GeForce RTX 4060
 
@@ -88,7 +115,7 @@ Primero se seleccionó esta plantilla desde el Hub de Unity y luego se configuro
     \caption{Seleccion de la plantilla VR desde Unity Hub.}
 \end{figure}
 
-Luego de inicializar el proyecto con la plantilla se configuro los BuilProfiles para cambiarlo de la plataforma de Windows a Meta Quest. 
+Luego de inicializar el proyecto con la plantilla se configuro los Build Profiles para cambiarlo de la plataforma de Windows a Meta Quest. 
 
 \begin{figure}[H]
     \centering
@@ -96,7 +123,7 @@ Luego de inicializar el proyecto con la plantilla se configuro los BuilProfiles 
     \caption{Configuracion de Build Profiles para Meta Quest.}
 \end{figure}
 
-Se aseguró que en XR Plug-in Magement no tenga ningún error con Android y en el caso que si tenga aplicar "Fix-all".
+Se aseguró que en XR Plug-in Magement no tenga ningún error con Android.
 
 \begin{figure}[H]
     \centering
@@ -149,7 +176,7 @@ El AppStateMachine administró los estados generales de la aplicación: inicio, 
 
 De esta forma, los cambios entre escenas no se ejecutaron directamente desde los botones o las mécanicas, sino que por medio de solicitudes que fueron procesadas por los sistemas responsables del flujo general. 
 
-Para crear la escena de Bootstrap, se copió la escena de BasicScene y colocó el XROrigin dentro de un GameObject vacio y se nombró como XRSystem, que este fue nuestro sistema de locomocion para toda la experiencia y no tener que estar cargando el prefabricado de XROrigin en todas las escenas. 
+Para crear la escena de Bootstrap, al usar la base de BasicScene, se colocó el XROrigin dentro de un GameObject vacio y se nombró como XRSystem, que este fue nuestro sistema de locomocion para toda la experiencia y no tener que cargar el prefabricado de XROrigin en todas las escenas. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Assets/XRSystems.png}

@@ -1350,6 +1350,49 @@
       \verb https://www.kobotoolbox.org/about-us/
       \endverb
     \endentry
+    \entry{schubert2001experience}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6762005e6ce2d5a91469c4b690d48ab6}{%
+           family={Schubert},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72f7b89062225999d6a1b177a64b07ca}{%
+           family={Friedmann},
+           familyi={F\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=377933c6f16891d4b5f260bfe4901f72}{%
+           family={Regenbrecht},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ceab5b9de4bb2ef491ea44cdf5c1b77}
+      \strng{fullhash}{e9131b7b3308683e2e930abdbd84ec79}
+      \strng{fullhashraw}{e9131b7b3308683e2e930abdbd84ec79}
+      \strng{bibnamehash}{e9131b7b3308683e2e930abdbd84ec79}
+      \strng{authorbibnamehash}{e9131b7b3308683e2e930abdbd84ec79}
+      \strng{authornamehash}{8ceab5b9de4bb2ef491ea44cdf5c1b77}
+      \strng{authorfullhash}{e9131b7b3308683e2e930abdbd84ec79}
+      \strng{authorfullhashraw}{e9131b7b3308683e2e930abdbd84ec79}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Presence: Teleoperators and Virtual Environments}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{The Experience of Presence: Factor Analytic Insights}
+      \field{volume}{10}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{pages}{266\bibrangedash 281}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1162/105474601300343603
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

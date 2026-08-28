@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  27 AUG 2026 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  28 AUG 2026 01:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,22 +833,39 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip115
 \pyy=\skip116
 \pxx=\skip117
-) (2-paquetes_y_comandos_usuario.tex)
+) (2-paquetes_y_comandos_usuario.tex) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
+\ESO@tempdima=\dimen285
+\ESO@tempdimb=\dimen286
+)
+\AM@pagewidth=\dimen287
+\AM@pageheight=\dimen288
+\AM@fboxrule=\dimen289
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count494
+\AM@pagebox=\box69
+\AM@global@opts=\toks48
+\AM@pagecnt=\count495
+\AM@toc@title=\toks49
+\AM@lof@heading=\toks50
+\c@AM@survey=\count496
+\AM@templatesizebox=\box70
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count494
-\@quotereset=\count495
+\@quotelevel=\count497
+\@quotereset=\count498
 (z-main.aux
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
 LaTeX Info: Redefining \. on input line 92.
 LaTeX Info: Redefining \% on input line 92.
-
-
-LaTeX Warning: Label `cuadro:tablaprueba' multiply defined.
-
 )
 \openout1 = `z-main.aux'.
 
@@ -874,26 +891,20 @@ LaTeX Info: Redefining \. on input line 109.
 LaTeX Info: Redefining \% on input line 109.
  (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count496
-\scratchdimen=\dimen285
-\scratchbox=\box69
-\nofMPsegments=\count497
-\nofMParguments=\count498
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count499
-\MPscratchDim=\dimen286
-\MPnumerator=\count500
-\makeMPintoPDFobject=\count501
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count499
+\scratchdimen=\dimen290
+\scratchbox=\box71
+\nofMPsegments=\count500
+\nofMParguments=\count501
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count502
+\MPscratchDim=\dimen291
+\MPnumerator=\count503
+\makeMPintoPDFobject=\count504
+\everyMPtoPDFconversion=\toks52
 ) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -959,6 +970,15 @@ Package biblatex Info: Reference segment=0 on input line 109.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 Package babel Info: Main language set to 'spanish'.
 Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)                    date: 2026-08-05 11:53:37
@@ -974,7 +994,7 @@ File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 165.
 (pdftex.def)             Requested size: 105.574pt x 156.49014pt.
-[1
+ [1
 
 \openout4 = `z-main.ist'.
 
@@ -1105,87 +1125,141 @@ Cap\'{\i }tulo 7.
 (j-metodologia.tex [19
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1231) in paragraph at lines 24--24
+[]\T1/cmr/bx/n/10 Sección /
+ []
 
- [20]
-Underfull \vbox (badness 4531) has occurred while \output is active []
 
- [21]
-<Assets/plantillaVRUnityHub.png, id=812, 1279.78125pt x 765.35938pt>
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]\T1/cmr/m/n/10 Representación vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/cmr/m/n/10 sual aso-cia-da con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/cmr/m/n/10 su sec-ción de la
+ []
+
+
+Underfull \hbox (badness 7796) in paragraph at lines 34--34
+[]\T1/cmr/m/n/10 Recolección de
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 39--39
+\T1/cmr/m/n/10 una ex-pe-rien-cia de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]\T1/cmr/m/n/10 Representación de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/cmr/m/n/10 una si-tua-ción de
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 45--45
+\T1/cmr/m/n/10 en-fren-ta-mien-to aso-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/cmr/m/n/10 Combate me-
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 47--48
+\T1/cmr/m/n/10 gos, ac-ti-va-ción del
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 47--48
+\T1/cmr/m/n/10 com-ba-te y fi-na-li-za-
+ []
+
+[20] [21]
+<Assets/plantillaVRUnityHub.png, id=811, 1279.78125pt x 765.35938pt>
 File: Assets/plantillaVRUnityHub.png Graphic file (type png)
 <use Assets/plantillaVRUnityHub.png>
-Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 87.
+Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 114.
 (pdftex.def)             Requested size: 390.25536pt x 233.38171pt.
-<Assets/BuildProfiles.png, id=814, 771.38188pt x 632.86438pt>
+<Assets/BuildProfiles.png, id=813, 771.38188pt x 632.86438pt>
 File: Assets/BuildProfiles.png Graphic file (type png)
 <use Assets/BuildProfiles.png>
-Package pdftex.def Info: Assets/BuildProfiles.png  used on input line 95.
+Package pdftex.def Info: Assets/BuildProfiles.png  used on input line 122.
 (pdftex.def)             Requested size: 390.25536pt x 320.17822pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./Assets/plantillaVRUnityHub.png>]
-<Assets/ProjectSettings.png, id=820, 1031.855pt x 699.11188pt>
+<Assets/ProjectSettings.png, id=819, 1031.855pt x 699.11188pt>
 File: Assets/ProjectSettings.png Graphic file (type png)
 <use Assets/ProjectSettings.png>
-Package pdftex.def Info: Assets/ProjectSettings.png  used on input line 103.
+Package pdftex.def Info: Assets/ProjectSettings.png  used on input line 130.
 (pdftex.def)             Requested size: 390.25536pt x 264.4065pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./Assets/BuildProfiles.png>]
-<Assets/physics.png, id=826, 717.17938pt x 623.32875pt>
+<Assets/physics.png, id=825, 717.17938pt x 623.32875pt>
 File: Assets/physics.png Graphic file (type png)
 <use Assets/physics.png>
-Package pdftex.def Info: Assets/physics.png  used on input line 110.
+Package pdftex.def Info: Assets/physics.png  used on input line 137.
 (pdftex.def)             Requested size: 390.25536pt x 339.18907pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./Assets/ProjectSettings.png>]
-<Assets/XROrigin.png, id=832, 1284.29813pt x 766.865pt>
+<Assets/XROrigin.png, id=831, 1284.29813pt x 766.865pt>
 File: Assets/XROrigin.png Graphic file (type png)
 <use Assets/XROrigin.png>
-Package pdftex.def Info: Assets/XROrigin.png  used on input line 118.
+Package pdftex.def Info: Assets/XROrigin.png  used on input line 145.
 (pdftex.def)             Requested size: 390.25536pt x 233.02173pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 <./Assets/physics.png>] [26 <./Assets/XROrigin.png>]
-<Assets/XRSystems.png, id=843, 161.60374pt x 283.55937pt>
+<Assets/XRSystems.png, id=842, 161.60374pt x 283.55937pt>
 File: Assets/XRSystems.png Graphic file (type png)
 <use Assets/XRSystems.png>
-Package pdftex.def Info: Assets/XRSystems.png  used on input line 155.
+Package pdftex.def Info: Assets/XRSystems.png  used on input line 182.
 (pdftex.def)             Requested size: 173.44534pt x 304.35307pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<Assets/ExperienceSceneDefinitionSO.png, id=849, 661.47125pt x 205.26688pt>
+<Assets/ExperienceSceneDefinitionSO.png, id=848, 661.47125pt x 205.26688pt>
 File: Assets/ExperienceSceneDefinitionSO.png Graphic file (type png)
 <use Assets/ExperienceSceneDefinitionSO.png>
-Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 166.
+Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 193.
 (pdftex.def)             Requested size: 390.25536pt x 121.10326pt.
  [28 <./Assets/XRSystems.png> <./Assets/ExperienceSceneDefinitionSO.png>]
-<Assets/ExperienceSceneBootstrap.png, id=856, 693.08937pt x 312.16624pt>
+<Assets/ExperienceSceneBootstrap.png, id=855, 693.08937pt x 312.16624pt>
 File: Assets/ExperienceSceneBootstrap.png Graphic file (type png)
 <use Assets/ExperienceSceneBootstrap.png>
-Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 179.
+Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 206.
 (pdftex.def)             Requested size: 390.25536pt x 175.77408pt.
  [29 <./Assets/ExperienceSceneBootstrap.png>]
-<Assets/EXPPunkoExperienceDefinitionSO.png, id=862, 474.77374pt x 315.1775pt>
+<Assets/EXPPunkoExperienceDefinitionSO.png, id=861, 474.77374pt x 315.1775pt>
 File: Assets/EXPPunkoExperienceDefinitionSO.png Graphic file (type png)
 <use Assets/EXPPunkoExperienceDefinitionSO.png>
-Package pdftex.def Info: Assets/EXPPunkoExperienceDefinitionSO.png  used on input line 212.
+Package pdftex.def Info: Assets/EXPPunkoExperienceDefinitionSO.png  used on input line 239.
 (pdftex.def)             Requested size: 390.25536pt x 259.08203pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-<Assets/MatExampleOptimizacion.png, id=867, 460.72125pt x 687.06688pt>
+<Assets/MatExampleOptimizacion.png, id=866, 460.72125pt x 687.06688pt>
 File: Assets/MatExampleOptimizacion.png Graphic file (type png)
 <use Assets/MatExampleOptimizacion.png>
-Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 227.
+Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 254.
 (pdftex.def)             Requested size: 216.81pt x 323.31985pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1221,9 +1295,71 @@ Overfull \hbox (1.93355pt too wide) in paragraph at lines 450--450
 
 ]
 Cap\'{\i }tulo 13.
-(n-anexos.tex) [49]
+(n-anexos.tex
+<Assets/Preguntas IPQ.pdf, id=1004, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 15.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+<Assets/Preguntas IPQ.pdf, id=1006, page=1, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [49]
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [50
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/Preguntas IPQ.pdf, id=1031, page=2, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [51
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/Preguntas IPQ.pdf, id=1045, page=3, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [52
+
+ <./Assets/Preguntas IPQ.pdf>])
 No file z-main.gls.
-[50] (z-main.aux
+[53] (z-main.aux
 LaTeX Info: Redefining \sptext on input line 83.
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
@@ -1235,28 +1371,24 @@ LaTeX Info: Redefining \% on input line 92.
 LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F3117ED5ACA52853EB1391BBDA21D63;17805.
+(rerunfilecheck)             Checksum: 68D7F994A87954FD9F24BC1F382845E4;17822.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30796 strings out of 467510
- 593307 string characters out of 5408795
- 1481173 words of memory out of 5000000
- 59385 multiletter control sequences out of 15000+600000
- 643907 words of font info for 74 fonts, out of 8000000 for 9000
+ 31554 strings out of 467510
+ 607111 string characters out of 5408795
+ 1493970 words of memory out of 5000000
+ 60119 multiletter control sequences out of 15000+600000
+ 646382 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on z-main.pdf (72 pages, 3188043 bytes).
+ 74i,18n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on z-main.pdf (75 pages, 3296481 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 784 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1803 PDF objects out of 2073 (max. 8388607)
+ 225 named destinations out of 1000 (max. 500000)
+ 809 words of extra memory for PDF output out of 10000 (max. 10000000)
 
