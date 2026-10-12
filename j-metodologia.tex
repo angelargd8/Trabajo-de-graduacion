@@ -1,54 +1,48 @@
 %
-El presente capítulo describe la metodología utilizada para el desarrollo de la experiencia de realidad virtual (VR por sus siglas en inglés) basada en la canción de Los Skeepers. Se detallan los procesos de conceptualización, diseño, implementación y evaluación, así como las herramientas y recursos usados en cada etapa del proyecto.
-
 \section{Conceptualización y diseño de la experiencia}
-La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. Para ello se tomó como punto de partida la canción y las propuestas creativas de los integrantes de Los Skeepers, quienes definieron la estética y las mecánicas de juego que deseaban incluir en la experiencia.
+La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. Para ello se tomó como punto de partida la canción y las propuestas creativas de los integrantes de Los Skeepers: Alex, Joaquín, Shipi, Juan Andrés, Danniel  y Jeremy. Quienes definieron la estética y las mecánicas de juego que deseaban incluir en la experiencia.
 
 \subsection{Dirección artística}
 La dirección artística se desarrolló en conjunto con los integrantes de la banda, quienes elaboraron la canción, moodboards con referencias visuales para representar la estética deseada de sus personajes, ambientes y propuestas de minijuegos. Estas referencias permitieron identificar colores, estilos, vestuarios, escenarios y elementos visuales con la identidad que cada artista buscaba transmitir. 
 La propuesta general tomó como punto de partida la temática de la canción, relacionada con la transición hacia la vida adulta y los distintos desafíos asociados con esta etapa. A partir de esta idea, cada integrante propuso una estética y una mecánica que representasen su sección dentro de la experiencia.
-Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de VR. A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
+Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de Realidad Virtual (VR por sus siglas en inglés). A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
 
 
-\subsection{Análisis de la obra musical}
-A partir de la temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
+% \subsection{Análisis de la obra musical}
+% A partir de la temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
 
-\begin{table}[H]
-\centering
-\caption{Análisis de la estructura de la canción y su relación con la experiencia VR.}
-\label{tab:estructura_cancion}
+% \begin{table}[H]
+% \centering
+% \caption{Análisis de la estructura de la canción y su relación con la experiencia VR.}
+% \label{tab:estructura_cancion}
 
-\small
-\begin{tabular}{@{}p{1.8cm} p{2.1cm} p{3.2cm} p{2.5cm} p{3.2cm}@{}}
-\hline
-\textbf{Sección / tiempo} &
-\textbf{Integrante} &
-\textbf{Intención narrativa o visual} &
-\textbf{Mecánica} &
-\textbf{Eventos principales} \\
-\hline
+% \small
+% \begin{tabular}{@{}p{1.8cm} p{2.1cm} p{3.2cm} p{2.5cm} p{3.2cm}@{}}
+% \hline
+% \textbf{Integrante} &
+% \textbf{Intención narrativa o visual} &
+% \textbf{Mecánica} &
+% \textbf{Eventos principales} \\
+% \hline
 
-[Tiempo] &
-Alex &
-Representación visual asociada con su sección de la canción. &
-Recolección de dinero dentro de una cabina. &
-Aparición de billetes, activación del minijuego y transición. \\
+% Alex &
+% Representación visual asociada con su sección de la canción. &
+% Pegarle a calabazas con martillos al enemigo. &
+% Aparición de calabazas y dinero, activación del minijuego y transición. \\
 
-[Tiempo] &
-Danniel &
-Sección orientada a una experiencia de mayor acción durante el recorrido. &
-Disparos contra objetivos. &
-Inicio del recorrido, aparición de enemigos y transición de escena. \\
+% Danniel &
+% Sección orientada a una experiencia de mayor acción durante el recorrido. &
+% Disparos contra objetivos. &
+% Inicio del recorrido, aparición de enemigos y transición de escena. \\
 
-[Tiempo] &
-Joaquín &
-Representación de una situación de enfrentamiento asociada con su sección. &
-Combate mediante espada. &
-Aparición de enemigos, activación del combate y finalización de la sección. \\
+% Joaquín &
+% Representación de una situación de enfrentamiento asociada con su sección. &
+% Combate mediante guitarra. &
+% Aparición de enemigos, activación del combate y finalización de la sección. \\
 
-\hline
-\end{tabular}
-\end{table}
+% \hline
+% \end{tabular}
+% \end{table}
 
 
 \subsection{Diseño de la experiencia interactiva}
@@ -59,10 +53,10 @@ Las mecánicas conceptuales definidas fueron:
 
 - Joaquín: una mecánica de combate en la que el usuario utiliza una espada para enfrentarse a enemigos. 
 
-- Alex: una experiencia inspirada en una cabina de dinero, en la que el usuario debe de recolectar la mayor cantidad posible de billetes que se encuentran en movimiento. 
+- Alex: una experiencia inspirada en Halloween en la que el usuario debe de regresarle a calabazas y dinero que le tira el enemigo. 
 
 De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo técnico en VR.  
-
+%-------------------------------------%
 
 \section{Selección de herramientas y recursos}
 Después de definir la experiencia se seleccionaron las herramientas necesarias para su implementación. La elección considero el desarrollo de aplicaciones VR, la programación de interacciones, la creación y modificación de recursos tridimencionales y la ejecución autónoma de la experiencia en los visores de Meta Quest.
@@ -103,80 +97,73 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity contó con las sigu
 
 - GPU: Nvidia GeForce RTX 4060
 
+%-------------------------------------%
+
 \section{Desarrollo del videojuego base}
 Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las esccenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
-
-\subsection{Configuración del proyecto y plantilla VR de Unity}
-Primero se seleccionó esta plantilla desde el Hub de Unity y luego se configuro el proyecto desde esta plantilla. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/plantillaVRUnityHub.png}
-    \caption{Seleccion de la plantilla VR desde Unity Hub.}
-\end{figure}
-
-Luego de inicializar el proyecto con la plantilla se configuro los Build Profiles para cambiarlo de la plataforma de Windows a Meta Quest. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/BuildProfiles.png}
-    \caption{Configuracion de Build Profiles para Meta Quest.}
-\end{figure}
-
-Se aseguró que en XR Plug-in Magement no tenga ningún error con Android.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/ProjectSettings.png}
-    \caption{Configuracion de XR Plug-in Management para Android.}
-\end{figure}
-
-También, se revisó que PhysX este habilitado para el motor de físicas para GameObjects, que en este caso es el XROrigin
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/physics.png}
-    \caption{Configuracion del motor de fisicas del proyecto.}
-\end{figure}
-
-Al tener la configuración inicial correctamente, la plantilla VR trae dos escenas, una donde solo se encuentra el XROrigin y otra en donde hay un escenario interactivo donde se puede ver todas las funciones de XROrigin. 
-En este caso, la BasicScene se usó como plantilla para la escena de Bootstrap.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/XROrigin.png}
-    \caption{Estructura inicial del XROrigin en la escena base.}
-\end{figure}
-
 
 \subsection{Construcción de escenas}
 La aplicación esta dividida en escenas independientes para facilitar su organización, carga y optimización. Se creó una escena de menú, desde la cual se inició la experiencia, una escena de carga de carga dutante las transiciones y diferentes escenas asociadas con las secciones de las canciones. 
 Cada escena de experiencia incorporó su propio ambiente, iluminación y props. Los props fueron seleccionados durante la dirección artistica se incorporaron y ajustaron para mantener la identidad visual relacionada con las referencias proporcionadas por los artistas. 
 Las escenas se organizaron de manera que pudieran ejecutarse  tanto como parte de la secuencia completa como de forma individual para facilitar pruebas y el acceso desde el menu, pensando en la rejugabilidad del juego.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/PreparacionAlex.jpeg}
+    \caption{Construcción escena de Alex.}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/PreparacionJoaquin.png}
+    \caption{Construcción de escena de Joaquin.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/PreparacionDanniel.png}
+    \caption{Construcción de escena de Danniel.}
+\end{figure}
+
+
+
 
 \subsection{Implementacion de escenas}
-Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Depdendiendo de la escena, los movimientos del usuadio se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
+Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuadio se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
 Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
 
+%-------------------------------------%
 
-\section{Implementación de la arquitectura dirigida por eventos}
-Para organizar la comunicación entre los sistemas se implemento una Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés). Este enfoque permitió separar la lógica correspondiente al menú, las transiciones, la carga de escenas y las mécanicas propias de cada sección, evitanto dependencias directas innecesarias entre componentes. 
+\section{Implementación de la Arquitectura Dirigida por Eventos}
+Al tener las escenas individuales creadas. Se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. Para lograrlo se usó esta arquitectura junto a un sistema de secuenciación temporal controlado con Unity Timeline.
+La arquitectura tuvo como objetivo reducir las dependencias directas entre los componentes del menú, carga de escenas, transiciones, reproducción musical y mécanicas particulares de cada minijuego. De esta forma, cada sistema pudo mantener una responsabilidad específica y comunicarse con los demás componentes por medio de eventos y estructuras de configuración compartidas.
+La solución se dividió en cuatro componentes principales: el control de flujo general de la aplicación, los canales de eventos, la configuración de experiencias por \emph{ScriptableObjects} y el sistema de secuenciación audiovisual.
+
 
 \subsection{Arquitectura general}
-La comunicación se estructuró mediante componentes productores y consumidores de eventos. Los productores notificaron que una determinada acción había ocurrido, mientras que los consumidores respondieron únicamente a los eventos necesarios para su funcionamiento. 
-Para esta comunicación se usaron ScriptableObjects como canales de eventos. Entre los eventos principales se incluyeron solicitudes de inicio de una experiencia, inicio de transición, finalización de carga, entrada al menú y finalización de una sección. 
 
-Esta estructura permitió que un componente pudiera generar una accion sin necesitar una referencia directa a todos los sistemas que debían de responder a ella. 
+La comunicación se estructuró mediante un modelo de productores y consumidores de eventos. 
+Los productores notifican que una determinada acción había ocurrido, mientras que los consumidores interesados se suscribían al evento correspondiente y ejecutaban la respuesta definida. 
+La gestión y distribución de estos eventos se realizó por medio de canales implementados con \emph{ScriptableObjects}. 
+Estos permitieron comunicar solicitudes de inicio de una experiencia, finalización de preparación de una escena, activación de segmentos y finalización de la experiencia, sin requerir referencias directas entre todos los componentes involucrados. 
+Para los eventos dependientes de la canción se usó un reloj musical compartido basado en el tiempo de reproducción del \emph{PlayableDirector}. Este reloj permitió determinar cuándo debía activarse cada segmento y cuándo debían producirse eventos asociados con la iluminación, elementos visuales, audio e interacciones. Al alcanzarse los momentos definidos, los sistemas correspondientes publicaban o respondian a los eventos configurados. 
+De esta forma, la arquitectura mantuvo el enfoque dirigido por eventos para la comunicación entre componentes, mientras que el reloj musical proporcionó la referencia temporal necesaria para sincronizar la ejecución de eventos con momentos específicos de la canción.  
 
 
 \subsection{Control de flujo de la aplicacion}
 
-Se creó un Bootstrap persistente encargado de almacenar los sistemas generales utilizados durante toda la ejecución de la aplicación. Dentro de esta estructura se incorporó el AppStateMachine y el SceneFlowManager. 
+Se implementó una escena \emph{Bootstrap} encargada de almacenar los sistemas necesarios utilizados durante toda la ejecución de la aplicación. Dentro de esta estructura se incorporó componentes responsables del estado general, la administración de escenas y el sistma XR. 
 
-El AppStateMachine administró los estados generales de la aplicación: inicio, menú principal, carga, experiencia y finalización. El SceneFlowManager se encargó de realizar la carga y la descarga de las escenas correspondientes. 
+El \emph{AppStateMachine} administró los estados generales de la aplicación: inicialización, menú principal, carga, ejecución de la experiencia y finalización. El \emph{SceneFlowManager} coordinó la carga y la descarga de las escenas en respuesta a los eventos generados durante los cambios de estado. 
 
-De esta forma, los cambios entre escenas no se ejecutaron directamente desde los botones o las mécanicas, sino que por medio de solicitudes que fueron procesadas por los sistemas responsables del flujo general. 
+Cuando el usuario seleccionaba una experiencia desde el menú, el \emph{ExperienceLaunchButton} actuaba como productor al generar un \emph{ExperienceRequest}. La solicitud publicada mediante un canal de eventos y recibida por el \emph{SceneFlowManager}, que actuaba como consumidor del evento y ejecutaba el flujo correspondiente.
 
-Para crear la escena de Bootstrap, al usar la base de BasicScene, se colocó el XROrigin dentro de un GameObject vacio y se nombró como XRSystem, que este fue nuestro sistema de locomocion para toda la experiencia y no tener que cargar el prefabricado de XROrigin en todas las escenas. 
+De esta forma, las acciones del menú no controlaban directamente la carga de escenas, sino que producían eventos que eran procesados por los sistemas responsables. 
+
+Dentro de la escena persistente también se el \emph{XROrigin} dentro de un GameObject vacio nombrado como XRSystem con los componentes de locomoción. Esto permitió que el usuario mantuviera su posición y orientación entre escenas, sin requerir que cada escena incorporara su propio sistema de referencia.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\textwidth]{Assets/XRSystems.png}
@@ -184,9 +171,12 @@ Para crear la escena de Bootstrap, al usar la base de BasicScene, se colocó el 
 \end{figure}
 
 
-\subsection{Control de flujo de la aplicacion}
 
-Se usó ScriptableObjects para almacenar la configuración de la experiencia y de sus escenas. ExperienceDefinitionSO definió la experiencia completa y el orden de sus secciones, mientras que ExperienceSceneDefinitionSO almacenó la información correspondiente a cada escena.
+\subsection{Configuración de experiencias mediante ScriptableObjects}
+
+La configuración de las experiencias se separó de la lógica de ejecución mediante \emph{ScriptableObjects}.
+
+\emph{ExperienceDefinitionSO} almacenó la configuración general de la experiencia y las escenas disponibles para su ejecución individual, mientras que \emph{ExperienceSceneDefinitionSO} mantuvo la información correspondiente a cada escena.
 
 \begin{figure}[H]
     \centering
@@ -194,8 +184,14 @@ Se usó ScriptableObjects para almacenar la configuración de la experiencia y d
     \caption{Configuracion de ExperienceSceneDefinitionSO.}
 \end{figure}
 
-Cuando el usuario seleccionó una opción desde el menú, se generó un ExperienceRequest que indicó la experiencia seleccionada, la escena inicial y si debía reproducirse únicamente dicha escena o continuar con la secuencia completa. Esta estructura permitió utilizar el mismo sistema tanto para reproducir toda la experiencia como para acceder a una sección específica.
+Para la experiencia completa se utilizó un \emph{ExperienceSequenceSO}, donde se definieron los segmentos que componían la secuencia. Cada segmento guardó la escena correspondiente, con su tiempo de inicio y finalización, la transición de entrada y la configuración de precarga.
+Estos tiempos definieron los momentos de la canción en los que debían generarse los cambios entre segmentos. La secuencia se configuró de forma consecutiva y se uso una referencia temporal común para toda la experiencia. Esta separación permitió modificar el orden, duración y comportamiento temporal de los segmentos desde el editor sin alterar la lógica que estaba encargada de ejecutar los eventos de secuencia.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSequenceSO.png}
+    \caption{Configuracion de ExperienceSequenceSO.}
+\end{figure}
 
 \subsection{Preparación de escenas}
 
@@ -208,42 +204,59 @@ Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. 
 \end{figure}
 
 
-Los componentes que realizaron tareas de preparación implementaron la interfaz IExperiencePreloadable. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
+Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
+Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
 
-Una vez finalizada la preparación se emitió el evento ExperienceReady, que indicó a los sistemas de la escena que podían iniciar la música, las mecánicas y la secuencia correspondiente.
-
-\subsection{Implementación de la secuenciación audiovisual}
-La experiencia se organizó temporalmente utilizando la canción como referencia común para los cambios visuales, auditivos e interactivos. La secuenciación permitió establecer cuándo debían habilitarse o modificarse los distintos elementos durante su reproducción.
-
-
-\subsection{Definición de eventos temporizados}
-Se identificaron momentos específicos de la canción en los que debían producirse cambios dentro de la experiencia. Estos se organizaron de acuerdo con el tiempo de reproducción y el tipo de acción requerida.
-
-Los eventos se clasificaron principalmente como visuales, auditivos o interactivos. Dentro de ellos se contemplaron cambios de escena, activación de elementos, modificación de iluminación, inicio o finalización de mecánicas y transiciones.
-
-La definición previa de estos momentos permitió conservar un control autoral sobre la relación entre la música y los estímulos presentados al usuario.
-
-
-\subsection{Ejecución de la secuencia}
-Unity Timeline se utilizó como herramienta para organizar temporalmente los diferentes elementos de la secuencia. La reproducción se inició únicamente después de que la escena hubiera terminado su proceso de preparación.
-
-El SequenceDirector se encargó de iniciar la secuencia al recibir el evento ExperienceReady. A partir de ese momento se ejecutaron las activaciones y modificaciones definidas para la escena de acuerdo con el tiempo establecido.
-
-Los eventos de Timeline se integraron con los canales de eventos para permitir que una señal temporal pudiera generar respuestas en otros componentes sin requerir referencias directas entre ellos.
-
-\subsection{Integración entre escenas}
-
-La finalización de cada sección se comunicó mediante eventos al sistema encargado del flujo de la aplicación. Cuando la experiencia se ejecutó en modo completo, el sistema determinó la siguiente escena de acuerdo con el orden definido previamente en el ScriptableObject de ExperienceDefinitionSO para la experiencia completa.
+Para la activacion de los elementos de cada escena se uso un \emph{Experience Content} en donde se encontraban todos los elementos. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/EXPPunkoExperienceDefinitionSO.png}
-    \caption{Definicion de la experiencia completa mediante ExperienceDefinitionSO.}
+    \includegraphics[width=0.9\textwidth]{Assets/ExperienceContent.png}
+    \caption{Configuracion de Experience Content.}
 \end{figure}
-Cuando una sección se inició de manera individual desde el menú, la aplicación evitó continuar automáticamente hacia las siguientes escenas.
 
-Este mecanismo permitió mantener un único flujo de transición y reutilizar las mismas escenas para la reproducción completa y las pruebas individuales.
 
-\subsection{Optimización y validación técnica}
+\subsection{Administración de objetos}
+
+Los objetos que debían crearse y eliminarse repetidamente durante una escena se administraron mediante \emph{object pooling}. De esta forma se reutilizaron instancias existentes en lugar de realizar procesos frecuentes de creación y destrucción durante la ejecución.
+Este procedimiento se utilizó en sistemas como proyectiles, enemigos y segmentos reutilizables. Además, determinados objetos fueron preparados durante la etapa de carga mediante los componentes de \emph{preloading}.
+El objetivo fue trasladar operaciones de mayor costo hacia momentos controlados de preparación y reducir interrupciones durante la reproducción de la experiencia.
+
+
+\subsection{Secuenciación audiovisual y ejecución de eventos temporizados}
+Para sincronizar los elementos de la experiencia con la canción se usó un sistema de ejecución temporal basado en Unity Timeline. 
+La reproducción se realizó mediante un \emph{PlayableDirector} de Unity Timeline. \emph{ExperienceMusicClock} expuso el tiempo de ese director como referencia compartida y \emph{FullExperienceDirector} lo consultó para determinar que segmento debía permanecer activo. 
+
+Este reloj funcionó como referencia común para determinar cuándo debían producirse los eventos asociados con la experiencia.
+Durante la reproducción completa el \emph{FullExperienceDirector} consultó el reloj musical y comparó el tiempo actual con intervalos definidos en \emph{ExperienceSequenceSO}. Cuando se alcanzaba el tiempo correspondiente a un nuevo segmento, se generaba la activación de la escena entrante y desactivación de la anterior. 
+Entonces, la activación de escecnas se realizó en momentos específicos de la canción y no desde el tiempo transcurrido desde que cada escena había sido cargada. 
+
+Las transiciones visuales también se asociaron con estos límites temporales por medio de \emph{ExperienceTransitionSO}. Estas podían comenzar antes del cambio de segmento por medio de un tiempo de anticipación o o \emph{LeadTime}, manteniendo como referencia el instante musical definido para la activación de la siguiente escena. 
+Este mecanismo hizo posible usar la posición de reproducción como condición termporal y los canales de eventos como medio para comunicar las acciones que debían ejecutarse en los diferentes sistemas. 
+
+\subsection{Sincronización de elementos visuales, auditivos e interactivos}
+Además de los cambios de escena, se requirió sincronizar acciones internas de los minijuegos con momentos específicos de la canción. 
+Para ello se se usó un \emph{BeatMapSO}, en el cual se almacenaron momentos musicales relevantes y un \emph{ExperienceBeatPlayer}, encargado de compararlos con el tiempo proporcionado por el \emph{ExperienceMusicClock}.
+Cuando se alcanzaba uno de estos momentos \emph{ExperienceBeatPlayer} actuaba como productor y publicaba el evento \emph{BeatReached}. Los componentes suscritos podían consumir este evento para la ejecución de respuestas como cambios de iluminación, efectos visuales, ataques de enemigos y otras interacciones relacionadas con el ritmo. 
+De esta manera, un mismo evento temporal podía coordinar diferentes tipos de elementos sin que el productor necesitara conocer directamente los componentes que respondían a él.
+\emph{ExperienceBeatPlayer} comparó el tiempo musical con los instantes registrados en \emph{BeatMapSO} y notificó a sus suscriptores mediante el evento C\# \emph{BeatReached}. Los componentes suscritos ejecutaron las respuestas correspondientes, como los efectos visuales o las acciones de juego configuradas en cada escena.
+Por otra parte, se contemplaron saltos o retrasos en la reproducción. Cuando un beat quedaba fuera de la ventana temporal permitida, este no se ejecutaba de forma acumulada, priorizando la sincronización de los eventos con la posición actual de la canción. 
+
+
+\subsection{Ejecución completa e individual de las escenas}
+La arquitectura permitió que cada escena se pudiera ejecutar de forma individual o como parte de la experiencia completa. Cuando se ejecutaba de manera individual se generaba una solicitud para cargar y preparar únicamente la escena seleccionada. Después de completar su preparación, los eventos correspondientes habilitaban su ejecucuón. 
+Mientras que al correr la experiencia completa, el \emph{FullExperienceDirector} utilizaba los segmnetos definidos en el \emph{ExperienceSequenceSO} y el reloj musical compartido para determinar qué escena debía encontrarse activa en cada momento. 
+Entonces, en ambas modalidades se usarón los mismos mecanismos de preparación activación y comunicación mediante eventos, esto permitió reutilizar las escenas sin implementar lógicas de ejecución independientes para cada una de las escenas.
+
+
+\subsection{Finalización de la secuencia}
+La finalización de la canción se manejo como un evento dentro de la arquitectura. \emph{SequenceDirector} usó la duración de la reproducción audiovisual para determinar cuándo se había llegado al final de la experiencia. En ese momento se detenía la reproducción y actuava como productor del evento de finalización. 
+Entonces, los sistemas suscritos a este evnto podían continuar con el flujo correspondiente, incluyendo la presentación de créditos, muestra de puntaje y retorno al menú principal.
+De esta forma, la finalización temporal de la canción se transformó en un evento que podía ser consumido por otros componentes sin establecer dependencias directas entre ellos. 
+
+%-------------------------------------%
+\section{Optimización y validación técnica}
+
+\subsection{Optimización gráfica y de escena}
 Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
 
 También se optimizaron los materiales utilizados en los escenarios. Para elementos como vegetación se utilizaron materiales opacos con \emph{Alpha Clipping} en lugar de superficies transparentes, y se deshabilitaron propiedades visuales que no eran necesarias, como la recepción de sombras, los reflejos del entorno y los reflejos especulares. En objetos repetidos se habilitó \emph{GPU Instancing} para facilitar su renderizado conjunto.
@@ -255,32 +268,23 @@ Las modificaciones se realizaron de manera iterativa y se generaron nuevas compi
     \caption{Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}
 \end{figure}
 
-\subsection{Administración de objetos}
 
-Los objetos que debían crearse y eliminarse repetidamente durante una escena se administraron mediante \emph{object pooling}. De esta forma se reutilizaron instancias existentes en lugar de realizar procesos frecuentes de creación y destrucción durante la ejecución.
-
-Este procedimiento se utilizó en sistemas como proyectiles, enemigos y segmentos reutilizables. Además, determinados objetos fueron preparados durante la etapa de carga mediante los componentes de \emph{preloading}.
-
-El objetivo fue trasladar operaciones de mayor costo hacia momentos controlados de preparación y reducir interrupciones durante la reproducción de la experiencia.
-
-
-\subsection{Pruebas en el dispositivo objetivo}
+\subsection{Pruebas en los dispositivo objetivos}
 Se generaron compilaciones Android que fueron instaladas y ejecutadas directamente en los visores Meta Quest. Estas pruebas permitieron evaluar el comportamiento real de la aplicación sin depender de los recursos de la computadora utilizada durante el desarrollo.
-
 Durante las pruebas se observaron principalmente tiempos de carga, interrupciones durante la reproducción, estabilidad de las escenas y respuesta de las mecánicas. Para complementar el análisis se utilizó Android Logcat para identificar mensajes y comportamientos asociados con problemas detectados durante la ejecución.
-
+Por otra parte también se realizaron compilaciones para Windows para correr la aplicación dependiendo de los recursos de la computadora. 
 A partir de estas pruebas se realizaron ajustes progresivos en la cantidad de objetos, preparación de contenido y administración de recursos.
 
-\subsection{Validación funcional}
-La validación funcional comprobó que cada escena pudiera cargarse correctamente, iniciar sus sistemas después del proceso de preparación y ejecutar las interacciones definidas.
 
-También se verificó la continuidad entre escenas, la reproducción individual desde el menú y el funcionamiento de las mecánicas implementadas.
+\subsection{Validación funcional de la arquitectura}
+La validación funcional se orientó a comprobar tanto la comunicación dirigida por eventos como la ejecución temporal de la secuencia. Se verificó que las acciones iniciadas desde el menú generaran las solicitudes correspondientes y que estas fueran procesadas por los consumidores responsables de cargar y preparar las escenas. 
+También, se comprobó que las escenas se activaran de acuerdo con los tiempos definidos en la secuencia y que los eventos asociados con la música generaran las respuestas esperadas en los sistemas suscritos. Para la experiencia completa se verificó la continuidad entre segmentos, la correspondencia de sus cambios con la reproducción musical y el funcionamiento de los eventos relacionados con iluminación, elementos visuales e interacciones. 
+Y por último se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
 
-Posteriormente se comprobó la correspondencia temporal entre la reproducción musical y los eventos configurados para identificar desajustes antes de realizar las pruebas con participantes.
-
+%-------------------------------------%
 
 \section{Participantes y entorno de evaluación}
-Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Se planteó trabajar con aproximadamente 30 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.
+Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Participaron 35 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.
 \subsection{Participantes}
 Los participantes fueron definidos mediante un muestreo no probabilístico por conveniencia entre estudiantes inscritos en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle de Guatemala. Como criterio de inclusión se estableció que fueran mayores de edad, sin requerir experiencia previa con dispositivos de VR.
 
