@@ -85,8 +85,8 @@
       \strng{authornamehash}{6ec54de37709fc2dc095ed98ddd32cdd}
       \strng{authorfullhash}{6ec54de37709fc2dc095ed98ddd32cdd}
       \strng{authorfullhashraw}{6ec54de37709fc2dc095ed98ddd32cdd}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Diseño gráfico de una experiencia de realidad virtual aplicada a la presentación de música urbana}
@@ -114,8 +114,8 @@
       \strng{authornamehash}{7e96957b35d930044e416220d6196742}
       \strng{authorfullhash}{7e96957b35d930044e416220d6196742}
       \strng{authorfullhashraw}{7e96957b35d930044e416220d6196742}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sci Rep}
@@ -202,8 +202,8 @@
       \strng{authornamehash}{3deea6860098269fcd4fb25ef9440a2e}
       \strng{authorfullhash}{ba88abc02afa3f2ec03c84e72b51cf58}
       \strng{authorfullhashraw}{ba88abc02afa3f2ec03c84e72b51cf58}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{SIGGRAPH} Asia 2020 Posters}
@@ -244,8 +244,8 @@
       \strng{authornamehash}{63241dc2fd63c9a470cdbd623b8d8739}
       \strng{authorfullhash}{c95d37b2b21054d20552d5ef8314b6e1}
       \strng{authorfullhashraw}{c95d37b2b21054d20552d5ef8314b6e1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{MM} 2022 - Proceedings of the 30th {ACM} International Conference on Multimedia}
@@ -289,8 +289,8 @@
       \strng{authorfullhash}{9f94c3c9da6b6fe13d7f4b29d3d97fd2}
       \strng{authorfullhashraw}{9f94c3c9da6b6fe13d7f4b29d3d97fd2}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{MM} 2023 - Proceedings of the 31st {ACM} International Conference on Multimedia}
@@ -323,8 +323,8 @@
       \strng{authornamehash}{a28b31c0c86cf02c9b2c80556fd29c42}
       \strng{authorfullhash}{a28b31c0c86cf02c9b2c80556fd29c42}
       \strng{authorfullhashraw}{a28b31c0c86cf02c9b2c80556fd29c42}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{6}
@@ -357,8 +357,8 @@
       \strng{authornamehash}{e0f97e1dd00af51ef28fa31bd84b9bc9}
       \strng{authorfullhash}{e0f97e1dd00af51ef28fa31bd84b9bc9}
       \strng{authorfullhashraw}{e0f97e1dd00af51ef28fa31bd84b9bc9}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IEEE} Trans. Affect. Comput.}
@@ -400,8 +400,8 @@
       \strng{authornamehash}{d1cd2147457dab98f6fb2c934679d604}
       \strng{authorfullhash}{eabf5d19663e51b6f71b56e0481a3d3b}
       \strng{authorfullhashraw}{eabf5d19663e51b6f71b56e0481a3d3b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Human Factors in Computing Systems}
@@ -438,8 +438,8 @@
       \strng{authornamehash}{948d767f67b7f5afbe9306421e5dfa33}
       \strng{authorfullhash}{948d767f67b7f5afbe9306421e5dfa33}
       \strng{authorfullhashraw}{948d767f67b7f5afbe9306421e5dfa33}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Conference on Human Factors in Computing Systems - Proceedings}
@@ -472,8 +472,8 @@
       \strng{authornamehash}{c6a34c850cfd3a4234bedabf703200ff}
       \strng{authorfullhash}{c6a34c850cfd3a4234bedabf703200ff}
       \strng{authorfullhashraw}{c6a34c850cfd3a4234bedabf703200ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{VR-EDStream+EDA}: Immersively Visualizing and Animating Event and Data Streams and Event-Driven Architectures in Virtual Reality}
@@ -504,8 +504,8 @@
       \strng{authornamehash}{ee1be40d0c1a5fa42b2e40880a72b53f}
       \strng{authorfullhash}{ee1be40d0c1a5fa42b2e40880a72b53f}
       \strng{authorfullhashraw}{ee1be40d0c1a5fa42b2e40880a72b53f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{2006 5th {IEEE} and {ACM} International Symposium on Mixed and Augmented Reality}
@@ -533,8 +533,8 @@
       \strng{authornamehash}{d80f5cc1832b2bd2e7bab2d703d89708}
       \strng{authorfullhash}{d80f5cc1832b2bd2e7bab2d703d89708}
       \strng{authorfullhashraw}{d80f5cc1832b2bd2e7bab2d703d89708}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mugla Journal of Science and Technology}
@@ -568,8 +568,8 @@
       \strng{authornamehash}{976f7e2662367e8b78e5cb045cd466b1}
       \strng{authorfullhash}{976f7e2662367e8b78e5cb045cd466b1}
       \strng{authorfullhashraw}{976f7e2662367e8b78e5cb045cd466b1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Virtual Real}
@@ -607,8 +607,8 @@
       \strng{authornamehash}{3ff3f1f9e15c698738ce87a67fbbfa5c}
       \strng{authorfullhash}{453195d4d8b7a40b9622b24cf86e9866}
       \strng{authorfullhashraw}{453195d4d8b7a40b9622b24cf86e9866}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Marketing Science}
@@ -640,8 +640,8 @@
       \strng{authornamehash}{34d726ab34798aee5c7cfc85c49eeee7}
       \strng{authorfullhash}{34d726ab34798aee5c7cfc85c49eeee7}
       \strng{authorfullhashraw}{34d726ab34798aee5c7cfc85c49eeee7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Comunicação e Sociedade}
@@ -682,8 +682,8 @@
       \strng{authornamehash}{08a36c7bcdca06a8c3a4c4d020635b43}
       \strng{authorfullhash}{4a1fd9801ee81178e190de04538a468f}
       \strng{authorfullhashraw}{4a1fd9801ee81178e190de04538a468f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Exploring The Interplay of Narrative In Music Videos And Its Influence on Listeners' Experience}
@@ -734,8 +734,8 @@
       \strng{authornamehash}{2be49590d8e76e17a149818412400677}
       \strng{authorfullhash}{f84ae342ab9f0fa5081a4f9baad51383}
       \strng{authorfullhashraw}{f84ae342ab9f0fa5081a4f9baad51383}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{ACM} International Conference Proceeding Series}
@@ -770,8 +770,8 @@
       \strng{authornamehash}{5140a5dc8c19e4301fab563d3198d019}
       \strng{authorfullhash}{5140a5dc8c19e4301fab563d3198d019}
       \strng{authorfullhashraw}{5140a5dc8c19e4301fab563d3198d019}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Situated Play, Proceedings of {DiGRA} 2007 Conference}
@@ -801,8 +801,8 @@
       \strng{authornamehash}{ee7c7ff5f2174c84099010ad8466bd1e}
       \strng{authorfullhash}{ee7c7ff5f2174c84099010ad8466bd1e}
       \strng{authorfullhashraw}{ee7c7ff5f2174c84099010ad8466bd1e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Encyclopedia of Computer Science and Technology, Second Edition}
@@ -830,8 +830,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unity - Manual: {XR} Interaction Toolkit}
@@ -861,8 +861,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unity Engine: 2D \& 3D Development Platform | Unity}
@@ -892,8 +892,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{VR} development in Unity - Unity Manual}
@@ -922,8 +922,8 @@
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction - {C\#} language specification | Microsoft Learn}
@@ -953,8 +953,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unity - Manual: Introduction to programming in Unity}
@@ -984,8 +984,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Create modular game architecture in Unity with ScriptableObjects (Unity 6 edition)}
@@ -1014,8 +1014,8 @@
       \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
       \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
       \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Meta Quest 3S: visor de realidad virtual de última generación | Meta (es-MX)}
@@ -1045,8 +1045,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{VR} Template Quick Start Guide | {VR} | 9.2.3}
@@ -1076,8 +1076,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unity - Manual: {XR} input options}
@@ -1090,6 +1090,148 @@
       \endverb
       \verb{url}
       \verb https://docs.unity3d.com/2022.3/Documentation/Manual/xr-input-overview.html
+      \endverb
+    \endentry
+    \entry{xiang2025trellis2}{online}{}{}
+      \name{author}{11}{}{%
+        {{hash=a9fe9bd64bc186216b0cfeb98d0446aa}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fab8b21cae01705e2f181e2ae3f94a45}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xiaoxue},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3ff1f7d79501e7523497a086b2d5b634}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Sicheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=538ba946f36cc449e09b5eef8456b67f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ruicheng},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a2cbf96159afd586d7fef083ea8fb9ed}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Zelong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6d8b6548edf7f293d0d08a8a4662cd40}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a9b55c4b4ba685ca960ba85189faf745}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Hongyuan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=47ab5b4291802c7fccdc42c32571e551}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2c41978d5e3ffd4376e6b80e4affe01b}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7b148e1061a6ad9bd829d4995ba34205}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Nicholas\bibnamedelima Jing},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=164bcc366a0366eb11140af891f0d1dd}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jiaolong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc895462a2b87eba8dcfa15ab0b44168}
+      \strng{fullhash}{0c83e9497e6846ba11e967059843a97e}
+      \strng{fullhashraw}{0c83e9497e6846ba11e967059843a97e}
+      \strng{bibnamehash}{cc895462a2b87eba8dcfa15ab0b44168}
+      \strng{authorbibnamehash}{cc895462a2b87eba8dcfa15ab0b44168}
+      \strng{authornamehash}{cc895462a2b87eba8dcfa15ab0b44168}
+      \strng{authorfullhash}{0c83e9497e6846ba11e967059843a97e}
+      \strng{authorfullhashraw}{0c83e9497e6846ba11e967059843a97e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TRELLIS.2}: Native and Compact Structured Latents for 3D Generation}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://microsoft.github.io/TRELLIS.2/
+      \endverb
+      \verb{url}
+      \verb https://microsoft.github.io/TRELLIS.2/
+      \endverb
+    \endentry
+    \entry{blender2026manual}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=482982e64aebd743da9392fbc4b1f5d8}{%
+           family={{Blender}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{fullhash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{fullhashraw}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{bibnamehash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{authorbibnamehash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{authornamehash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{authorfullhash}{482982e64aebd743da9392fbc4b1f5d8}
+      \strng{authorfullhashraw}{482982e64aebd743da9392fbc4b1f5d8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acerca de {Blender} -- {Blender} 4.4 Manual}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.blender.org/manual/es/4.4/getting_started/about/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.blender.org/manual/es/4.4/getting_started/about/index.html
+      \endverb
+    \endentry
+    \entry{adobe2026mixamo}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=71f698950c9cdadc3d19bb7411177a78}{%
+           family={{Adobe}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{fullhash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{fullhashraw}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{bibnamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authorfullhashraw}{71f698950c9cdadc3d19bb7411177a78}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Mixamo}}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mixamo.com/#/
+      \endverb
+      \verb{url}
+      \verb https://www.mixamo.com/#/
       \endverb
     \endentry
     \entry{van2003gamepulse}{online}{}{}
@@ -1118,8 +1260,8 @@
       \strng{authornamehash}{c25e678f34ac1390aa26805c5fd739e0}
       \strng{authorfullhash}{98cb57d53e6b2067768d915b4242914a}
       \strng{authorfullhashraw}{98cb57d53e6b2067768d915b4242914a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Game Pulse-Timing Game Events and Music Events}
@@ -1170,8 +1312,8 @@
       \strng{authornamehash}{285643e98622aae7df83abdb517b753d}
       \strng{authorfullhash}{78e43e8ae770284bfa10f531cd38107b}
       \strng{authorfullhashraw}{78e43e8ae770284bfa10f531cd38107b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{GameSys} 2022 - Proceedings of the 2022 Game Systems Workshop, Part of {MMSys} 2022}
@@ -1200,8 +1342,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Timeline overview - Unity Manual}
@@ -1231,8 +1373,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Class {SignalEmitter} | Timeline | 1.6.5}
@@ -1273,8 +1415,8 @@
       \strng{authornamehash}{f1ecd39842cf4a161aaf5f596b288e12}
       \strng{authorfullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
       \strng{authorfullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{ACM} Computing Surveys}
@@ -1304,8 +1446,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{10}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Utilice objetos {ScriptableObjects} como canales de eventos en su código | Unity}
@@ -1334,8 +1476,8 @@
       \strng{authornamehash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhashraw}{ec132f50e38173eb74a3d2b9a342734f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{About us | KoboToolbox}
@@ -1376,8 +1518,8 @@
       \strng{authornamehash}{8ceab5b9de4bb2ef491ea44cdf5c1b77}
       \strng{authorfullhash}{e9131b7b3308683e2e930abdbd84ec79}
       \strng{authorfullhashraw}{e9131b7b3308683e2e930abdbd84ec79}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Presence: Teleoperators and Virtual Environments}
