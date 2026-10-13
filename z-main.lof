@@ -7,25 +7,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Construcción escena de Alex.}}{24}{figure.caption.65}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Construcción de escena de Joaquin.}}{24}{figure.caption.66}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Construcción de escena de Danniel.}}{25}{figure.caption.67}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Sistema XR persistente utilizado para la locomocion.}}{27}{figure.caption.72}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Configuracion de ExperienceSceneDefinitionSO.}}{27}{figure.caption.74}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Configuracion de ExperienceSequenceSO.}}{29}{figure.caption.75}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Configuracion de ExperienceSceneBootstrap.}}{30}{figure.caption.77}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Configuracion de Experience Content.}}{31}{figure.caption.78}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{33}{figure.caption.86}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Construcción escena de Alex.}}{24}{figure.caption.70}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Construcción de escena de Joaquin.}}{24}{figure.caption.71}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Construcción de escena de Danniel.}}{25}{figure.caption.72}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sistema XR persistente utilizado para la locomocion.}}{27}{figure.caption.77}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Configuracion de ExperienceSceneDefinitionSO.}}{27}{figure.caption.79}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Configuracion de ExperienceSequenceSO.}}{29}{figure.caption.80}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Configuracion de ExperienceSceneBootstrap.}}{30}{figure.caption.82}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Configuracion de Experience Content.}}{31}{figure.caption.83}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{33}{figure.caption.91}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces Perfil descriptivo de presencia.}}{38}{figure.caption.103}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10}{\ignorespaces Perfil descriptivo de presencia.}}{38}{figure.caption.108}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{55}{figure.caption.120}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{56}{figure.caption.121}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{57}{figure.caption.122}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{58}{figure.caption.123}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{59}{figure.caption.124}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{60}{figure.caption.125}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{55}{figure.caption.125}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{56}{figure.caption.126}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{57}{figure.caption.127}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{58}{figure.caption.128}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{59}{figure.caption.129}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{60}{figure.caption.130}%

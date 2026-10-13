@@ -2465,12 +2465,16 @@
     <bcf:citekey order="66" intorder="1">berkman2021igroup</bcf:citekey>
     <bcf:citekey order="66" intorder="2">castro2026immersive</bcf:citekey>
     <bcf:citekey order="67" intorder="1">kobo</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">metaquest</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">schubert2001experience</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">python</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">pandas</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">metaquest</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">schubert2001experience</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

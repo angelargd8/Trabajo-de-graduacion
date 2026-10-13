@@ -1492,6 +1492,126 @@
       \verb https://www.kobotoolbox.org/about-us/
       \endverb
     \endentry
+    \entry{python}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a52b04e2fd0c79e52b51ad44a36a79e0}{%
+           family={{The Python Software Foundation}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{fullhash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{fullhashraw}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{bibnamehash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{authorbibnamehash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{authornamehash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{authorfullhash}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \strng{authorfullhashraw}{a52b04e2fd0c79e52b51ad44a36a79e0}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applications for {Python} | {Python}.org}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.python.org/about/apps/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/about/apps/
+      \endverb
+    \endentry
+    \entry{numpy}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b7f04667ad78acf93575d494dc5998}{%
+           family={{NumPy team}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{fullhash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{fullhashraw}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{bibnamehash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{authorbibnamehash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{authornamehash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{authorfullhash}{a4b7f04667ad78acf93575d494dc5998}
+      \strng{authorfullhashraw}{a4b7f04667ad78acf93575d494dc5998}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{NumPy} -- About Us}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://numpy.org/about/
+      \endverb
+      \verb{url}
+      \verb https://numpy.org/about/
+      \endverb
+    \endentry
+    \entry{pandas}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=379976b21a664a31ab723355ac196d1b}{%
+           family={{NumFOCUS, Inc.}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{379976b21a664a31ab723355ac196d1b}
+      \strng{fullhash}{379976b21a664a31ab723355ac196d1b}
+      \strng{fullhashraw}{379976b21a664a31ab723355ac196d1b}
+      \strng{bibnamehash}{379976b21a664a31ab723355ac196d1b}
+      \strng{authorbibnamehash}{379976b21a664a31ab723355ac196d1b}
+      \strng{authornamehash}{379976b21a664a31ab723355ac196d1b}
+      \strng{authorfullhash}{379976b21a664a31ab723355ac196d1b}
+      \strng{authorfullhashraw}{379976b21a664a31ab723355ac196d1b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{pandas -- {Python} Data Analysis Library}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/about/
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/about/
+      \endverb
+    \endentry
+    \entry{matplotlib}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f50509d4949333823cd79aa390103ba}{%
+           family={{The Matplotlib development team}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f50509d4949333823cd79aa390103ba}
+      \strng{fullhash}{3f50509d4949333823cd79aa390103ba}
+      \strng{fullhashraw}{3f50509d4949333823cd79aa390103ba}
+      \strng{bibnamehash}{3f50509d4949333823cd79aa390103ba}
+      \strng{authorbibnamehash}{3f50509d4949333823cd79aa390103ba}
+      \strng{authornamehash}{3f50509d4949333823cd79aa390103ba}
+      \strng{authorfullhash}{3f50509d4949333823cd79aa390103ba}
+      \strng{authorfullhashraw}{3f50509d4949333823cd79aa390103ba}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Matplotlib} -- Visualization with {Python}}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb https://matplotlib.org/
+      \endverb
+    \endentry
     \entry{schubert2001experience}{article}{}{}
       \name{author}{3}{}{%
         {{hash=6762005e6ce2d5a91469c4b690d48ab6}{%
