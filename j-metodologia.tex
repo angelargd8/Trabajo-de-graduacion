@@ -8,43 +8,6 @@ La propuesta general tomó como punto de partida la temática de la canción, re
 Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de Realidad Virtual (VR por sus siglas en inglés). A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
 
 
-% \subsection{Análisis de la obra musical}
-% A partir de la temática, se identificaron secciones y momentos relevantes que sirvieron como referencia para dividir la experiencia y establecer cambios de escenas, elementos visuales e interaccion.
-
-% \begin{table}[H]
-% \centering
-% \caption{Análisis de la estructura de la canción y su relación con la experiencia VR.}
-% \label{tab:estructura_cancion}
-
-% \small
-% \begin{tabular}{@{}p{1.8cm} p{2.1cm} p{3.2cm} p{2.5cm} p{3.2cm}@{}}
-% \hline
-% \textbf{Integrante} &
-% \textbf{Intención narrativa o visual} &
-% \textbf{Mecánica} &
-% \textbf{Eventos principales} \\
-% \hline
-
-% Alex &
-% Representación visual asociada con su sección de la canción. &
-% Pegarle a calabazas con martillos al enemigo. &
-% Aparición de calabazas y dinero, activación del minijuego y transición. \\
-
-% Danniel &
-% Sección orientada a una experiencia de mayor acción durante el recorrido. &
-% Disparos contra objetivos. &
-% Inicio del recorrido, aparición de enemigos y transición de escena. \\
-
-% Joaquín &
-% Representación de una situación de enfrentamiento asociada con su sección. &
-% Combate mediante guitarra. &
-% Aparición de enemigos, activación del combate y finalización de la sección. \\
-
-% \hline
-% \end{tabular}
-% \end{table}
-
-
 \subsection{Diseño de la experiencia interactiva}
 Las propuestas conceptuales se transformaron en mecánicas de interacción que pudieran ejecutarse mediante los controles de VR. Cada sección se diseñó como un minijuego asociado con uno de los miembros de la banda y con una identidad visual propia. 
 Las mecánicas conceptuales definidas fueron: 
@@ -55,7 +18,7 @@ Las mecánicas conceptuales definidas fueron:
 
 - Alex: una experiencia inspirada en Halloween en la que el usuario debe de regresarle a calabazas y dinero que le tira el enemigo. 
 
-De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo técnico en VR.  
+De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo artístico y técnico en VR.  
 %-------------------------------------%
 
 \section{Selección de herramientas y recursos}
@@ -93,7 +56,7 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity contó con las sigu
 
 - Procesador: Intel Core i9-149000HX
 
-- Memoria RAM:64 GB
+- Memoria RAM: 64 GB
 
 - GPU: Nvidia GeForce RTX 4060
 
@@ -128,6 +91,37 @@ Las escenas se organizaron de manera que pudieran ejecutarse  tanto como parte d
 \end{figure}
 
 
+\subsection{Creación de personajes tridimencionales}
+Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimencionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
+Inicualmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/Trellis2Alex.jpeg}
+    \caption{Modelo generado por TRELLIS.2}
+\end{figure}
+
+Luego, los modelos obtenidos se editaron y mejoraron en Blender, realizando ajustes en sus geometrías, materiales y características visuales para mantener la estética propuesta de cada integrante. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/blenderAlex.jpeg}
+    \caption{Modelo modificado en Blender}
+\end{figure}
+
+Ya al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/riggingAlex.jpeg}
+    \caption{Modelo en Mixamo al realizar el Auto \emph{Rigging}}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/UnityAlex.jpeg}
+    \caption{Modelo en Unity con animaciones}
+\end{figure}
 
 
 \subsection{Implementacion de escenas}
@@ -140,6 +134,8 @@ Las interacciones particulares de cada seccion se mantuvieron independientes ent
 Al tener las escenas individuales creadas. Se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. Para lograrlo se usó esta arquitectura junto a un sistema de secuenciación temporal controlado con Unity Timeline.
 La arquitectura tuvo como objetivo reducir las dependencias directas entre los componentes del menú, carga de escenas, transiciones, reproducción musical y mécanicas particulares de cada minijuego. De esta forma, cada sistema pudo mantener una responsabilidad específica y comunicarse con los demás componentes por medio de eventos y estructuras de configuración compartidas.
 La solución se dividió en cuatro componentes principales: el control de flujo general de la aplicación, los canales de eventos, la configuración de experiencias por \emph{ScriptableObjects} y el sistema de secuenciación audiovisual.
+
+
 
 
 \subsection{Arquitectura general}
