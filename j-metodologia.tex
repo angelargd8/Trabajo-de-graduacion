@@ -19,7 +19,7 @@ Las mecánicas conceptuales definidas fueron:
 - Alex: una experiencia inspirada en Halloween en la que el usuario debe de regresarle a calabazas y dinero que le tira el enemigo. 
 
 De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base creativa para definir la identidad visual y conceptual de las escenas antes de iniciar su desarrollo artístico y técnico en VR.  
-%-------------------------------------%
+%----------------------------------------------------------------------------------------------------------------%
 
 \section{Selección de herramientas y recursos}
 Después de definir la experiencia se seleccionaron las herramientas necesarias para su implementación. La elección considero el desarrollo de aplicaciones VR, la programación de interacciones, la creación y modificación de recursos tridimencionales y la ejecución autónoma de la experiencia en los visores de Meta Quest.
@@ -58,7 +58,7 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity y Meta Horizon Link
 
 - GPU: Nvidia GeForce RTX 4060
 
-%-------------------------------------%
+%---------------------------------------------------------------------------------------------------------------%
 
 \section{Desarrollo del videojuego base}
 Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las esccenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
@@ -126,7 +126,7 @@ Ya al tener los modelos modificados, se exportaron a Mixamo para incorporarles u
 Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuario se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
 Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
 
-%---------------------------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------------------------%
 
 \section{Implementación de la Arquitectura Dirigida por Eventos}
 Al tener las escenas individuales desarrolladas se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. 
@@ -135,7 +135,6 @@ Esta organización tenía como proposito reducir las dependencias directas entre
 
 %%
 \subsection{Organización general de sistema}
-
 
 La comunicación se estructuró en tres ámbitos de responsabilidad. \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
 \emph{ExperienceCore} contuvo los servicios musicales compartidos mientras estuvo activa una experiencia. Las escenas de cada minijuego mantuvieron su contenido y sus diferentes sistemas de interacción.  Mientras que el control de flujo decidió qué debía de cargarse y prepararse, los servicios musicales proporcionaron la reproducción y la referencia temporal, y los sistemas locales ejecutaron las acciones de cada escena. Esta distribución lo que permitió fue separar las responsabilidades globales de las respuestas específicas de cada minijuego.
@@ -172,6 +171,12 @@ La escena también alojó \emph{MetricsSystem}, que registrí datos de interacci
 
 %%
 \subsection{Comunicación, configuración y preparación}
+La comunicación se estructuró por medio de componentes productores y consumidores con responsabilidades definidas. 
+Cuando el usuario seleccionó una experiencia con \emph{ExperienceLaunchButton} generó los datos de una \emph{ExperienceRequest} y los publicó por un canal de tipo \emph{ExperienceChannelSO}.
+\emph{SceneFlowManager} recivió esa solicitud, comprobó su configuración y coordinó el flujo de carga y preparación. 
+Otros canales compartidos comunicaron el inicio global, la activación de segmentos y el cierre. El sistema musical usó eventos de C\#, entre ellos BeatReached.
+Esto con el fin que los productores notificaran acciones sin contener la implementación de todas sus respuestas y distinguir los datos del mensaje del mecanismo que lo emitió. 
+
 %%%
 \subsubsection{Comunicación por eventos y control de flujo}
 %%
@@ -225,9 +230,6 @@ Para la activacion de los elementos de cada escena se uso un \emph{Experience Co
 
 %%
 \subsubsection{Reutilización y precarga de recursos}
-Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
-Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
-
 
 
 %%
@@ -289,7 +291,7 @@ Entonces, los sistemas suscritos a este evnto podían continuar con el flujo cor
 De esta forma, la finalización temporal de la canción se transformó en un evento que podía ser consumido por otros componentes sin establecer dependencias directas entre ellos. 
 
 
-%------------------------------------------%
+%----------------------------------------------------------------------------------------------------------%
 \section{Optimización y validación técnica}
 
 \subsection{Optimización gráfica y de escena}
@@ -318,7 +320,7 @@ También, se comprobó que las escenas se activaran de acuerdo con los tiempos d
 Y por último se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
 
 
-%-------------------------------------%
+%------------------------------------------------------------------------------------------------------%
 
 \section{Participantes y entorno de evaluación}
 Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Participaron 39 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.

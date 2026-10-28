@@ -73,36 +73,36 @@
 \contentsline {subsubsection}{Bootstrap y servicios generales}{28}{section*.84}%
 \contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{28}{section*.86}%
 \contentsline {subsection}{\numberline {7.4.2}Comunicación, configuración y preparación}{29}{subsection*.88}%
-\contentsline {subsubsection}{Comunicación por eventos y control de flujo}{29}{section*.89}%
-\contentsline {subsubsection}{Configuración de experiencias y segmentos}{29}{section*.90}%
+\contentsline {subsubsection}{Comunicación por eventos y control de flujo}{30}{section*.89}%
+\contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.90}%
 \contentsline {subsection}{\numberline {7.4.3}Preparación de escenas}{32}{subsection*.93}%
 \contentsline {subsubsection}{Preparación de escenas y administración de recursos}{32}{section*.94}%
 \contentsline {subsubsection}{Preparación y activación de contenido}{32}{section*.95}%
 \contentsline {subsubsection}{Reutilización y precarga de recursos}{33}{section*.98}%
-\contentsline {subsection}{\numberline {7.4.4}Inicio y coordinación con la canción}{34}{subsection*.99}%
-\contentsline {subsubsection}{Inicio de la experiencia y modalidades de ejecución}{34}{section*.100}%
-\contentsline {subsubsection}{Reloj musical, selección de segmentos y transiciones}{34}{section*.101}%
-\contentsline {subsubsection}{Referencia temporal y seleccion del segmento}{34}{section*.102}%
-\contentsline {subsubsection}{Transiciones y tiempos de anticipacion}{34}{section*.103}%
-\contentsline {subsection}{\numberline {7.4.5}BeatMap, respuestas y cierre}{34}{subsection*.104}%
-\contentsline {subsubsection}{Generación y preparación del BeatMap}{34}{section*.105}%
-\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{34}{section*.106}%
-\contentsline {subsubsection}{Finalización de la canción y cierre de la experiencia}{34}{section*.107}%
-\contentsline {section}{\numberline {7.5}SIN ORDENAR AUN}{34}{section*.108}%
-\contentsline {subsection}{\numberline {7.5.1}Secuenciación audiovisual y ejecución de eventos temporizados}{34}{subsection*.109}%
-\contentsline {subsection}{\numberline {7.5.2}Sincronización de elementos visuales, auditivos e interactivos}{35}{subsection*.110}%
-\contentsline {subsection}{\numberline {7.5.3}Ejecución completa e individual de las escenas}{35}{subsection*.111}%
+\contentsline {subsection}{\numberline {7.4.4}Inicio y coordinación con la canción}{33}{subsection*.99}%
+\contentsline {subsubsection}{Inicio de la experiencia y modalidades de ejecución}{33}{section*.100}%
+\contentsline {subsubsection}{Reloj musical, selección de segmentos y transiciones}{33}{section*.101}%
+\contentsline {subsubsection}{Referencia temporal y seleccion del segmento}{33}{section*.102}%
+\contentsline {subsubsection}{Transiciones y tiempos de anticipacion}{33}{section*.103}%
+\contentsline {subsection}{\numberline {7.4.5}BeatMap, respuestas y cierre}{33}{subsection*.104}%
+\contentsline {subsubsection}{Generación y preparación del BeatMap}{33}{section*.105}%
+\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{33}{section*.106}%
+\contentsline {subsubsection}{Finalización de la canción y cierre de la experiencia}{33}{section*.107}%
+\contentsline {section}{\numberline {7.5}SIN ORDENAR AUN}{33}{section*.108}%
+\contentsline {subsection}{\numberline {7.5.1}Secuenciación audiovisual y ejecución de eventos temporizados}{33}{subsection*.109}%
+\contentsline {subsection}{\numberline {7.5.2}Sincronización de elementos visuales, auditivos e interactivos}{34}{subsection*.110}%
+\contentsline {subsection}{\numberline {7.5.3}Ejecución completa e individual de las escenas}{34}{subsection*.111}%
 \contentsline {subsection}{\numberline {7.5.4}Finalización de la secuencia}{35}{subsection*.112}%
-\contentsline {section}{\numberline {7.6}Optimización y validación técnica}{36}{section*.113}%
-\contentsline {subsection}{\numberline {7.6.1}Optimización gráfica y de escena}{36}{subsection*.114}%
-\contentsline {subsection}{\numberline {7.6.2}Pruebas en los dispositivo objetivos}{37}{subsection*.116}%
-\contentsline {subsection}{\numberline {7.6.3}Validación funcional de la arquitectura}{37}{subsection*.117}%
+\contentsline {section}{\numberline {7.6}Optimización y validación técnica}{35}{section*.113}%
+\contentsline {subsection}{\numberline {7.6.1}Optimización gráfica y de escena}{35}{subsection*.114}%
+\contentsline {subsection}{\numberline {7.6.2}Pruebas en los dispositivo objetivos}{36}{subsection*.116}%
+\contentsline {subsection}{\numberline {7.6.3}Validación funcional de la arquitectura}{36}{subsection*.117}%
 \contentsline {section}{\numberline {7.7}Participantes y entorno de evaluación}{37}{section*.118}%
 \contentsline {subsection}{\numberline {7.7.1}Participantes}{37}{subsection*.119}%
-\contentsline {subsection}{\numberline {7.7.2}Entorno de evaluación}{38}{subsection*.120}%
+\contentsline {subsection}{\numberline {7.7.2}Entorno de evaluación}{37}{subsection*.120}%
 \contentsline {subsection}{\numberline {7.7.3}Entorno de evaluación}{38}{subsection*.122}%
-\contentsline {section}{\numberline {7.8}Aplicación del I-Group Presence Questionnaire}{39}{section*.123}%
-\contentsline {subsection}{\numberline {7.8.1}Digitalización del instrumento}{39}{subsection*.124}%
+\contentsline {section}{\numberline {7.8}Aplicación del I-Group Presence Questionnaire}{38}{section*.123}%
+\contentsline {subsection}{\numberline {7.8.1}Digitalización del instrumento}{38}{subsection*.124}%
 \contentsline {subsection}{\numberline {7.8.2}Procedimiento}{39}{subsection*.125}%
 \contentsline {subsection}{\numberline {7.8.3}Análisis de resultados}{39}{subsection*.126}%
 \contentsline {subsection}{\numberline {7.8.4}Análisis descriptivo}{39}{subsection*.127}%

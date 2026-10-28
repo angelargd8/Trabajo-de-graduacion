@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  28 OCT 2026 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  28 OCT 2026 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,27 +1188,24 @@ Underfull \vbox (badness 1577) has occurred while \output is active []
 <Assets/Bootstrap.png, id=955, 221.82875pt x 272.51813pt>
 File: Assets/Bootstrap.png Graphic file (type png)
 <use Assets/Bootstrap.png>
-Package pdftex.def Info: Assets/Bootstrap.png  used on input line 155.
+Package pdftex.def Info: Assets/Bootstrap.png  used on input line 154.
 (pdftex.def)             Requested size: 173.44534pt x 213.07474pt.
  [28 <./Assets/Bootstrap.png>]
 <Assets/ExperienceCore.png, id=963, 211.28937pt x 388.45125pt>
 File: Assets/ExperienceCore.png Graphic file (type png)
 <use Assets/ExperienceCore.png>
-Package pdftex.def Info: Assets/ExperienceCore.png  used on input line 169.
+Package pdftex.def Info: Assets/ExperienceCore.png  used on input line 168.
 (pdftex.def)             Requested size: 173.44534pt x 318.88177pt.
-<Assets/ExperienceSceneDefinitionSO.png, id=964, 661.47125pt x 205.26688pt>
+ [29 <./Assets/ExperienceCore.png>]
+<Assets/ExperienceSceneDefinitionSO.png, id=969, 661.47125pt x 205.26688pt>
 File: Assets/ExperienceSceneDefinitionSO.png Graphic file (type png)
 <use Assets/ExperienceSceneDefinitionSO.png>
-Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 184.
+Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 189.
 (pdftex.def)             Requested size: 390.25536pt x 121.10326pt.
-
-Underfull \vbox (badness 3758) has occurred while \output is active []
-
- [29 <./Assets/ExperienceCore.png>]
-<Assets/ExperienceSequenceSO.png, id=972, 355.3275pt x 534.99875pt>
+<Assets/ExperienceSequenceSO.png, id=970, 355.3275pt x 534.99875pt>
 File: Assets/ExperienceSequenceSO.png Graphic file (type png)
 <use Assets/ExperienceSequenceSO.png>
-Package pdftex.def Info: Assets/ExperienceSequenceSO.png  used on input line 193.
+Package pdftex.def Info: Assets/ExperienceSequenceSO.png  used on input line 198.
 (pdftex.def)             Requested size: 390.25536pt x 587.61063pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1220,39 +1217,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Assets/ExperienceSceneBootstrap.png, id=983, 606.76688pt x 542.025pt>
 File: Assets/ExperienceSceneBootstrap.png Graphic file (type png)
 <use Assets/ExperienceSceneBootstrap.png>
-Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 213.
+Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 218.
 (pdftex.def)             Requested size: 390.25536pt x 348.62337pt.
 <Assets/ExperienceContent.png, id=984, 619.31375pt x 212.795pt>
 File: Assets/ExperienceContent.png Graphic file (type png)
 <use Assets/ExperienceContent.png>
-Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 220.
+Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 225.
 (pdftex.def)             Requested size: 390.25536pt x 134.09726pt.
- [32 <./Assets/ExperienceSceneBootstrap.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./Assets/ExperienceContent.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 6792) has occurred while \output is active []
-
- [35]
-<Assets/MatExampleOptimizacion.png, id=1014, 460.72125pt x 687.06688pt>
+ [32 <./Assets/ExperienceSceneBootstrap.png>] [33 <./Assets/ExperienceContent.png>] [34]
+<Assets/MatExampleOptimizacion.png, id=1010, 460.72125pt x 687.06688pt>
 File: Assets/MatExampleOptimizacion.png Graphic file (type png)
 <use Assets/MatExampleOptimizacion.png>
-Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 303.
+Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 305.
 (pdftex.def)             Requested size: 216.81pt x 323.31985pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./Assets/MatExampleOptimizacion.png>] [37]
-<Assets/pruebasAnalisisCognitivo.png, id=1024, 4015.0pt x 3011.25pt>
+ [35] [36 <./Assets/MatExampleOptimizacion.png>]
+<Assets/pruebasAnalisisCognitivo.png, id=1020, 4015.0pt x 3011.25pt>
 File: Assets/pruebasAnalisisCognitivo.png Graphic file (type png)
 <use Assets/pruebasAnalisisCognitivo.png>
-Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line 341.
+Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line 343.
 (pdftex.def)             Requested size: 216.81pt x 162.56372pt.
-
-Underfull \vbox (badness 3646) has occurred while \output is active []
+ [37]
+Underfull \vbox (badness 6995) has occurred while \output is active []
 
  [38 <./Assets/pruebasAnalisisCognitivo.png>]) [39] (j-capitulos.tex [40
 
@@ -1466,7 +1454,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,18n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on z-main.pdf (90 pages, 27893432 bytes).
+Output written on z-main.pdf (90 pages, 27893678 bytes).
 PDF statistics:
  2071 PDF objects out of 2073 (max. 8388607)
  295 named destinations out of 1000 (max. 500000)
