@@ -1,4 +1,4 @@
-%
+% - Metodologia -
 \section{Conceptualización y diseño de la experiencia}
 La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. Para ello se tomó como punto de partida la canción y las propuestas creativas de los integrantes de Los Skeepers: Alex, Joaquín, Shipi, Juan Andrés, Danniel  y Jeremy. Quienes definieron la estética y las mecánicas de juego que deseaban incluir en la experiencia.
 
@@ -33,9 +33,7 @@ C\# se utilizó como lenguaje de programación para implementar las mecánicas, 
 
 \subsection{Tecnologías utilizadas y entorno de ejecución}
 
-Las pruebas de funcionamiento se realizaron durante el desarrollo conectado con Unity como mediantes compilaciones Android instaladas y ejecutadas directamente en los visores. Para la validación del rendimiento se priorizó la ejecución autónoma, debido a que este representó las condiciones reales de funcionamiento de la aplicación.
-Esto es debido a que al correrlo con la conexión a Unity mediante Quest Link, este corre desde las caracteristicas de la computadora. 
-
+Las pruebas de funcionamiento se realizaron durante el desarrollo conectado con Unity por medio de una versión para escritorio para Windows (EXE), ejecutada en una computadora y visualizada en el visor por Meta Horizon Link. También, se realizaron compilaciones Android (APK) instaladas directamente en los visores. Para la validación del rendimiento se priorizo la de Android ya que trabaja con recursos de hardware más limitados. 
 Acerca del software se utilizó Unity 6.3 LTS.
 
 
@@ -52,7 +50,7 @@ Mientras que los visores Meta Quest 3s:
 Este dispositivo cuenta con seguimiento de controladores y manos, tecnología háptica y audio espacial 3D integrado. \cite{metaquest}
 
 
-Y el equipo utilizado para el desarrollo de pruebas en Unity contó con las siguientes caracteristicas: 
+Y el equipo utilizado para el desarrollo de pruebas en Unity y Meta Horizon Link contó con las siguientes caracteristicas: 
 
 - Procesador: Intel Core i9-149000HX
 
@@ -93,7 +91,7 @@ Las escenas se organizaron de manera que pudieran ejecutarse  tanto como parte d
 
 \subsection{Creación de personajes tridimencionales}
 Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimencionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
-Inicualmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales. 
+Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales. 
 
 \begin{figure}[H]
     \centering
@@ -131,11 +129,11 @@ Las interacciones particulares de cada seccion se mantuvieron independientes ent
 %-------------------------------------%
 
 \section{Implementación de la Arquitectura Dirigida por Eventos}
+El diseño de la arquitectura respondió a cuatro necesidades: coordinar los minijuegos con una misma reproducción musical, preparar escenas antes de su activación, conservar los servicios compartidos, organizar el inicio y cierre de la experiencia. Se utilizaron eventos para comunicar solicitudes y cambios de estado entre los sistemas responsables. Además, se usó un reloj musical común para determinar el segmento correspondiente a cada momento. Esta distribución buscó reducir dependencias directas y mantener separadas la comunicación, configuración y ejecución temporal.
+
 Al tener las escenas individuales creadas. Se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. Para lograrlo se usó esta arquitectura junto a un sistema de secuenciación temporal controlado con Unity Timeline.
 La arquitectura tuvo como objetivo reducir las dependencias directas entre los componentes del menú, carga de escenas, transiciones, reproducción musical y mécanicas particulares de cada minijuego. De esta forma, cada sistema pudo mantener una responsabilidad específica y comunicarse con los demás componentes por medio de eventos y estructuras de configuración compartidas.
 La solución se dividió en cuatro componentes principales: el control de flujo general de la aplicación, los canales de eventos, la configuración de experiencias por \emph{ScriptableObjects} y el sistema de secuenciación audiovisual.
-
-
 
 
 \subsection{Arquitectura general}
@@ -277,32 +275,39 @@ La validación funcional se orientó a comprobar tanto la comunicación dirigida
 También, se comprobó que las escenas se activaran de acuerdo con los tiempos definidos en la secuencia y que los eventos asociados con la música generaran las respuestas esperadas en los sistemas suscritos. Para la experiencia completa se verificó la continuidad entre segmentos, la correspondencia de sus cambios con la reproducción musical y el funcionamiento de los eventos relacionados con iluminación, elementos visuales e interacciones. 
 Y por último se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
 
+
 %-------------------------------------%
 
 \section{Participantes y entorno de evaluación}
-Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Participaron 35 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.
+Para la evaluación de la experiencia se definió un estudio aplicado, de enfoque cuantitativo y alcance descriptivo. Participaron 39 participantes mayores de edad, con o sin experiencia previa en VR, bajo condiciones similares de ejecución y utilizando el mismo procedimiento de interacción y evaluación.
 \subsection{Participantes}
-Los participantes fueron definidos mediante un muestreo no probabilístico por conveniencia entre estudiantes inscritos en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle de Guatemala. Como criterio de inclusión se estableció que fueran mayores de edad, sin requerir experiencia previa con dispositivos de VR.
+Los participantes fueron definidos mediante un muestreo no probabilístico por conveniencia entre estudiantes inscritos en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle de Guatemala y los integrantes de los Skeepers. Como criterio de inclusión se estableció que fueran mayores de edad, sin requerir experiencia previa con dispositivos de VR.
 
 La actividad se planteó dentro del contexto académico del curso; sin embargo, el uso de las respuestas para fines de investigación se condicionó a la aceptación de un consentimiento informado. Los estudiantes que no autorizaran el uso de sus datos podrían realizar la actividad académica sin que sus respuestas fueran incorporadas al análisis de la investigación.
 
 
 \subsection{Entorno de evaluación}
 
-Las sesiones se planificaron en un espacio físico despejado y supervisado dentro de la Universidad del Valle de Guatemala. Cada participante utilizaría un visor Meta Quest para experimentar el prototipo desarrollado en Unity y posteriormente respondería el IPQ mediante un formulario implementado en KoboToolbox.
+Las sesiones se planificaron en un espacio físico despejado y supervisado dentro de la Universidad del Valle de Guatemala. Cada participante usó un visor Meta Quest para experimentar el prototipo desarrollado en Unity y posteriormente respondió el formulario I-Group Presence Questionnaire (IPQ por sus siglas en inglés) en KoboToolbox.
 
-Se estimó una duración de entre 10 y 20 minutos por sesión. Antes de comenzar se proporcionarían instrucciones sobre el funcionamiento de los controles y el procedimiento de la prueba.
+Se estimó una duración de entre 10 y 15 minutos por sesión. Antes de comenzar se proporcionarían instrucciones sobre el funcionamiento de los controles y el procedimiento de la prueba.
 
 Debido al uso de VR, se consideraron como posibles riesgos el mareo, la desorientación y la fatiga visual temporal. Para reducirlos se estableció la posibilidad de realizar pausas o finalizar inmediatamente la experiencia. En caso de presentar síntomas, se retiraría el visor y el participante permanecería en un área tranquila hasta sentirse recuperado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Assets/pruebasAnalisisCognitivo.png}
+    \caption{Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }
+\end{figure}
 
 \subsection{Entorno de evaluación}
 No se planificó recopilar nombres u otros identificadores directos. Las respuestas se asociarían con códigos y se almacenarían en KoboToolbox mediante una cuenta protegida por contraseña.
 
-El acceso a los datos se limitó a la investigadora y su asesora. La información se conservaría durante un año después de finalizar la investigación y posteriormente sería eliminada. El consentimiento informado se incorporaría como parte del proceso previo a la participación.
+El acceso a los datos se limitó a los investigadores y su asesora. La información se conservaría durante un año después de finalizar la investigación y posteriormente sería eliminada. El consentimiento informado se incorporaría como parte del proceso previo a la participación.
+
 
 \section{Aplicación del I-Group Presence Questionnaire}
-Después de la interacción con el entorno virtual se utilizaría el I-Group Presence Questionnaire (IPQ por sus siglas en inglés) para recopilar información sobre la percepción subjetiva de presencia. El instrumento se aplicaría inmediatamente después de finalizar la experiencia para conservar una valoración reciente de la interacción realizada.
-
+Después de la interacción con el entorno virtual se usó el IPQ para recopilar información sobre la percepción subjetiva de presencia. El instrumento se aplicaría inmediatamente después de finalizar la experiencia para conservar una valoración reciente de la interacción realizada.
 
 \subsection{Digitalización del instrumento}
 El IPQ se implementó mediante un formulario digital en KoboToolbox. Se conservaron los ítems y escalas correspondientes al instrumento utilizado \cite{castro2026immersive}.

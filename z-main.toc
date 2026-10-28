@@ -25,83 +25,86 @@
 \contentsline {subsection}{\numberline {6.2.3}C\#}{13}{subsection*.29}%
 \contentsline {subsection}{\numberline {6.2.4}ScriptableObjects}{13}{subsection*.30}%
 \contentsline {subsection}{\numberline {6.2.5}Meta Quest 3S}{14}{subsection*.31}%
-\contentsline {subsection}{\numberline {6.2.6}Plantilla de realidad virtual y escena de muestra de Unity}{14}{subsection*.32}%
-\contentsline {subsection}{\numberline {6.2.7}XR Origin e interacción mediante controladores de movimiento}{14}{subsection*.33}%
-\contentsline {subsection}{\numberline {6.2.8}Creación y animación de personajes tridimencionales}{14}{subsection*.34}%
-\contentsline {subsubsection}{TRELLIS.2}{15}{section*.35}%
-\contentsline {subsubsection}{Blender}{15}{section*.36}%
-\contentsline {subsubsection}{Mixamo}{15}{section*.37}%
-\contentsline {section}{\numberline {6.3}Secuenciación audiovisual en Unity}{15}{section*.38}%
-\contentsline {subsection}{\numberline {6.3.1}Sincronización entre música y elementos audiovisuales}{15}{subsection*.39}%
-\contentsline {subsection}{\numberline {6.3.2}Eventos temporizados}{16}{subsection*.40}%
-\contentsline {subsection}{\numberline {6.3.3}Eventos visuales, auditivos e interactivos}{16}{subsection*.41}%
-\contentsline {subsection}{\numberline {6.3.4}Timeline, pistas, clips, señales e integración con eventos}{16}{subsection*.42}%
-\contentsline {section}{\numberline {6.4}Arquitectura basada en eventos}{16}{section*.43}%
-\contentsline {subsection}{\numberline {6.4.1}Arquitectura dirigida por eventos}{17}{subsection*.44}%
-\contentsline {subsection}{\numberline {6.4.2}Eventos, productores y consumidores}{17}{subsection*.45}%
-\contentsline {subsection}{\numberline {6.4.3}Publicación, suscripción y comunicación desacoplada}{17}{subsection*.46}%
-\contentsline {subsection}{\numberline {6.4.4}Canales de eventos mediante ScriptableObjects}{17}{subsection*.47}%
-\contentsline {section}{\numberline {6.5}Presencia y evaluación de la experiencia}{17}{section*.48}%
-\contentsline {subsection}{\numberline {6.5.1}Concepto de presencia en realidad virtual}{18}{subsection*.49}%
-\contentsline {subsection}{\numberline {6.5.2}Diferencias entre inmersión y presencia}{18}{subsection*.50}%
-\contentsline {subsection}{\numberline {6.5.3}\emph {I-Group Presence Questionnaire}}{18}{subsection*.51}%
-\contentsline {subsection}{\numberline {6.5.4}Presencia espacial}{18}{subsection*.52}%
-\contentsline {subsection}{\numberline {6.5.5}Involucramiento}{18}{subsection*.53}%
-\contentsline {subsection}{\numberline {6.5.6}Realismo percibido}{19}{subsection*.54}%
-\contentsline {subsection}{\numberline {6.5.7}KoboToolbox}{19}{subsection*.55}%
-\contentsline {subsection}{\numberline {6.5.8}Herramientas para el análisis de datos}{19}{subsection*.56}%
-\contentsline {subsubsection}{Python}{19}{section*.57}%
-\contentsline {subsubsection}{NumPy}{19}{section*.58}%
-\contentsline {subsubsection}{Pandas}{19}{section*.59}%
-\contentsline {subsubsection}{Matplotlib}{20}{section*.60}%
-\contentsline {chapter}{\numberline {7}Metodología}{21}{chapter*.61}%
-\contentsline {section}{\numberline {7.1}Conceptualización y diseño de la experiencia}{21}{section*.62}%
-\contentsline {subsection}{\numberline {7.1.1}Dirección artística}{21}{subsection*.63}%
-\contentsline {subsection}{\numberline {7.1.2}Diseño de la experiencia interactiva}{22}{subsection*.64}%
-\contentsline {section}{\numberline {7.2}Selección de herramientas y recursos}{22}{section*.65}%
-\contentsline {subsection}{\numberline {7.2.1}Plataforma de desarrollo}{22}{subsection*.66}%
-\contentsline {subsection}{\numberline {7.2.2}Tecnologías utilizadas y entorno de ejecución}{23}{subsection*.67}%
-\contentsline {section}{\numberline {7.3}Desarrollo del videojuego base}{23}{section*.68}%
-\contentsline {subsection}{\numberline {7.3.1}Construcción de escenas}{23}{subsection*.69}%
-\contentsline {subsection}{\numberline {7.3.2}Creación de personajes tridimencionales}{25}{subsection*.73}%
-\contentsline {subsection}{\numberline {7.3.3}Implementacion de escenas}{27}{subsection*.78}%
-\contentsline {section}{\numberline {7.4}Implementación de la Arquitectura Dirigida por Eventos}{27}{section*.79}%
-\contentsline {subsection}{\numberline {7.4.1}Arquitectura general}{28}{subsection*.80}%
-\contentsline {subsection}{\numberline {7.4.2}Control de flujo de la aplicacion}{28}{subsection*.81}%
-\contentsline {subsection}{\numberline {7.4.3}Configuración de experiencias mediante ScriptableObjects}{29}{subsection*.83}%
-\contentsline {subsection}{\numberline {7.4.4}Preparación de escenas}{32}{subsection*.86}%
-\contentsline {subsection}{\numberline {7.4.5}Administración de objetos}{33}{subsection*.89}%
-\contentsline {subsection}{\numberline {7.4.6}Secuenciación audiovisual y ejecución de eventos temporizados}{33}{subsection*.90}%
-\contentsline {subsection}{\numberline {7.4.7}Sincronización de elementos visuales, auditivos e interactivos}{34}{subsection*.91}%
-\contentsline {subsection}{\numberline {7.4.8}Ejecución completa e individual de las escenas}{34}{subsection*.92}%
-\contentsline {subsection}{\numberline {7.4.9}Finalización de la secuencia}{34}{subsection*.93}%
-\contentsline {section}{\numberline {7.5}Optimización y validación técnica}{35}{section*.94}%
-\contentsline {subsection}{\numberline {7.5.1}Optimización gráfica y de escena}{35}{subsection*.95}%
-\contentsline {subsection}{\numberline {7.5.2}Pruebas en los dispositivo objetivos}{36}{subsection*.97}%
-\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{36}{subsection*.98}%
-\contentsline {section}{\numberline {7.6}Participantes y entorno de evaluación}{36}{section*.99}%
-\contentsline {subsection}{\numberline {7.6.1}Participantes}{36}{subsection*.100}%
-\contentsline {subsection}{\numberline {7.6.2}Entorno de evaluación}{37}{subsection*.101}%
-\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{37}{subsection*.102}%
-\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{37}{section*.103}%
-\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{37}{subsection*.104}%
-\contentsline {subsection}{\numberline {7.7.2}Procedimiento}{38}{subsection*.105}%
-\contentsline {subsection}{\numberline {7.7.3}Análisis de resultados}{38}{subsection*.106}%
-\contentsline {subsection}{\numberline {7.7.4}Análisis descriptivo}{38}{subsection*.107}%
-\contentsline {chapter}{\numberline {8}Resultados}{39}{chapter*.108}%
-\contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{39}{section*.109}%
-\contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{39}{subsection*.110}%
-\contentsline {subsection}{\numberline {8.1.2}Puntuaciones IPQ}{40}{subsection*.112}%
-\contentsline {section}{\numberline {8.2}Discusión}{41}{section*.115}%
-\contentsline {subsection}{\numberline {8.2.1}}{41}{subsection*.116}%
-\contentsline {section}{\numberline {8.3}...}{41}{section*.117}%
-\contentsline {subsection}{\numberline {8.3.1}...}{41}{subsection*.118}%
-\contentsline {subsubsection}{...}{41}{section*.119}%
-\contentsline {chapter}{\numberline {9}...}{43}{chapter*.120}%
-\contentsline {section}{\numberline {9.1}...}{43}{section*.121}%
-\contentsline {chapter}{\numberline {10}Conclusiones}{45}{chapter*.123}%
-\contentsline {chapter}{\numberline {11}Recomendaciones}{47}{chapter*.124}%
-\contentsline {chapter}{\numberline {12}Bibliograf\'{\i }a}{49}{chapter*.126}%
-\contentsline {chapter}{\numberline {13}Anexos}{53}{chapter*.127}%
-\contentsline {section}{\numberline {13.1}Cuestionario IPQ utilizado}{53}{section*.128}%
-\contentsline {subsection}{\numberline {13.1.1}Configuración del proyecto y plantilla VR de Unity}{57}{subsection*.129}%
+\contentsline {subsection}{\numberline {6.2.6}Meta Horizon Link}{14}{subsection*.32}%
+\contentsline {subsection}{\numberline {6.2.7}Plantilla de realidad virtual y escena de muestra de Unity}{14}{subsection*.33}%
+\contentsline {subsection}{\numberline {6.2.8}Oculus Debug Tool}{14}{subsection*.34}%
+\contentsline {subsection}{\numberline {6.2.9}OVR Metric Tool}{15}{subsection*.35}%
+\contentsline {subsection}{\numberline {6.2.10}XR Origin e interacción mediante controladores de movimiento}{15}{subsection*.36}%
+\contentsline {subsection}{\numberline {6.2.11}Creación y animación de personajes tridimencionales}{15}{subsection*.37}%
+\contentsline {subsubsection}{TRELLIS.2}{15}{section*.38}%
+\contentsline {subsubsection}{Blender}{15}{section*.39}%
+\contentsline {subsubsection}{Mixamo}{16}{section*.40}%
+\contentsline {section}{\numberline {6.3}Secuenciación audiovisual en Unity}{16}{section*.41}%
+\contentsline {subsection}{\numberline {6.3.1}Sincronización entre música y elementos audiovisuales}{16}{subsection*.42}%
+\contentsline {subsection}{\numberline {6.3.2}Eventos temporizados}{16}{subsection*.43}%
+\contentsline {subsection}{\numberline {6.3.3}Eventos visuales, auditivos e interactivos}{16}{subsection*.44}%
+\contentsline {subsection}{\numberline {6.3.4}Timeline, pistas, clips, señales e integración con eventos}{17}{subsection*.45}%
+\contentsline {section}{\numberline {6.4}Arquitectura basada en eventos}{17}{section*.46}%
+\contentsline {subsection}{\numberline {6.4.1}Arquitectura dirigida por eventos}{17}{subsection*.47}%
+\contentsline {subsection}{\numberline {6.4.2}Eventos, productores y consumidores}{17}{subsection*.48}%
+\contentsline {subsection}{\numberline {6.4.3}Publicación, suscripción y comunicación desacoplada}{17}{subsection*.49}%
+\contentsline {subsection}{\numberline {6.4.4}Canales de eventos mediante ScriptableObjects}{18}{subsection*.50}%
+\contentsline {section}{\numberline {6.5}Presencia y evaluación de la experiencia}{18}{section*.51}%
+\contentsline {subsection}{\numberline {6.5.1}Concepto de presencia en realidad virtual}{18}{subsection*.52}%
+\contentsline {subsection}{\numberline {6.5.2}Diferencias entre inmersión y presencia}{18}{subsection*.53}%
+\contentsline {subsection}{\numberline {6.5.3}\emph {I-Group Presence Questionnaire}}{18}{subsection*.54}%
+\contentsline {subsection}{\numberline {6.5.4}Presencia espacial}{19}{subsection*.55}%
+\contentsline {subsection}{\numberline {6.5.5}Involucramiento}{19}{subsection*.56}%
+\contentsline {subsection}{\numberline {6.5.6}Realismo percibido}{19}{subsection*.57}%
+\contentsline {subsection}{\numberline {6.5.7}KoboToolbox}{19}{subsection*.58}%
+\contentsline {subsection}{\numberline {6.5.8}Herramientas para el análisis de datos}{20}{subsection*.59}%
+\contentsline {subsubsection}{Python}{20}{section*.60}%
+\contentsline {subsubsection}{NumPy}{20}{section*.61}%
+\contentsline {subsubsection}{Pandas}{20}{section*.62}%
+\contentsline {subsubsection}{Matplotlib}{20}{section*.63}%
+\contentsline {chapter}{\numberline {7}Metodología}{21}{chapter*.64}%
+\contentsline {section}{\numberline {7.1}Conceptualización y diseño de la experiencia}{21}{section*.65}%
+\contentsline {subsection}{\numberline {7.1.1}Dirección artística}{21}{subsection*.66}%
+\contentsline {subsection}{\numberline {7.1.2}Diseño de la experiencia interactiva}{22}{subsection*.67}%
+\contentsline {section}{\numberline {7.2}Selección de herramientas y recursos}{22}{section*.68}%
+\contentsline {subsection}{\numberline {7.2.1}Plataforma de desarrollo}{22}{subsection*.69}%
+\contentsline {subsection}{\numberline {7.2.2}Tecnologías utilizadas y entorno de ejecución}{23}{subsection*.70}%
+\contentsline {section}{\numberline {7.3}Desarrollo del videojuego base}{23}{section*.71}%
+\contentsline {subsection}{\numberline {7.3.1}Construcción de escenas}{23}{subsection*.72}%
+\contentsline {subsection}{\numberline {7.3.2}Creación de personajes tridimencionales}{25}{subsection*.76}%
+\contentsline {subsection}{\numberline {7.3.3}Implementacion de escenas}{27}{subsection*.81}%
+\contentsline {section}{\numberline {7.4}Implementación de la Arquitectura Dirigida por Eventos}{27}{section*.82}%
+\contentsline {subsection}{\numberline {7.4.1}Arquitectura general}{28}{subsection*.83}%
+\contentsline {subsection}{\numberline {7.4.2}Control de flujo de la aplicacion}{28}{subsection*.84}%
+\contentsline {subsection}{\numberline {7.4.3}Configuración de experiencias mediante ScriptableObjects}{29}{subsection*.86}%
+\contentsline {subsection}{\numberline {7.4.4}Preparación de escenas}{32}{subsection*.89}%
+\contentsline {subsection}{\numberline {7.4.5}Administración de objetos}{33}{subsection*.92}%
+\contentsline {subsection}{\numberline {7.4.6}Secuenciación audiovisual y ejecución de eventos temporizados}{33}{subsection*.93}%
+\contentsline {subsection}{\numberline {7.4.7}Sincronización de elementos visuales, auditivos e interactivos}{34}{subsection*.94}%
+\contentsline {subsection}{\numberline {7.4.8}Ejecución completa e individual de las escenas}{34}{subsection*.95}%
+\contentsline {subsection}{\numberline {7.4.9}Finalización de la secuencia}{34}{subsection*.96}%
+\contentsline {section}{\numberline {7.5}Optimización y validación técnica}{35}{section*.97}%
+\contentsline {subsection}{\numberline {7.5.1}Optimización gráfica y de escena}{35}{subsection*.98}%
+\contentsline {subsection}{\numberline {7.5.2}Pruebas en los dispositivo objetivos}{36}{subsection*.100}%
+\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{36}{subsection*.101}%
+\contentsline {section}{\numberline {7.6}Participantes y entorno de evaluación}{36}{section*.102}%
+\contentsline {subsection}{\numberline {7.6.1}Participantes}{36}{subsection*.103}%
+\contentsline {subsection}{\numberline {7.6.2}Entorno de evaluación}{37}{subsection*.104}%
+\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{37}{subsection*.106}%
+\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.107}%
+\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{38}{subsection*.108}%
+\contentsline {subsection}{\numberline {7.7.2}Procedimiento}{38}{subsection*.109}%
+\contentsline {subsection}{\numberline {7.7.3}Análisis de resultados}{38}{subsection*.110}%
+\contentsline {subsection}{\numberline {7.7.4}Análisis descriptivo}{38}{subsection*.111}%
+\contentsline {chapter}{\numberline {8}Resultados}{39}{chapter*.112}%
+\contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{39}{section*.113}%
+\contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{39}{subsection*.114}%
+\contentsline {subsection}{\numberline {8.1.2}Puntuaciones IPQ}{40}{subsection*.116}%
+\contentsline {chapter}{\numberline {9}Discusión}{43}{chapter*.119}%
+\contentsline {subsection}{\numberline {9.0.1}}{44}{subsection*.120}%
+\contentsline {section}{\numberline {9.1}...}{44}{section*.121}%
+\contentsline {subsection}{\numberline {9.1.1}...}{44}{subsection*.122}%
+\contentsline {subsubsection}{...}{44}{section*.123}%
+\contentsline {chapter}{\numberline {10}...}{45}{chapter*.124}%
+\contentsline {section}{\numberline {10.1}...}{45}{section*.125}%
+\contentsline {chapter}{\numberline {11}Conclusiones}{47}{chapter*.127}%
+\contentsline {chapter}{\numberline {12}Recomendaciones}{49}{chapter*.128}%
+\contentsline {chapter}{\numberline {13}Bibliograf\'{\i }a}{51}{chapter*.130}%
+\contentsline {chapter}{\numberline {14}Anexos}{55}{chapter*.131}%
+\contentsline {section}{\numberline {14.1}Cuestionario IPQ utilizado}{55}{section*.132}%
+\contentsline {subsection}{\numberline {14.1.1}Configuración del proyecto y plantilla VR de Unity}{60}{subsection*.133}%
