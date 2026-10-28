@@ -123,52 +123,59 @@ Ya al tener los modelos modificados, se exportaron a Mixamo para incorporarles u
 
 
 \subsection{Implementacion de escenas}
-Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuadio se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
+Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuario se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
 Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
 
-%-------------------------------------%
+%---------------------------------------------------------------------------------%
 
 \section{Implementación de la Arquitectura Dirigida por Eventos}
-El diseño de la arquitectura respondió a cuatro necesidades: coordinar los minijuegos con una misma reproducción musical, preparar escenas antes de su activación, conservar los servicios compartidos, organizar el inicio y cierre de la experiencia. Se utilizaron eventos para comunicar solicitudes y cambios de estado entre los sistemas responsables. Además, se usó un reloj musical común para determinar el segmento correspondiente a cada momento. Esta distribución buscó reducir dependencias directas y mantener separadas la comunicación, configuración y ejecución temporal.
+Al tener las escenas individuales desarrolladas se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. 
+La implementación combinó tres mecanismos: eventos para comunicar solicitudes y cambios de estado, \emph{ScriptableObjects} para almacenar la configuración y un reloj compartido para decidir los momentos de ejecución. Se distribuyeron las responsabilidades de control de flujo, preparación de escenas, reproducción musical y respuesta de los minijuegos. 
+Esta organización tenía como proposito reducir las dependencias directas entre sistemas y mantener una referencia musical común durante la experiencia.
 
-Al tener las escenas individuales creadas. Se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. Para lograrlo se usó esta arquitectura junto a un sistema de secuenciación temporal controlado con Unity Timeline.
-La arquitectura tuvo como objetivo reducir las dependencias directas entre los componentes del menú, carga de escenas, transiciones, reproducción musical y mécanicas particulares de cada minijuego. De esta forma, cada sistema pudo mantener una responsabilidad específica y comunicarse con los demás componentes por medio de eventos y estructuras de configuración compartidas.
-La solución se dividió en cuatro componentes principales: el control de flujo general de la aplicación, los canales de eventos, la configuración de experiencias por \emph{ScriptableObjects} y el sistema de secuenciación audiovisual.
-
-
-\subsection{Arquitectura general}
-
-La comunicación se estructuró mediante un modelo de productores y consumidores de eventos. 
-Los productores notifican que una determinada acción había ocurrido, mientras que los consumidores interesados se suscribían al evento correspondiente y ejecutaban la respuesta definida. 
-La gestión y distribución de estos eventos se realizó por medio de canales implementados con \emph{ScriptableObjects}. 
-Estos permitieron comunicar solicitudes de inicio de una experiencia, finalización de preparación de una escena, activación de segmentos y finalización de la experiencia, sin requerir referencias directas entre todos los componentes involucrados. 
-Para los eventos dependientes de la canción se usó un reloj musical compartido basado en el tiempo de reproducción del \emph{PlayableDirector}. Este reloj permitió determinar cuándo debía activarse cada segmento y cuándo debían producirse eventos asociados con la iluminación, elementos visuales, audio e interacciones. Al alcanzarse los momentos definidos, los sistemas correspondientes publicaban o respondian a los eventos configurados. 
-De esta forma, la arquitectura mantuvo el enfoque dirigido por eventos para la comunicación entre componentes, mientras que el reloj musical proporcionó la referencia temporal necesaria para sincronizar la ejecución de eventos con momentos específicos de la canción.  
+%%
+\subsection{Organización general de sistema}
 
 
-\subsection{Control de flujo de la aplicacion}
+La comunicación se estructuró en tres ámbitos de responsabilidad. \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
+\emph{ExperienceCore} contuvo los servicios musicales compartidos mientras estuvo activa una experiencia. Las escenas de cada minijuego mantuvieron su contenido y sus diferentes sistemas de interacción.  Mientras que el control de flujo decidió qué debía de cargarse y prepararse, los servicios musicales proporcionaron la reproducción y la referencia temporal, y los sistemas locales ejecutaron las acciones de cada escena. Esta distribución lo que permitió fue separar las responsabilidades globales de las respuestas específicas de cada minijuego.
 
-Se implementó una escena \emph{Bootstrap} encargada de almacenar los sistemas necesarios utilizados durante toda la ejecución de la aplicación. Dentro de esta estructura se incorporó componentes responsables del estado general, la administración de escenas y el sistma XR. 
+%%
+\subsubsection{Bootstrap y servicios generales}
+La escena \emph{Bootstrap} almacenó los sistemas generales de la aplicación en toda la experiencia y coordinaba la carga aditiva del menú, las experiencias y servicios compartidos. 
+El \emph{AppStateMachine} administró los estados de inicialización, menú principal, carga y ejecución de la experiencia. 
+El \emph{SceneFlowManager} fue el encargado de gestionar las transiciones y la carga y descarga de las escenas. 
+Por otra parte, \emph{HighScoreSystem} registró los puntajes y actualizó récords, mientras que el \emph{AudioManager} controló la música del menú y su transición al iniciar una experiencia. 
+Dentro de la escena también se utilizó el \emph{XROrigin} editado y agrupado dentro de un GameObject vacio nombrado como \emph{XRSystems} con los componentes de locomoción. 
+De esta forma, la cámara y los controladores se gestionaron desde un sistema compartido, y cada minijuego incorporó sus elementos interactivos. El uso de esta escena de flujo permitió reutilizar el seguimiento y los controles al cambiar la escena, sin tener que integrar cada uno de estos sistemas de manera independiente para cada escena.
 
-El \emph{AppStateMachine} administró los estados generales de la aplicación: inicialización, menú principal, carga, ejecución de la experiencia y finalización. El \emph{SceneFlowManager} coordinó la carga y la descarga de las escenas en respuesta a los eventos generados durante los cambios de estado. 
-
-Cuando el usuario seleccionaba una experiencia desde el menú, el \emph{ExperienceLaunchButton} actuaba como productor al generar un \emph{ExperienceRequest}. La solicitud publicada mediante un canal de eventos y recibida por el \emph{SceneFlowManager}, que actuaba como consumidor del evento y ejecutaba el flujo correspondiente.
-
-De esta forma, las acciones del menú no controlaban directamente la carga de escenas, sino que producían eventos que eran procesados por los sistemas responsables. 
-
-Dentro de la escena persistente también se el \emph{XROrigin} dentro de un GameObject vacio nombrado como XRSystem con los componentes de locomoción. Esto permitió que el usuario mantuviera su posición y orientación entre escenas, sin requerir que cada escena incorporara su propio sistema de referencia.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{Assets/XRSystems.png}
-    \caption{Sistema XR persistente utilizado para la locomocion.}
+    \includegraphics[width=0.4\textwidth]{Assets/Bootstrap.png}
+    \caption{Escena Bootstrap.}
 \end{figure}
 
+%%
+\subsubsection{ExperienceCore y servicios musicales compartidos}
+Se usó \emph{ExperienceCore} como escena de servicios compartidos para cada experiencia. \emph{SceneFlowManager} la cargó de forma aditiva después de \emph{LoadingScene}, y antes de precargar la escena individual o la secuencia completa. 
+En ella se integró \emph{PlayableDirector}, que reprodujo \emph{Timeline}; \emph{SecuenceDirector}, responsable de su inicio y finalización; y \emph{ExperienceMusicClock}, que expuso el tiempo musical común. 
+\emph{ExperienceBeatPlayer} usó esta misma referencia cuando se incorporó al flujo musical. 
+La escena también alojó \emph{MetricsSystem}, que registrí datos de interacciones, como aciertos, errores, tiempos de reacción y presición; además de los sistemas de puntuación, pausa, retroalimentación y resultados. 
+\emph{ExperienceCore} permaneció cargada durante los cambios de segmente y el cierre con créditos, por lo que los minijuegos compartieron los servicios de reproducción. Al volver al menú, se detuvieron los sistemas y se descargó la escena. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Assets/ExperienceCore.png}
+    \caption{Escena ExperienceCore.}
+\end{figure}
 
-\subsection{Configuración de experiencias mediante ScriptableObjects}
-
-La configuración de las experiencias se separó de la lógica de ejecución mediante \emph{ScriptableObjects}.
+%%
+\subsection{Comunicación, configuración y preparación}
+%%%
+\subsubsection{Comunicación por eventos y control de flujo}
+%%
+\subsubsection{Configuración de experiencias y segmentos}
 
 \emph{ExperienceDefinitionSO} almacenó la configuración general de la experiencia y las escenas disponibles para su ejecución individual, mientras que \emph{ExperienceSceneDefinitionSO} mantuvo la información correspondiente a cada escena.
 
@@ -187,7 +194,17 @@ Estos tiempos definieron los momentos de la canción en los que debían generars
     \caption{Configuracion de ExperienceSequenceSO.}
 \end{figure}
 
+%%
 \subsection{Preparación de escenas}
+
+%%
+\subsubsection{Preparación de escenas y administración de recursos}
+%%
+\subsubsection{Preparación y activación de contenido}
+
+Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
+Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
+
 
 Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. Este componente administró los sistemas que debían prepararse antes de comenzar la interacción.
 
@@ -197,10 +214,6 @@ Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. 
     \caption{Configuracion de ExperienceSceneBootstrap.}
 \end{figure}
 
-
-Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
-Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
-
 Para la activacion de los elementos de cada escena se uso un \emph{Experience Content} en donde se encontraban todos los elementos. 
 \begin{figure}[H]
     \centering
@@ -209,11 +222,39 @@ Para la activacion de los elementos de cada escena se uso un \emph{Experience Co
 \end{figure}
 
 
-\subsection{Administración de objetos}
 
-Los objetos que debían crearse y eliminarse repetidamente durante una escena se administraron mediante \emph{object pooling}. De esta forma se reutilizaron instancias existentes en lugar de realizar procesos frecuentes de creación y destrucción durante la ejecución.
-Este procedimiento se utilizó en sistemas como proyectiles, enemigos y segmentos reutilizables. Además, determinados objetos fueron preparados durante la etapa de carga mediante los componentes de \emph{preloading}.
-El objetivo fue trasladar operaciones de mayor costo hacia momentos controlados de preparación y reducir interrupciones durante la reproducción de la experiencia.
+%%
+\subsubsection{Reutilización y precarga de recursos}
+Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
+Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
+
+
+
+%%
+\subsection{Inicio y coordinación con la canción}
+%%
+\subsubsection{Inicio de la experiencia y modalidades de ejecución}
+%%
+\subsubsection{Reloj musical, selección de segmentos y transiciones}
+\subsubsection{Referencia temporal y seleccion del segmento}
+\subsubsection{Transiciones y tiempos de anticipacion}
+
+%%
+\subsection{BeatMap, respuestas y cierre}
+%%
+\subsubsection{Generación y preparación del BeatMap}
+%%
+\subsubsection{Publicación de beats y respuestas dentro de las escenas}
+%%
+\subsubsection{Finalización de la canción y cierre de la experiencia}
+
+
+
+
+
+
+
+\section{SIN ORDENAR AUN}
 
 
 \subsection{Secuenciación audiovisual y ejecución de eventos temporizados}
@@ -247,7 +288,8 @@ La finalización de la canción se manejo como un evento dentro de la arquitectu
 Entonces, los sistemas suscritos a este evnto podían continuar con el flujo correspondiente, incluyendo la presentación de créditos, muestra de puntaje y retorno al menú principal.
 De esta forma, la finalización temporal de la canción se transformó en un evento que podía ser consumido por otros componentes sin establecer dependencias directas entre ellos. 
 
-%-------------------------------------%
+
+%------------------------------------------%
 \section{Optimización y validación técnica}
 
 \subsection{Optimización gráfica y de escena}

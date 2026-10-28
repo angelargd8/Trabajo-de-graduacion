@@ -1014,6 +1014,7 @@
       \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
       \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
       \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -1028,6 +1029,34 @@
       \endverb
       \verb{url}
       \verb https://www.meta.com/mx/quest/quest-3s/?srsltid=AfmBOop5nqr7DY2yfHVPMH--CRXoiP-Gui5NiO_g4eLmOxIaa8zNTNm_
+      \endverb
+    \endentry
+    \entry{metaHorizonLink}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 25 de octubre de 2026}
+      \field{title}{{Use Link for App Development | Meta Horizon OS Developers}}
+      \verb{urlraw}
+      \verb https://developers.meta.com/vr/documentation/unity/unity-link/
+      \endverb
+      \verb{url}
+      \verb https://developers.meta.com/vr/documentation/unity/unity-link/
       \endverb
     \endentry
     \entry{unity2026vrtemplate}{online}{}{}
@@ -1061,6 +1090,62 @@
       \verb https://docs.unity3d.com/Packages/com.unity.template.vr@9.2/manual/index.html
       \endverb
     \endentry
+    \entry{OculusDebugTool}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 25 de octubre de 2026}
+      \field{title}{{Oculus Debug Tool | Meta Horizon OS Developers}}
+      \verb{urlraw}
+      \verb https://developers.meta.com/vr/documentation/native/pc/dg-debug-tool/
+      \endverb
+      \verb{url}
+      \verb https://developers.meta.com/vr/documentation/native/pc/dg-debug-tool/
+      \endverb
+    \endentry
+    \entry{OVRMetricTool}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6755d218d5f4e1cef9cce9cc39aeda9}{%
+           family={{Meta}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{fullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{bibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorbibnamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authornamehash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhash}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \strng{authorfullhashraw}{b6755d218d5f4e1cef9cce9cc39aeda9}
+      \field{extraname}{4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 25 de octubre de 2026}
+      \field{title}{{OVR Metrics Tool en Meta Quest | Juegos de VR de Quest | Meta Store (es)}}
+      \verb{urlraw}
+      \verb https://www.meta.com/es-es/experiences/ovr-metrics-tool/2372625889463779/
+      \endverb
+      \verb{url}
+      \verb https://www.meta.com/es-es/experiences/ovr-metrics-tool/2372625889463779/
+      \endverb
+    \endentry
     \entry{unity2026xrinput}{online}{}{}
       \name{author}{1}{}{%
         {{hash=3f56ad8f8e05fcad24de3fcf878fb50b}{%
@@ -1076,8 +1161,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unity - Manual: {XR} input options}
@@ -1158,8 +1243,8 @@
       \strng{authornamehash}{cc895462a2b87eba8dcfa15ab0b44168}
       \strng{authorfullhash}{0c83e9497e6846ba11e967059843a97e}
       \strng{authorfullhashraw}{0c83e9497e6846ba11e967059843a97e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{TRELLIS.2}: Native and Compact Structured Latents for 3D Generation}
@@ -1373,8 +1458,8 @@
       \strng{authorfullhash}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \strng{authorfullhashraw}{3f56ad8f8e05fcad24de3fcf878fb50b}
       \field{extraname}{9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Class {SignalEmitter} | Timeline | 1.6.5}
@@ -1415,8 +1500,8 @@
       \strng{authornamehash}{f1ecd39842cf4a161aaf5f596b288e12}
       \strng{authorfullhash}{8b3f2883634610b8bf2a0c05eb77f96a}
       \strng{authorfullhashraw}{8b3f2883634610b8bf2a0c05eb77f96a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{ACM} Computing Surveys}
@@ -1476,8 +1561,8 @@
       \strng{authornamehash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhash}{ec132f50e38173eb74a3d2b9a342734f}
       \strng{authorfullhashraw}{ec132f50e38173eb74a3d2b9a342734f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{About us | KoboToolbox}
@@ -1506,8 +1591,8 @@
       \strng{authornamehash}{a52b04e2fd0c79e52b51ad44a36a79e0}
       \strng{authorfullhash}{a52b04e2fd0c79e52b51ad44a36a79e0}
       \strng{authorfullhashraw}{a52b04e2fd0c79e52b51ad44a36a79e0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Applications for {Python} | {Python}.org}
@@ -1536,8 +1621,8 @@
       \strng{authornamehash}{a4b7f04667ad78acf93575d494dc5998}
       \strng{authorfullhash}{a4b7f04667ad78acf93575d494dc5998}
       \strng{authorfullhashraw}{a4b7f04667ad78acf93575d494dc5998}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{NumPy} -- About Us}
@@ -1638,8 +1723,8 @@
       \strng{authornamehash}{8ceab5b9de4bb2ef491ea44cdf5c1b77}
       \strng{authorfullhash}{e9131b7b3308683e2e930abdbd84ec79}
       \strng{authorfullhashraw}{e9131b7b3308683e2e930abdbd84ec79}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Presence: Teleoperators and Virtual Environments}
