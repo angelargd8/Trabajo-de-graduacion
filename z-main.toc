@@ -72,54 +72,43 @@
 \contentsline {subsection}{\numberline {7.4.1}Organización general de sistema}{27}{subsection*.83}%
 \contentsline {subsubsection}{Bootstrap y servicios generales}{28}{section*.84}%
 \contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{28}{section*.86}%
-\contentsline {subsection}{\numberline {7.4.2}Comunicación, configuración y preparación}{29}{subsection*.88}%
-\contentsline {subsubsection}{Comunicación por eventos y control de flujo}{30}{section*.89}%
-\contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.90}%
-\contentsline {subsection}{\numberline {7.4.3}Preparación de escenas}{32}{subsection*.93}%
-\contentsline {subsubsection}{Preparación de escenas y administración de recursos}{32}{section*.94}%
-\contentsline {subsubsection}{Preparación y activación de contenido}{32}{section*.95}%
-\contentsline {subsubsection}{Reutilización y precarga de recursos}{33}{section*.98}%
-\contentsline {subsection}{\numberline {7.4.4}Inicio y coordinación con la canción}{33}{subsection*.99}%
-\contentsline {subsubsection}{Inicio de la experiencia y modalidades de ejecución}{33}{section*.100}%
-\contentsline {subsubsection}{Reloj musical, selección de segmentos y transiciones}{33}{section*.101}%
-\contentsline {subsubsection}{Referencia temporal y seleccion del segmento}{33}{section*.102}%
-\contentsline {subsubsection}{Transiciones y tiempos de anticipacion}{33}{section*.103}%
-\contentsline {subsection}{\numberline {7.4.5}BeatMap, respuestas y cierre}{33}{subsection*.104}%
-\contentsline {subsubsection}{Generación y preparación del BeatMap}{33}{section*.105}%
-\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{33}{section*.106}%
-\contentsline {subsubsection}{Finalización de la canción y cierre de la experiencia}{33}{section*.107}%
-\contentsline {section}{\numberline {7.5}SIN ORDENAR AUN}{33}{section*.108}%
-\contentsline {subsection}{\numberline {7.5.1}Secuenciación audiovisual y ejecución de eventos temporizados}{33}{subsection*.109}%
-\contentsline {subsection}{\numberline {7.5.2}Sincronización de elementos visuales, auditivos e interactivos}{34}{subsection*.110}%
-\contentsline {subsection}{\numberline {7.5.3}Ejecución completa e individual de las escenas}{34}{subsection*.111}%
-\contentsline {subsection}{\numberline {7.5.4}Finalización de la secuencia}{35}{subsection*.112}%
-\contentsline {section}{\numberline {7.6}Optimización y validación técnica}{35}{section*.113}%
-\contentsline {subsection}{\numberline {7.6.1}Optimización gráfica y de escena}{35}{subsection*.114}%
-\contentsline {subsection}{\numberline {7.6.2}Pruebas en los dispositivo objetivos}{36}{subsection*.116}%
-\contentsline {subsection}{\numberline {7.6.3}Validación funcional de la arquitectura}{36}{subsection*.117}%
-\contentsline {section}{\numberline {7.7}Participantes y entorno de evaluación}{37}{section*.118}%
-\contentsline {subsection}{\numberline {7.7.1}Participantes}{37}{subsection*.119}%
-\contentsline {subsection}{\numberline {7.7.2}Entorno de evaluación}{37}{subsection*.120}%
-\contentsline {subsection}{\numberline {7.7.3}Entorno de evaluación}{38}{subsection*.122}%
-\contentsline {section}{\numberline {7.8}Aplicación del I-Group Presence Questionnaire}{38}{section*.123}%
-\contentsline {subsection}{\numberline {7.8.1}Digitalización del instrumento}{38}{subsection*.124}%
-\contentsline {subsection}{\numberline {7.8.2}Procedimiento}{39}{subsection*.125}%
-\contentsline {subsection}{\numberline {7.8.3}Análisis de resultados}{39}{subsection*.126}%
-\contentsline {subsection}{\numberline {7.8.4}Análisis descriptivo}{39}{subsection*.127}%
-\contentsline {chapter}{\numberline {8}Resultados}{41}{chapter*.128}%
-\contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{41}{section*.129}%
-\contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{41}{subsection*.130}%
-\contentsline {subsection}{\numberline {8.1.2}Puntuaciones IPQ}{42}{subsection*.132}%
-\contentsline {chapter}{\numberline {9}Discusión}{45}{chapter*.135}%
-\contentsline {subsection}{\numberline {9.0.1}}{46}{subsection*.136}%
-\contentsline {section}{\numberline {9.1}...}{46}{section*.137}%
-\contentsline {subsection}{\numberline {9.1.1}...}{46}{subsection*.138}%
-\contentsline {subsubsection}{...}{46}{section*.139}%
-\contentsline {chapter}{\numberline {10}...}{47}{chapter*.140}%
-\contentsline {section}{\numberline {10.1}...}{47}{section*.141}%
-\contentsline {chapter}{\numberline {11}Conclusiones}{49}{chapter*.143}%
-\contentsline {chapter}{\numberline {12}Recomendaciones}{51}{chapter*.144}%
-\contentsline {chapter}{\numberline {13}Bibliograf\'{\i }a}{53}{chapter*.146}%
-\contentsline {chapter}{\numberline {14}Anexos}{57}{chapter*.147}%
-\contentsline {section}{\numberline {14.1}Cuestionario IPQ utilizado}{57}{section*.148}%
-\contentsline {subsection}{\numberline {14.1.1}Configuración del proyecto y plantilla VR de Unity}{62}{subsection*.149}%
+\contentsline {subsection}{\numberline {7.4.2}Comunicación por eventos y control de flujo}{29}{subsection*.88}%
+\contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.89}%
+\contentsline {subsubsection}{Preparación de escenas y activación de contenido y administración de recursos}{32}{section*.92}%
+\contentsline {subsubsection}{Reutilización y precarga de recursos}{33}{section*.95}%
+\contentsline {subsubsection}{Inicio de la experiencia y modalidades de ejecución}{33}{section*.96}%
+\contentsline {subsubsection}{Referencia temporal y seleccion del segmento del Reloj musical}{34}{section*.97}%
+\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{34}{section*.98}%
+\contentsline {subsubsection}{Generación y preparación del BeatMap}{34}{section*.99}%
+\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{34}{section*.100}%
+\contentsline {subsubsection}{Finalización de la canción y cierre de la experiencia}{35}{section*.101}%
+\contentsline {section}{\numberline {7.5}Optimización y validación técnica}{35}{section*.102}%
+\contentsline {subsection}{\numberline {7.5.1}Optimización gráfica y de escena}{35}{subsection*.103}%
+\contentsline {subsection}{\numberline {7.5.2}Pruebas de rendimiento en los dispositivo objetivos}{36}{subsection*.105}%
+\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{36}{subsection*.106}%
+\contentsline {section}{\numberline {7.6}Participantes y entorno de evaluación}{37}{section*.107}%
+\contentsline {subsection}{\numberline {7.6.1}Participantes}{37}{subsection*.108}%
+\contentsline {subsection}{\numberline {7.6.2}Entorno de evaluación}{37}{subsection*.109}%
+\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{38}{subsection*.111}%
+\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.112}%
+\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{38}{subsection*.113}%
+\contentsline {subsection}{\numberline {7.7.2}Procedimiento}{39}{subsection*.114}%
+\contentsline {subsection}{\numberline {7.7.3}Análisis de resultados}{39}{subsection*.115}%
+\contentsline {subsection}{\numberline {7.7.4}Análisis descriptivo}{39}{subsection*.116}%
+\contentsline {chapter}{\numberline {8}Resultados}{41}{chapter*.117}%
+\contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{41}{section*.118}%
+\contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{41}{subsection*.119}%
+\contentsline {subsection}{\numberline {8.1.2}Puntuaciones IPQ}{42}{subsection*.121}%
+\contentsline {chapter}{\numberline {9}Discusión}{45}{chapter*.124}%
+\contentsline {subsection}{\numberline {9.0.1}}{46}{subsection*.125}%
+\contentsline {section}{\numberline {9.1}...}{46}{section*.126}%
+\contentsline {subsection}{\numberline {9.1.1}...}{46}{subsection*.127}%
+\contentsline {subsubsection}{...}{46}{section*.128}%
+\contentsline {chapter}{\numberline {10}...}{47}{chapter*.129}%
+\contentsline {section}{\numberline {10.1}...}{47}{section*.130}%
+\contentsline {chapter}{\numberline {11}Conclusiones}{49}{chapter*.132}%
+\contentsline {chapter}{\numberline {12}Recomendaciones}{51}{chapter*.133}%
+\contentsline {chapter}{\numberline {13}Bibliograf\'{\i }a}{53}{chapter*.135}%
+\contentsline {chapter}{\numberline {14}Anexos}{57}{chapter*.136}%
+\contentsline {section}{\numberline {14.1}Cuestionario IPQ utilizado}{57}{section*.137}%
+\contentsline {subsection}{\numberline {14.1.1}Configuración del proyecto y plantilla VR de Unity}{62}{subsection*.138}%

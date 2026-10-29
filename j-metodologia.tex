@@ -169,20 +169,23 @@ La escena también alojó \emph{MetricsSystem}, que registrí datos de interacci
     \caption{Escena ExperienceCore.}
 \end{figure}
 
-%%
-\subsection{Comunicación, configuración y preparación}
+%%-------------------
+
+%%%
+\subsection{Comunicación por eventos y control de flujo}
 La comunicación se estructuró por medio de componentes productores y consumidores con responsabilidades definidas. 
 Cuando el usuario seleccionó una experiencia con \emph{ExperienceLaunchButton} generó los datos de una \emph{ExperienceRequest} y los publicó por un canal de tipo \emph{ExperienceChannelSO}.
 \emph{SceneFlowManager} recivió esa solicitud, comprobó su configuración y coordinó el flujo de carga y preparación. 
 Otros canales compartidos comunicaron el inicio global, la activación de segmentos y el cierre. El sistema musical usó eventos de C\#, entre ellos BeatReached.
 Esto con el fin que los productores notificaran acciones sin contener la implementación de todas sus respuestas y distinguir los datos del mensaje del mecanismo que lo emitió. 
 
-%%%
-\subsubsection{Comunicación por eventos y control de flujo}
+
 %%
 \subsubsection{Configuración de experiencias y segmentos}
-
-\emph{ExperienceDefinitionSO} almacenó la configuración general de la experiencia y las escenas disponibles para su ejecución individual, mientras que \emph{ExperienceSceneDefinitionSO} mantuvo la información correspondiente a cada escena.
+La configuración de las experiencias se separó de la lógica de ejecución mediante \emph{ScriptableObjects}.
+\emph{ExperienceDefinitionSO} reunió la secuencia completa, las escenas disponibles para la ejecución individual y los datos de créditos. 
+Mientras que \emph{ExperienceSceneDefinitionSO} mantuvo la información correspondiente a cada escena.
+Para la ejecución completa, \emph{ExperienceSequenceSO} guardó los segmentos ordenados con su escena, tiempos de inicio y finalización, transición de entrada y opción de precarga inicial. Los intervalos de tiempo fueron configurados desde cero, con duración positiva y continuidad entre segmentos. Los valores definieron la organización prevista de la canción.
 
 \begin{figure}[H]
     \centering
@@ -199,19 +202,14 @@ Estos tiempos definieron los momentos de la canción en los que debían generars
     \caption{Configuracion de ExperienceSequenceSO.}
 \end{figure}
 
+
+
 %%
-\subsection{Preparación de escenas}
+\subsubsection{Preparación de escenas y activación de contenido y  administración de recursos}
 
-%%
-\subsubsection{Preparación de escenas y administración de recursos}
-%%
-\subsubsection{Preparación y activación de contenido}
+La preparación de cada escena se coordinó por medio de \emph{ExperienceSceneBootstrap}. Antes de iniciar el contenido, el bootstrap ejecutó los componentes que implementaban \emph{IExperiencePreloadable}: primero los que estaban incluidos en la lista de los precargadores, en el orden configurado, y luego los que encontró dentro de \emph{ExperienceContent}. Durante esta etapa \emph{ExperienceContent} estuvo inactivo y el bootstrap se mantuvo fuera de la jerarquía para poder administrarla. 
 
-Los componentes que realizaron tareas de preparación implementaron la interfaz \emph{IExperiencePreloadable}. Este mecanismo se utilizó para preparar pools, segmentos y otros objetos que podían generar un costo elevado si se instanciaban durante la ejecución de la experiencia.
-Una vez que \emph{SceneFlowManager} terminó de cargar y preparar las escenas requeridas, AppsStateMachine publicó \emph{ExperienceReady}. Los sistemas suscritos utilizaron este evento para comenzar la reproducción y las funciones globales. En la experiencia completa, la activación de cada escena comunicó posteriormente por el canal \emph{ExperienceSceneActivation}
-
-
-Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. Este componente administró los sistemas que debían prepararse antes de comenzar la interacción.
+Al comenzar con la participación de una escena, el bootstrap activó \emph{Experience Content} y llamó a \emph{BeginExperience} en los sistemas que implementaban \emph{IExperienceRuntime}. Al terminar llamó a \emph{EndExperience} en el orden inverso y después se desactivo el contenido. Dependiendo del flujo configurado, la escena podía permanecer cargada para reutilizarse o descargarse. Así se separaron cuatro etapas: carga de la escena, preparación de recursos, ejecución del contenido y liberación. 
 
 \begin{figure}[H]
     \centering
@@ -219,7 +217,7 @@ Cada escena que requirió inicialización utilizó un ExperienceSceneBootstrap. 
     \caption{Configuracion de ExperienceSceneBootstrap.}
 \end{figure}
 
-Para la activacion de los elementos de cada escena se uso un \emph{Experience Content} en donde se encontraban todos los elementos. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ExperienceContent.png}
@@ -230,65 +228,58 @@ Para la activacion de los elementos de cada escena se uso un \emph{Experience Co
 
 %%
 \subsubsection{Reutilización y precarga de recursos}
+Los objetos que se usan repetidamente, como proyectiles, enemigos y segmentos, se administraron por medio de \emph{object pooling}: en lugar de destruir y volver a crear cada objeto, se reutilizaron instancias preparadas. 
 
+En la experiencia completa, \emph{FullExperienceDirector} cargó y preparó los dos primeros segmentos antes de iniciar la canción, además que los segmentos marcados con con \emph{Preload Before Playback}.
 
-%%
-\subsection{Inicio y coordinación con la canción}
+En la configuración, Danniel es la única escena marcada como precarga anticipada debido a que es una escena con bastante carga, al estar constantemente cargando segmentos con enemigos. 
+Por lo tanto, las escenas de Alex, Joaquin y Danniel estaban cargados desde el inicio, aunque solo se activaba el contenido del segmento corresponeidnete al momento musical. Para las demás escenas, el director precargaba el siguiente segmento tomanto en cuenta \emph{Preload Lead Seconds}. 
+Al descargar escenas, la configuración podía liberar los recursos que ya no estuvieran en uso. Eso era con el fin de adelantar parte del trabajo de carga a mantener más escenas y recursos en memoria durante ciertos tramos. 
+
 %%
 \subsubsection{Inicio de la experiencia y modalidades de ejecución}
-%%
-\subsubsection{Reloj musical, selección de segmentos y transiciones}
-\subsubsection{Referencia temporal y seleccion del segmento}
-\subsubsection{Transiciones y tiempos de anticipacion}
+
+Cuando \emph{SceneFlowManager} terminaba de cargar y preparar las escenas necesarias \emph{AppStateMachine} publicaba el evento gloval \emph{ExperienceReady}. Y cuando solo se corría una escena individual el \emph{ExperienceSceneBootstrap} de la escena seleccionada recibía ese evento y comenzaba la ejecución de su contenido.
+
+Mientras que en la experiencia completa \emph{FullExperienceDirector} también recibía \emph{ExperienceReady} y comenzaba a seguir el avance de la secuencia. Luego indicaba con \emph{ExperienceSceneActivation} qué segmento debía de activarse o desactivarse. 
+En este cambio de segmentos no volvía a publicar \emph{ExperienceReady}, así se mantenia la reproducción musical y el estado de puntuación. 
+De ambas formas se compartían los mismos mecanismos de preparación, en lo único que cambiaba era en como se controlaba la activación de contenido, siendo en la experiencia completa por medio de eventos por segmento y en la individual por un evento global.
+
 
 %%
-\subsection{BeatMap, respuestas y cierre}
+\subsubsection{Referencia temporal y seleccion del segmento del Reloj musical}
+Al recibir \emph{ExperienceReady}, \emph{SequenceDirector} reiniciaba el \emph{Timeline} a cero y comenzaba su reproducción musical por medio de \emph{PlayableDirector}. 
+\emph{ExperienceMusicClock} exponía el tiempo de ese mismo director como referencia compartida.
+
+En la experiencia completa, \emph{FullExperienceDirector} consulta este reloj y comparaba con el tiempo músical con los intervalos definidos en \emph{ExperienceSequenceSO}. 
+Cuando correspondía cambiar de segmento, enviaba eventos por el canal \emph{ExperienceSceneActivation} para desactivar el contenido anterior y activar el nuevo. 
+Los intervalos incluían el inicio y excluían el final, por lo que el instnate exacto de cambio pertenecía al segmento entrante. De esta manera, el reloj proporcioanba la referencia temporal y los eventos comunicaban a cada escena qué acción debía realizar. 
+
+%%
+\subsubsection{Transiciones y tiempos de anticipacion del Reloj musical}
+
+Las trancisiones visuales se configuraron por medio de objetos \emph{ExperienceTransitionSO} asociados a la entrada de los segmentos. El parámetro \emph{LeadTime} determinaba cuánto antes de la frontera musical comenzaba la transición de salida. \emph{RevealTime} defínia la duración de la transición de entrada una vez activado el segmento. 
+Estos valores cumplían funciones distintas ed \emph{Preload Lead Seconds}, que determinaba con cuánta anticipación comenzaba la preparación de la siguiente escena. 
+La transición podía empezar antes del cambio, pero el segmento se seleccionaba según su intervalo musical. Así se distinguían el momento de preparar los recursos, el inicio del efecto visual y el límite musical que determinaba el cambio de segmento. 
+
 %%
 \subsubsection{Generación y preparación del BeatMap}
+La generación de los datos musicales se usó \emph{BeatMapGenerator} sobre el archivo de la canción. Esto fue para promediar los canales de audio para crear una señal mono y calculó su energía en ventanas de 1024 muestras.
+Después comparó la envolvente de energía con versiones desplazadas de sí mima para estimar los BPM. También estimó el desplazamiento inicial del pulso buscando la fase con mayor energía acumulada y generó una cuadrícula de ritmos con intervalos constantes de 60/BPM.
+Luego el \emph{BeatIntensityAnalyzer} calculó la intensidad de cada beat por medio de RMS del audio en una ventana de 150 milisegundos alrededor de su tiempo. Los valores se normalizaron entre cero y uno. Y por último, el resultado se guaró en un \emph{BeatMapSO}.
+
 %%
 \subsubsection{Publicación de beats y respuestas dentro de las escenas}
+Durante la ejecución, \emph{ExperienceBeatPlayer} comparaba los tiempos guardados en \emph{BeatMapSO} con el tiempo compartido por \emph{ExpericenceMusicClock}. Cuando detectaba un beat dentro del margen de retraso configurado con \emph{Max Beat Lateness}, publicaba el evento \emph{BeatReached}. 
+Entonces, los sistemas suscritos podían responder al evento según sus propias reglas, como los efectos visuales cuando se tenía una intensidad alta.
+Si la reproducción saltaba hacia adelante y debaja varios beats atrás, el sistema omitía los beats antiguos para evitar que se publicaran todos juntos. También podía emitir \emph{PlayabackReset} cuando detectaba un retroceso en el tiempo, un salto de varios beats o un cambio en el estado de reproducción. De esta forma, el reloj musica, la publicación de eventos y la respuesta de cada sistema mantuvieron sus responsabilidades separadas.
+
 %%
 \subsubsection{Finalización de la canción y cierre de la experiencia}
+La configuración de la experiencia completa EXP\_Punko al alcanzar el final del audio \emph{SecuenceDirector} pausaba \emph{Timeline} y publicaba \emph{SongFinished} una vez.
+Entonces, \emph{ScoreSystem} dejaba de aceptar interacciones y bonos. \emph{SceneFlowManager} cordinaba el cierre deteniendo el contenido del juego, con la descarga de escenas correspondientes y cargaba la escena de créditos de forma aditiva, mientras que \emph{ExperienceCore} permanecía cargada. 
+Luego de mostrar los créditos y completar la transición de salida es cuando \emph{SceneFlowManager} descargaba esa escena y publicaba \emph{ExperienceCompleted}. Ese evento permitía enviar la puntuación final y mostrar los resultados. Ya al regresar al menú, se detenían los servicios restantes y se descargaba \emph{ExperienceCore}.
 
-
-
-
-
-
-
-\section{SIN ORDENAR AUN}
-
-
-\subsection{Secuenciación audiovisual y ejecución de eventos temporizados}
-Para sincronizar los elementos de la experiencia con la canción se usó un sistema de ejecución temporal basado en Unity Timeline. 
-La reproducción se realizó mediante un \emph{PlayableDirector} de Unity Timeline. \emph{ExperienceMusicClock} expuso el tiempo de ese director como referencia compartida y \emph{FullExperienceDirector} lo consultó para determinar que segmento debía permanecer activo. 
-
-Este reloj funcionó como referencia común para determinar cuándo debían producirse los eventos asociados con la experiencia.
-Durante la reproducción completa el \emph{FullExperienceDirector} consultó el reloj musical y comparó el tiempo actual con intervalos definidos en \emph{ExperienceSequenceSO}. Cuando se alcanzaba el tiempo correspondiente a un nuevo segmento, se generaba la activación de la escena entrante y desactivación de la anterior. 
-Entonces, la activación de escecnas se realizó en momentos específicos de la canción y no desde el tiempo transcurrido desde que cada escena había sido cargada. 
-
-Las transiciones visuales también se asociaron con estos límites temporales por medio de \emph{ExperienceTransitionSO}. Estas podían comenzar antes del cambio de segmento por medio de un tiempo de anticipación o o \emph{LeadTime}, manteniendo como referencia el instante musical definido para la activación de la siguiente escena. 
-Este mecanismo hizo posible usar la posición de reproducción como condición termporal y los canales de eventos como medio para comunicar las acciones que debían ejecutarse en los diferentes sistemas. 
-
-\subsection{Sincronización de elementos visuales, auditivos e interactivos}
-Además de los cambios de escena, se requirió sincronizar acciones internas de los minijuegos con momentos específicos de la canción. 
-Para ello se se usó un \emph{BeatMapSO}, en el cual se almacenaron momentos musicales relevantes y un \emph{ExperienceBeatPlayer}, encargado de compararlos con el tiempo proporcionado por el \emph{ExperienceMusicClock}.
-Cuando se alcanzaba uno de estos momentos \emph{ExperienceBeatPlayer} actuaba como productor y publicaba el evento \emph{BeatReached}. Los componentes suscritos podían consumir este evento para la ejecución de respuestas como cambios de iluminación, efectos visuales, ataques de enemigos y otras interacciones relacionadas con el ritmo. 
-De esta manera, un mismo evento temporal podía coordinar diferentes tipos de elementos sin que el productor necesitara conocer directamente los componentes que respondían a él.
-\emph{ExperienceBeatPlayer} comparó el tiempo musical con los instantes registrados en \emph{BeatMapSO} y notificó a sus suscriptores mediante el evento C\# \emph{BeatReached}. Los componentes suscritos ejecutaron las respuestas correspondientes, como los efectos visuales o las acciones de juego configuradas en cada escena.
-Por otra parte, se contemplaron saltos o retrasos en la reproducción. Cuando un beat quedaba fuera de la ventana temporal permitida, este no se ejecutaba de forma acumulada, priorizando la sincronización de los eventos con la posición actual de la canción. 
-
-
-\subsection{Ejecución completa e individual de las escenas}
-La arquitectura permitió que cada escena se pudiera ejecutar de forma individual o como parte de la experiencia completa. Cuando se ejecutaba de manera individual se generaba una solicitud para cargar y preparar únicamente la escena seleccionada. Después de completar su preparación, los eventos correspondientes habilitaban su ejecucuón. 
-Mientras que al correr la experiencia completa, el \emph{FullExperienceDirector} utilizaba los segmnetos definidos en el \emph{ExperienceSequenceSO} y el reloj musical compartido para determinar qué escena debía encontrarse activa en cada momento. 
-Entonces, en ambas modalidades se usarón los mismos mecanismos de preparación activación y comunicación mediante eventos, esto permitió reutilizar las escenas sin implementar lógicas de ejecución independientes para cada una de las escenas.
-
-
-\subsection{Finalización de la secuencia}
-La finalización de la canción se manejo como un evento dentro de la arquitectura. \emph{SequenceDirector} usó la duración de la reproducción audiovisual para determinar cuándo se había llegado al final de la experiencia. En ese momento se detenía la reproducción y actuava como productor del evento de finalización. 
-Entonces, los sistemas suscritos a este evnto podían continuar con el flujo correspondiente, incluyendo la presentación de créditos, muestra de puntaje y retorno al menú principal.
-De esta forma, la finalización temporal de la canción se transformó en un evento que podía ser consumido por otros componentes sin establecer dependencias directas entre ellos. 
 
 
 %----------------------------------------------------------------------------------------------------------%
@@ -307,11 +298,9 @@ Las modificaciones se realizaron de manera iterativa y se generaron nuevas compi
 \end{figure}
 
 
-\subsection{Pruebas en los dispositivo objetivos}
-Se generaron compilaciones Android que fueron instaladas y ejecutadas directamente en los visores Meta Quest. Estas pruebas permitieron evaluar el comportamiento real de la aplicación sin depender de los recursos de la computadora utilizada durante el desarrollo.
-Durante las pruebas se observaron principalmente tiempos de carga, interrupciones durante la reproducción, estabilidad de las escenas y respuesta de las mecánicas. Para complementar el análisis se utilizó Android Logcat para identificar mensajes y comportamientos asociados con problemas detectados durante la ejecución.
-Por otra parte también se realizaron compilaciones para Windows para correr la aplicación dependiendo de los recursos de la computadora. 
-A partir de estas pruebas se realizaron ajustes progresivos en la cantidad de objetos, preparación de contenido y administración de recursos.
+\subsection{Pruebas de rendimiento en los dispositivo objetivos}
+Para realizar la prueba en Meta Horizon Link se realizó con la aplicación de Oculus Debug Tool, en el Performance Profiler se presionó Record antes de iniciar la aplicación, se grabaron tres sesiones de juego y cada una se guardo en un archivo individual. 
+Y se repitió el procedimiento de las tres pruebas en el sistema operativo de las gafas, pero se grabó con la herramienta OVR Metric Tool. 
 
 
 \subsection{Validación funcional de la arquitectura}
