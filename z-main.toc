@@ -74,27 +74,27 @@
 \contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{28}{section*.86}%
 \contentsline {subsection}{\numberline {7.4.2}Comunicación por eventos y control de flujo}{29}{subsection*.88}%
 \contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.89}%
-\contentsline {subsubsection}{Preparación de escenas y activación de contenido y administración de recursos}{32}{section*.92}%
-\contentsline {subsubsection}{Reutilización y precarga de recursos}{33}{section*.95}%
-\contentsline {subsubsection}{Inicio de la experiencia y modalidades de ejecución}{33}{section*.96}%
-\contentsline {subsubsection}{Referencia temporal y seleccion del segmento del Reloj musical}{34}{section*.97}%
+\contentsline {subsection}{\numberline {7.4.3}Preparación de escenas y activación de contenido y administración de recursos}{31}{subsection*.92}%
+\contentsline {subsection}{\numberline {7.4.4}Reutilización y precarga de recursos}{33}{subsection*.95}%
+\contentsline {subsection}{\numberline {7.4.5}Inicio de la experiencia y modalidades de ejecución}{33}{subsection*.96}%
+\contentsline {subsection}{\numberline {7.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{33}{subsection*.97}%
 \contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{34}{section*.98}%
-\contentsline {subsubsection}{Generación y preparación del BeatMap}{34}{section*.99}%
+\contentsline {subsection}{\numberline {7.4.7}Generación y preparación del BeatMap}{34}{subsection*.99}%
 \contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{34}{section*.100}%
-\contentsline {subsubsection}{Finalización de la canción y cierre de la experiencia}{35}{section*.101}%
+\contentsline {subsection}{\numberline {7.4.8}Finalización de la canción y cierre de la experiencia}{34}{subsection*.101}%
 \contentsline {section}{\numberline {7.5}Optimización y validación técnica}{35}{section*.102}%
 \contentsline {subsection}{\numberline {7.5.1}Optimización gráfica y de escena}{35}{subsection*.103}%
 \contentsline {subsection}{\numberline {7.5.2}Pruebas de rendimiento en los dispositivo objetivos}{36}{subsection*.105}%
-\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{36}{subsection*.106}%
+\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{37}{subsection*.106}%
 \contentsline {section}{\numberline {7.6}Participantes y entorno de evaluación}{37}{section*.107}%
 \contentsline {subsection}{\numberline {7.6.1}Participantes}{37}{subsection*.108}%
-\contentsline {subsection}{\numberline {7.6.2}Entorno de evaluación}{37}{subsection*.109}%
-\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{38}{subsection*.111}%
-\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.112}%
-\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{38}{subsection*.113}%
-\contentsline {subsection}{\numberline {7.7.2}Procedimiento}{39}{subsection*.114}%
-\contentsline {subsection}{\numberline {7.7.3}Análisis de resultados}{39}{subsection*.115}%
-\contentsline {subsection}{\numberline {7.7.4}Análisis descriptivo}{39}{subsection*.116}%
+\contentsline {subsection}{\numberline {7.6.2}Procedimiento}{37}{subsection*.109}%
+\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{38}{subsection*.110}%
+\contentsline {subsection}{\numberline {7.6.4}Entorno de evaluación}{38}{subsection*.112}%
+\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.113}%
+\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{39}{subsection*.114}%
+\contentsline {subsection}{\numberline {7.7.2}Análisis de resultados}{39}{subsection*.115}%
+\contentsline {subsection}{\numberline {7.7.3}Análisis descriptivo}{39}{subsection*.116}%
 \contentsline {chapter}{\numberline {8}Resultados}{41}{chapter*.117}%
 \contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{41}{section*.118}%
 \contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{41}{subsection*.119}%

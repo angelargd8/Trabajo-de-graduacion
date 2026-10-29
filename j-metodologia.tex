@@ -61,7 +61,7 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity y Meta Horizon Link
 %---------------------------------------------------------------------------------------------------------------%
 
 \section{Desarrollo del videojuego base}
-Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las esccenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
+Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las escenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
 
 \subsection{Construcción de escenas}
 La aplicación esta dividida en escenas independientes para facilitar su organización, carga y optimización. Se creó una escena de menú, desde la cual se inició la experiencia, una escena de carga de carga dutante las transiciones y diferentes escenas asociadas con las secciones de las canciones. 
@@ -107,7 +107,7 @@ Luego, los modelos obtenidos se editaron y mejoraron en Blender, realizando ajus
     \caption{Modelo modificado en Blender}
 \end{figure}
 
-Ya al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
+Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
 
 \begin{figure}[H]
     \centering
@@ -123,7 +123,7 @@ Ya al tener los modelos modificados, se exportaron a Mixamo para incorporarles u
 
 
 \subsection{Implementacion de escenas}
-Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuario se utilizaron para apuntar, disparar, luchar, recolectar objetos. 
+Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuario se utilizaron para luchar, apuntar y disparar. 
 Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
 
 %-----------------------------------------------------------------------------------------------------------------------------------------%
@@ -136,8 +136,8 @@ Esta organización tenía como proposito reducir las dependencias directas entre
 %%
 \subsection{Organización general de sistema}
 
-La comunicación se estructuró en tres ámbitos de responsabilidad. \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
-\emph{ExperienceCore} contuvo los servicios musicales compartidos mientras estuvo activa una experiencia. Las escenas de cada minijuego mantuvieron su contenido y sus diferentes sistemas de interacción.  Mientras que el control de flujo decidió qué debía de cargarse y prepararse, los servicios musicales proporcionaron la reproducción y la referencia temporal, y los sistemas locales ejecutaron las acciones de cada escena. Esta distribución lo que permitió fue separar las responsabilidades globales de las respuestas específicas de cada minijuego.
+La comunicación se estructuró en tres ámbitos de responsabilidad. El \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
+\emph{ExperienceCore} contuvo los servicios musicales compartidos mientras estuvo activa una experiencia. Las escenas de cada minijuego mantuvieron su contenido y sus diferentes sistemas de interacción.  Mientras que el control de flujo decidió qué debía de cargarse y prepararse, los servicios musicales proporcionaron la reproducción, la referencia temporal, y los sistemas locales ejecutaron las acciones de cada escena. Esta distribución lo que permitió fue separar las responsabilidades globales de las respuestas específicas de cada minijuego.
 
 %%
 \subsubsection{Bootstrap y servicios generales}
@@ -145,7 +145,7 @@ La escena \emph{Bootstrap} almacenó los sistemas generales de la aplicación en
 El \emph{AppStateMachine} administró los estados de inicialización, menú principal, carga y ejecución de la experiencia. 
 El \emph{SceneFlowManager} fue el encargado de gestionar las transiciones y la carga y descarga de las escenas. 
 Por otra parte, \emph{HighScoreSystem} registró los puntajes y actualizó récords, mientras que el \emph{AudioManager} controló la música del menú y su transición al iniciar una experiencia. 
-Dentro de la escena también se utilizó el \emph{XROrigin} editado y agrupado dentro de un GameObject vacio nombrado como \emph{XRSystems} con los componentes de locomoción. 
+Dentro de la escena también se utilizó el XR Origin editado y agrupado dentro de un GameObject vacio nombrado como \emph{XRSystems} con los componentes de locomoción. 
 De esta forma, la cámara y los controladores se gestionaron desde un sistema compartido, y cada minijuego incorporó sus elementos interactivos. El uso de esta escena de flujo permitió reutilizar el seguimiento y los controles al cambiar la escena, sin tener que integrar cada uno de estos sistemas de manera independiente para cada escena.
 
 
@@ -158,10 +158,10 @@ De esta forma, la cámara y los controladores se gestionaron desde un sistema co
 %%
 \subsubsection{ExperienceCore y servicios musicales compartidos}
 Se usó \emph{ExperienceCore} como escena de servicios compartidos para cada experiencia. \emph{SceneFlowManager} la cargó de forma aditiva después de \emph{LoadingScene}, y antes de precargar la escena individual o la secuencia completa. 
-En ella se integró \emph{PlayableDirector}, que reprodujo \emph{Timeline}; \emph{SecuenceDirector}, responsable de su inicio y finalización; y \emph{ExperienceMusicClock}, que expuso el tiempo musical común. 
+En ella se integró \emph{PlayableDirector}, que reprodujo \emph{Timeline}; \emph{SecuenceDirector}, el secuenciador, responsable de su inicio y finalización; y \emph{ExperienceMusicClock}, que expuso el tiempo musical común. 
 \emph{ExperienceBeatPlayer} usó esta misma referencia cuando se incorporó al flujo musical. 
-La escena también alojó \emph{MetricsSystem}, que registrí datos de interacciones, como aciertos, errores, tiempos de reacción y presición; además de los sistemas de puntuación, pausa, retroalimentación y resultados. 
-\emph{ExperienceCore} permaneció cargada durante los cambios de segmente y el cierre con créditos, por lo que los minijuegos compartieron los servicios de reproducción. Al volver al menú, se detuvieron los sistemas y se descargó la escena. 
+La escena también alojó \emph{MetricsSystem}, que registró datos de interacciones, como aciertos, errores, tiempos de reacción y presición; además de los sistemas de puntuación, pausa, retroalimentación y resultados. 
+\emph{ExperienceCore} permaneció cargada durante los cambios de segmentos y el cierre con créditos, por lo que los minijuegos compartieron los servicios de reproducción. Al volver al menú, se detuvieron los sistemas y se descargó la escena. 
 
 \begin{figure}[H]
     \centering
@@ -170,16 +170,13 @@ La escena también alojó \emph{MetricsSystem}, que registrí datos de interacci
 \end{figure}
 
 %%-------------------
-
 %%%
 \subsection{Comunicación por eventos y control de flujo}
 La comunicación se estructuró por medio de componentes productores y consumidores con responsabilidades definidas. 
 Cuando el usuario seleccionó una experiencia con \emph{ExperienceLaunchButton} generó los datos de una \emph{ExperienceRequest} y los publicó por un canal de tipo \emph{ExperienceChannelSO}.
-\emph{SceneFlowManager} recivió esa solicitud, comprobó su configuración y coordinó el flujo de carga y preparación. 
-Otros canales compartidos comunicaron el inicio global, la activación de segmentos y el cierre. El sistema musical usó eventos de C\#, entre ellos BeatReached.
+Luego \emph{SceneFlowManager} recibió esa solicitud, comprobó su configuración y coordinó el flujo de carga y preparación. 
+Otros canales compartidos comunicaron el inicio global, la activación de segmentos y el cierre. El sistema musical usó eventos de C\#, entre ellos \emph{BeatReached}.
 Esto con el fin que los productores notificaran acciones sin contener la implementación de todas sus respuestas y distinguir los datos del mensaje del mecanismo que lo emitió. 
-
-
 %%
 \subsubsection{Configuración de experiencias y segmentos}
 La configuración de las experiencias se separó de la lógica de ejecución mediante \emph{ScriptableObjects}.
@@ -198,14 +195,14 @@ Estos tiempos definieron los momentos de la canción en los que debían generars
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSequenceSO.png}
+    \includegraphics[width=0.7\textwidth]{Assets/ExperienceSequenceSO.png}
     \caption{Configuracion de ExperienceSequenceSO.}
 \end{figure}
 
 
 
 %%
-\subsubsection{Preparación de escenas y activación de contenido y  administración de recursos}
+\subsection{Preparación de escenas y activación de contenido y  administración de recursos}
 
 La preparación de cada escena se coordinó por medio de \emph{ExperienceSceneBootstrap}. Antes de iniciar el contenido, el bootstrap ejecutó los componentes que implementaban \emph{IExperiencePreloadable}: primero los que estaban incluidos en la lista de los precargadores, en el orden configurado, y luego los que encontró dentro de \emph{ExperienceContent}. Durante esta etapa \emph{ExperienceContent} estuvo inactivo y el bootstrap se mantuvo fuera de la jerarquía para poder administrarla. 
 
@@ -213,7 +210,7 @@ Al comenzar con la participación de una escena, el bootstrap activó \emph{Expe
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSceneBootstrap.png}
+    \includegraphics[width=0.7\textwidth]{Assets/ExperienceSceneBootstrap.png}
     \caption{Configuracion de ExperienceSceneBootstrap.}
 \end{figure}
 
@@ -227,27 +224,27 @@ Al comenzar con la participación de una escena, el bootstrap activó \emph{Expe
 
 
 %%
-\subsubsection{Reutilización y precarga de recursos}
+\subsection{Reutilización y precarga de recursos}
 Los objetos que se usan repetidamente, como proyectiles, enemigos y segmentos, se administraron por medio de \emph{object pooling}: en lugar de destruir y volver a crear cada objeto, se reutilizaron instancias preparadas. 
 
 En la experiencia completa, \emph{FullExperienceDirector} cargó y preparó los dos primeros segmentos antes de iniciar la canción, además que los segmentos marcados con con \emph{Preload Before Playback}.
 
 En la configuración, Danniel es la única escena marcada como precarga anticipada debido a que es una escena con bastante carga, al estar constantemente cargando segmentos con enemigos. 
-Por lo tanto, las escenas de Alex, Joaquin y Danniel estaban cargados desde el inicio, aunque solo se activaba el contenido del segmento corresponeidnete al momento musical. Para las demás escenas, el director precargaba el siguiente segmento tomanto en cuenta \emph{Preload Lead Seconds}. 
+Por lo tanto, las escenas de Alex, Joaquin y Danniel estaban cargados desde el inicio, aunque solo se activaba el contenido del segmento correspondiente al momento musical. Para las demás escenas, el director precargaba el siguiente segmento tomanto en cuenta \emph{Preload Lead Seconds}. 
 Al descargar escenas, la configuración podía liberar los recursos que ya no estuvieran en uso. Eso era con el fin de adelantar parte del trabajo de carga a mantener más escenas y recursos en memoria durante ciertos tramos. 
 
 %%
-\subsubsection{Inicio de la experiencia y modalidades de ejecución}
+\subsection{Inicio de la experiencia y modalidades de ejecución}
 
-Cuando \emph{SceneFlowManager} terminaba de cargar y preparar las escenas necesarias \emph{AppStateMachine} publicaba el evento gloval \emph{ExperienceReady}. Y cuando solo se corría una escena individual el \emph{ExperienceSceneBootstrap} de la escena seleccionada recibía ese evento y comenzaba la ejecución de su contenido.
+Cuando \emph{SceneFlowManager} terminaba de cargar y preparar las escenas necesarias \emph{AppStateMachine} publicaba el evento global \emph{ExperienceReady}. Y cuando solo se corría una escena individual el \emph{ExperienceSceneBootstrap} de la escena seleccionada recibía ese evento y comenzaba la ejecución de su contenido.
 
 Mientras que en la experiencia completa \emph{FullExperienceDirector} también recibía \emph{ExperienceReady} y comenzaba a seguir el avance de la secuencia. Luego indicaba con \emph{ExperienceSceneActivation} qué segmento debía de activarse o desactivarse. 
 En este cambio de segmentos no volvía a publicar \emph{ExperienceReady}, así se mantenia la reproducción musical y el estado de puntuación. 
-De ambas formas se compartían los mismos mecanismos de preparación, en lo único que cambiaba era en como se controlaba la activación de contenido, siendo en la experiencia completa por medio de eventos por segmento y en la individual por un evento global.
+De ambas formas, se compartían los mismos mecanismos de preparación, en lo único que cambiaba era en como se controlaba la activación de contenido, siendo en la experiencia completa por eventos por segmento y en la individual por un evento global.
 
 
 %%
-\subsubsection{Referencia temporal y seleccion del segmento del Reloj musical}
+\subsection{Referencia temporal y seleccion del segmento del Reloj musical}
 Al recibir \emph{ExperienceReady}, \emph{SequenceDirector} reiniciaba el \emph{Timeline} a cero y comenzaba su reproducción musical por medio de \emph{PlayableDirector}. 
 \emph{ExperienceMusicClock} exponía el tiempo de ese mismo director como referencia compartida.
 
@@ -263,7 +260,7 @@ Estos valores cumplían funciones distintas ed \emph{Preload Lead Seconds}, que 
 La transición podía empezar antes del cambio, pero el segmento se seleccionaba según su intervalo musical. Así se distinguían el momento de preparar los recursos, el inicio del efecto visual y el límite musical que determinaba el cambio de segmento. 
 
 %%
-\subsubsection{Generación y preparación del BeatMap}
+\subsection{Generación y preparación del BeatMap}
 La generación de los datos musicales se usó \emph{BeatMapGenerator} sobre el archivo de la canción. Esto fue para promediar los canales de audio para crear una señal mono y calculó su energía en ventanas de 1024 muestras.
 Después comparó la envolvente de energía con versiones desplazadas de sí mima para estimar los BPM. También estimó el desplazamiento inicial del pulso buscando la fase con mayor energía acumulada y generó una cuadrícula de ritmos con intervalos constantes de 60/BPM.
 Luego el \emph{BeatIntensityAnalyzer} calculó la intensidad de cada beat por medio de RMS del audio en una ventana de 150 milisegundos alrededor de su tiempo. Los valores se normalizaron entre cero y uno. Y por último, el resultado se guaró en un \emph{BeatMapSO}.
@@ -275,12 +272,10 @@ Entonces, los sistemas suscritos podían responder al evento según sus propias 
 Si la reproducción saltaba hacia adelante y debaja varios beats atrás, el sistema omitía los beats antiguos para evitar que se publicaran todos juntos. También podía emitir \emph{PlayabackReset} cuando detectaba un retroceso en el tiempo, un salto de varios beats o un cambio en el estado de reproducción. De esta forma, el reloj musica, la publicación de eventos y la respuesta de cada sistema mantuvieron sus responsabilidades separadas.
 
 %%
-\subsubsection{Finalización de la canción y cierre de la experiencia}
+\subsection{Finalización de la canción y cierre de la experiencia}
 La configuración de la experiencia completa EXP\_Punko al alcanzar el final del audio \emph{SecuenceDirector} pausaba \emph{Timeline} y publicaba \emph{SongFinished} una vez.
 Entonces, \emph{ScoreSystem} dejaba de aceptar interacciones y bonos. \emph{SceneFlowManager} cordinaba el cierre deteniendo el contenido del juego, con la descarga de escenas correspondientes y cargaba la escena de créditos de forma aditiva, mientras que \emph{ExperienceCore} permanecía cargada. 
 Luego de mostrar los créditos y completar la transición de salida es cuando \emph{SceneFlowManager} descargaba esa escena y publicaba \emph{ExperienceCompleted}. Ese evento permitía enviar la puntuación final y mostrar los resultados. Ya al regresar al menú, se detenían los servicios restantes y se descargaba \emph{ExperienceCore}.
-
-
 
 %----------------------------------------------------------------------------------------------------------%
 \section{Optimización y validación técnica}
@@ -299,12 +294,20 @@ Las modificaciones se realizaron de manera iterativa y se generaron nuevas compi
 
 
 \subsection{Pruebas de rendimiento en los dispositivo objetivos}
-Para realizar la prueba en Meta Horizon Link se realizó con la aplicación de Oculus Debug Tool, en el Performance Profiler se presionó Record antes de iniciar la aplicación, se grabaron tres sesiones de juego y cada una se guardo en un archivo individual. 
-Y se repitió el procedimiento de las tres pruebas en el sistema operativo de las gafas, pero se grabó con la herramienta OVR Metric Tool. 
 
+El rendimiento se evaluó en dos configuraciones: la versión para PC, ejecutada por Meta Horizon Link, y la version instalada como APK en Meta Quest 3S. 
+Y se realizaron tres corridas en cada configuración. Los datos de la versión en PC se registraron con Oculus Debug Tool, mientras que los de la versión de APK se obtuvieron con OVR Metrics Tool.
+
+Con los datos de rendimiento obtenidos de ambas versiones, se hizo un análisis en Jupyter Notebook con código escrito en Python. Se usó pandas para cargar los archivos CSV de las capturas, organizar los datos y preparar las tablas de resumen; 
+NumPy para las operaciones númericas y tratar valores no válidos; y Matplotlib para generar las gráficas. 
+Las corridas de PC se analizaron los tiempos de procesamiento de CPU y GPU, la latencia movimiento-fotón, los incrementos en los contadores de fotogramas descartados. 
+En las corridas en Quest 3S se analizaron los FPS, el tiempo de procesamiento de GPU y la utilización de CPU y GPU. 
+Estos son los indicadores presentados en tablas y gráficas seleccionadas para el análisis. Los datos de PC se registraron por fotograma, y los de APK se muestrearon aproximadamente cada segundo. 
+
+Los resultados de ambas configuraciones se analizaron por separado, ya que la versión de PC se ejecuto con conexión al visor, mientras que el APK fue directamente en el Quest 3S. Y esta distinción pemite describir el rendimiento observado en ambas formas de ejecución. 
 
 \subsection{Validación funcional de la arquitectura}
-La validación funcional se orientó a comprobar tanto la comunicación dirigida por eventos como la ejecución temporal de la secuencia. Se verificó que las acciones iniciadas desde el menú generaran las solicitudes correspondientes y que estas fueran procesadas por los consumidores responsables de cargar y preparar las escenas. 
+La validación funcional se centró en comprobar tanto la comunicación dirigida por eventos como la ejecución temporal de la secuencia. Se verificó que las acciones iniciadas desde el menú generaran las solicitudes correspondientes y que estas fueran procesadas por los consumidores responsables de cargar y preparar las escenas. 
 También, se comprobó que las escenas se activaran de acuerdo con los tiempos definidos en la secuencia y que los eventos asociados con la música generaran las respuestas esperadas en los sistemas suscritos. Para la experiencia completa se verificó la continuidad entre segmentos, la correspondencia de sus cambios con la reproducción musical y el funcionamiento de los eventos relacionados con iluminación, elementos visuales e interacciones. 
 Y por último se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
 
@@ -318,6 +321,10 @@ Los participantes fueron definidos mediante un muestreo no probabilístico por c
 
 La actividad se planteó dentro del contexto académico del curso; sin embargo, el uso de las respuestas para fines de investigación se condicionó a la aceptación de un consentimiento informado. Los estudiantes que no autorizaran el uso de sus datos podrían realizar la actividad académica sin que sus respuestas fueran incorporadas al análisis de la investigación.
 
+\subsection{Procedimiento}
+Cada sesión se estructuró en tres etapas: explicación inicial y consentimiento informado, interacción con el prototipo en realidad virtual y aplicación posterior del IPQ.
+
+Antes de utilizar el visor se proporcionarían las instrucciones necesarias para interactuar con la experiencia. Al finalizar, el participante respondería individualmente el formulario en KoboToolbox. Las respuestas autorizadas para fines de investigación serían posteriormente exportadas y utilizadas en el análisis descriptivo.
 
 \subsection{Entorno de evaluación}
 
@@ -338,26 +345,22 @@ No se planificó recopilar nombres u otros identificadores directos. Las respues
 
 El acceso a los datos se limitó a los investigadores y su asesora. La información se conservaría durante un año después de finalizar la investigación y posteriormente sería eliminada. El consentimiento informado se incorporaría como parte del proceso previo a la participación.
 
-
 \section{Aplicación del I-Group Presence Questionnaire}
 Después de la interacción con el entorno virtual se usó el IPQ para recopilar información sobre la percepción subjetiva de presencia. El instrumento se aplicaría inmediatamente después de finalizar la experiencia para conservar una valoración reciente de la interacción realizada.
 
 \subsection{Digitalización del instrumento}
 El IPQ se implementó mediante un formulario digital en KoboToolbox. Se conservaron los ítems y escalas correspondientes al instrumento utilizado \cite{castro2026immersive}.
-
 El formulario permitió almacenar las respuestas de manera estructurada y posteriormente exportarlas para su análisis.
-
-\subsection{Procedimiento}
-Cada sesión se estructuró en tres etapas: explicación inicial y consentimiento informado, interacción con el prototipo en realidad virtual y aplicación posterior del IPQ.
-
-Antes de utilizar el visor se proporcionarían las instrucciones necesarias para interactuar con la experiencia. Al finalizar, el participante respondería individualmente el formulario en KoboToolbox. Las respuestas autorizadas para fines de investigación serían posteriormente exportadas y utilizadas en el análisis descriptivo.
 
 
 \subsection{Análisis de resultados}
-Las respuestas obtenidas mediante el IPQ se procesaron de acuerdo con las dimensiones definidas por el instrumento. El análisis se planteó principalmente de forma descriptiva, debido a que el objetivo fue caracterizar la percepción de presencia generada por la experiencia desarrollada.
+Las respuestas del IPQ se procesaron de acuerdo con las dimensiones y reglas de puntuación definidas por el instrumento. 
+El análisis fue principalmente de forma descriptivo, debido a que el objetivo fue caracterizar la percepción de presencia generada por la experiencia desarrollada.
+
 \subsection{Análisis descriptivo}
-Para cada dimensión se calculó medidas descriptivas que permitieron representar el comportamiento general de las respuestas. Se consideraron principalmente la puntuación promedio y la dispersión observada entre participantes.
 
-También se analizó el ítem correspondiente a presencia general para complementar la interpretación de las tres dimensiones principales.
-
-Los resultados se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.
+Las respuestas del IPQ se organizaron y analizaron en Jupyter Notebook con Python. Se usó Pandas para procesar las respuestas y calcular los resúmenes; NumPy para las operaciones numéricas; Matplotlib para generar las gráficas. 
+Las puntuaicones se expresaron en una escala de -3 a +3. Para calcular las dimensiones, se invirtieron los ítems que tienen una orientación negativa y se usaon los ítems establecidos para cada dimensión en el modelo revisado del instrumento. 
+Y la presencia general se analizó por separado con el ítem 8. 
+La tabla de perfil resume, para cada indicador, el número de respuestas válidas, la media, la desviación estándar, la mediana y la cantidad de puntuaciones positivas. 
+Los resultados se obtenidos se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.
