@@ -123,18 +123,18 @@ En cuanto los tiempos procesamiento de GPU, como se observa en \ref{fig:tiempo-g
 
 
 %% ## ⭐ Evolución de latencia movimiento-fotón
-Respecto a figura \ref{fig: latenciaPC} latencia movimiento-fotón, la latencia suavizada se situó entre 40 y 45.5 ms. Aunque aparecen incrementos y reducciones temporales, no se identifica una tendencia sostenida de crecimiento conforme a como avanza la captura. Lo que esto indica que el tiempo de respuesta visual reportado por el sistema se matuvo consistente durante la mayor parte de las ejecuciones. 
+Respecto a figura \ref{fig:latenciaPC} latencia movimiento-fotón, la latencia suavizada se situó entre 40 y 45.5 ms. Aunque aparecen incrementos y reducciones temporales, no se identifica una tendencia sostenida de crecimiento conforme a como avanza la captura. Lo que esto indica que el tiempo de respuesta visual reportado por el sistema se matuvo consistente durante la mayor parte de las ejecuciones. 
 
 %% IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/latenciaPC.png}
     \caption{Latencia movimiento-fotón}
-    \label{fig: latenciaPC}
+    \label{fig:latenciaPC}
 \end{figure}
 
 %% ### ⭐ Incrementos de contadores de fotogramas descartados
-La figura \ref{fig: incrementoContadores} presenta los incrementos de los contadores de fotogramas descartados por la aplicación y por el compositor durante las tres ejecuciones en el EXE. 
+La figura \ref{fig:incrementoContadores} presenta los incrementos de los contadores de fotogramas descartados por la aplicación y por el compositor durante las tres ejecuciones en el EXE. 
 
 Los descartes de la aplicación tiene valores de 136, 138 y 99 eventos. Mientras que los del compositor entre 2 y 3 eventos. 
 Aunque los tiempos de procesamiento de GPU y CPU son bajos, se han registrado incidencias en la continuidad de entrega de fotogramas. Sin embargo, no asegura que estos valores no permiten determinar la percepción de posibles interrupciones perceptibles por los participantes. 
@@ -144,42 +144,42 @@ Aunque los tiempos de procesamiento de GPU y CPU son bajos, se han registrado in
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/descartesPC.png}
     \caption{Incrementos de contadores de fotogramas descartados}
-    \label{fig: incrementoContadores}
+    \label{fig:incrementoContadores}
 \end{figure}
 
 %% ### ⭐ Distribución por corrida del EXE (caja Q1–Q3; bigotes P05–P95)
-Sobre la distribución por corrida, en la figura \ref{fig: distribucionPorCorrida} se puede notar que la segunda corrida tiene al mediana de procesamiento de CPU más alta, con 1.416 ms, luego tercera con 1.312 ms y la primera de 1.252 ms. Los rangos son similares, lo que indica que en la mayor parte de las capturas, los tiempos de procesamiento de GPU no presentaron diferencias importantes.
+Sobre la distribución por corrida, en la figura \ref{fig:distribucionPorCorrida} se puede notar que la segunda corrida tiene al mediana de procesamiento de CPU más alta, con 1.416 ms, luego tercera con 1.312 ms y la primera de 1.252 ms. Los rangos son similares, lo que indica que en la mayor parte de las capturas, los tiempos de procesamiento de GPU no presentaron diferencias importantes.
 %% IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/distribucionPC.png}
     \caption{Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}
-    \label{fig: distribucionPorCorrida}
+    \label{fig:distribucionPorCorrida}
 \end{figure}
 
 
 \subsection{APK en Quest 3S}
 %% ### ⭐ Tabla - rendimiento autónomo en Meta Quest 3s
-En las 3 capturas como se puede ver en \ref{fig: rendimientoAPK}, tienen una mediana de 72 FPS, aunque sus promedios son ligeramente inferiores, entre 69.157 y 70.482 FPS. Esto indica que la experiencia alcanzó con frecuencia la tasa de fotogramas objetivo, pero no logró mantenerla constantemente. Entre el 17.63\% y 22.94\% de las muestras estuvieron por debajo de 72 FPS. Además, la segunda corrida presentó el promedio más bajo y el percentil 95 de GPU más elevado
+En las 3 capturas como se puede ver en \ref{fig:rendimientoAPK}, tienen una mediana de 72 FPS, aunque sus promedios son ligeramente inferiores, entre 69.157 y 70.482 FPS. Esto indica que la experiencia alcanzó con frecuencia la tasa de fotogramas objetivo, pero no logró mantenerla constantemente. Entre el 17.63\% y 22.94\% de las muestras estuvieron por debajo de 72 FPS. Además, la segunda corrida presentó el promedio más bajo y el percentil 95 de GPU más elevado
 % DISCUSION: lo que sugiere mayores variaciones de rendimiento en esa ejecución.
 % IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png}
     \caption{Tabla: rendimiento del ejecutable en Meta Quest 3S}
-    \label{fig: rendimientoAPK}
+    \label{fig:rendimientoAPK}
 \end{figure}
 
 
 %% ### ⭐ 6.1 FPS observador durante las capturas del APK
-Lo que se logra ver con la figura \ref{fig: FPSAPK} de los FPS reportados durante las capturas APK, es que la tasa de fotogramas se mantiene cercana a los 72 FPS, Sin embargo, se observan algunas caídas al inicio y un periodo de menor fluidez aproximadamente entre los 145 y 185 segundos, donde los valores disminuyen considerablemente. Luego, las capturas regresan a los 72 FPS. Esto indica que la experiencia mantiene una tasa de fotogramas adecuada durante varios intervalos, aunque presenta dificultades para mantenerla en momentos determinados de la experiencia.
+Lo que se logra ver con la figura \ref{fig:FPSAPK} de los FPS reportados durante las capturas APK, es que la tasa de fotogramas se mantiene cercana a los 72 FPS, Sin embargo, se observan algunas caídas al inicio y un periodo de menor fluidez aproximadamente entre los 145 y 185 segundos, donde los valores disminuyen considerablemente. Luego, las capturas regresan a los 72 FPS. Esto indica que la experiencia mantiene una tasa de fotogramas adecuada durante varios intervalos, aunque presenta dificultades para mantenerla en momentos determinados de la experiencia.
 
 %% IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/FPSAPK.png}
     \caption{FPS en las capturas del APK}
-    \label{fig: FPSAPK}
+    \label{fig:FPSAPK}
 \end{figure}
 
 
@@ -188,18 +188,18 @@ Se usarón los 14 enunciados en español de I-group Presence Questionnaire (IPQ 
 
 \subsection{Revisión de la base de datos}
 %%
-Como se muestra en la figura \ref{fig: registrosIPQ}, la base de datos contenía 39 registros con autorización para el uso de sus respuestas. Aunque solo 35 respuestas tienen todos los ítems respondidos. Tres respuestas con 2 respuestas faltantes y una con solo una respuesta faltante. 
+Como se muestra en la figura \ref{fig:registrosIPQ}, la base de datos contenía 39 registros con autorización para el uso de sus respuestas. Aunque solo 35 respuestas tienen todos los ítems respondidos. Tres respuestas con 2 respuestas faltantes y una con solo una respuesta faltante. 
 %% IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Assets/ipq/db.png}
     \caption{Registros de IPQ.}
-    \label{fig: registrosIPQ}
+    \label{fig:registrosIPQ}
 \end{figure}
 
 
 %% tabla IPQ
-La tabla \ref{fig: puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
+La tabla \ref{fig:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
 
 La presencia general obtuvo una media de 2005 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 ed 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
 
@@ -209,24 +209,24 @@ La tabla tiene dos puntuaciones de involucramiento: la principal calculada con t
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ipq/tabla_pIPQ.png}
     \caption{Tabla de puntuaciones de IPQ.}
-    \label{fig: puntuacionesIPQ}
+    \label{fig:puntuacionesIPQ}
 \end{figure}
 
 
 
-Lo que se puede observar en la figura \ref{fig: perfilPresencia} de perfil descriptivo de presencia es que la presencia general obtuvo una media de 2.05 (n=38), la presencia espacial tuvo 1.97 (n=36). Lo que indica que los valores tienen una percepción positiva de estar dentro del entorno virtual. Esto muestra que los participantes lograron experimentar una sensación de presencia durante el videoclip.
+Lo que se puede observar en la figura \ref{fig:perfilPresencia} de perfil descriptivo de presencia es que la presencia general obtuvo una media de 2.05 (n=38), la presencia espacial tuvo 1.97 (n=36). Lo que indica que los valores tienen una percepción positiva de estar dentro del entorno virtual. Esto muestra que los participantes lograron experimentar una sensación de presencia durante el videoclip.
 % IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ipq/perfilDescriptivo.png}
     \caption{Perfil descriptivo de presencia.}
-    \label{fig: perfilPresencia}
+    \label{fig:perfilPresencia}
 \end{figure}
 
 
 %%% # ⭐ 3.2 Distribución de las tres dimensiones y presencia general
 
-La distribución de las puntuaciones individuales mediante diagramas de caja de la figura \ref{fig: variabilidadPresencia} se observa que la presencia general y la presencia espacial muestran medianas cercanas a 2.0 con una concentración de respuestas en valores positivos. Lo que demuestra que la mayoría de participantes experimiento una sensación favorable de presencia dentro del entorno virtual. Aunque tambien hay algunas puntuaciones inferiores, lo que muestra uqe la experiencia no fue percibida de la misma manera para todos los usuarios. 
+La distribución de las puntuaciones individuales mediante diagramas de caja de la figura \ref{fig:variabilidadPresencia} se observa que la presencia general y la presencia espacial muestran medianas cercanas a 2.0 con una concentración de respuestas en valores positivos. Lo que demuestra que la mayoría de participantes experimiento una sensación favorable de presencia dentro del entorno virtual. Aunque tambien hay algunas puntuaciones inferiores, lo que muestra uqe la experiencia no fue percibida de la misma manera para todos los usuarios. 
 
 Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor dispersión de respuestas alrededor del punto neutral. En el involucramiento se observan puntuaciones tanto negativas como positivas. Y en el realismo presenta una distribución similar. La variación demuestra que la capacidad de la experiencia de captar la atención y transmitir una sensasión de realismo fue diferente entre los participantes. A pesar de que los promedios generales permiten identificar tendencias, las diferencias individuales muestran que la percepción de presencia no fue uniforme en todas sus dimensiones. 
 
@@ -235,13 +235,13 @@ Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ipq/variabilidad.png}
     \caption{Variabilidad de presencia entre participantes.}
-    \label{fig: variabilidadPresencia}
+    \label{fig:variabilidadPresencia}
 \end{figure}
 
  
 %% # ⭐ 3.5 Brecha individual entre presencial espacial y realismo
 
-La figura \ref{fig: Brecha} de brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. De esta misma forma se ve una diferencia promedio de 1.86 puntos a favor de la presencia espacial. 
+La figura \ref{fig:Brecha} de brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. De esta misma forma se ve una diferencia promedio de 1.86 puntos a favor de la presencia espacial. 
 
 Este resultado evidencia que, para la mayoría de los participantes, la sensación de encontrarse dentro del mundo virtual fue considerablente mayor que la percepción de realismo del entorno. Lo que diferencia a los dos aspectos de la experiencia inversiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
 
@@ -250,7 +250,7 @@ Este resultado evidencia que, para la mayoría de los participantes, la sensaci�
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ipq/brecha.png}
     \caption{Brecha espacial - Realismo.}
-    \label{fig: Brecha}
+    \label{fig:Brecha}
 \end{figure}
 
 

@@ -318,9 +318,6 @@ INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
-INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-OUTPUT z-main.ist
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT .\plantilla\escudoUVGnegro.eps
 INPUT .\plantilla\escudoUVGnegro.eps
@@ -337,6 +334,8 @@ INPUT .\plantilla\escudoUVGnegro-eps-converted-to.pdf
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
+OUTPUT z-main.ist
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\plantilla\escudoUVGnegro.eps
 INPUT .\plantilla\escudoUVGnegro.eps
 INPUT .\plantilla\escudoUVGnegro.eps
@@ -686,6 +685,8 @@ INPUT .\l-recomendaciones.tex
 INPUT .\l-recomendaciones.tex
 INPUT .\l-recomendaciones.tex
 INPUT l-recomendaciones.tex
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT .\n-anexos.tex
 INPUT .\n-anexos.tex
 INPUT .\n-anexos.tex
@@ -767,6 +768,10 @@ INPUT .\z-main.out
 INPUT .\z-main.out
 INPUT z-main.run.xml
 OUTPUT z-main.run.xml
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
@@ -781,6 +786,8 @@ INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecs
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecss2488.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
+INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
@@ -797,8 +804,6 @@ INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
 INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
-INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
-INPUT C:\Users\angel\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\angel\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
