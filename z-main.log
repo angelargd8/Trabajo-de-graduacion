@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  29 OCT 2026 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  29 OCT 2026 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1112,18 +1112,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
  [18]
-<Assets/PreparacionAlex.jpeg, id=391, 1606.0pt x 966.61125pt>
+<Assets/PreparacionAlex.jpeg, id=394, 1606.0pt x 966.61125pt>
 File: Assets/PreparacionAlex.jpeg Graphic file (type jpg)
 <use Assets/PreparacionAlex.jpeg>
 Package pdftex.def Info: Assets/PreparacionAlex.jpeg  used on input line 73.
 (pdftex.def)             Requested size: 390.25536pt x 234.8823pt.
  [19]
-<Assets/PreparacionJoaquin.png, id=399, 1281.78876pt x 768.37062pt>
+<Assets/PreparacionJoaquin.png, id=402, 1281.78876pt x 768.37062pt>
 File: Assets/PreparacionJoaquin.png Graphic file (type png)
 <use Assets/PreparacionJoaquin.png>
 Package pdftex.def Info: Assets/PreparacionJoaquin.png  used on input line 81.
 (pdftex.def)             Requested size: 390.25536pt x 233.93648pt.
-<Assets/PreparacionDanniel.png, id=401, 1281.28688pt x 765.35938pt>
+<Assets/PreparacionDanniel.png, id=404, 1281.28688pt x 765.35938pt>
 File: Assets/PreparacionDanniel.png Graphic file (type png)
 <use Assets/PreparacionDanniel.png>
 Package pdftex.def Info: Assets/PreparacionDanniel.png  used on input line 87.
@@ -1132,23 +1132,23 @@ Package pdftex.def Info: Assets/PreparacionDanniel.png  used on input line 87.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./Assets/PreparacionAlex.jpeg> <./Assets/PreparacionJoaquin.png>]
-<Assets/Trellis2Alex.jpeg, id=410, 1606.0pt x 887.315pt>
+<Assets/Trellis2Alex.jpeg, id=413, 1606.0pt x 887.315pt>
 File: Assets/Trellis2Alex.jpeg Graphic file (type jpg)
 <use Assets/Trellis2Alex.jpeg>
 Package pdftex.def Info: Assets/Trellis2Alex.jpeg  used on input line 98.
 (pdftex.def)             Requested size: 390.25536pt x 215.61365pt.
  [21 <./Assets/PreparacionDanniel.png> <./Assets/Trellis2Alex.jpeg>]
-<Assets/blenderAlex.jpeg, id=419, 1606.0pt x 964.60374pt>
+<Assets/blenderAlex.jpeg, id=422, 1606.0pt x 964.60374pt>
 File: Assets/blenderAlex.jpeg Graphic file (type jpg)
 <use Assets/blenderAlex.jpeg>
 Package pdftex.def Info: Assets/blenderAlex.jpeg  used on input line 106.
 (pdftex.def)             Requested size: 390.25536pt x 234.39449pt.
-<Assets/riggingAlex.jpeg, id=420, 1606.0pt x 875.27pt>
+<Assets/riggingAlex.jpeg, id=423, 1606.0pt x 875.27pt>
 File: Assets/riggingAlex.jpeg Graphic file (type jpg)
 <use Assets/riggingAlex.jpeg>
 Package pdftex.def Info: Assets/riggingAlex.jpeg  used on input line 114.
 (pdftex.def)             Requested size: 390.25536pt x 212.68677pt.
-<Assets/UnityAlex.jpeg, id=421, 1606.0pt x 935.495pt>
+<Assets/UnityAlex.jpeg, id=424, 1606.0pt x 935.495pt>
 File: Assets/UnityAlex.jpeg Graphic file (type jpg)
 <use Assets/UnityAlex.jpeg>
 Package pdftex.def Info: Assets/UnityAlex.jpeg  used on input line 120.
@@ -1157,24 +1157,24 @@ Package pdftex.def Info: Assets/UnityAlex.jpeg  used on input line 120.
 Underfull \vbox (badness 1577) has occurred while \output is active []
 
  [22 <./Assets/blenderAlex.jpeg> <./Assets/riggingAlex.jpeg>] [23 <./Assets/UnityAlex.jpeg>]
-<Assets/Bootstrap.png, id=438, 221.82875pt x 272.51813pt>
+<Assets/Bootstrap.png, id=441, 221.82875pt x 272.51813pt>
 File: Assets/Bootstrap.png Graphic file (type png)
 <use Assets/Bootstrap.png>
 Package pdftex.def Info: Assets/Bootstrap.png  used on input line 154.
 (pdftex.def)             Requested size: 173.44534pt x 213.07474pt.
  [24 <./Assets/Bootstrap.png>]
-<Assets/ExperienceCore.png, id=447, 211.28937pt x 388.45125pt>
+<Assets/ExperienceCore.png, id=450, 211.28937pt x 388.45125pt>
 File: Assets/ExperienceCore.png Graphic file (type png)
 <use Assets/ExperienceCore.png>
 Package pdftex.def Info: Assets/ExperienceCore.png  used on input line 168.
 (pdftex.def)             Requested size: 173.44534pt x 318.88177pt.
  [25 <./Assets/ExperienceCore.png>]
-<Assets/ExperienceSceneDefinitionSO.png, id=455, 661.47125pt x 205.26688pt>
+<Assets/ExperienceSceneDefinitionSO.png, id=458, 661.47125pt x 205.26688pt>
 File: Assets/ExperienceSceneDefinitionSO.png Graphic file (type png)
 <use Assets/ExperienceSceneDefinitionSO.png>
 Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 189.
 (pdftex.def)             Requested size: 390.25536pt x 121.10326pt.
-<Assets/ExperienceSequenceSO.png, id=456, 355.3275pt x 534.99875pt>
+<Assets/ExperienceSequenceSO.png, id=459, 355.3275pt x 534.99875pt>
 File: Assets/ExperienceSequenceSO.png Graphic file (type png)
 <use Assets/ExperienceSequenceSO.png>
 Package pdftex.def Info: Assets/ExperienceSequenceSO.png  used on input line 198.
@@ -1186,12 +1186,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4792) has occurred while \output is active []
 
  [27 <./Assets/ExperienceSequenceSO.png>]
-<Assets/ExperienceSceneBootstrap.png, id=471, 532.99126pt x 560.59438pt>
+<Assets/ExperienceSceneBootstrap.png, id=474, 532.99126pt x 560.59438pt>
 File: Assets/ExperienceSceneBootstrap.png Graphic file (type png)
 <use Assets/ExperienceSceneBootstrap.png>
 Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 213.
 (pdftex.def)             Requested size: 303.53267pt x 319.25983pt.
-<Assets/ExperienceContent.png, id=472, 619.31375pt x 212.795pt>
+<Assets/ExperienceContent.png, id=475, 619.31375pt x 212.795pt>
 File: Assets/ExperienceContent.png Graphic file (type png)
 <use Assets/ExperienceContent.png>
 Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 220.
@@ -1200,7 +1200,7 @@ Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 220.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./Assets/ExperienceSceneBootstrap.png> <./Assets/ExperienceContent.png>] [29] [30]
-<Assets/MatExampleOptimizacion.png, id=497, 460.72125pt x 687.06688pt>
+<Assets/MatExampleOptimizacion.png, id=500, 460.72125pt x 687.06688pt>
 File: Assets/MatExampleOptimizacion.png Graphic file (type png)
 <use Assets/MatExampleOptimizacion.png>
 Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 291.
@@ -1209,7 +1209,7 @@ Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 2
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31] [32 <./Assets/MatExampleOptimizacion.png>] [33]
-<Assets/pruebasAnalisisCognitivo.png, id=519, 4015.0pt x 3011.25pt>
+<Assets/pruebasAnalisisCognitivo.png, id=522, 4015.0pt x 3011.25pt>
 File: Assets/pruebasAnalisisCognitivo.png Graphic file (type png)
 <use Assets/pruebasAnalisisCognitivo.png>
 Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line 339.
@@ -1218,7 +1218,10 @@ Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line
 
 ]
 Cap\'{\i }tulo 6.
-<Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png, id=542, 693.0693pt x 421.3341pt>
+
+LaTeX Warning: Reference `fig:tabla_rendimiento_ejecutable_metahorizonlink_vertical' on page 37 undefined on input line 9.
+
+<Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png, id=545, 693.0693pt x 421.3341pt>
 File: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png Graphic file (type png)
 <use Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>
 Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png  used on input line 16.
@@ -1227,101 +1230,133 @@ Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_metahor
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<Assets/rendimiento/tiempoCPUPC.png, id=550, 859.2903pt x 276.7941pt>
+
+LaTeX Warning: Reference `fig:tiempo-cpu-pc' on page 38 undefined on input line 23.
+
+
+LaTeX Warning: Reference `fig:tiempo-gpu-pc' on page 38 undefined on input line 25.
+
+<Assets/rendimiento/tiempoCPUPC.png, id=553, 859.2903pt x 276.7941pt>
 File: Assets/rendimiento/tiempoCPUPC.png Graphic file (type png)
 <use Assets/rendimiento/tiempoCPUPC.png>
-Package pdftex.def Info: Assets/rendimiento/tiempoCPUPC.png  used on input line 35.
+Package pdftex.def Info: Assets/rendimiento/tiempoCPUPC.png  used on input line 36.
 (pdftex.def)             Requested size: 390.25536pt x 125.70921pt.
-<Assets/rendimiento/tiempoGPUPC.png, id=551, 859.2903pt x 290.5254pt>
+<Assets/rendimiento/tiempoGPUPC.png, id=554, 859.2903pt x 290.5254pt>
 File: Assets/rendimiento/tiempoGPUPC.png Graphic file (type png)
 <use Assets/rendimiento/tiempoGPUPC.png>
-Package pdftex.def Info: Assets/rendimiento/tiempoGPUPC.png  used on input line 45.
+Package pdftex.def Info: Assets/rendimiento/tiempoGPUPC.png  used on input line 46.
 (pdftex.def)             Requested size: 390.25536pt x 131.94543pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38 <./Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>]
-<Assets/rendimiento/latenciaPC.png, id=558, 859.2903pt x 354.123pt>
+
+LaTeX Warning: Reference `fig: latenciaPC' on page 39 undefined on input line 58.
+
+<Assets/rendimiento/latenciaPC.png, id=561, 859.2903pt x 354.123pt>
 File: Assets/rendimiento/latenciaPC.png Graphic file (type png)
 <use Assets/rendimiento/latenciaPC.png>
-Package pdftex.def Info: Assets/rendimiento/latenciaPC.png  used on input line 62.
+Package pdftex.def Info: Assets/rendimiento/latenciaPC.png  used on input line 63.
 (pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
- [39 <./Assets/rendimiento/tiempoCPUPC.png> <./Assets/rendimiento/tiempoGPUPC.png> <./Assets/rendimiento/latenciaPC.png>]
-<Assets/rendimiento/descartesPC.png, id=569, 658.3797pt x 318.7107pt>
+
+LaTeX Warning: Reference `fig: incrementoContadores' on page 39 undefined on input line 69.
+
+[39 <./Assets/rendimiento/tiempoCPUPC.png> <./Assets/rendimiento/tiempoGPUPC.png> <./Assets/rendimiento/latenciaPC.png>]
+<Assets/rendimiento/descartesPC.png, id=572, 658.3797pt x 318.7107pt>
 File: Assets/rendimiento/descartesPC.png Graphic file (type png)
 <use Assets/rendimiento/descartesPC.png>
-Package pdftex.def Info: Assets/rendimiento/descartesPC.png  used on input line 74.
+Package pdftex.def Info: Assets/rendimiento/descartesPC.png  used on input line 77.
 (pdftex.def)             Requested size: 390.25536pt x 188.91302pt.
-<Assets/rendimiento/distribucionPC.png, id=570, 1076.1003pt x 357.7365pt>
+
+
+LaTeX Warning: Reference `fig: distribucionPorCorrida' on page 40 undefined on input line 83.
+
+<Assets/rendimiento/distribucionPC.png, id=573, 1076.1003pt x 357.7365pt>
 File: Assets/rendimiento/distribucionPC.png Graphic file (type png)
 <use Assets/rendimiento/distribucionPC.png>
-Package pdftex.def Info: Assets/rendimiento/distribucionPC.png  used on input line 83.
+Package pdftex.def Info: Assets/rendimiento/distribucionPC.png  used on input line 87.
 (pdftex.def)             Requested size: 390.25536pt x 129.73483pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
- (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+LaTeX Warning: Reference `fig: rendimientoAPK' on page 40 undefined on input line 95.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+(C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
  (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png, id=571, 589.2414pt x 590.205pt>
+<Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png, id=574, 589.2414pt x 590.205pt>
 File: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png Graphic file (type png)
 <use Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>
-Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png  used on input line 95.
+Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png  used on input line 100.
 (pdftex.def)             Requested size: 390.25536pt x 390.90538pt.
  [40 <./Assets/rendimiento/descartesPC.png> <./Assets/rendimiento/distribucionPC.png>]
-<Assets/rendimiento/FPSAPK.png, id=581, 859.2903pt x 354.123pt>
+
+LaTeX Warning: Reference `fig: FPSAPK' on page 41 undefined on input line 107.
+
+<Assets/rendimiento/FPSAPK.png, id=584, 859.2903pt x 354.123pt>
 File: Assets/rendimiento/FPSAPK.png Graphic file (type png)
 <use Assets/rendimiento/FPSAPK.png>
-Package pdftex.def Info: Assets/rendimiento/FPSAPK.png  used on input line 106.
+Package pdftex.def Info: Assets/rendimiento/FPSAPK.png  used on input line 112.
 (pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>]
-<Assets/ipq/db.png, id=590, 388.8126pt x 196.5744pt>
+
+LaTeX Warning: Reference `fig: registrosIPQ' on page 42 undefined on input line 123.
+
+<Assets/ipq/db.png, id=593, 388.8126pt x 196.5744pt>
 File: Assets/ipq/db.png Graphic file (type png)
 <use Assets/ipq/db.png>
-Package pdftex.def Info: Assets/ipq/db.png  used on input line 121.
-(pdftex.def)             Requested size: 390.25536pt x 197.31778pt.
- [42 <./Assets/rendimiento/FPSAPK.png> <./Assets/ipq/db.png>]
-<Assets/ipq/tabla_pIPQ.png, id=601, 870.3717pt x 168.3891pt>
+Package pdftex.def Info: Assets/ipq/db.png  used on input line 127.
+(pdftex.def)             Requested size: 216.81pt x 109.61598pt.
+
+LaTeX Warning: Reference `fig: puntuacionesIPQ' on page 42 undefined on input line 134.
+
+[42 <./Assets/rendimiento/FPSAPK.png> <./Assets/ipq/db.png>]
+<Assets/ipq/tabla_pIPQ.png, id=606, 870.3717pt x 168.3891pt>
 File: Assets/ipq/tabla_pIPQ.png Graphic file (type png)
 <use Assets/ipq/tabla_pIPQ.png>
-Package pdftex.def Info: Assets/ipq/tabla_pIPQ.png  used on input line 135.
+Package pdftex.def Info: Assets/ipq/tabla_pIPQ.png  used on input line 142.
 (pdftex.def)             Requested size: 390.25536pt x 75.50203pt.
-<Assets/ipq/perfilDescriptivo.png, id=602, 586.1097pt x 333.1647pt>
+
+
+LaTeX Warning: Reference `fig: perfilPresencia' on page 43 undefined on input line 149.
+
+<Assets/ipq/perfilDescriptivo.png, id=607, 586.1097pt x 333.1647pt>
 File: Assets/ipq/perfilDescriptivo.png Graphic file (type png)
 <use Assets/ipq/perfilDescriptivo.png>
-Package pdftex.def Info: Assets/ipq/perfilDescriptivo.png  used on input line 145.
+Package pdftex.def Info: Assets/ipq/perfilDescriptivo.png  used on input line 153.
 (pdftex.def)             Requested size: 390.25536pt x 221.83643pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig: variabilidadPresencia' on page 43 undefined on input line 161.
 
- [43 <./Assets/ipq/tabla_pIPQ.png>]
-<Assets/ipq/variabilidad.png, id=611, 665.6067pt x 412.6617pt>
+[43 <./Assets/ipq/tabla_pIPQ.png> <./Assets/ipq/perfilDescriptivo.png>]
+<Assets/ipq/variabilidad.png, id=616, 665.6067pt x 412.6617pt>
 File: Assets/ipq/variabilidad.png Graphic file (type png)
 <use Assets/ipq/variabilidad.png>
-Package pdftex.def Info: Assets/ipq/variabilidad.png  used on input line 159.
+Package pdftex.def Info: Assets/ipq/variabilidad.png  used on input line 168.
 (pdftex.def)             Requested size: 390.25536pt x 241.95078pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./Assets/ipq/perfilDescriptivo.png>]
-<Assets/ipq/brecha.png, id=618, 694.5147pt x 362.0727pt>
+LaTeX Warning: Reference `fig: Brecha' on page 44 undefined on input line 176.
+
+<Assets/ipq/brecha.png, id=617, 694.5147pt x 362.0727pt>
 File: Assets/ipq/brecha.png Graphic file (type png)
 <use Assets/ipq/brecha.png>
-Package pdftex.def Info: Assets/ipq/brecha.png  used on input line 173.
+Package pdftex.def Info: Assets/ipq/brecha.png  used on input line 183.
 (pdftex.def)             Requested size: 390.25536pt x 203.45544pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./Assets/ipq/variabilidad.png>] [46 <./Assets/ipq/brecha.png>]
-Cap\'{\i }tulo 7.
-) [47
+ [44 <./Assets/ipq/variabilidad.png>] [45 <./Assets/ipq/brecha.png>] [46
 
-] [48
+]
+Cap\'{\i }tulo 7.
+) [47] [48
 
 ]
 Cap\'{\i }tulo 8.
@@ -1343,12 +1378,12 @@ Overfull \hbox (1.93355pt too wide) in paragraph at lines 448--448
 [56]
 Cap\'{\i }tulo 11.
 (n-anexos.tex
-<Assets/Preguntas IPQ.pdf, id=750, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=755, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<Assets/Preguntas IPQ.pdf, id=752, page=1, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=757, page=1, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
@@ -1375,7 +1410,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
  [58
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=775, page=2, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=780, page=2, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 2>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
@@ -1391,7 +1426,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
  [59
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=798, page=3, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=803, page=3, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 3>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
@@ -1407,7 +1442,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
  [60
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=811, page=4, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=816, page=4, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 4>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
@@ -1423,12 +1458,12 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
  [61
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/plantillaVRUnityHub.png, id=820, 1279.78125pt x 765.35938pt>
+<Assets/plantillaVRUnityHub.png, id=825, 1279.78125pt x 765.35938pt>
 File: Assets/plantillaVRUnityHub.png Graphic file (type png)
 <use Assets/plantillaVRUnityHub.png>
 Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 22.
 (pdftex.def)             Requested size: 390.25536pt x 233.38171pt.
-<Assets/BuildProfiles.png, id=821, 771.38188pt x 632.86438pt>
+<Assets/BuildProfiles.png, id=826, 771.38188pt x 632.86438pt>
 File: Assets/BuildProfiles.png Graphic file (type png)
 <use Assets/BuildProfiles.png>
 Package pdftex.def Info: Assets/BuildProfiles.png  used on input line 30.
@@ -1437,7 +1472,7 @@ Package pdftex.def Info: Assets/BuildProfiles.png  used on input line 30.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62 <./Assets/plantillaVRUnityHub.png>]
-<Assets/BuildProfilesQuestHorizonLink.png, id=829, 553.06625pt x 534.99875pt>
+<Assets/BuildProfilesQuestHorizonLink.png, id=834, 553.06625pt x 534.99875pt>
 File: Assets/BuildProfilesQuestHorizonLink.png Graphic file (type png)
 <use Assets/BuildProfilesQuestHorizonLink.png>
 Package pdftex.def Info: Assets/BuildProfilesQuestHorizonLink.png  used on input line 38.
@@ -1446,7 +1481,7 @@ Package pdftex.def Info: Assets/BuildProfilesQuestHorizonLink.png  used on input
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63 <./Assets/BuildProfiles.png>]
-<Assets/ProjectSettings.png, id=836, 1031.855pt x 699.11188pt>
+<Assets/ProjectSettings.png, id=841, 1031.855pt x 699.11188pt>
 File: Assets/ProjectSettings.png Graphic file (type png)
 <use Assets/ProjectSettings.png>
 Package pdftex.def Info: Assets/ProjectSettings.png  used on input line 46.
@@ -1455,7 +1490,7 @@ Package pdftex.def Info: Assets/ProjectSettings.png  used on input line 46.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./Assets/BuildProfilesQuestHorizonLink.png>]
-<Assets/physics.png, id=843, 717.17938pt x 623.32875pt>
+<Assets/physics.png, id=848, 717.17938pt x 623.32875pt>
 File: Assets/physics.png Graphic file (type png)
 <use Assets/physics.png>
 Package pdftex.def Info: Assets/physics.png  used on input line 53.
@@ -1464,7 +1499,7 @@ Package pdftex.def Info: Assets/physics.png  used on input line 53.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65 <./Assets/ProjectSettings.png>]
-<Assets/XROrigin.png, id=851, 1284.29813pt x 766.865pt>
+<Assets/XROrigin.png, id=856, 1284.29813pt x 766.865pt>
 File: Assets/XROrigin.png Graphic file (type png)
 <use Assets/XROrigin.png>
 Package pdftex.def Info: Assets/XROrigin.png  used on input line 60.
@@ -1500,7 +1535,7 @@ Package rerunfilecheck Warning: File `z-main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `z-main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  17CF6320C0006C43075BE6AF9A7A8B80;20700.
+(rerunfilecheck)             After:  2E2E404D2DE148B17EFA6BC272243B5B;20701.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                z-main
@@ -1511,17 +1546,17 @@ Package logreq Info: Writing requests to 'z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31692 strings out of 467510
- 613594 string characters out of 5408795
- 1489767 words of memory out of 5000000
- 60216 multiletter control sequences out of 15000+600000
+ 31708 strings out of 467510
+ 614048 string characters out of 5408795
+ 1488767 words of memory out of 5000000
+ 60230 multiletter control sequences out of 15000+600000
  644668 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,18n,79p,2572b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on z-main.pdf (88 pages, 29062327 bytes).
+Output written on z-main.pdf (88 pages, 29065000 bytes).
 PDF statistics:
- 1620 PDF objects out of 1728 (max. 8388607)
- 284 named destinations out of 1000 (max. 500000)
+ 1629 PDF objects out of 1728 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

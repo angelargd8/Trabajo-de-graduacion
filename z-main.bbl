@@ -1697,6 +1697,33 @@
       \verb https://matplotlib.org/
       \endverb
     \endentry
+    \entry{jupyterNotebook}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4201fb8d66fe63bfacbdf645c581b341}{%
+           family={{Jupyter Team}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{fullhash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{fullhashraw}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{bibnamehash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{authorbibnamehash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{authornamehash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{authorfullhash}{4201fb8d66fe63bfacbdf645c581b341}
+      \strng{authorfullhashraw}{4201fb8d66fe63bfacbdf645c581b341}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido: 28 de octubre de 2026}
+      \field{title}{{Jupyter Notebook Documentation --- Jupyter Notebook 7.7.0b0 documentation}}
+      \verb{urlraw}
+      \verb https://jupyter-notebook.readthedocs.io/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://jupyter-notebook.readthedocs.io/en/latest/
+      \endverb
+    \endentry
     \entry{schubert2001experience}{article}{}{}
       \name{author}{3}{}{%
         {{hash=6762005e6ce2d5a91469c4b690d48ab6}{%
