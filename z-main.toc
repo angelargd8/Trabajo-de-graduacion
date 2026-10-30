@@ -69,46 +69,46 @@
 \contentsline {subsection}{\numberline {5.3.3}Implementacion de escenas}{24}{subsection*.77}%
 \contentsline {section}{\numberline {5.4}Implementación de la Arquitectura Dirigida por Eventos}{25}{section*.78}%
 \contentsline {subsection}{\numberline {5.4.1}Organización general de sistema}{25}{subsection*.79}%
-\contentsline {subsubsection}{Bootstrap y servicios generales}{25}{section*.80}%
-\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{26}{section*.82}%
-\contentsline {subsection}{\numberline {5.4.2}Comunicación por eventos y control de flujo}{27}{subsection*.84}%
-\contentsline {subsubsection}{Configuración de experiencias y segmentos}{27}{section*.85}%
-\contentsline {subsection}{\numberline {5.4.3}Preparación de escenas y activación de contenido y administración de recursos}{29}{subsection*.88}%
-\contentsline {subsection}{\numberline {5.4.4}Reutilización y precarga de recursos}{32}{subsection*.90}%
-\contentsline {subsection}{\numberline {5.4.5}Inicio de la experiencia y modalidades de ejecución}{32}{subsection*.91}%
-\contentsline {subsection}{\numberline {5.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{32}{subsection*.92}%
-\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{33}{section*.93}%
-\contentsline {subsection}{\numberline {5.4.7}Generación y preparación del BeatMap}{33}{subsection*.94}%
-\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{33}{section*.95}%
-\contentsline {subsection}{\numberline {5.4.8}Finalización de la canción y cierre de la experiencia}{33}{subsection*.96}%
-\contentsline {section}{\numberline {5.5}Optimización y validación técnica}{34}{section*.97}%
-\contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{34}{subsection*.98}%
-\contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{35}{subsection*.100}%
-\contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{36}{subsection*.101}%
-\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{36}{section*.102}%
-\contentsline {subsection}{\numberline {5.6.1}Participantes}{36}{subsection*.103}%
-\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{37}{subsection*.104}%
-\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{37}{subsection*.105}%
-\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{38}{subsection*.107}%
-\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.108}%
-\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{38}{subsection*.109}%
-\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{38}{subsection*.110}%
-\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{38}{subsection*.111}%
-\contentsline {chapter}{\numberline {6}Resultados}{41}{chapter*.112}%
-\contentsline {section}{\numberline {6.1}Trazabilidad de la arquitectura EDA}{41}{section*.113}%
-\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{44}{section*.120}%
-\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{44}{subsection*.121}%
-\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{47}{subsection*.127}%
-\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{49}{section*.130}%
-\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{49}{subsection*.131}%
-\contentsline {chapter}{\numberline {7}Discusión}{53}{chapter*.137}%
-\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{53}{section*.138}%
-\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{54}{section*.139}%
-\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{54}{section*.140}%
-\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{55}{section*.141}%
-\contentsline {chapter}{\numberline {8}Conclusiones}{57}{chapter*.142}%
-\contentsline {chapter}{\numberline {9}Recomendaciones}{59}{chapter*.143}%
-\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{61}{chapter*.145}%
-\contentsline {chapter}{\numberline {11}Anexos}{65}{chapter*.146}%
-\contentsline {section}{\numberline {11.1}Cuestionario IPQ utilizado}{65}{section*.147}%
-\contentsline {subsection}{\numberline {11.1.1}Configuración del proyecto y plantilla VR de Unity}{70}{subsection*.148}%
+\contentsline {subsubsection}{Bootstrap y servicios generales}{26}{section*.81}%
+\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{27}{section*.83}%
+\contentsline {subsection}{\numberline {5.4.2}Comunicación por eventos y control de flujo}{28}{subsection*.85}%
+\contentsline {subsubsection}{Configuración de experiencias y segmentos}{29}{section*.87}%
+\contentsline {subsection}{\numberline {5.4.3}Preparación de escenas y activación de contenido y administración de recursos}{30}{subsection*.90}%
+\contentsline {subsection}{\numberline {5.4.4}Reutilización y precarga de recursos}{34}{subsection*.94}%
+\contentsline {subsection}{\numberline {5.4.5}Inicio de la experiencia y modalidades de ejecución}{34}{subsection*.95}%
+\contentsline {subsection}{\numberline {5.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{36}{subsection*.97}%
+\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{36}{section*.98}%
+\contentsline {subsection}{\numberline {5.4.7}Generación y preparación del BeatMap}{37}{subsection*.100}%
+\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{38}{section*.101}%
+\contentsline {subsection}{\numberline {5.4.8}Finalización de la canción y cierre de la experiencia}{38}{subsection*.102}%
+\contentsline {section}{\numberline {5.5}Optimización y validación técnica}{38}{section*.103}%
+\contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{38}{subsection*.104}%
+\contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{39}{subsection*.106}%
+\contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{40}{subsection*.107}%
+\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{40}{section*.108}%
+\contentsline {subsection}{\numberline {5.6.1}Participantes}{40}{subsection*.109}%
+\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{41}{subsection*.110}%
+\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{41}{subsection*.111}%
+\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{42}{subsection*.113}%
+\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{42}{section*.114}%
+\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{42}{subsection*.115}%
+\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{42}{subsection*.116}%
+\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{42}{subsection*.117}%
+\contentsline {chapter}{\numberline {6}Resultados}{45}{chapter*.118}%
+\contentsline {section}{\numberline {6.1}Trazabilidad de la arquitectura EDA}{45}{section*.119}%
+\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{48}{section*.126}%
+\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{48}{subsection*.127}%
+\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{51}{subsection*.133}%
+\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{53}{section*.136}%
+\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{53}{subsection*.137}%
+\contentsline {chapter}{\numberline {7}Discusión}{57}{chapter*.143}%
+\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{57}{section*.144}%
+\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{58}{section*.145}%
+\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{58}{section*.146}%
+\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{59}{section*.147}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{61}{chapter*.148}%
+\contentsline {chapter}{\numberline {9}Recomendaciones}{63}{chapter*.149}%
+\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{65}{chapter*.151}%
+\contentsline {chapter}{\numberline {11}Anexos}{69}{chapter*.152}%
+\contentsline {section}{\numberline {11.1}Cuestionario IPQ utilizado}{69}{section*.153}%
+\contentsline {subsection}{\numberline {11.1.1}Configuración del proyecto y plantilla VR de Unity}{74}{subsection*.154}%

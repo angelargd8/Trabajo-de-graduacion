@@ -9,40 +9,43 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Modelo generado por TRELLIS.2}}{22}{figure.caption.74}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Modelo modificado en Blender}}{23}{figure.caption.75}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Modelo en Mixamo y Unity}}{24}{figure.caption.76}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Escena Bootstrap.}}{26}{figure.caption.81}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Escena ExperienceCore.}}{27}{figure.caption.83}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Configuracion de ExperienceSceneDefinitionSO.}}{28}{figure.caption.86}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Configuracion de ExperienceSequenceSO.}}{29}{figure.caption.87}%
-\contentsline {figure}{\numberline {9}{\ignorespaces \relax }}{31}{figure.caption.89}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{35}{figure.caption.99}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }}{37}{figure.caption.106}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Organización general de la arquitectura}}{26}{figure.caption.80}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Escena Bootstrap.}}{27}{figure.caption.82}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Escena ExperienceCore.}}{28}{figure.caption.84}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Comunicación por eventos}}{29}{figure.caption.86}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Configuracion de ExperienceSceneDefinitionSO.}}{29}{figure.caption.88}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Configuracion de ExperienceSequenceSO.}}{30}{figure.caption.89}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Flujo completo de la ejecución de la experiencia.}}{35}{figure.caption.96}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Secuencia temporal, pregargas y transiciones.}}{37}{figure.caption.99}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{39}{figure.caption.105}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }}{41}{figure.caption.112}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12}{\ignorespaces Flujo temporal observado durante una ejecución completa}}{41}{figure.caption.114}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Mapa visual de las relaciones observadas}}{42}{figure.caption.115}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Diferencia entre la frontera musical y la activación registrada}}{43}{figure.caption.116}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Recepciones de BeatReached por consumidor}}{43}{figure.caption.117}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Duración registrada de operaciones de carga y preparación}}{44}{figure.caption.118}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Tabla: Resultados principales de la trazabilidad EDA}}{44}{figure.caption.119}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Tabla: rendimiento del ejecutable por Meta Horizon Link}}{45}{figure.caption.122}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{46}{figure.caption.123}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Latencia movimiento-fotón}}{46}{figure.caption.124}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{47}{figure.caption.125}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{47}{figure.caption.126}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Tabla: rendimiento del ejecutable en Meta Quest 3S}}{48}{figure.caption.128}%
-\contentsline {figure}{\numberline {24}{\ignorespaces FPS en las capturas del APK}}{49}{figure.caption.129}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Registros de IPQ.}}{49}{figure.caption.132}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Tabla de puntuaciones de IPQ.}}{50}{figure.caption.133}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Perfil descriptivo de presencia.}}{50}{figure.caption.134}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Variabilidad de presencia entre participantes.}}{51}{figure.caption.135}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Brecha espacial - Realismo.}}{52}{figure.caption.136}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Flujo temporal observado durante una ejecución completa}}{45}{figure.caption.120}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Mapa visual de las relaciones observadas}}{46}{figure.caption.121}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Diferencia entre la frontera musical y la activación registrada}}{47}{figure.caption.122}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Recepciones de BeatReached por consumidor}}{47}{figure.caption.123}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Duración registrada de operaciones de carga y preparación}}{48}{figure.caption.124}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Tabla: Resultados principales de la trazabilidad EDA}}{48}{figure.caption.125}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Tabla: rendimiento del ejecutable por Meta Horizon Link}}{49}{figure.caption.128}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{50}{figure.caption.129}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Latencia movimiento-fotón}}{50}{figure.caption.130}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{51}{figure.caption.131}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{51}{figure.caption.132}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Tabla: rendimiento del ejecutable en Meta Quest 3S}}{52}{figure.caption.134}%
+\contentsline {figure}{\numberline {28}{\ignorespaces FPS en las capturas del APK}}{53}{figure.caption.135}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Registros de IPQ.}}{53}{figure.caption.138}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Tabla de puntuaciones de IPQ.}}{54}{figure.caption.139}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Perfil descriptivo de presencia.}}{54}{figure.caption.140}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Variabilidad de presencia entre participantes.}}{55}{figure.caption.141}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Brecha espacial - Realismo.}}{56}{figure.caption.142}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {30}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{70}{figure.caption.149}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{71}{figure.caption.150}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{72}{figure.caption.151}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{73}{figure.caption.152}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{74}{figure.caption.153}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{75}{figure.caption.154}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{74}{figure.caption.155}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{75}{figure.caption.156}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{76}{figure.caption.157}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{77}{figure.caption.158}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{78}{figure.caption.159}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{79}{figure.caption.160}%
