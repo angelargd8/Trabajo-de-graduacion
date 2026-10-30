@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  29 OCT 2026 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  29 OCT 2026 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,3 +264,1264 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count305
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen178
+\Hy@linkcounter=\count307
+\Hy@pagecounter=\count308
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count309
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4070.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count310
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip20
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen179
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count311
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count312
+\c@Item=\count313
+\c@Hfootnote=\count314
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip61
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen182
+\captionmargin=\dimen183
+\caption@leftmargin=\dimen184
+\caption@rightmargin=\dimen185
+\caption@width=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count317
+\c@continuedfloat=\count318
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count319
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count320
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-06-18 L3 programming layer (loader) 
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty pages
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip62
+\f@nch@offset@elh=\skip63
+\f@nch@offset@erh=\skip64
+\f@nch@offset@olh=\skip65
+\f@nch@offset@orh=\skip66
+\f@nch@offset@elf=\skip67
+\f@nch@offset@erf=\skip68
+\f@nch@offset@olf=\skip69
+\f@nch@offset@orf=\skip70
+\f@nch@height=\skip71
+\f@nch@footalignment=\skip72
+\f@nch@widthL=\skip73
+\f@nch@widthC=\skip74
+\f@nch@widthR=\skip75
+\@temptokenb=\toks35
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count322
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count323
+\c@listtotal=\count324
+\c@listcount=\count325
+\c@liststart=\count326
+\c@liststop=\count327
+\c@citecount=\count328
+\c@citetotal=\count329
+\c@multicitecount=\count330
+\c@multicitetotal=\count331
+\c@instcount=\count332
+\c@maxnames=\count333
+\c@minnames=\count334
+\c@maxitems=\count335
+\c@minitems=\count336
+\c@citecounter=\count337
+\c@maxcitecounter=\count338
+\c@savedcitecounter=\count339
+\c@uniquelist=\count340
+\c@uniquename=\count341
+\c@refsection=\count342
+\c@refsegment=\count343
+\c@maxextratitle=\count344
+\c@maxextratitleyear=\count345
+\c@maxextraname=\count346
+\c@maxextradate=\count347
+\c@maxextraalpha=\count348
+\c@abbrvpenalty=\count349
+\c@highnamepenalty=\count350
+\c@lownamepenalty=\count351
+\c@maxparens=\count352
+\c@parenlevel=\count353
+\blx@tempcnta=\count354
+\blx@tempcntb=\count355
+\blx@tempcntc=\count356
+\c@blx@maxsection=\count357
+\blx@maxsegment@0=\count358
+\blx@notetype=\count359
+\blx@parenlevel@text=\count360
+\blx@parenlevel@foot=\count361
+\blx@sectionciteorder@0=\count362
+\blx@sectionciteorderinternal@0=\count363
+\blx@entrysetcounter=\count364
+\blx@biblioinstance=\count365
+\labelnumberwidth=\skip76
+\labelalphawidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language81
+\c@mincomprange=\count366
+\c@maxcomprange=\count367
+\c@mincompwidth=\count368
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count369
+\c@savedafterword=\count370
+\c@annotator=\count371
+\c@savedannotator=\count372
+\c@author=\count373
+\c@savedauthor=\count374
+\c@bookauthor=\count375
+\c@savedbookauthor=\count376
+\c@commentator=\count377
+\c@savedcommentator=\count378
+\c@editor=\count379
+\c@savededitor=\count380
+\c@editora=\count381
+\c@savededitora=\count382
+\c@editorb=\count383
+\c@savededitorb=\count384
+\c@editorc=\count385
+\c@savededitorc=\count386
+\c@foreword=\count387
+\c@savedforeword=\count388
+\c@holder=\count389
+\c@savedholder=\count390
+\c@introduction=\count391
+\c@savedintroduction=\count392
+\c@namea=\count393
+\c@savednamea=\count394
+\c@nameb=\count395
+\c@savednameb=\count396
+\c@namec=\count397
+\c@savednamec=\count398
+\c@translator=\count399
+\c@savedtranslator=\count400
+\c@shortauthor=\count401
+\c@savedshortauthor=\count402
+\c@shorteditor=\count403
+\c@savedshorteditor=\count404
+\c@labelname=\count405
+\c@savedlabelname=\count406
+\c@institution=\count407
+\c@savedinstitution=\count408
+\c@lista=\count409
+\c@savedlista=\count410
+\c@listb=\count411
+\c@savedlistb=\count412
+\c@listc=\count413
+\c@savedlistc=\count414
+\c@listd=\count415
+\c@savedlistd=\count416
+\c@liste=\count417
+\c@savedliste=\count418
+\c@listf=\count419
+\c@savedlistf=\count420
+\c@location=\count421
+\c@savedlocation=\count422
+\c@organization=\count423
+\c@savedorganization=\count424
+\c@origlocation=\count425
+\c@savedoriglocation=\count426
+\c@origpublisher=\count427
+\c@savedorigpublisher=\count428
+\c@publisher=\count429
+\c@savedpublisher=\count430
+\c@language=\count431
+\c@savedlanguage=\count432
+\c@origlanguage=\count433
+\c@savedoriglanguage=\count434
+\c@pageref=\count435
+\c@savedpageref=\count436
+\shorthandwidth=\skip84
+\shortjournalwidth=\skip85
+\shortserieswidth=\skip86
+\shorttitlewidth=\skip87
+\shortauthorwidth=\skip88
+\shorteditorwidth=\skip89
+\locallabelnumberwidth=\skip90
+\locallabelalphawidth=\skip91
+\localshorthandwidth=\skip92
+\localshortjournalwidth=\skip93
+\localshortserieswidth=\skip94
+\localshorttitlewidth=\skip95
+\localshortauthorwidth=\skip96
+\localshorteditorwidth=\skip97
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count437
+\c@textcitetotal=\count438
+\c@textcitemaxnames=\count439
+\c@biburlbigbreakpenalty=\count440
+\c@biburlbreakpenalty=\count441
+\c@biburlnumpenalty=\count442
+\c@biburlucpenalty=\count443
+\c@biburllcpenalty=\count444
+\biburlbigskip=\muskip21
+\biburlnumskip=\muskip22
+\biburlucskip=\muskip23
+\biburllcskip=\muskip24
+\c@smartand=\count445
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count446
+\c@bbx:relatedtotal=\count447
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2026-06-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/overpic\overpic.sty
+Package: overpic 2026/01/06 2.2 picture overlays (RN)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count448
+\d@lta=\count449
+\@delta=\dimen190
+\@@delta=\dimen191
+\@gridcnt=\count450
+\@joinkind=\count451
+\@dotgap=\dimen192
+\@ddotgap=\dimen193
+\@x@diff=\count452
+\@y@diff=\count453
+\x@diff=\dimen194
+\y@diff=\dimen195
+\@dotbox=\box60
+\num@segments=\count454
+\num@segmentsi=\count455
+\@datafile=\read4
+)
+\OVP@box=\box61
+\OVP@totalheight=\dimen196
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+Package: glossaries 2026/04/21 v5.1 (NLCT)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count456
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks38
+\@glsmrest=\toks39
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2026/05/24 v1.6.8 (NLCT) Track Languages
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
+File: glossaries-spanish.ldf 2014/11/23 v1.0
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+\l__datatool_tmpa_int=\count457
+\l__datatool_tmpb_int=\count458
+\l__datatool_tmpc_int=\count459
+\l__datatool_tmpd_int=\count460
+\l__datatool_count_int=\count461
+\l__datatool_tmp_datatype_int=\count462
+\l__datatool_tmpa_dim=\dimen197
+\l__datatool_tmpb_dim=\dimen198
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks40
+\@dtl@tmpcount=\count463
+\dtl@tmplength=\skip98
+\l__datatool_measure_box=\box62
+\dtl@sortresult=\count464
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count465
+\c_datatool_unknown_int=\count466
+\l__datatool_year_int=\count467
+\l__datatool_month_int=\count468
+\l__datatool_day_int=\count469
+\l__datatool_hour_int=\count470
+\l__datatool_minute_int=\count471
+\l__datatool_second_int=\count472
+\l__datatool_tzhour_int=\count473
+\l__datatool_tzminute_int=\count474
+\l__datatool_julian_int=\count475
+\l__datatool_local_julian_int=\count476
+\l__datatool_prefix_int=\count477
+\l__datatool_suffix_int=\count478
+\@dtl@foreach@level=\count479
+
+
+Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9924.
+
+\dtl@codeA=\count480
+\dtl@codeB=\count481
+)
+\gls@level=\count482
+\@gls@tmpb=\toks41
+\gls@tmplen=\skip99
+\l__glossaries_tmpa_dim=\dimen199
+\l__glossaries_tmpb_dim=\dimen256
+\glskeylisttok=\toks42
+\glslabeltok=\toks43
+\glsshorttok=\toks44
+\glslongtok=\toks45
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
+Package: glossary-hypernav 2026/04/21 v5.1 (NLCT)
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
+Package: glossary-list 2026/04/21 v5.1 (NLCT)
+\glslistdottedwidth=\skip100
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
+Package: glossary-long 2026/04/21 v5.1 (NLCT)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
+\LTleft=\skip101
+\LTright=\skip102
+\LTpre=\skip103
+\LTpost=\skip104
+\LTchunksize=\count483
+\LTcapwidth=\dimen257
+\LT@head=\box63
+\LT@firsthead=\box64
+\LT@foot=\box65
+\LT@lastfoot=\box66
+\LT@gbox=\box67
+\LT@cols=\count484
+\LT@rows=\count485
+\c@LT@tables=\count486
+\c@LT@chunks=\count487
+\LT@p@ftn=\toks46
+)
+\glsdescwidth=\skip105
+\glspagelistwidth=\skip106
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
+Package: glossary-super 2026/04/21 v5.1 (NLCT)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
+Package: supertabular 2025/06/26 v4.2d the supertabular environment
+\c@tracingst=\count488
+\ST@wd=\dimen258
+\ST@rightskip=\skip107
+\ST@leftskip=\skip108
+\ST@parfillskip=\skip109
+\ST@pageleft=\dimen259
+\ST@headht=\dimen260
+\ST@tailht=\dimen261
+\ST@pagesofar=\dimen262
+\ST@pboxht=\dimen263
+\ST@rowht=\dimen264
+\ST@prevht=\dimen265
+\ST@toadd=\dimen266
+\ST@dimen=\dimen267
+\ST@pbox=\box68
+)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
+Package: glossary-tree 2026/04/21 v5.1 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count489
+\l__glossaries_tree_offset_dim=\dimen268
+\l__glossaries_tree_namewidth_dim=\dimen269
+\l__glossaries_tree_symbolwidth_dim=\dimen270
+\l__glossaries_tree_prenamesym_width_dim=\dimen271
+\l__glossaries_tree_presubnamesym_width_dim=\dimen272
+\l__glossaries_tree_namewidth_padding_dim=\dimen273
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen274
+\l__glossaries_tree_namesymbolwidth_dim=\dimen275
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen276
+\l__glossaries_tree_level_int=\count490
+\glstreeindent=\skip110
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `z-main.glo'.
+
+Package glossaries Info: Writing glossary file z-main.glo on input line 64.
+ (o-glosario.tex) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count491
+\Gm@cntv=\count492
+\c@Gm@tempcnt=\count493
+\Gm@bindingoffset=\dimen277
+\Gm@wd@mp=\dimen278
+\Gm@odd@mp=\dimen279
+\Gm@even@mp=\dimen280
+\Gm@layoutwidth=\dimen281
+\Gm@layoutheight=\dimen282
+\Gm@layouthoffset=\dimen283
+\Gm@layoutvoffset=\dimen284
+\Gm@dimlist=\toks47
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/fncychap\fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip111
+\mylen=\skip112
+\myhi=\skip113
+\px=\skip114
+\py=\skip115
+\pyy=\skip116
+\pxx=\skip117
+) (2-paquetes_y_comandos_usuario.tex) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
+\ESO@tempdima=\dimen285
+\ESO@tempdimb=\dimen286
+)
+\AM@pagewidth=\dimen287
+\AM@pageheight=\dimen288
+\AM@fboxrule=\dimen289
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count494
+\AM@pagebox=\box69
+\AM@global@opts=\toks48
+\AM@pagecnt=\count495
+\AM@toc@title=\toks49
+\AM@lof@heading=\toks50
+\c@AM@survey=\count496
+\AM@templatesizebox=\box70
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count497
+\@quotereset=\count498
+(z-main.aux)
+\openout1 = `z-main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count499
+\scratchdimen=\dimen290
+\scratchbox=\box71
+\nofMPsegments=\count500
+\nofMParguments=\count501
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count502
+\MPscratchDim=\dimen291
+\MPnumerator=\count503
+\makeMPintoPDFobject=\count504
+\everyMPtoPDFconversion=\toks52
+) (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 109.
+\@outlinefile=\write6
+\openout6 = `z-main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `z-main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'z-main.bbl' found.
+ (z-main.bbl)
+Package biblatex Info: Reference section=0 on input line 109.
+Package biblatex Info: Reference segment=0 on input line 109.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=113.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package babel Info: Main language set to 'spanish'.
+Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
+(epstopdf)                    date: 2026-08-05 11:53:37
+(epstopdf)                    size: 353392 bytes
+(epstopdf)             Output file: <plantilla/escudoUVGnegro-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-08-05 12:38:15
+(epstopdf)                    size: 37956 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=3, 141.52875pt x 209.78375pt>
+File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
+<use plantilla/escudoUVGnegro-eps-converted-to.pdf>
+Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 163.
+(pdftex.def)             Requested size: 105.574pt x 156.49014pt.
+ [1
+
+\openout4 = `z-main.ist'.
+
+
+{C:/Users/angel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./plantilla/escudoUVGnegro-eps-converted-to.pdf>] [2] [3] [4
+
+]
+Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
+(epstopdf)                    date: 2026-08-05 11:53:37
+(epstopdf)                    size: 353392 bytes
+(epstopdf)             Output file: <plantilla/escudoUVGnegro-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-08-05 12:38:15
+(epstopdf)                    size: 37956 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
+<use plantilla/escudoUVGnegro-eps-converted-to.pdf>
+Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 195.
+(pdftex.def)             Requested size: 105.574pt x 156.49014pt.
+ [1] [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex:234: Undefined control sequence.
+<recently read> \nombresegundoex 
+                                 
+l.234 		\nombresegundoex
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3] [4
+
+] (a-prefacio.tex) [5
+
+] [6
+
+]
+No file z-main.toc.
+\tf@toc=\write7
+\openout7 = `z-main.toc'.
+
+[7
+
+] [8
+
+]
+No file z-main.lof.
+\tf@lof=\write8
+\openout8 = `z-main.lof'.
+
+[9
+
+] [10
+
+]
+No file z-main.lot.
+\tf@lot=\write9
+\openout9 = `z-main.lot'.
+
+[11
+
+] [12
+
+] (b-resumen.tex) [13
+
+] [14
+
+] (c-abstract.tex) [15
+
+] [16
+
+]
+Cap\'{\i }tulo 1.
+(d-introduccion.tex [1
+
+]) [2]
+Cap\'{\i }tulo 2.
+(f-justificacion.tex [3
+
+]) [4]
+Cap\'{\i }tulo 3.
+(g-objetivos.tex) [5
+
+] [6
+
+]
+Cap\'{\i }tulo 4.
+(i-marco_teorico.tex [7]
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [8] [9]
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [11] [12] [13] [14]
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [15]) [16]
+Cap\'{\i }tulo 5.
+(j-metodologia.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+]
+Underfull \vbox (badness 7869) has occurred while \output is active []
+
+ [18]
+<Assets/PreparacionAlex.jpeg, id=391, 1606.0pt x 966.61125pt>
+File: Assets/PreparacionAlex.jpeg Graphic file (type jpg)
+<use Assets/PreparacionAlex.jpeg>
+Package pdftex.def Info: Assets/PreparacionAlex.jpeg  used on input line 73.
+(pdftex.def)             Requested size: 390.25536pt x 234.8823pt.
+ [19]
+<Assets/PreparacionJoaquin.png, id=399, 1281.78876pt x 768.37062pt>
+File: Assets/PreparacionJoaquin.png Graphic file (type png)
+<use Assets/PreparacionJoaquin.png>
+Package pdftex.def Info: Assets/PreparacionJoaquin.png  used on input line 81.
+(pdftex.def)             Requested size: 390.25536pt x 233.93648pt.
+<Assets/PreparacionDanniel.png, id=401, 1281.28688pt x 765.35938pt>
+File: Assets/PreparacionDanniel.png Graphic file (type png)
+<use Assets/PreparacionDanniel.png>
+Package pdftex.def Info: Assets/PreparacionDanniel.png  used on input line 87.
+(pdftex.def)             Requested size: 390.25536pt x 233.11311pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./Assets/PreparacionAlex.jpeg> <./Assets/PreparacionJoaquin.png>]
+<Assets/Trellis2Alex.jpeg, id=410, 1606.0pt x 887.315pt>
+File: Assets/Trellis2Alex.jpeg Graphic file (type jpg)
+<use Assets/Trellis2Alex.jpeg>
+Package pdftex.def Info: Assets/Trellis2Alex.jpeg  used on input line 98.
+(pdftex.def)             Requested size: 390.25536pt x 215.61365pt.
+ [21 <./Assets/PreparacionDanniel.png> <./Assets/Trellis2Alex.jpeg>]
+<Assets/blenderAlex.jpeg, id=419, 1606.0pt x 964.60374pt>
+File: Assets/blenderAlex.jpeg Graphic file (type jpg)
+<use Assets/blenderAlex.jpeg>
+Package pdftex.def Info: Assets/blenderAlex.jpeg  used on input line 106.
+(pdftex.def)             Requested size: 390.25536pt x 234.39449pt.
+<Assets/riggingAlex.jpeg, id=420, 1606.0pt x 875.27pt>
+File: Assets/riggingAlex.jpeg Graphic file (type jpg)
+<use Assets/riggingAlex.jpeg>
+Package pdftex.def Info: Assets/riggingAlex.jpeg  used on input line 114.
+(pdftex.def)             Requested size: 390.25536pt x 212.68677pt.
+<Assets/UnityAlex.jpeg, id=421, 1606.0pt x 935.495pt>
+File: Assets/UnityAlex.jpeg Graphic file (type jpg)
+<use Assets/UnityAlex.jpeg>
+Package pdftex.def Info: Assets/UnityAlex.jpeg  used on input line 120.
+(pdftex.def)             Requested size: 390.25536pt x 227.32118pt.
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [22 <./Assets/blenderAlex.jpeg> <./Assets/riggingAlex.jpeg>] [23 <./Assets/UnityAlex.jpeg>]
+<Assets/Bootstrap.png, id=438, 221.82875pt x 272.51813pt>
+File: Assets/Bootstrap.png Graphic file (type png)
+<use Assets/Bootstrap.png>
+Package pdftex.def Info: Assets/Bootstrap.png  used on input line 154.
+(pdftex.def)             Requested size: 173.44534pt x 213.07474pt.
+ [24 <./Assets/Bootstrap.png>]
+<Assets/ExperienceCore.png, id=447, 211.28937pt x 388.45125pt>
+File: Assets/ExperienceCore.png Graphic file (type png)
+<use Assets/ExperienceCore.png>
+Package pdftex.def Info: Assets/ExperienceCore.png  used on input line 168.
+(pdftex.def)             Requested size: 173.44534pt x 318.88177pt.
+ [25 <./Assets/ExperienceCore.png>]
+<Assets/ExperienceSceneDefinitionSO.png, id=455, 661.47125pt x 205.26688pt>
+File: Assets/ExperienceSceneDefinitionSO.png Graphic file (type png)
+<use Assets/ExperienceSceneDefinitionSO.png>
+Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 189.
+(pdftex.def)             Requested size: 390.25536pt x 121.10326pt.
+<Assets/ExperienceSequenceSO.png, id=456, 355.3275pt x 534.99875pt>
+File: Assets/ExperienceSequenceSO.png Graphic file (type png)
+<use Assets/ExperienceSequenceSO.png>
+Package pdftex.def Info: Assets/ExperienceSequenceSO.png  used on input line 198.
+(pdftex.def)             Requested size: 303.53267pt x 457.02867pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <./Assets/ExperienceSceneDefinitionSO.png>]
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+ [27 <./Assets/ExperienceSequenceSO.png>]
+<Assets/ExperienceSceneBootstrap.png, id=471, 532.99126pt x 560.59438pt>
+File: Assets/ExperienceSceneBootstrap.png Graphic file (type png)
+<use Assets/ExperienceSceneBootstrap.png>
+Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 213.
+(pdftex.def)             Requested size: 303.53267pt x 319.25983pt.
+<Assets/ExperienceContent.png, id=472, 619.31375pt x 212.795pt>
+File: Assets/ExperienceContent.png Graphic file (type png)
+<use Assets/ExperienceContent.png>
+Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 220.
+(pdftex.def)             Requested size: 390.25536pt x 134.09726pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./Assets/ExperienceSceneBootstrap.png> <./Assets/ExperienceContent.png>] [29] [30]
+<Assets/MatExampleOptimizacion.png, id=497, 460.72125pt x 687.06688pt>
+File: Assets/MatExampleOptimizacion.png Graphic file (type png)
+<use Assets/MatExampleOptimizacion.png>
+Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 291.
+(pdftex.def)             Requested size: 216.81pt x 323.31985pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31] [32 <./Assets/MatExampleOptimizacion.png>] [33]
+<Assets/pruebasAnalisisCognitivo.png, id=519, 4015.0pt x 3011.25pt>
+File: Assets/pruebasAnalisisCognitivo.png Graphic file (type png)
+<use Assets/pruebasAnalisisCognitivo.png>
+Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line 339.
+(pdftex.def)             Requested size: 216.81pt x 162.56372pt.
+ [34 <./Assets/pruebasAnalisisCognitivo.png>]) [35] (j-capitulos.tex [36
+
+]
+Cap\'{\i }tulo 6.
+<Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png, id=542, 693.0693pt x 421.3341pt>
+File: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png Graphic file (type png)
+<use Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>
+Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png  used on input line 16.
+(pdftex.def)             Requested size: 390.25536pt x 237.24414pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+<Assets/rendimiento/tiempoCPUPC.png, id=550, 859.2903pt x 276.7941pt>
+File: Assets/rendimiento/tiempoCPUPC.png Graphic file (type png)
+<use Assets/rendimiento/tiempoCPUPC.png>
+Package pdftex.def Info: Assets/rendimiento/tiempoCPUPC.png  used on input line 35.
+(pdftex.def)             Requested size: 390.25536pt x 125.70921pt.
+<Assets/rendimiento/tiempoGPUPC.png, id=551, 859.2903pt x 290.5254pt>
+File: Assets/rendimiento/tiempoGPUPC.png Graphic file (type png)
+<use Assets/rendimiento/tiempoGPUPC.png>
+Package pdftex.def Info: Assets/rendimiento/tiempoGPUPC.png  used on input line 45.
+(pdftex.def)             Requested size: 390.25536pt x 131.94543pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>]
+<Assets/rendimiento/latenciaPC.png, id=558, 859.2903pt x 354.123pt>
+File: Assets/rendimiento/latenciaPC.png Graphic file (type png)
+<use Assets/rendimiento/latenciaPC.png>
+Package pdftex.def Info: Assets/rendimiento/latenciaPC.png  used on input line 62.
+(pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
+ [39 <./Assets/rendimiento/tiempoCPUPC.png> <./Assets/rendimiento/tiempoGPUPC.png> <./Assets/rendimiento/latenciaPC.png>]
+<Assets/rendimiento/descartesPC.png, id=569, 658.3797pt x 318.7107pt>
+File: Assets/rendimiento/descartesPC.png Graphic file (type png)
+<use Assets/rendimiento/descartesPC.png>
+Package pdftex.def Info: Assets/rendimiento/descartesPC.png  used on input line 74.
+(pdftex.def)             Requested size: 390.25536pt x 188.91302pt.
+<Assets/rendimiento/distribucionPC.png, id=570, 1076.1003pt x 357.7365pt>
+File: Assets/rendimiento/distribucionPC.png Graphic file (type png)
+<use Assets/rendimiento/distribucionPC.png>
+Package pdftex.def Info: Assets/rendimiento/distribucionPC.png  used on input line 83.
+(pdftex.def)             Requested size: 390.25536pt x 129.73483pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+ (C:\Users\angel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png, id=571, 589.2414pt x 590.205pt>
+File: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png Graphic file (type png)
+<use Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>
+Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png  used on input line 95.
+(pdftex.def)             Requested size: 390.25536pt x 390.90538pt.
+ [40 <./Assets/rendimiento/descartesPC.png> <./Assets/rendimiento/distribucionPC.png>]
+<Assets/rendimiento/FPSAPK.png, id=581, 859.2903pt x 354.123pt>
+File: Assets/rendimiento/FPSAPK.png Graphic file (type png)
+<use Assets/rendimiento/FPSAPK.png>
+Package pdftex.def Info: Assets/rendimiento/FPSAPK.png  used on input line 106.
+(pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>]
+<Assets/ipq/db.png, id=590, 388.8126pt x 196.5744pt>
+File: Assets/ipq/db.png Graphic file (type png)
+<use Assets/ipq/db.png>
+Package pdftex.def Info: Assets/ipq/db.png  used on input line 121.
+(pdftex.def)             Requested size: 390.25536pt x 197.31778pt.
+ [42 <./Assets/rendimiento/FPSAPK.png> <./Assets/ipq/db.png>]
+<Assets/ipq/tabla_pIPQ.png, id=601, 870.3717pt x 168.3891pt>
+File: Assets/ipq/tabla_pIPQ.png Graphic file (type png)
+<use Assets/ipq/tabla_pIPQ.png>
+Package pdftex.def Info: Assets/ipq/tabla_pIPQ.png  used on input line 135.
+(pdftex.def)             Requested size: 390.25536pt x 75.50203pt.
+<Assets/ipq/perfilDescriptivo.png, id=602, 586.1097pt x 333.1647pt>
+File: Assets/ipq/perfilDescriptivo.png Graphic file (type png)
+<use Assets/ipq/perfilDescriptivo.png>
+Package pdftex.def Info: Assets/ipq/perfilDescriptivo.png  used on input line 145.
+(pdftex.def)             Requested size: 390.25536pt x 221.83643pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./Assets/ipq/tabla_pIPQ.png>]
+<Assets/ipq/variabilidad.png, id=611, 665.6067pt x 412.6617pt>
+File: Assets/ipq/variabilidad.png Graphic file (type png)
+<use Assets/ipq/variabilidad.png>
+Package pdftex.def Info: Assets/ipq/variabilidad.png  used on input line 159.
+(pdftex.def)             Requested size: 390.25536pt x 241.95078pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./Assets/ipq/perfilDescriptivo.png>]
+<Assets/ipq/brecha.png, id=618, 694.5147pt x 362.0727pt>
+File: Assets/ipq/brecha.png Graphic file (type png)
+<use Assets/ipq/brecha.png>
+Package pdftex.def Info: Assets/ipq/brecha.png  used on input line 173.
+(pdftex.def)             Requested size: 390.25536pt x 203.45544pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45 <./Assets/ipq/variabilidad.png>] [46 <./Assets/ipq/brecha.png>]
+Cap\'{\i }tulo 7.
+) [47
+
+] [48
+
+]
+Cap\'{\i }tulo 8.
+(k-conclusiones.tex) [49] [50
+
+]
+Cap\'{\i }tulo 9.
+(l-recomendaciones.tex) [51] [52
+
+]
+Cap\'{\i }tulo 10.
+[53
+
+] [54] [55]
+Overfull \hbox (1.93355pt too wide) in paragraph at lines 448--448
+[]\T1/cmr/m/n/10.95 P. T. Eugs-ter, P. A. Fel-ber y A.[]M. Ker-ma-rrec, ``The Many Fa-ces of Pu-blish/Subscribe,''
+ []
+
+[56]
+Cap\'{\i }tulo 11.
+(n-anexos.tex
+<Assets/Preguntas IPQ.pdf, id=750, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 15.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+<Assets/Preguntas IPQ.pdf, id=752, page=1, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [57
+
+]
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [58
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/Preguntas IPQ.pdf, id=775, page=2, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [59
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/Preguntas IPQ.pdf, id=798, page=3, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [60
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/Preguntas IPQ.pdf, id=811, page=4, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [61
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/plantillaVRUnityHub.png, id=820, 1279.78125pt x 765.35938pt>
+File: Assets/plantillaVRUnityHub.png Graphic file (type png)
+<use Assets/plantillaVRUnityHub.png>
+Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 22.
+(pdftex.def)             Requested size: 390.25536pt x 233.38171pt.
+<Assets/BuildProfiles.png, id=821, 771.38188pt x 632.86438pt>
+File: Assets/BuildProfiles.png Graphic file (type png)
+<use Assets/BuildProfiles.png>
+Package pdftex.def Info: Assets/BuildProfiles.png  used on input line 30.
+(pdftex.def)             Requested size: 390.25536pt x 320.17822pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./Assets/plantillaVRUnityHub.png>]
+<Assets/BuildProfilesQuestHorizonLink.png, id=829, 553.06625pt x 534.99875pt>
+File: Assets/BuildProfilesQuestHorizonLink.png Graphic file (type png)
+<use Assets/BuildProfilesQuestHorizonLink.png>
+Package pdftex.def Info: Assets/BuildProfilesQuestHorizonLink.png  used on input line 38.
+(pdftex.def)             Requested size: 390.25536pt x 377.5007pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./Assets/BuildProfiles.png>]
+<Assets/ProjectSettings.png, id=836, 1031.855pt x 699.11188pt>
+File: Assets/ProjectSettings.png Graphic file (type png)
+<use Assets/ProjectSettings.png>
+Package pdftex.def Info: Assets/ProjectSettings.png  used on input line 46.
+(pdftex.def)             Requested size: 390.25536pt x 264.4065pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./Assets/BuildProfilesQuestHorizonLink.png>]
+<Assets/physics.png, id=843, 717.17938pt x 623.32875pt>
+File: Assets/physics.png Graphic file (type png)
+<use Assets/physics.png>
+Package pdftex.def Info: Assets/physics.png  used on input line 53.
+(pdftex.def)             Requested size: 390.25536pt x 339.18907pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./Assets/ProjectSettings.png>]
+<Assets/XROrigin.png, id=851, 1284.29813pt x 766.865pt>
+File: Assets/XROrigin.png Graphic file (type png)
+<use Assets/XROrigin.png>
+Package pdftex.def Info: Assets/XROrigin.png  used on input line 60.
+(pdftex.def)             Requested size: 390.25536pt x 233.02173pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./Assets/physics.png>] [67 <./Assets/XROrigin.png>]
+No file z-main.gls.
+[68] (z-main.aux
+LaTeX Info: Redefining \sptext on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \sptext on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `z-main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `z-main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  17CF6320C0006C43075BE6AF9A7A8B80;20700.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                z-main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'z-main.run.xml'.
+\openout1 = `z-main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 31692 strings out of 467510
+ 613594 string characters out of 5408795
+ 1489767 words of memory out of 5000000
+ 60216 multiletter control sequences out of 15000+600000
+ 644668 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,18n,79p,2572b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on z-main.pdf (88 pages, 29062327 bytes).
+PDF statistics:
+ 1620 PDF objects out of 1728 (max. 8388607)
+ 284 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+

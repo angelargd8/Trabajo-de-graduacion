@@ -1,7 +1,9 @@
 \chapter{Resultados}
 
-\section{Resultados de Rendimiento}
+% \section{Arquitectura del sistema de secuenciación}
 
+
+\section{Resultados de Rendimiento}
 \subsection{EXE en PC por Meta Horizon Link}
 %%-- ### ⭐ Tabla: Rendimiento del ejecutable por Meta Horizon Link
 En las tres capturas se analizan entre 15,635 y 16,248 fotogramas. Los tiempos medianos de procesamiento de CPU son de 1.252, 1.416, 1.312 ms, mientras que los de GPU son de 1.597, 1.622, 1.622.  Y en el perceltil 95, los tiempos de CPU no superan los 2.335 ms y los de GPU 3.567 ms. Acerca de la latencia mediana movimiento-foton esta entre 41.896 y 42.542 ms, lo que indica que en todas las pruebas hay un comportamiento similar. Aunque, no se registra alguna actividad de ASW, los contadores de la aplicación aumentan en 136, 138 y 99 fotogramas descartados, además de entre 2 a 3 descartes del compositor. 
@@ -26,14 +28,30 @@ En cuanto los tiempos procesamiento de GPU se muestran periodos que se ven estab
 %% IMAGEN evolución temporal del procesamiento de CPU y GPU se 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/rendimiento/tiempoCPUPC.png}
-    \caption{a)}
+
+    % Subfigura (a): CPU
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/rendimiento/tiempoCPUPC.png}
+        \caption{}
+        \label{fig:tiempo-cpu-pc}
+    \end{subfigure}
+
+    \par\medskip
+
+    % Subfigura (b): GPU
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/rendimiento/tiempoGPUPC.png}
+        \caption{}
+        \label{fig:tiempo-gpu-pc}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Evolución temporal del procesamiento de CPU y GPU}
+    \label{fig:tiempo-cpu-gpu-pc}
 \end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/rendimiento/tiempoGPUPC.png}
-    \caption{b)}
-\end{figure}
+
 
 %% ## ⭐ Evolución de latencia movimiento-fotón
 Respecto a latencia movimiento-fotón, la latencia suavizada se situó entre 40 y 45.5 ms. Aunque aparecen incrementos y reducciones temporales, no se identifica una tendencia sostenida de crecimiento conforme a como avanza la captura. Lo que esto indica que el tiempo de respuesta visual reportado por el sistema se matuvo consistente durante la mayor parte de las ejecuciones. 
@@ -155,8 +173,6 @@ Este resultado evidencia que, para la mayoría de los participantes, la sensaci�
     \includegraphics[width=0.9\textwidth]{Assets/ipq/brecha.png}
     \caption{Brecha espacial - Realismo.}
 \end{figure}
-
-
 
 
 
