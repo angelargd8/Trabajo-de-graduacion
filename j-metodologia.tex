@@ -307,9 +307,23 @@ Estos son los indicadores presentados en tablas y gráficas seleccionadas para e
 Los resultados de ambas configuraciones se analizaron por separado, ya que la versión de PC se ejecuto con conexión al visor, mientras que el APK fue directamente en el Quest 3S. Y esta distinción pemite describir el rendimiento observado en ambas formas de ejecución. 
 
 \subsection{Validación funcional de la arquitectura}
-La validación funcional se centró en comprobar tanto la comunicación dirigida por eventos como la ejecución temporal de la secuencia. Se verificó que las acciones iniciadas desde el menú generaran las solicitudes correspondientes y que estas fueran procesadas por los consumidores responsables de cargar y preparar las escenas. 
-También, se comprobó que las escenas se activaran de acuerdo con los tiempos definidos en la secuencia y que los eventos asociados con la música generaran las respuestas esperadas en los sistemas suscritos. Para la experiencia completa se verificó la continuidad entre segmentos, la correspondencia de sus cambios con la reproducción musical y el funcionamiento de los eventos relacionados con iluminación, elementos visuales e interacciones. 
-Y por último se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
+La validación funcional se centró en comprobar que los principales recorridos de la experiencia se ejecutaran y se pudieran seguir por medio de los registros de EDA generados en la consola de Unity. Para ello se exportaron y se analizó una ejecución completa, para relacionar las publicaciones y recepciones con sus identificadores de evento y ejecución.
+Para encontrar evidencias de las etapas definidas para el recorrido, desde la solicitud iniciada en el menú, la carga y preparación de escenas hasta el inicio de reproducción con su cierre de la experiencia y retorno al menú. 
+
+Para verificar la secuenciación se comparó el tiempo musical registrado durante la activación de cada segmento con y se compararon sus tiempos musicales con el valor configurado para que comience un semento. 
+
+Por otra parte, se siguieron las publicaciones de \emph{BeatReached} y sus recepciones entre los componentes suscritos. 
+Para realizar el análisis con los registros de una ejecución completa de la canción se consideraron tres preguntas:
+
+1. ¿Se puede seguir el flujo de la experiencia desde la solicitud hasta el cierre?
+
+2. ¿Se puede identificar quién produjo y quién consumió los eventos?
+
+3. ¿La coordinación de escenas y beats usó la referencia musical prevista?
+
+Y este se realizó en Jupyter Notebook con Python con las librerías de Numpy, Pandas y Matplotlib para representarlos. 
+
+Por último, se realizaron compilaciones para los dispositivos objetivos con el propósito de comprobar el funcionamiento de la arquitectura y la secuenciación fuera del editor de Unity. 
 
 
 %------------------------------------------------------------------------------------------------------%

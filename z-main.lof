@@ -21,26 +21,26 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{32}{figure.caption.103}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }}{34}{figure.caption.110}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16}{\ignorespaces Tabla: rendimiento del ejecutable por Meta Horizon Link}}{38}{figure.caption.119}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{39}{figure.caption.120}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Latencia movimiento-fotón}}{39}{figure.caption.121}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{40}{figure.caption.122}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{40}{figure.caption.123}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Tabla: rendimiento del ejecutable en Meta Quest 3S}}{41}{figure.caption.125}%
-\contentsline {figure}{\numberline {22}{\ignorespaces FPS en las capturas del APK}}{42}{figure.caption.126}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Registros de IPQ.}}{42}{figure.caption.129}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Tabla de puntuaciones de IPQ.}}{43}{figure.caption.130}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Perfil descriptivo de presencia.}}{43}{figure.caption.131}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Variabilidad de presencia entre participantes.}}{44}{figure.caption.132}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Brecha espacial - Realismo.}}{45}{figure.caption.133}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Tabla: rendimiento del ejecutable por Meta Horizon Link}}{38}{figure.caption.120}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{39}{figure.caption.121}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Latencia movimiento-fotón}}{39}{figure.caption.122}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{40}{figure.caption.123}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{40}{figure.caption.124}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Tabla: rendimiento del ejecutable en Meta Quest 3S}}{41}{figure.caption.126}%
+\contentsline {figure}{\numberline {22}{\ignorespaces FPS en las capturas del APK}}{42}{figure.caption.127}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Registros de IPQ.}}{42}{figure.caption.130}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Tabla de puntuaciones de IPQ.}}{43}{figure.caption.131}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Perfil descriptivo de presencia.}}{43}{figure.caption.132}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Variabilidad de presencia entre participantes.}}{44}{figure.caption.133}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Brecha espacial - Realismo.}}{45}{figure.caption.134}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {28}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{62}{figure.caption.142}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{63}{figure.caption.143}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{64}{figure.caption.144}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{65}{figure.caption.145}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{66}{figure.caption.146}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{67}{figure.caption.147}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Seleccion de la plantilla VR desde Unity Hub.}}{62}{figure.caption.143}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{63}{figure.caption.144}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Configuracion de Build Profiles para Meta Quest.}}{64}{figure.caption.145}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Configuracion de XR Plug-in Management para Android.}}{65}{figure.caption.146}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Configuracion del motor de fisicas del proyecto.}}{66}{figure.caption.147}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Estructura inicial del XROrigin en la escena base.}}{67}{figure.caption.148}%

@@ -87,23 +87,24 @@
 \contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{33}{subsection*.105}%
 \contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{33}{section*.106}%
 \contentsline {subsection}{\numberline {5.6.1}Participantes}{33}{subsection*.107}%
-\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{33}{subsection*.108}%
+\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{34}{subsection*.108}%
 \contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{34}{subsection*.109}%
-\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{34}{subsection*.111}%
-\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{34}{section*.112}%
+\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{35}{subsection*.111}%
+\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{35}{section*.112}%
 \contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{35}{subsection*.113}%
 \contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{35}{subsection*.114}%
 \contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{35}{subsection*.115}%
 \contentsline {chapter}{\numberline {6}Resultados}{37}{chapter*.116}%
-\contentsline {section}{\numberline {6.1}Resultados de Rendimiento}{37}{section*.117}%
-\contentsline {subsection}{\numberline {6.1.1}EXE en PC por Meta Horizon Link}{37}{subsection*.118}%
-\contentsline {subsection}{\numberline {6.1.2}APK en Quest 3S}{40}{subsection*.124}%
-\contentsline {section}{\numberline {6.2}Resultados prueba IPQ}{42}{section*.127}%
-\contentsline {subsection}{\numberline {6.2.1}Revisión de la base de datos}{42}{subsection*.128}%
-\contentsline {chapter}{\numberline {7}Discusión}{47}{chapter*.134}%
-\contentsline {chapter}{\numberline {8}Conclusiones}{49}{chapter*.135}%
-\contentsline {chapter}{\numberline {9}Recomendaciones}{51}{chapter*.136}%
-\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{53}{chapter*.138}%
-\contentsline {chapter}{\numberline {11}Anexos}{57}{chapter*.139}%
-\contentsline {section}{\numberline {11.1}Cuestionario IPQ utilizado}{57}{section*.140}%
-\contentsline {subsection}{\numberline {11.1.1}Configuración del proyecto y plantilla VR de Unity}{62}{subsection*.141}%
+\contentsline {section}{\numberline {6.1}Trazabilidad de la arquitectura EDA}{37}{section*.117}%
+\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{37}{section*.118}%
+\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{37}{subsection*.119}%
+\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{40}{subsection*.125}%
+\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{42}{section*.128}%
+\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{42}{subsection*.129}%
+\contentsline {chapter}{\numberline {7}Discusión}{47}{chapter*.135}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{49}{chapter*.136}%
+\contentsline {chapter}{\numberline {9}Recomendaciones}{51}{chapter*.137}%
+\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{53}{chapter*.139}%
+\contentsline {chapter}{\numberline {11}Anexos}{57}{chapter*.140}%
+\contentsline {section}{\numberline {11.1}Cuestionario IPQ utilizado}{57}{section*.141}%
+\contentsline {subsection}{\numberline {11.1.1}Configuración del proyecto y plantilla VR de Unity}{62}{subsection*.142}%
