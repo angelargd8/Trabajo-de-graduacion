@@ -1,114 +1,110 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Prefacio}{\es@scroman {v}}{section*.6}%
-\contentsline {chapter}{Lista de figuras}{\es@scroman {xi}}{section*.8}%
-\contentsline {chapter}{Lista de cuadros}{\es@scroman {xiii}}{section*.9}%
-\contentsline {chapter}{Resumen}{\es@scroman {xv}}{section*.10}%
-\contentsline {chapter}{Abstract}{\es@scroman {xvii}}{section*.11}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {ix}}{section*.8}%
+\contentsline {chapter}{Lista de cuadros}{\es@scroman {xi}}{section*.9}%
+\contentsline {chapter}{Resumen}{\es@scroman {xiii}}{section*.10}%
+\contentsline {chapter}{Abstract}{\es@scroman {xv}}{section*.11}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter*.12}%
-\contentsline {chapter}{\numberline {2}Antecedentes}{3}{chapter*.13}%
-\contentsline {chapter}{\numberline {3}Justificación}{5}{chapter*.14}%
-\contentsline {chapter}{\numberline {4}Objetivos}{7}{chapter*.15}%
-\contentsline {section}{\numberline {4.1}Objetivo general}{7}{section*.16}%
-\contentsline {section}{\numberline {4.2}Objetivos específicos}{7}{section*.17}%
-\contentsline {chapter}{\numberline {5}Alcance}{9}{chapter*.18}%
-\contentsline {chapter}{\numberline {6}Marco teórico}{11}{chapter*.19}%
-\contentsline {section}{\numberline {6.1}Experiencias musicales digitales e interactivas}{11}{section*.20}%
-\contentsline {subsection}{\numberline {6.1.1}Transformación del consumo musical digital}{11}{subsection*.21}%
-\contentsline {subsection}{\numberline {6.1.2}El videoclip como experiencia audiovisual}{11}{subsection*.22}%
-\contentsline {subsection}{\numberline {6.1.3}Experiencias musicales en realidad virtual}{12}{subsection*.23}%
-\contentsline {subsection}{\numberline {6.1.4}Videojuegos musicales e interacción con la música}{12}{subsection*.24}%
-\contentsline {subsection}{\numberline {6.1.5}Generación procedural de contenido}{12}{subsection*.25}%
-\contentsline {section}{\numberline {6.2}Herramientas para el desarrollo de experiencias de realidad virtual en Unity}{13}{section*.26}%
-\contentsline {subsection}{\numberline {6.2.1}Realidad virtual y entornos virtuales interactivos}{13}{subsection*.27}%
-\contentsline {subsection}{\numberline {6.2.2}Unity}{13}{subsection*.28}%
-\contentsline {subsection}{\numberline {6.2.3}C\#}{13}{subsection*.29}%
-\contentsline {subsection}{\numberline {6.2.4}ScriptableObjects}{13}{subsection*.30}%
-\contentsline {subsection}{\numberline {6.2.5}Meta Quest 3S}{14}{subsection*.31}%
-\contentsline {subsection}{\numberline {6.2.6}Meta Horizon Link}{14}{subsection*.32}%
-\contentsline {subsection}{\numberline {6.2.7}Plantilla de realidad virtual y escena de muestra de Unity}{14}{subsection*.33}%
-\contentsline {subsection}{\numberline {6.2.8}Oculus Debug Tool}{14}{subsection*.34}%
-\contentsline {subsection}{\numberline {6.2.9}OVR Metric Tool}{15}{subsection*.35}%
-\contentsline {subsection}{\numberline {6.2.10}XR Origin e interacción mediante controladores de movimiento}{15}{subsection*.36}%
-\contentsline {subsection}{\numberline {6.2.11}Creación y animación de personajes tridimencionales}{15}{subsection*.37}%
-\contentsline {subsubsection}{TRELLIS.2}{15}{section*.38}%
-\contentsline {subsubsection}{Blender}{15}{section*.39}%
-\contentsline {subsubsection}{Mixamo}{16}{section*.40}%
-\contentsline {section}{\numberline {6.3}Secuenciación audiovisual en Unity}{16}{section*.41}%
-\contentsline {subsection}{\numberline {6.3.1}Sincronización entre música y elementos audiovisuales}{16}{subsection*.42}%
-\contentsline {subsection}{\numberline {6.3.2}Eventos temporizados}{16}{subsection*.43}%
-\contentsline {subsection}{\numberline {6.3.3}Eventos visuales, auditivos e interactivos}{16}{subsection*.44}%
-\contentsline {subsection}{\numberline {6.3.4}Timeline, pistas, clips, señales e integración con eventos}{17}{subsection*.45}%
-\contentsline {section}{\numberline {6.4}Arquitectura basada en eventos}{17}{section*.46}%
-\contentsline {subsection}{\numberline {6.4.1}Arquitectura dirigida por eventos}{17}{subsection*.47}%
-\contentsline {subsection}{\numberline {6.4.2}Eventos, productores y consumidores}{17}{subsection*.48}%
-\contentsline {subsection}{\numberline {6.4.3}Publicación, suscripción y comunicación desacoplada}{17}{subsection*.49}%
-\contentsline {subsection}{\numberline {6.4.4}Canales de eventos mediante ScriptableObjects}{18}{subsection*.50}%
-\contentsline {section}{\numberline {6.5}Presencia y evaluación de la experiencia}{18}{section*.51}%
-\contentsline {subsection}{\numberline {6.5.1}Concepto de presencia en realidad virtual}{18}{subsection*.52}%
-\contentsline {subsection}{\numberline {6.5.2}Diferencias entre inmersión y presencia}{18}{subsection*.53}%
-\contentsline {subsection}{\numberline {6.5.3}\emph {I-Group Presence Questionnaire}}{18}{subsection*.54}%
-\contentsline {subsection}{\numberline {6.5.4}Presencia espacial}{19}{subsection*.55}%
-\contentsline {subsection}{\numberline {6.5.5}Involucramiento}{19}{subsection*.56}%
-\contentsline {subsection}{\numberline {6.5.6}Realismo percibido}{19}{subsection*.57}%
-\contentsline {subsection}{\numberline {6.5.7}KoboToolbox}{19}{subsection*.58}%
-\contentsline {subsection}{\numberline {6.5.8}Herramientas para el análisis de datos}{20}{subsection*.59}%
-\contentsline {subsubsection}{Python}{20}{section*.60}%
-\contentsline {subsubsection}{NumPy}{20}{section*.61}%
-\contentsline {subsubsection}{Pandas}{20}{section*.62}%
-\contentsline {subsubsection}{Matplotlib}{20}{section*.63}%
-\contentsline {chapter}{\numberline {7}Metodología}{21}{chapter*.64}%
-\contentsline {section}{\numberline {7.1}Conceptualización y diseño de la experiencia}{21}{section*.65}%
-\contentsline {subsection}{\numberline {7.1.1}Dirección artística}{21}{subsection*.66}%
-\contentsline {subsection}{\numberline {7.1.2}Diseño de la experiencia interactiva}{22}{subsection*.67}%
-\contentsline {section}{\numberline {7.2}Selección de herramientas y recursos}{22}{section*.68}%
-\contentsline {subsection}{\numberline {7.2.1}Plataforma de desarrollo}{22}{subsection*.69}%
-\contentsline {subsection}{\numberline {7.2.2}Tecnologías utilizadas y entorno de ejecución}{23}{subsection*.70}%
-\contentsline {section}{\numberline {7.3}Desarrollo del videojuego base}{23}{section*.71}%
-\contentsline {subsection}{\numberline {7.3.1}Construcción de escenas}{23}{subsection*.72}%
-\contentsline {subsection}{\numberline {7.3.2}Creación de personajes tridimencionales}{25}{subsection*.76}%
-\contentsline {subsection}{\numberline {7.3.3}Implementacion de escenas}{27}{subsection*.81}%
-\contentsline {section}{\numberline {7.4}Implementación de la Arquitectura Dirigida por Eventos}{27}{section*.82}%
-\contentsline {subsection}{\numberline {7.4.1}Organización general de sistema}{27}{subsection*.83}%
-\contentsline {subsubsection}{Bootstrap y servicios generales}{28}{section*.84}%
-\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{28}{section*.86}%
-\contentsline {subsection}{\numberline {7.4.2}Comunicación por eventos y control de flujo}{29}{subsection*.88}%
-\contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.89}%
-\contentsline {subsection}{\numberline {7.4.3}Preparación de escenas y activación de contenido y administración de recursos}{31}{subsection*.92}%
-\contentsline {subsection}{\numberline {7.4.4}Reutilización y precarga de recursos}{33}{subsection*.95}%
-\contentsline {subsection}{\numberline {7.4.5}Inicio de la experiencia y modalidades de ejecución}{33}{subsection*.96}%
-\contentsline {subsection}{\numberline {7.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{33}{subsection*.97}%
-\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{34}{section*.98}%
-\contentsline {subsection}{\numberline {7.4.7}Generación y preparación del BeatMap}{34}{subsection*.99}%
-\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{34}{section*.100}%
-\contentsline {subsection}{\numberline {7.4.8}Finalización de la canción y cierre de la experiencia}{34}{subsection*.101}%
-\contentsline {section}{\numberline {7.5}Optimización y validación técnica}{35}{section*.102}%
-\contentsline {subsection}{\numberline {7.5.1}Optimización gráfica y de escena}{35}{subsection*.103}%
-\contentsline {subsection}{\numberline {7.5.2}Pruebas de rendimiento en los dispositivo objetivos}{36}{subsection*.105}%
-\contentsline {subsection}{\numberline {7.5.3}Validación funcional de la arquitectura}{37}{subsection*.106}%
-\contentsline {section}{\numberline {7.6}Participantes y entorno de evaluación}{37}{section*.107}%
-\contentsline {subsection}{\numberline {7.6.1}Participantes}{37}{subsection*.108}%
-\contentsline {subsection}{\numberline {7.6.2}Procedimiento}{37}{subsection*.109}%
-\contentsline {subsection}{\numberline {7.6.3}Entorno de evaluación}{38}{subsection*.110}%
-\contentsline {subsection}{\numberline {7.6.4}Entorno de evaluación}{38}{subsection*.112}%
-\contentsline {section}{\numberline {7.7}Aplicación del I-Group Presence Questionnaire}{38}{section*.113}%
-\contentsline {subsection}{\numberline {7.7.1}Digitalización del instrumento}{39}{subsection*.114}%
-\contentsline {subsection}{\numberline {7.7.2}Análisis de resultados}{39}{subsection*.115}%
-\contentsline {subsection}{\numberline {7.7.3}Análisis descriptivo}{39}{subsection*.116}%
-\contentsline {chapter}{\numberline {8}Resultados}{41}{chapter*.117}%
-\contentsline {section}{\numberline {8.1}Resultados prueba IPQ}{41}{section*.118}%
-\contentsline {subsection}{\numberline {8.1.1}Revisión de la base de datos}{41}{subsection*.119}%
-\contentsline {subsection}{\numberline {8.1.2}Puntuaciones IPQ}{42}{subsection*.121}%
-\contentsline {chapter}{\numberline {9}Discusión}{45}{chapter*.124}%
-\contentsline {subsection}{\numberline {9.0.1}}{46}{subsection*.125}%
-\contentsline {section}{\numberline {9.1}...}{46}{section*.126}%
-\contentsline {subsection}{\numberline {9.1.1}...}{46}{subsection*.127}%
-\contentsline {subsubsection}{...}{46}{section*.128}%
-\contentsline {chapter}{\numberline {10}...}{47}{chapter*.129}%
-\contentsline {section}{\numberline {10.1}...}{47}{section*.130}%
-\contentsline {chapter}{\numberline {11}Conclusiones}{49}{chapter*.132}%
-\contentsline {chapter}{\numberline {12}Recomendaciones}{51}{chapter*.133}%
-\contentsline {chapter}{\numberline {13}Bibliograf\'{\i }a}{53}{chapter*.135}%
-\contentsline {chapter}{\numberline {14}Anexos}{57}{chapter*.136}%
-\contentsline {section}{\numberline {14.1}Cuestionario IPQ utilizado}{57}{section*.137}%
-\contentsline {subsection}{\numberline {14.1.1}Configuración del proyecto y plantilla VR de Unity}{62}{subsection*.138}%
+\contentsline {chapter}{\numberline {2}Justificación}{3}{chapter*.13}%
+\contentsline {chapter}{\numberline {3}Objetivos}{5}{chapter*.14}%
+\contentsline {section}{\numberline {3.1}Objetivo general}{5}{section*.15}%
+\contentsline {section}{\numberline {3.2}Objetivos específicos}{5}{section*.16}%
+\contentsline {chapter}{\numberline {4}Marco teórico}{7}{chapter*.17}%
+\contentsline {section}{\numberline {4.1}Experiencias musicales digitales e interactivas}{7}{section*.18}%
+\contentsline {subsection}{\numberline {4.1.1}Transformación del consumo musical digital}{7}{subsection*.19}%
+\contentsline {subsection}{\numberline {4.1.2}El videoclip como experiencia audiovisual}{7}{subsection*.20}%
+\contentsline {subsection}{\numberline {4.1.3}Experiencias musicales en realidad virtual}{8}{subsection*.21}%
+\contentsline {subsection}{\numberline {4.1.4}Videojuegos musicales e interacción con la música}{8}{subsection*.22}%
+\contentsline {subsection}{\numberline {4.1.5}Generación procedural de contenido}{8}{subsection*.23}%
+\contentsline {section}{\numberline {4.2}Herramientas para el desarrollo de experiencias de realidad virtual en Unity}{9}{section*.24}%
+\contentsline {subsection}{\numberline {4.2.1}Realidad virtual y entornos virtuales interactivos}{9}{subsection*.25}%
+\contentsline {subsection}{\numberline {4.2.2}Unity}{9}{subsection*.26}%
+\contentsline {subsection}{\numberline {4.2.3}C\#}{9}{subsection*.27}%
+\contentsline {subsection}{\numberline {4.2.4}ScriptableObjects}{9}{subsection*.28}%
+\contentsline {subsection}{\numberline {4.2.5}Meta Quest 3S}{10}{subsection*.29}%
+\contentsline {subsection}{\numberline {4.2.6}Meta Horizon Link}{10}{subsection*.30}%
+\contentsline {subsection}{\numberline {4.2.7}Plantilla de realidad virtual y escena de muestra de Unity}{10}{subsection*.31}%
+\contentsline {subsection}{\numberline {4.2.8}Oculus Debug Tool}{10}{subsection*.32}%
+\contentsline {subsection}{\numberline {4.2.9}OVR Metric Tool}{11}{subsection*.33}%
+\contentsline {subsection}{\numberline {4.2.10}XR Origin e interacción mediante controladores de movimiento}{11}{subsection*.34}%
+\contentsline {subsection}{\numberline {4.2.11}Creación y animación de personajes tridimencionales}{11}{subsection*.35}%
+\contentsline {subsubsection}{TRELLIS.2}{11}{section*.36}%
+\contentsline {subsubsection}{Blender}{11}{section*.37}%
+\contentsline {subsubsection}{Mixamo}{12}{section*.38}%
+\contentsline {section}{\numberline {4.3}Secuenciación audiovisual en Unity}{12}{section*.39}%
+\contentsline {subsection}{\numberline {4.3.1}Sincronización entre música y elementos audiovisuales}{12}{subsection*.40}%
+\contentsline {subsection}{\numberline {4.3.2}Eventos temporizados}{12}{subsection*.41}%
+\contentsline {subsection}{\numberline {4.3.3}Eventos visuales, auditivos e interactivos}{12}{subsection*.42}%
+\contentsline {subsection}{\numberline {4.3.4}Timeline, pistas, clips, señales e integración con eventos}{13}{subsection*.43}%
+\contentsline {section}{\numberline {4.4}Arquitectura basada en eventos}{13}{section*.44}%
+\contentsline {subsection}{\numberline {4.4.1}Arquitectura dirigida por eventos}{13}{subsection*.45}%
+\contentsline {subsection}{\numberline {4.4.2}Eventos, productores y consumidores}{13}{subsection*.46}%
+\contentsline {subsection}{\numberline {4.4.3}Publicación, suscripción y comunicación desacoplada}{13}{subsection*.47}%
+\contentsline {subsection}{\numberline {4.4.4}Canales de eventos mediante ScriptableObjects}{14}{subsection*.48}%
+\contentsline {section}{\numberline {4.5}Presencia y evaluación de la experiencia}{14}{section*.49}%
+\contentsline {subsection}{\numberline {4.5.1}Concepto de presencia en realidad virtual}{14}{subsection*.50}%
+\contentsline {subsection}{\numberline {4.5.2}Diferencias entre inmersión y presencia}{14}{subsection*.51}%
+\contentsline {subsection}{\numberline {4.5.3}\emph {I-Group Presence Questionnaire}}{14}{subsection*.52}%
+\contentsline {subsection}{\numberline {4.5.4}Presencia espacial}{15}{subsection*.53}%
+\contentsline {subsection}{\numberline {4.5.5}Involucramiento}{15}{subsection*.54}%
+\contentsline {subsection}{\numberline {4.5.6}Realismo percibido}{15}{subsection*.55}%
+\contentsline {subsection}{\numberline {4.5.7}KoboToolbox}{15}{subsection*.56}%
+\contentsline {subsection}{\numberline {4.5.8}Herramientas para el análisis de datos}{16}{subsection*.57}%
+\contentsline {subsubsection}{Python}{16}{section*.58}%
+\contentsline {subsubsection}{NumPy}{16}{section*.59}%
+\contentsline {subsubsection}{Pandas}{16}{section*.60}%
+\contentsline {subsubsection}{Matplotlib}{16}{section*.61}%
+\contentsline {chapter}{\numberline {5}Metodología}{17}{chapter*.62}%
+\contentsline {section}{\numberline {5.1}Conceptualización y diseño de la experiencia}{17}{section*.63}%
+\contentsline {subsection}{\numberline {5.1.1}Dirección artística}{17}{subsection*.64}%
+\contentsline {subsection}{\numberline {5.1.2}Diseño de la experiencia interactiva}{18}{subsection*.65}%
+\contentsline {section}{\numberline {5.2}Selección de herramientas y recursos}{18}{section*.66}%
+\contentsline {subsection}{\numberline {5.2.1}Plataforma de desarrollo}{18}{subsection*.67}%
+\contentsline {subsection}{\numberline {5.2.2}Tecnologías utilizadas y entorno de ejecución}{19}{subsection*.68}%
+\contentsline {section}{\numberline {5.3}Desarrollo del videojuego base}{19}{section*.69}%
+\contentsline {subsection}{\numberline {5.3.1}Construcción de escenas}{19}{subsection*.70}%
+\contentsline {subsection}{\numberline {5.3.2}Creación de personajes tridimencionales}{21}{subsection*.74}%
+\contentsline {subsection}{\numberline {5.3.3}Implementacion de escenas}{23}{subsection*.79}%
+\contentsline {section}{\numberline {5.4}Implementación de la Arquitectura Dirigida por Eventos}{23}{section*.80}%
+\contentsline {subsection}{\numberline {5.4.1}Organización general de sistema}{23}{subsection*.81}%
+\contentsline {subsubsection}{Bootstrap y servicios generales}{24}{section*.82}%
+\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{24}{section*.84}%
+\contentsline {subsection}{\numberline {5.4.2}Comunicación por eventos y control de flujo}{25}{subsection*.86}%
+\contentsline {subsubsection}{Configuración de experiencias y segmentos}{26}{section*.87}%
+\contentsline {subsection}{\numberline {5.4.3}Preparación de escenas y activación de contenido y administración de recursos}{27}{subsection*.90}%
+\contentsline {subsection}{\numberline {5.4.4}Reutilización y precarga de recursos}{29}{subsection*.93}%
+\contentsline {subsection}{\numberline {5.4.5}Inicio de la experiencia y modalidades de ejecución}{29}{subsection*.94}%
+\contentsline {subsection}{\numberline {5.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{29}{subsection*.95}%
+\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{30}{section*.96}%
+\contentsline {subsection}{\numberline {5.4.7}Generación y preparación del BeatMap}{30}{subsection*.97}%
+\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{30}{section*.98}%
+\contentsline {subsection}{\numberline {5.4.8}Finalización de la canción y cierre de la experiencia}{30}{subsection*.99}%
+\contentsline {section}{\numberline {5.5}Optimización y validación técnica}{31}{section*.100}%
+\contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{31}{subsection*.101}%
+\contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{32}{subsection*.103}%
+\contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{33}{subsection*.104}%
+\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{33}{section*.105}%
+\contentsline {subsection}{\numberline {5.6.1}Participantes}{33}{subsection*.106}%
+\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{33}{subsection*.107}%
+\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{34}{subsection*.108}%
+\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{34}{subsection*.110}%
+\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{34}{section*.111}%
+\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{35}{subsection*.112}%
+\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{35}{subsection*.113}%
+\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{35}{subsection*.114}%
+\contentsline {chapter}{\numberline {6}Resultados}{37}{chapter*.115}%
+\contentsline {section}{\numberline {6.1}Resultados de Rendimiento}{37}{section*.116}%
+\contentsline {subsection}{\numberline {6.1.1}EXE en PC por Meta Horizon Link}{37}{subsection*.117}%
+\contentsline {subsection}{\numberline {6.1.2}APK en Quest 3S}{38}{subsection*.118}%
+\contentsline {section}{\numberline {6.2}Resultados prueba IPQ}{38}{section*.119}%
+\contentsline {subsection}{\numberline {6.2.1}Revisión de la base de datos}{38}{subsection*.120}%
+\contentsline {chapter}{\numberline {7}Discusión}{41}{chapter*.122}%
+\contentsline {chapter}{\numberline {8}...}{43}{chapter*.123}%
+\contentsline {section}{\numberline {8.1}...}{43}{section*.124}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{45}{chapter*.126}%
+\contentsline {chapter}{\numberline {10}Recomendaciones}{47}{chapter*.127}%
+\contentsline {chapter}{\numberline {11}Bibliograf\'{\i }a}{49}{chapter*.129}%
+\contentsline {chapter}{\numberline {12}Anexos}{53}{chapter*.130}%
+\contentsline {section}{\numberline {12.1}Cuestionario IPQ utilizado}{53}{section*.131}%
+\contentsline {subsection}{\numberline {12.1.1}Configuración del proyecto y plantilla VR de Unity}{58}{subsection*.132}%

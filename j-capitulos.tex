@@ -1,27 +1,90 @@
 \chapter{Resultados}
+
+\section{Resultados de Rendimiento}
+
+\subsection{EXE en PC por Meta Horizon Link}
+%%-- ### ⭐ Tabla: Rendimiento del ejecutable por Meta Horizon Link
+En las tres capturas se analizan entre 15,635 y 16,248 fotogramas. Los tiempos medianos de procesamiento de CPU son de 1.252, 1.416, 1.312 ms, mientras que los de GPU son de 1.597, 1.622, 1.622.  Y en el perceltil 95, los tiempos de CPU no superan los 2.335 ms y los de GPU 3.567 ms. Acerca de la latencia mediana movimiento-foton esta entre 41.896 y 42.542 ms, lo que indica que en todas las pruebas hay un comportamiento similar. Aunque, no se registra alguna actividad de ASW, los contadores de la aplicación aumentan en 136, 138 y 99 fotogramas descartados, además de entre 2 a 3 descartes del compositor. 
+
+Por lo que el comportamiento en general de las tres capturas es estable, pero presentan algunas interrupciones. 
+
+%% TABLA de rendimiento xd
+
+%%-- ### ⭐ 5.1 Evolución temporal del procesamiento de CPU y GPU
+Acerca de la evolución del CPU se mantiene entre 1 y 2 ms durante las tres capturas. Aunque, se observan incrementos temporales en específico en la tercera corrida, donde la mediana móvil alcanza aproximadamente 3.6 ms cerca del fotograma 10,700. Mientras uqe la segunda también presenta incrementos importantes en la fase final. Estos cambios indican que existen momentos en los que la aplicación requiere mayor procesamiento, aunque no se observa un aumento continuo durante toda la experiencia. 
+
+En cuanto los tiempos procesamiento de GPU se muestran periodos que se ven estables, cercanos a 1-2 ms, alternados con incremenros que alcanzan aproximadamente 4 ms en ciertos intervalos. Aunque estos incrementos aparecen en las tres capturas, no ocurren en el los mismos índices de fotogramas. 
+
+% DISCUSIÓN: Esto lo que puede sugerir es que algunas partes requieren de mayor procesamiento. A pesar de que las mediciones no permitan identificar directamente las escenas de estas variaciones, el tiempo coincide aproximadamente con la escena más pesada de procesar. 
+
+%% IMAGEN evolución temporal del procesamiento de CPU y GPU se 
+
+%% ## ⭐ Evolución de latencia movimiento-fotón
+Respecto a latencia movimiento-fotón, la latencia suavizada se situó entre 40 y 45.5 ms. Aunque aparecen incrementos y reducciones temporales, no se identifica una tendencia sostenida de crecimiento conforme a como avanza la captura. Lo que esto indica que el tiempo de respuesta visual reportado por el sistema se matuvo consistente durante la mayor parte de las ejecuciones. 
+
+%% IMAGEN
+
+%% ### ⭐ Incrementos de contadores de fotogramas descartados
+
+Los descartes de la aplicación tiene valores de 136, 138 y 99 eventos. Mientras que los del compositor entre 2 y 3 eventos. 
+Aunque los tiempos de procesamiento de GPU y CPU son bajos, se han registrado incidencias en la continuidad de entrega de fotogramas. Sin embargo, no asegura que estos valores no permiten determinar la percepción de posibles interrupciones perceptibles por los participantes. 
+
+%% IMAGEN
+
+%% ### ⭐ Distribución por corrida del EXE (caja Q1–Q3; bigotes P05–P95)
+Sobre la distribución por corrida, la segunda corrida tiene al mediana de procesamiento de CPU más alta, con 1.416 ms, luego tercera con 1.312 ms y la primera de 1.252 ms. Los rangos son similares, lo que indica que en la mayor parte de las capturas, los tiempos de procesamiento de GPU no presentaron diferencias importantes.
+%% IMAGEN
+
+
+\subsection{APK en Quest 3S}
+%% ### ⭐ Tabla - rendimiento autónomo en Meta Quest 3s
+Las 3 capturas tienen una mediana de 72 FPS, aunque sus promedios son ligeramente inferiores, entre 69.157 y 70.482 FPS. Esto indica que la experiencia alcanzó con frecuencia la tasa de fotogramas objetivo, pero no logró mantenerla constantemente. Entre el 17.63\% y 22.94\% de las muestras estuvieron por debajo de 72 FPS. Además, la segunda corrida presentó el promedio más bajo y el percentil 95 de GPU más elevado
+% DISCUSION: lo que sugiere mayores variaciones de rendimiento en esa ejecución.
+% IMAGEN
+
+%% ### ⭐ 6.1 FPS observador durante las capturas del APK
+Lo que se logra ver con los FPS reportados durante las capturas APK, es que la tasa de fotogramas se mantiene cercana a los 72 FPS, Sin embargo, se observan algunas caídas al inicio y un periodo de menor fluidez aproximadamente entre los 145 y 185 segundos, donde los valores disminuyen considerablemente. Luego, las capturas regresan a los 72 FPS. Esto indica que la experiencia mantiene una tasa de fotogramas adecuada durante varios intervalos, aunque presenta dificultades para mantenerla en momentos determinados de la experiencia.
+
+%% IMAGEN
+
+
+
+
 \section{Resultados prueba IPQ}
 Se usarón los 14 enunciados en español de I-group Presence Questionnaire (IPQ por sus siglas en inglés) \cite{castro2026immersive}. Las tres dimensiones se calculan con el modelo factorial revisado que presenta el artículo. Este modelo retiró de involucramiento el ítem 14 por sus cargas en varios factores. Se muestra además el promedio de involucramiento con los 4 ítems originales como análisis de sensibilidad. 
 
 \subsection{Revisión de la base de datos}
-La base de datos contenía 35 registros con autorización para el uso de sus respuestas. 31 personas respondieron los 14 ítems del IPQ; los otros 4 presentaron entre 1 a 2 respuestas faltantes (Tabla 1). 
-Se conservaron las respuestas válidas sin código de participante. 
+%%
+La base de datos contenía 39 registros con autorización para el uso de sus respuestas. Aunque solo 35 respuestas tienen todos los ítems respondidos. Tres respuestas con 2 respuestas faltantes y una con solo una respuesta faltante. 
+%% IMAGEN
 
-\begin{table}[h]
-\begin{tabular}{l|l|}
-\hline
-\textbf{Medida} & \textbf{Cantidad} \\ \hline
-Registros exportados & 35 \\ \hline
-Registros con consentimiento & 35 \\ \hline
-IPQ completo (14 ítems) & 31 \\ \hline
-IPQ con 1 respuesta faltante & 1 \\ \hline
-IPQ con 2 respuestas faltantes & 3 \\ \hline
-\end{tabular}
-\caption[Tabla de prueba]{Tabla de prueba. Esta es una breve descripción de la tabla anterior. Continuamos con la descripción de esta forma y se menciona que fue de elaboración propia.} 
-\label{cuadro:revisiondb}
-\end{table}
+%% tabla IPQ
+La tabla resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
 
+La presencia general obtuvo una media de 2005 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 ed 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
 
-\subsection{Puntuaciones IPQ}
+La tabla tiene dos puntuaciones de involucramiento: la principal calculada con tres ítems según el modelo revisado, y una puntuación de sensibilidad con cuatro ítems. Esta última incluye el ítem 14 y se muestra para observar cómo cambia el resumen al utilizar la composición original de la dimensión. 
+%% RESULTADOS
+
+Lo que se puede observar en la gráfica de perfil descriptivo de presencia es que la presencia general obtuvo una media de 2.05 (n=38), la presencia espacial tuvo 1.97 (n=36). Lo que indica que los valores tienen una percepción positiva de estar dentro del entorno virtual. Esto muestra que los participantes lograron experimentar una sensación de presencia durante el videoclip.
+% IMAGEN
+
+%%% # ⭐ 3.2 Distribución de las tres dimensiones y presencia general
+
+La distribución de las puntuaciones individuales mediante diagramas de caja. Se observa que la presencia general y la presencia espacial muestran medianas cercanas a 2.0 con una concentración de respuestas en valores positivos. Lo que demuestra que la mayoría de participantes experimiento una sensación favorable de presencia dentro del entorno virtual. Aunque tambien hay algunas puntuaciones inferiores, lo que muestra uqe la experiencia no fue percibida de la misma manera para todos los usuarios. 
+
+Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor dispersión de respuestas alrededor del punto neutral. En el involucramiento se observan puntuaciones tanto negativas como positivas. Y en el realismo presenta una distribución similar. La variación demuestra que la capacidad de la experiencia de captar la atención y transmitir una sensasión de realismo fue diferente entre los participantes. A pesar de que los promedios generales permiten identificar tendencias, las diferencias individuales muestran que la percepción de presencia no fue uniforme en todas sus dimensiones. 
+
+%% IMAGEN CAJAS
+ 
+%% # ⭐ 3.5 Brecha individual entre presencial espacial y realismo
+
+El gráfico de Brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. De esta misma forma se ve una diferencia promedio de 1.86 puntos a favor de la presencia espacial. 
+
+Este resultado evidencia que, para la mayoría de los participantes, la sensación de encontrarse dentro del mundo virtual fue considerablente mayor que la percepción de realismo del entorno. Lo que diferencia a los dos aspectos de la experiencia inversiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
+
+%% IMAGEN DISTRIBUCION
+
 
 \begin{figure}[H]
     \centering
@@ -30,33 +93,8 @@ IPQ con 2 respuestas faltantes & 3 \\ \hline
 \end{figure}
 
 
-\begin{table*}[htbp]
-\centering
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}|p{6cm}|c|c|c|c|c|}
-\hline
-\textbf{Indicador} & \textbf{n} & \textbf{Media} & \textbf{DE} &
-\textbf{Mediana} & \textbf{Respuestas positivas} \\ \hline
-Presencia general (ítem 8) & 34 & 2,03 & 1,19 & 2,00 & 32 \\ \hline
-Presencia espacial (5 ítems) & 32 & 1,33 & 0,79 & 1,40 & 31 \\ \hline
-Involucramiento (3 ítems, modelo revisado) & 34 & 0,36 & 0,90 & 0,33 & 20 \\ \hline
-Realismo (4 ítems) & 34 & -0,45 & 0,55 & -0,50 & 5 \\ \hline
-Involucramiento (4 ítems, análisis de sensibilidad) & 34 & 0,71 & 0,75 & 0,75 & 26 \\ \hline
-\end{tabular*}
-\caption[Resultados descriptivos del IPQ]{Resultados descriptivos del IPQ en una escala de $-3$ a $+3$. DE: desviación estándar. Se consideró positiva una puntuación mayor que cero. La última fila incluye el ítem 14 únicamente como análisis de sensibilidad. Fuente: elaboración propia a partir de las respuestas recopiladas.}
-\label{cuadro:resultados_ipq}
-\end{table*}
+ \ref{cuadro:resultados_ipq}
 
-En cuanto la presencia general se obtuvo una media de 2.03 (DE = 1.19; n = 34) 32 de 34 respuestas fueron positivas. 
-La presencia espacial presentó una medida de 1.33 (DE = 0.79; n = 32), con 31 de 32 puntuaciones positivas (Tabla 2 y figura 1).
-
-En el modelo revisado, el involucramiento obtuvo una media de 0.36 (DE= 0.90; n=34). De las 34 puntuaciones, 20 fueron positivas, 3 iguales a 0 y 11 negativas. 
-Mientras que el realismo persentó una media de -0.45 (DE= 0.55; n=34);  26 de 34 puntuaciones de esta dimensión dueron negativas (Tabla 2 y Figura 1).
-
-Al incluir el ítem 14 en promedio original de involucramiento, la media fue de 0.71 (DE=0.75; n=34). La diferencia respecto al modelo revisado muestra la influencia de ese ítem en la descripción de la muestra (Tabla 2)
-
-
-
-Como se muestra en el Cuadro \ref{cuadro:resultados_ipq}, la presencia general y la presencia espacial presentaron medias positivas. El involucramiento del modelo revisado tuvo una media ligeramente superior al punto central de la escala, mientras que la media de realismo fue negativa.
 
 
 \chapter{Discusión}
@@ -67,20 +105,6 @@ Sin embargo, para este factor es importante mencionar cuando se realizaron las p
 El realismo presentó una medida negativa de 26 de 34 puntuaciones por debajo de 0. Este resultado describe una percepción diferente a la sensación de presencia en donde los participantes podian sentirse dentro de la experiencia sin considerar que su mundo visual fuera equivalente al mundo real. Acerca de esta dimensión se justifica ya que el mundo virtual creado tiene estética \emph{Low-Poly} y no se pretendía realizar un estilo realista.
 El modelo factorial revisado del árticulo de \cite{castro2026immersive} excluye el ítem 14 de involucramiento por sus cargas de varios factores. En esta muestra, incluirlo sube el valor de 0.36 a 0.71. Se incluye también el resultado incluyendo el ítem 14 porque demuestra la sensibilidad de la puntuación a definición de la subescala.
 Acerca de los límites que se tienen de diseño, es que 34 de los participantes indicaron que no era su primera vez usando VR y uno no respondió esa pregunta.
-
-\subsection{}
-
-
-
-
-
-\section{...}
-\subsection{...}
-\subsubsection{...}
-
-
-
-
 
 
 
