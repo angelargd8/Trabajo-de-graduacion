@@ -64,61 +64,92 @@ Y el equipo utilizado para el desarrollo de pruebas en Unity y Meta Horizon Link
 Para configurar el entorno de desarrollo. El punto de partida fue la plantilla VR y luego se construyo la estructura inicial de la aplicación. Esta etapa comprendió las escenas comunes del sistema y las escenas específicas de la experiencia musical, así como los componentes necesarios para permitir que el usuario interactue con el sistema. 
 
 \subsection{Construcción de escenas}
-La aplicación esta dividida en escenas independientes para facilitar su organización, carga y optimización. Se creó una escena de menú, desde la cual se inició la experiencia, una escena de carga de carga dutante las transiciones y diferentes escenas asociadas con las secciones de las canciones. 
+La aplicación esta dividida en escenas independientes por cada artista como se puede ver en la figura \ref{fig:preparacionEscenas}, con el fin de facilitar su organización, carga y optimización. Se creó una escena de menú, desde la cual se inició la experiencia, una escena de carga de carga dutante las transiciones y diferentes escenas asociadas con las secciones de las canciones. 
 Cada escena de experiencia incorporó su propio ambiente, iluminación y props. Los props fueron seleccionados durante la dirección artistica se incorporaron y ajustaron para mantener la identidad visual relacionada con las referencias proporcionadas por los artistas. 
-Las escenas se organizaron de manera que pudieran ejecutarse  tanto como parte de la secuencia completa como de forma individual para facilitar pruebas y el acceso desde el menu, pensando en la rejugabilidad del juego.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/PreparacionAlex.jpeg}
-    \caption{Construcción escena de Alex.}
-\end{figure}
-
+Las escenas se organizaron de manera que pudieran ejecutarse tanto como parte de la secuencia completa como de forma individual para realizar pruebas y el acceso desde el menu, pensando en la rejugabilidad del juego con las escenas independientes además de la experiencia completa.
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/PreparacionJoaquin.png}
-    \caption{Construcción de escena de Joaquin.}
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/PreparacionAlex.jpeg}
+        \caption{Construcción escena de Alex.}
+        \label{fig:PreparacionAlex}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/PreparacionJoaquin.png}
+        \caption{Construcción de escena de Joaquin.}
+        \label{fig:PreparacionJoaquin}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/PreparacionDanniel.png}
+        \caption{Construcción de escena de Danniel.}
+        \label{fig:PreparacionDanniel}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Preparación de escenas individuales}
+    \label{fig:preparacionEscenas}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/PreparacionDanniel.png}
-    \caption{Construcción de escena de Danniel.}
-\end{figure}
+
 
 
 \subsection{Creación de personajes tridimencionales}
 Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimencionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
-Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales. 
+Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales como se puede observar en la figura \ref{fig:Trellis2Alex}. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/Trellis2Alex.jpeg}
     \caption{Modelo generado por TRELLIS.2}
+    \label{fig:Trellis2Alex}
 \end{figure}
 
-Luego, los modelos obtenidos se editaron y mejoraron en Blender, realizando ajustes en sus geometrías, materiales y características visuales para mantener la estética propuesta de cada integrante. 
+Luego, los modelos obtenidos se editaron y mejoraron en Blender \ref{fig:blenderAlex}, realizando ajustes en sus geometrías, materiales y características visuales para mantener la estética propuesta de cada integrante. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/blenderAlex.jpeg}
     \caption{Modelo modificado en Blender}
+    \label{fig:blenderAlex}
 \end{figure}
 
-Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
+Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging} \ref{fig:riggingAlex}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
+
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/riggingAlex.jpeg}
-    \caption{Modelo en Mixamo al realizar el Auto \emph{Rigging}}
-\end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/UnityAlex.jpeg}
-    \caption{Modelo en Unity con animaciones}
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/riggingAlex.jpeg}
+        \caption{Modelo en Mixamo al realizar el Auto \emph{Rigging}}
+        \label{fig:riggingAlex}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/UnityAlex.jpeg}
+        \caption{Modelo en Unity con animaciones}
+        \label{fig:UnityAlex}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Modelo en Mixamo y Unity}
+    \label{fig:ModeloMixamoYUnity}
 \end{figure}
 
 
@@ -141,7 +172,7 @@ La comunicación se estructuró en tres ámbitos de responsabilidad. El \emph{Bo
 
 %%
 \subsubsection{Bootstrap y servicios generales}
-La escena \emph{Bootstrap} almacenó los sistemas generales de la aplicación en toda la experiencia y coordinaba la carga aditiva del menú, las experiencias y servicios compartidos. 
+La escena \emph{Bootstrap} \ref{fig:Bootstrap} almacenó los sistemas generales de la aplicación en toda la experiencia y coordinaba la carga aditiva del menú, las experiencias y servicios compartidos. 
 El \emph{AppStateMachine} administró los estados de inicialización, menú principal, carga y ejecución de la experiencia. 
 El \emph{SceneFlowManager} fue el encargado de gestionar las transiciones y la carga y descarga de las escenas. 
 Por otra parte, \emph{HighScoreSystem} registró los puntajes y actualizó récords, mientras que el \emph{AudioManager} controló la música del menú y su transición al iniciar una experiencia. 
@@ -153,11 +184,12 @@ De esta forma, la cámara y los controladores se gestionaron desde un sistema co
     \centering
     \includegraphics[width=0.4\textwidth]{Assets/Bootstrap.png}
     \caption{Escena Bootstrap.}
+    \label{fig:Bootstrap}
 \end{figure}
 
 %%
 \subsubsection{ExperienceCore y servicios musicales compartidos}
-Se usó \emph{ExperienceCore} como escena de servicios compartidos para cada experiencia. \emph{SceneFlowManager} la cargó de forma aditiva después de \emph{LoadingScene}, y antes de precargar la escena individual o la secuencia completa. 
+Se usó \emph{ExperienceCore} \ref{fig:ExperienceCore} como escena de servicios compartidos para cada experiencia. \emph{SceneFlowManager} la cargó de forma aditiva después de \emph{LoadingScene}, y antes de precargar la escena individual o la secuencia completa. 
 En ella se integró \emph{PlayableDirector}, que reprodujo \emph{Timeline}; \emph{SecuenceDirector}, el secuenciador, responsable de su inicio y finalización; y \emph{ExperienceMusicClock}, que expuso el tiempo musical común. 
 \emph{ExperienceBeatPlayer} usó esta misma referencia cuando se incorporó al flujo musical. 
 La escena también alojó \emph{MetricsSystem}, que registró datos de interacciones, como aciertos, errores, tiempos de reacción y presición; además de los sistemas de puntuación, pausa, retroalimentación y resultados. 
@@ -167,6 +199,7 @@ La escena también alojó \emph{MetricsSystem}, que registró datos de interacci
     \centering
     \includegraphics[width=0.4\textwidth]{Assets/ExperienceCore.png}
     \caption{Escena ExperienceCore.}
+    \label{fig:ExperienceCore}
 \end{figure}
 
 %%-------------------
@@ -180,7 +213,7 @@ Esto con el fin que los productores notificaran acciones sin contener la impleme
 %%
 \subsubsection{Configuración de experiencias y segmentos}
 La configuración de las experiencias se separó de la lógica de ejecución mediante \emph{ScriptableObjects}.
-\emph{ExperienceDefinitionSO} reunió la secuencia completa, las escenas disponibles para la ejecución individual y los datos de créditos. 
+\emph{ExperienceDefinitionSO} \ref{fig:ExperienceSceneDefinitionSO} reunió la secuencia completa, las escenas disponibles para la ejecución individual y los datos de créditos. 
 Mientras que \emph{ExperienceSceneDefinitionSO} mantuvo la información correspondiente a cada escena.
 Para la ejecución completa, \emph{ExperienceSequenceSO} guardó los segmentos ordenados con su escena, tiempos de inicio y finalización, transición de entrada y opción de precarga inicial. Los intervalos de tiempo fueron configurados desde cero, con duración positiva y continuidad entre segmentos. Los valores definieron la organización prevista de la canción.
 
@@ -188,15 +221,17 @@ Para la ejecución completa, \emph{ExperienceSequenceSO} guardó los segmentos o
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ExperienceSceneDefinitionSO.png}
     \caption{Configuracion de ExperienceSceneDefinitionSO.}
+    \label{fig:ExperienceSceneDefinitionSO}
 \end{figure}
 
-Para la experiencia completa se utilizó un \emph{ExperienceSequenceSO}, donde se definieron los segmentos que componían la secuencia. Cada segmento guardó la escena correspondiente, con su tiempo de inicio y finalización, la transición de entrada y la configuración de precarga.
+Para la experiencia completa se utilizó un \emph{ExperienceSequenceSO} \ref{fig:ExperienceSequenceSO}, donde se definieron los segmentos que componían la secuencia. Cada segmento guardó la escena correspondiente, con su tiempo de inicio y finalización, la transición de entrada y la configuración de precarga.
 Estos tiempos definieron los momentos de la canción en los que debían generarse los cambios entre segmentos. La secuencia se configuró de forma consecutiva y se uso una referencia temporal común para toda la experiencia. Esta separación permitió modificar el orden, duración y comportamiento temporal de los segmentos desde el editor sin alterar la lógica que estaba encargada de ejecutar los eventos de secuencia.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Assets/ExperienceSequenceSO.png}
     \caption{Configuracion de ExperienceSequenceSO.}
+    \label{fig:ExperienceSequenceSO}
 \end{figure}
 
 
@@ -210,18 +245,27 @@ Al comenzar con la participación de una escena, el bootstrap activó \emph{Expe
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Assets/ExperienceSceneBootstrap.png}
-    \caption{Configuracion de ExperienceSceneBootstrap.}
+
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/ExperienceSceneBootstrap.png}
+        \caption{Configuracion de ExperienceSceneBootstrap.}
+        \label{fig:ExperienceSceneBootstrap}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/ExperienceContent.png}
+        \caption{Configuracion de Experience Content.}
+        \label{fig:ExperienceContent}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{}
+    \label{fig:Experience}
 \end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Assets/ExperienceContent.png}
-    \caption{Configuracion de Experience Content.}
-\end{figure}
-
-
 
 %%
 \subsection{Reutilización y precarga de recursos}
@@ -283,14 +327,16 @@ Luego de mostrar los créditos y completar la transición de salida es cuando \e
 \subsection{Optimización gráfica y de escena}
 Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
 
-También se optimizaron los materiales utilizados en los escenarios. Para elementos como vegetación se utilizaron materiales opacos con \emph{Alpha Clipping} en lugar de superficies transparentes, y se deshabilitaron propiedades visuales que no eran necesarias, como la recepción de sombras, los reflejos del entorno y los reflejos especulares. En objetos repetidos se habilitó \emph{GPU Instancing} para facilitar su renderizado conjunto.
+También se optimizaron los materiales utilizados en los escenarios. Para elementos como vegetación como se puede observar en la figura \ref{fig:MatExampleOptimizacion} se utilizaron materiales opacos con \emph{Alpha Clipping} en lugar de superficies transparentes, y se deshabilitaron propiedades visuales que no eran necesarias, como la recepción de sombras, los reflejos del entorno y los reflejos especulares. En objetos repetidos se habilitó \emph{GPU Instancing} para facilitar su renderizado conjunto.
 Asimismo, se revisaron modelos, texturas e iluminación con el objetivo de reducir el costo de renderizado sin modificar de manera significativa la estética definida para cada escena.
 Las modificaciones se realizaron de manera iterativa y se generaron nuevas compilaciones para comprobar su comportamiento directamente en el dispositivo.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Assets/MatExampleOptimizacion.png}
     \caption{Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}
+    \label{fig:MatExampleOptimizacion}
 \end{figure}
+
 
 
 \subsection{Pruebas de rendimiento en los dispositivo objetivos}
@@ -344,7 +390,7 @@ Antes de utilizar el visor se proporcionarían las instrucciones necesarias para
 
 \subsection{Entorno de evaluación}
 
-Las sesiones se planificaron en un espacio físico despejado y supervisado dentro de la Universidad del Valle de Guatemala. Cada participante usó un visor Meta Quest para experimentar el prototipo desarrollado en Unity y posteriormente respondió el formulario I-Group Presence Questionnaire (IPQ por sus siglas en inglés) en KoboToolbox.
+Las sesiones se planificaron en un espacio físico despejado y supervisado dentro de la Universidad del Valle de Guatemala \ref{fig:pruebasAnalisisCognitivo}. Cada participante usó un visor Meta Quest para experimentar el prototipo desarrollado en Unity y posteriormente respondió el formulario I-Group Presence Questionnaire (IPQ por sus siglas en inglés) en KoboToolbox.
 
 Se estimó una duración de entre 10 y 15 minutos por sesión. Antes de comenzar se proporcionarían instrucciones sobre el funcionamiento de los controles y el procedimiento de la prueba.
 
@@ -354,6 +400,7 @@ Debido al uso de VR, se consideraron como posibles riesgos el mareo, la desorien
     \centering
     \includegraphics[width=0.5\textwidth]{Assets/pruebasAnalisisCognitivo.png}
     \caption{Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }
+    \label{fig:pruebasAnalisisCognitivo}
 \end{figure}
 
 \subsection{Entorno de evaluación}
