@@ -1,10 +1,10 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Prefacio}{\es@scroman {v}}{section*.6}%
-\contentsline {chapter}{Lista de figuras}{\es@scroman {ix}}{section*.8}%
-\contentsline {chapter}{Lista de cuadros}{\es@scroman {xi}}{section*.9}%
-\contentsline {chapter}{Resumen}{\es@scroman {xiii}}{section*.10}%
-\contentsline {chapter}{Abstract}{\es@scroman {xv}}{section*.11}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xii}}{section*.8}%
+\contentsline {chapter}{Lista de cuadros}{\es@scroman {xiii}}{section*.9}%
+\contentsline {chapter}{Resumen}{\es@scroman {xv}}{section*.10}%
+\contentsline {chapter}{Abstract}{\es@scroman {xvii}}{section*.11}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter*.12}%
 \contentsline {chapter}{\numberline {2}Justificación}{3}{chapter*.13}%
 \contentsline {chapter}{\numberline {3}Objetivos}{5}{chapter*.14}%
