@@ -1,6 +1,73 @@
 \chapter{Resultados}
 
 \section{Trazabilidad de la arquitectura EDA}
+%%-- 1
+Contestando a la primera pregunta, cada punto en la figura \ref{fig:flujo_temporal_eda} marca cuándo se registró el hito de su fila. Los puntos verdes identifican las activaciones individuales de las escenas de los Skeepers. Los naranjas muestran el inicio y fin de la preparación. Los puntos azules muestran la solicitud, el inicio global de la reproducción y los hitos de cierre. Los que aparecen más a la derecha ocurrieron más tarde.
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/eda/flujo_temporal_eda.png}
+    \caption{Flujo temporal observado durante una ejecución completa}
+    \label{fig:flujo_temporal_eda}
+\end{figure}
+
+%%-- 2
+La figura \ref{fig:relaciones_productor_evento_consumidores} se puede observar el componente que publicó, evento distribuido y componentes que lo recibieron. Cada conexión corresponde a una relación encontrada en la captura; el número de paréntesis indica cuantas recepciones registro ese consumidor. Y los eventos se agrupan para mostrar el patrón de comunicación. 
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Assets/eda/relaciones_productor_evento_consumidores.png}
+    \caption{Mapa visual de las relaciones observadas}
+    \label{fig:relaciones_productor_evento_consumidores}
+\end{figure}
+
+%% --3 
+%% 1
+En la figura \ref{fig:activacion_segmentos_eda}, los seis segmentos presentan diferencias positivas: 
+Alex, 17.77 ms; Joaquín, 0.55 ms; Shipi, 12.26 ms; Juan Andrés, 3.06 ms; Danniel, 9.64 ms; y Jeremy, 3.94 ms. La diferencia máxima corresponde a Alex y la mínima a Joaquín. 
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/eda/activacion_segmentos_eda.png}
+    \caption{Diferencia entre la frontera musical y la activación registrada}
+    \label{fig:activacion_segmentos_eda}
+\end{figure}
+
+%% 2
+La figura de \ref{fig:consumidores_beatreached} muestra 488 recepciones de \emph{BeatLightController}, 488 de \emph{PlayerBeatVFXController}, 81 de \emph{EnemyWaveSpawner} y 80 de \emph{AlexThrowDirector}. 
+En los registros están contados 488 publicaciones y una omisión por parte de \emph{Exceeded max lateness}
+% DISCUSIÓN: Lo que nos indica esta figura es que un mismo evento fue distribuido a distintos consumidores y que las cantidades variaron según los componeentes presentos y activos, tomando en cuenta sus reglas. 
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/eda/consumidores_beatreached.png}
+    \caption{Recepciones de BeatReached por consumidor}
+    \label{fig:consumidores_beatreached}
+\end{figure}
+%% 3
+Acerca de la figura \ref{fig:operaciones_carga_preparacion}, la mediana registrada para la preparación de la secuencia fue de 
+5.867 s (n=1); para la carga de escena, 0.125 (n=11); para la preparación de escena, 0.094 s (n=6); para la descarga de escena, 0.019 s (n=14); y para el preloader, 0.014 s (n=13).
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/eda/operaciones_carga_preparacion.png}
+    \caption{Duración registrada de operaciones de carga y preparación}
+    \label{fig:operaciones_carga_preparacion}
+\end{figure}
+
+
+%% ### Resultados principales de la trazabilidad EDA
+La tabla de resultados principales \ref{fig:results_main} resume que 11 de 11 pasos de flujo con evidencia se realizaron; hay 1002 publicaciones correlacionadas en 19 relaciones resumidas; 
+6 de 6 activaciones de segmentos comparables, con una diferencia absoluta máxima de 17.77 ms;
+488 publicaciones de \emph{BeatReached}, cuatro consumidores y una omisión; 
+y registros de \emph{ExperienceCompleted} para el cierre de la experiencia con recepción de resultados y retorno al menú.
+%% IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Assets/eda/results_main.png}
+    \caption{Tabla: Resultados principales de la trazabilidad EDA}
+    \label{fig:results_main}
+\end{figure}
 
 
 
@@ -189,6 +256,9 @@ Este resultado evidencia que, para la mayoría de los participantes, la sensaci�
 
 
 \chapter{Discusión}
+
+NAIVE DISCUSION
+
 En cuanto presencial espacial y general las puntuaciones fueron positivas en ambas medidas. Esto lo que indica es que, en la muestra evaluada, la experiencia evaluada produjo una sensación subjetiva de estar en el entorno virtual. 
 Acerca del involucramiento, esta dimensión refleja la atención dedicada al entorno virtual y la disminución de la atención en el entorno real. La media fue de 0.36 quedo un poco por encima del punto central de la escala (0) y fue menor que la media de la presencia espacial.
 Hubo 20 puntuaciones positivas, 3 iguales a 0 y 11 negativas entre las 34 respuestas obtenidas. Este resultado indica que el involucramiento para una parte de la muestra, con diferencias entre participantes. 
