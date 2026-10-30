@@ -57,34 +57,34 @@ Acerca de la figura \ref{fig:operaciones_carga_preparacion}, la mediana registra
 
 
 %% ### Resultados principales de la trazabilidad EDA
-La tabla de resultados principales \ref{fig:results_main} resume que 11 de 11 pasos de flujo con evidencia se realizaron; hay 1002 publicaciones correlacionadas en 19 relaciones resumidas; 
+El cuadro de resultados principales \ref{tab:results_main} resume que 11 de 11 pasos de flujo con evidencia se realizaron; hay 1002 publicaciones correlacionadas en 19 relaciones resumidas; 
 6 de 6 activaciones de segmentos comparables, con una diferencia absoluta máxima de 17.77 ms;
 488 publicaciones de \emph{BeatReached}, cuatro consumidores y una omisión; 
 y registros de \emph{ExperienceCompleted} para el cierre de la experiencia con recepción de resultados y retorno al menú.
 %% IMAGEN
-\begin{figure}[H]
+\begin{table}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/eda/results_main.png}
-    \caption{Tabla: Resultados principales de la trazabilidad EDA}
-    \label{fig:results_main}
-\end{figure}
+    \caption{Resultados principales de la trazabilidad EDA}
+    \label{tab:results_main}
+\end{table}
 
 
 
 \section{Resultados de Rendimiento}
 \subsection{EXE en PC por Meta Horizon Link}
 %%-- ### ⭐ Tabla: Rendimiento del ejecutable por Meta Horizon Link
-Como se puede observar en la figura \ref{fig:tabla_rendimiento_ejecutable_metahorizonlink_vertical} las tres capturas se analizan entre 15,635 y 16,248 fotogramas. Los tiempos medianos de procesamiento de CPU son de 1.252, 1.416, 1.312 ms, mientras que los de GPU son de 1.597, 1.622, 1.622.  Y en el perceltil 95, los tiempos de CPU no superan los 2.335 ms y los de GPU 3.567 ms. Acerca de la latencia mediana movimiento-foton esta entre 41.896 y 42.542 ms, lo que indica que en todas las pruebas hay un comportamiento similar. Aunque, no se registra alguna actividad de ASW, los contadores de la aplicación aumentan en 136, 138 y 99 fotogramas descartados, además de entre 2 a 3 descartes del compositor. 
+Como se puede observar en el cuadro \ref{tab:tabla_rendimiento_ejecutable_metahorizonlink_vertical} las tres capturas se analizan entre 15,635 y 16,248 fotogramas. Los tiempos medianos de procesamiento de CPU son de 1.252, 1.416, 1.312 ms, mientras que los de GPU son de 1.597, 1.622, 1.622.  Y en el perceltil 95, los tiempos de CPU no superan los 2.335 ms y los de GPU 3.567 ms. Acerca de la latencia mediana movimiento-foton esta entre 41.896 y 42.542 ms, lo que indica que en todas las pruebas hay un comportamiento similar. Aunque, no se registra alguna actividad de ASW, los contadores de la aplicación aumentan en 136, 138 y 99 fotogramas descartados, además de entre 2 a 3 descartes del compositor. 
 
 Por lo que el comportamiento en general de las tres capturas es estable, pero presentan algunas interrupciones. 
 
 %% TABLA de rendimiento xd
-\begin{figure}[H]
+\begin{table}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png}
-    \caption{Tabla: rendimiento del ejecutable por Meta Horizon Link}
-    \label{fig:tabla_rendimiento_ejecutable_metahorizonlink_vertical}
-\end{figure}
+    \caption{Rendimiento del ejecutable por Meta Horizon Link}
+    \label{tab:tabla_rendimiento_ejecutable_metahorizonlink_vertical}
+\end{table}
 
 
 %%-- ### ⭐ 5.1 Evolución temporal del procesamiento de CPU y GPU
@@ -160,15 +160,15 @@ Sobre la distribución por corrida, en la figura \ref{fig:distribucionPorCorrida
 
 \subsection{APK en Quest 3S}
 %% ### ⭐ Tabla - rendimiento autónomo en Meta Quest 3s
-En las 3 capturas como se puede ver en \ref{fig:rendimientoAPK}, tienen una mediana de 72 FPS, aunque sus promedios son ligeramente inferiores, entre 69.157 y 70.482 FPS. Esto indica que la experiencia alcanzó con frecuencia la tasa de fotogramas objetivo, pero no logró mantenerla constantemente. Entre el 17.63\% y 22.94\% de las muestras estuvieron por debajo de 72 FPS. Además, la segunda corrida presentó el promedio más bajo y el percentil 95 de GPU más elevado
+En las 3 capturas, como se puede ver en el cuadro \ref{tab:rendimientoAPK}, tienen una mediana de 72 FPS, aunque sus promedios son ligeramente inferiores, entre 69.157 y 70.482 FPS. Esto indica que la experiencia alcanzó con frecuencia la tasa de fotogramas objetivo, pero no logró mantenerla constantemente. Entre el 17.63\% y 22.94\% de las muestras estuvieron por debajo de 72 FPS. Además, la segunda corrida presentó el promedio más bajo y el percentil 95 de GPU más elevado
 % DISCUSION: lo que sugiere mayores variaciones de rendimiento en esa ejecución.
 % IMAGEN
-\begin{figure}[H]
+\begin{table}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png}
-    \caption{Tabla: rendimiento del ejecutable en Meta Quest 3S}
-    \label{fig:rendimientoAPK}
-\end{figure}
+    \caption{Rendimiento del ejecutable en Meta Quest 3S}
+    \label{tab:rendimientoAPK}
+\end{table}
 
 
 %% ### ⭐ 6.1 FPS observador durante las capturas del APK
@@ -198,19 +198,19 @@ Como se muestra en la figura \ref{fig:registrosIPQ}, la base de datos contenía 
 \end{figure}
 
 
-%% tabla IPQ
-La tabla \ref{fig:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
+%% tabla IPQ 
+El cuadro \ref{tab:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
 
 La presencia general obtuvo una media de 2005 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 ed 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
 
-La tabla tiene dos puntuaciones de involucramiento: la principal calculada con tres ítems según el modelo revisado, y una puntuación de sensibilidad con cuatro ítems. Esta última incluye el ítem 14 y se muestra para observar cómo cambia el resumen al utilizar la composición original de la dimensión. 
+El cuadro  tiene dos puntuaciones de involucramiento: la principal calculada con tres ítems según el modelo revisado, y una puntuación de sensibilidad con cuatro ítems. Esta última incluye el ítem 14 y se muestra para observar cómo cambia el resumen al utilizar la composición original de la dimensión. 
 %% RESULTADOS
-\begin{figure}[H]
+\begin{table}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/ipq/tabla_pIPQ.png}
-    \caption{Tabla de puntuaciones de IPQ.}
-    \label{fig:puntuacionesIPQ}
-\end{figure}
+    \caption{Cuadro de puntuaciones de IPQ.}
+    \label{tab:puntuacionesIPQ}
+\end{table}
 
 
 

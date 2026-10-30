@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Prefacio}{\es@scroman {v}}{section*.6}%
-\contentsline {chapter}{Lista de figuras}{\es@scroman {xii}}{section*.8}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {xi}}{section*.8}%
 \contentsline {chapter}{Lista de cuadros}{\es@scroman {xiii}}{section*.9}%
 \contentsline {chapter}{Resumen}{\es@scroman {xv}}{section*.10}%
 \contentsline {chapter}{Abstract}{\es@scroman {xvii}}{section*.11}%
