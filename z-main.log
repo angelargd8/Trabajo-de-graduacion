@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  30 OCT 2026 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  30 OCT 2026 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1388,29 +1388,29 @@ Package pdftex.def Info: Assets/rendimiento/FPSAPK.png  used on input line 180.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>]
-<Assets/ipq/db.png, id=1163, 388.8126pt x 196.5744pt>
+<Assets/ipq/db.png, id=1164, 388.8126pt x 196.5744pt>
 File: Assets/ipq/db.png Graphic file (type png)
 <use Assets/ipq/db.png>
 Package pdftex.def Info: Assets/ipq/db.png  used on input line 195.
 (pdftex.def)             Requested size: 216.81pt x 109.61598pt.
  [53 <./Assets/rendimiento/FPSAPK.png> <./Assets/ipq/db.png>]
-<Assets/ipq/tabla_pIPQ.png, id=1173, 870.3717pt x 168.3891pt>
+<Assets/ipq/tabla_pIPQ.png, id=1174, 870.3717pt x 168.3891pt>
 File: Assets/ipq/tabla_pIPQ.png Graphic file (type png)
 <use Assets/ipq/tabla_pIPQ.png>
 Package pdftex.def Info: Assets/ipq/tabla_pIPQ.png  used on input line 210.
 (pdftex.def)             Requested size: 390.25536pt x 75.50203pt.
-<Assets/ipq/perfilDescriptivo.png, id=1175, 586.1097pt x 333.1647pt>
+<Assets/ipq/perfilDescriptivo.png, id=1176, 586.1097pt x 333.1647pt>
 File: Assets/ipq/perfilDescriptivo.png Graphic file (type png)
 <use Assets/ipq/perfilDescriptivo.png>
 Package pdftex.def Info: Assets/ipq/perfilDescriptivo.png  used on input line 221.
 (pdftex.def)             Requested size: 390.25536pt x 221.83643pt.
  [54 <./Assets/ipq/tabla_pIPQ.png> <./Assets/ipq/perfilDescriptivo.png>]
-<Assets/ipq/variabilidad.png, id=1183, 665.6067pt x 412.6617pt>
+<Assets/ipq/variabilidad.png, id=1184, 665.6067pt x 412.6617pt>
 File: Assets/ipq/variabilidad.png Graphic file (type png)
 <use Assets/ipq/variabilidad.png>
 Package pdftex.def Info: Assets/ipq/variabilidad.png  used on input line 236.
 (pdftex.def)             Requested size: 390.25536pt x 241.95078pt.
-<Assets/ipq/brecha.png, id=1185, 694.5147pt x 362.0727pt>
+<Assets/ipq/brecha.png, id=1186, 694.5147pt x 362.0727pt>
 File: Assets/ipq/brecha.png Graphic file (type png)
 <use Assets/ipq/brecha.png>
 Package pdftex.def Info: Assets/ipq/brecha.png  used on input line 251.
@@ -1447,12 +1447,12 @@ Overfull \hbox (1.93355pt too wide) in paragraph at lines 448--448
 [68]
 Cap\'{\i }tulo 11.
 (n-anexos.tex
-<Assets/Preguntas IPQ.pdf, id=1322, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1323, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<Assets/Preguntas IPQ.pdf, id=1324, page=1, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1325, page=1, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
@@ -1479,7 +1479,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
  [70
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1346, page=2, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1347, page=2, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 2>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
@@ -1495,7 +1495,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
  [71
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1368, page=3, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1369, page=3, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 3>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
@@ -1511,7 +1511,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
  [72
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1381, page=4, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1382, page=4, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 4>
 Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
@@ -1527,7 +1527,7 @@ Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
  [73
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/plantillaVRUnityHub.png, id=1391, 1279.78125pt x 765.35938pt>
+<Assets/plantillaVRUnityHub.png, id=1392, 1279.78125pt x 765.35938pt>
 File: Assets/plantillaVRUnityHub.png Graphic file (type png)
 <use Assets/plantillaVRUnityHub.png>
 Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 22.
@@ -1561,9 +1561,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,18n,79p,2572b,2312s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on z-main.pdf (97 pages, 29966234 bytes).
+Output written on z-main.pdf (97 pages, 29966419 bytes).
 PDF statistics:
- 2220 PDF objects out of 2487 (max. 8388607)
+ 2221 PDF objects out of 2487 (max. 8388607)
  303 named destinations out of 1000 (max. 500000)
  1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 
