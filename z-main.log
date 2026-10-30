@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  30 OCT 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.5)  30 OCT 2026 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,7 +840,7 @@ Package epstopdf Info: Source file: <plantilla/escudoUVGnegro.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=plantilla/escudoUVGnegro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
-<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=399, 141.52875pt x 209.78375pt>
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=407, 141.52875pt x 209.78375pt>
 File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
 Package pdftex.def Info: plantilla/escudoUVGnegro-eps-converted-to.pdf  used on input line 164.
@@ -959,17 +959,17 @@ Cap\'{\i }tulo 5.
 (j-metodologia.tex [17
 
 ] [18] [19]
-<Assets/PreparacionAlex.jpeg, id=907, 1606.0pt x 966.61125pt>
+<Assets/PreparacionAlex.jpeg, id=918, 1606.0pt x 966.61125pt>
 File: Assets/PreparacionAlex.jpeg Graphic file (type jpg)
 <use Assets/PreparacionAlex.jpeg>
 Package pdftex.def Info: Assets/PreparacionAlex.jpeg  used on input line 77.
 (pdftex.def)             Requested size: 325.215pt x 195.7377pt.
-<Assets/PreparacionJoaquin.png, id=908, 1281.78876pt x 768.37062pt>
+<Assets/PreparacionJoaquin.png, id=919, 1281.78876pt x 768.37062pt>
 File: Assets/PreparacionJoaquin.png Graphic file (type png)
 <use Assets/PreparacionJoaquin.png>
 Package pdftex.def Info: Assets/PreparacionJoaquin.png  used on input line 86.
 (pdftex.def)             Requested size: 325.215pt x 194.94121pt.
-<Assets/PreparacionDanniel.png, id=910, 1281.28688pt x 765.35938pt>
+<Assets/PreparacionDanniel.png, id=921, 1281.28688pt x 765.35938pt>
 File: Assets/PreparacionDanniel.png Graphic file (type png)
 <use Assets/PreparacionDanniel.png>
 Package pdftex.def Info: Assets/PreparacionDanniel.png  used on input line 95.
@@ -978,78 +978,78 @@ Package pdftex.def Info: Assets/PreparacionDanniel.png  used on input line 95.
 Overfull \vbox (21.50787pt too high) has occurred while \output is active []
 
  [21 <./Assets/PreparacionAlex.jpeg> <./Assets/PreparacionJoaquin.png> <./Assets/PreparacionDanniel.png>]
-<Assets/Trellis2Alex.jpeg, id=924, 1606.0pt x 887.315pt>
+<Assets/Trellis2Alex.jpeg, id=935, 1606.0pt x 887.315pt>
 File: Assets/Trellis2Alex.jpeg Graphic file (type jpg)
 <use Assets/Trellis2Alex.jpeg>
 Package pdftex.def Info: Assets/Trellis2Alex.jpeg  used on input line 114.
 (pdftex.def)             Requested size: 390.25536pt x 215.61365pt.
-<Assets/blenderAlex.jpeg, id=926, 1606.0pt x 964.60374pt>
+<Assets/blenderAlex.jpeg, id=937, 1606.0pt x 964.60374pt>
 File: Assets/blenderAlex.jpeg Graphic file (type jpg)
 <use Assets/blenderAlex.jpeg>
 Package pdftex.def Info: Assets/blenderAlex.jpeg  used on input line 123.
 (pdftex.def)             Requested size: 390.25536pt x 234.39449pt.
-<Assets/riggingAlex.jpeg, id=928, 1606.0pt x 875.27pt>
+<Assets/riggingAlex.jpeg, id=939, 1606.0pt x 875.27pt>
 File: Assets/riggingAlex.jpeg Graphic file (type jpg)
 <use Assets/riggingAlex.jpeg>
 Package pdftex.def Info: Assets/riggingAlex.jpeg  used on input line 136.
 (pdftex.def)             Requested size: 390.25536pt x 212.68677pt.
-<Assets/UnityAlex.jpeg, id=929, 1606.0pt x 935.495pt>
+<Assets/UnityAlex.jpeg, id=940, 1606.0pt x 935.495pt>
 File: Assets/UnityAlex.jpeg Graphic file (type jpg)
 <use Assets/UnityAlex.jpeg>
 Package pdftex.def Info: Assets/UnityAlex.jpeg  used on input line 145.
 (pdftex.def)             Requested size: 390.25536pt x 227.32118pt.
  [22 <./Assets/Trellis2Alex.jpeg>]
-<Assets/OrganizacionGeneralArquitectura.png, id=935, 1987.425pt x 2184.16pt>
+<Assets/OrganizacionGeneralArquitectura.png, id=946, 1987.425pt x 2184.16pt>
 File: Assets/OrganizacionGeneralArquitectura.png Graphic file (type png)
 <use Assets/OrganizacionGeneralArquitectura.png>
 Package pdftex.def Info: Assets/OrganizacionGeneralArquitectura.png  used on input line 179.
 (pdftex.def)             Requested size: 390.25536pt x 428.85898pt.
  [23 <./Assets/blenderAlex.jpeg>] [24 <./Assets/riggingAlex.jpeg> <./Assets/UnityAlex.jpeg>] [25 <./Assets/OrganizacionGeneralArquitectura.png>]
-<Assets/Bootstrap.png, id=953, 221.82875pt x 272.51813pt>
+<Assets/Bootstrap.png, id=964, 221.82875pt x 272.51813pt>
 File: Assets/Bootstrap.png Graphic file (type png)
 <use Assets/Bootstrap.png>
 Package pdftex.def Info: Assets/Bootstrap.png  used on input line 197.
 (pdftex.def)             Requested size: 173.44534pt x 213.07474pt.
-<Assets/ExperienceCore.png, id=955, 211.28937pt x 388.45125pt>
+<Assets/ExperienceCore.png, id=966, 211.28937pt x 388.45125pt>
 File: Assets/ExperienceCore.png Graphic file (type png)
 <use Assets/ExperienceCore.png>
 Package pdftex.def Info: Assets/ExperienceCore.png  used on input line 212.
 (pdftex.def)             Requested size: 173.44534pt x 318.88177pt.
  [26 <./Assets/Bootstrap.png>]
-<Assets/ComunicacionMedianteEventos.png, id=963, 2262.4525pt x 981.6675pt>
+<Assets/ComunicacionMedianteEventos.png, id=974, 2262.4525pt x 981.6675pt>
 File: Assets/ComunicacionMedianteEventos.png Graphic file (type png)
 <use Assets/ComunicacionMedianteEventos.png>
 Package pdftex.def Info: Assets/ComunicacionMedianteEventos.png  used on input line 228.
 (pdftex.def)             Requested size: 390.25536pt x 169.32285pt.
  [27 <./Assets/ExperienceCore.png>]
-<Assets/ExperienceSceneDefinitionSO.png, id=970, 661.47125pt x 205.26688pt>
+<Assets/ExperienceSceneDefinitionSO.png, id=981, 661.47125pt x 205.26688pt>
 File: Assets/ExperienceSceneDefinitionSO.png Graphic file (type png)
 <use Assets/ExperienceSceneDefinitionSO.png>
 Package pdftex.def Info: Assets/ExperienceSceneDefinitionSO.png  used on input line 242.
 (pdftex.def)             Requested size: 390.25536pt x 121.10326pt.
-<Assets/ExperienceSequenceSO.png, id=972, 355.3275pt x 534.99875pt>
+<Assets/ExperienceSequenceSO.png, id=983, 355.3275pt x 534.99875pt>
 File: Assets/ExperienceSequenceSO.png Graphic file (type png)
 <use Assets/ExperienceSequenceSO.png>
 Package pdftex.def Info: Assets/ExperienceSequenceSO.png  used on input line 252.
 (pdftex.def)             Requested size: 303.53267pt x 457.02867pt.
  [28 <./Assets/ComunicacionMedianteEventos.png> <./Assets/ExperienceSceneDefinitionSO.png>] [29 <./Assets/ExperienceSequenceSO.png>] [30]
-<Assets/CicloDeVida.png, id=992, 1260.71pt x 1573.88pt>
+<Assets/CicloDeVida.png, id=1003, 1260.71pt x 1573.88pt>
 File: Assets/CicloDeVida.png Graphic file (type png)
 <use Assets/CicloDeVida.png>
 Package pdftex.def Info: Assets/CicloDeVida.png  used on input line 312.
 (pdftex.def)             Requested size: 303.53267pt x 378.91568pt.
-<Assets/ExperienceSceneBootstrap.png, id=993, 532.99126pt x 560.59438pt>
+<Assets/ExperienceSceneBootstrap.png, id=1004, 532.99126pt x 560.59438pt>
 File: Assets/ExperienceSceneBootstrap.png Graphic file (type png)
 <use Assets/ExperienceSceneBootstrap.png>
 Package pdftex.def Info: Assets/ExperienceSceneBootstrap.png  used on input line 330.
 (pdftex.def)             Requested size: 303.53267pt x 319.25983pt.
-<Assets/ExperienceContent.png, id=994, 619.31375pt x 212.795pt>
+<Assets/ExperienceContent.png, id=1005, 619.31375pt x 212.795pt>
 File: Assets/ExperienceContent.png Graphic file (type png)
 <use Assets/ExperienceContent.png>
 Package pdftex.def Info: Assets/ExperienceContent.png  used on input line 347.
 (pdftex.def)             Requested size: 390.27368pt x 134.09726pt.
  [31 <./Assets/CicloDeVida.png>] [32 <./Assets/ExperienceSceneBootstrap.png> <./Assets/ExperienceContent.png>]
-<Assets/FlujoEjecucion.png, id=1009, 1009.7725pt x 3009.2425pt>
+<Assets/FlujoEjecucion.png, id=1020, 1009.7725pt x 3009.2425pt>
 File: Assets/FlujoEjecucion.png Graphic file (type png)
 <use Assets/FlujoEjecucion.png>
 Package pdftex.def Info: Assets/FlujoEjecucion.png  used on input line 383.
@@ -1061,31 +1061,31 @@ Package pdftex.def Info: Assets/FlujoEjecucion.png  used on input line 383.
 Overfull \vbox (17.6721pt too high) has occurred while \output is active []
 
  [34 <./Assets/FlujoEjecucion.png>]
-<Assets/SecuenciaTemporal.png, id=1020, 1718.42pt x 2238.3625pt>
+<Assets/SecuenciaTemporal.png, id=1031, 1718.42pt x 2238.3625pt>
 File: Assets/SecuenciaTemporal.png Graphic file (type png)
 <use Assets/SecuenciaTemporal.png>
 Package pdftex.def Info: Assets/SecuenciaTemporal.png  used on input line 408.
 (pdftex.def)             Requested size: 303.53267pt x 395.37386pt.
  [35] [36 <./Assets/SecuenciaTemporal.png>]
-<Assets/MatExampleOptimizacion.png, id=1033, 460.72125pt x 687.06688pt>
+<Assets/MatExampleOptimizacion.png, id=1044, 460.72125pt x 687.06688pt>
 File: Assets/MatExampleOptimizacion.png Graphic file (type png)
 <use Assets/MatExampleOptimizacion.png>
 Package pdftex.def Info: Assets/MatExampleOptimizacion.png  used on input line 442.
 (pdftex.def)             Requested size: 216.81pt x 323.31985pt.
  [37] [38 <./Assets/MatExampleOptimizacion.png>] [39]
-<Assets/pruebasAnalisisCognitivo.png, id=1049, 4015.0pt x 3011.25pt>
+<Assets/pruebasAnalisisCognitivo.png, id=1060, 4015.0pt x 3011.25pt>
 File: Assets/pruebasAnalisisCognitivo.png Graphic file (type png)
 <use Assets/pruebasAnalisisCognitivo.png>
 Package pdftex.def Info: Assets/pruebasAnalisisCognitivo.png  used on input line 508.
 (pdftex.def)             Requested size: 216.81pt x 162.56372pt.
  [40 <./Assets/pruebasAnalisisCognitivo.png>]) [41] [42] (j-capitulos.tex
 Cap\'{\i }tulo 6.
-<Assets/eda/flujo_temporal_eda.png, id=1066, 1004.553pt x 546.843pt>
+<Assets/eda/flujo_temporal_eda.png, id=1077, 1004.553pt x 546.843pt>
 File: Assets/eda/flujo_temporal_eda.png Graphic file (type png)
 <use Assets/eda/flujo_temporal_eda.png>
 Package pdftex.def Info: Assets/eda/flujo_temporal_eda.png  used on input line 9.
 (pdftex.def)             Requested size: 390.25536pt x 212.44183pt.
-<Assets/eda/relaciones_productor_evento_consumidores.png, id=1068, 1072.7277pt x 858.0858pt>
+<Assets/eda/relaciones_productor_evento_consumidores.png, id=1079, 1072.7277pt x 858.0858pt>
 File: Assets/eda/relaciones_productor_evento_consumidores.png Graphic file (type png)
 <use Assets/eda/relaciones_productor_evento_consumidores.png>
 Package pdftex.def Info: Assets/eda/relaciones_productor_evento_consumidores.png  used on input line 19.
@@ -1093,96 +1093,96 @@ Package pdftex.def Info: Assets/eda/relaciones_productor_evento_consumidores.png
 [43
 
  <./Assets/eda/flujo_temporal_eda.png>]
-<Assets/eda/activacion_segmentos_eda.png, id=1075, 787.743pt x 353.1594pt>
+<Assets/eda/activacion_segmentos_eda.png, id=1086, 787.743pt x 353.1594pt>
 File: Assets/eda/activacion_segmentos_eda.png Graphic file (type png)
 <use Assets/eda/activacion_segmentos_eda.png>
 Package pdftex.def Info: Assets/eda/activacion_segmentos_eda.png  used on input line 31.
 (pdftex.def)             Requested size: 390.25536pt x 174.96262pt.
  [44 <./Assets/eda/relaciones_productor_evento_consumidores.png>]
-<Assets/eda/consumidores_beatreached.png, id=1082, 714.7503pt x 280.8894pt>
+<Assets/eda/consumidores_beatreached.png, id=1093, 714.7503pt x 280.8894pt>
 File: Assets/eda/consumidores_beatreached.png Graphic file (type png)
 <use Assets/eda/consumidores_beatreached.png>
 Package pdftex.def Info: Assets/eda/consumidores_beatreached.png  used on input line 43.
 (pdftex.def)             Requested size: 390.25536pt x 153.37099pt.
-<Assets/eda/operaciones_carga_preparacion.png, id=1084, 787.5021pt x 280.8894pt>
+<Assets/eda/operaciones_carga_preparacion.png, id=1095, 787.5021pt x 280.8894pt>
 File: Assets/eda/operaciones_carga_preparacion.png Graphic file (type png)
 <use Assets/eda/operaciones_carga_preparacion.png>
 Package pdftex.def Info: Assets/eda/operaciones_carga_preparacion.png  used on input line 53.
 (pdftex.def)             Requested size: 390.25536pt x 139.19711pt.
  [45 <./Assets/eda/activacion_segmentos_eda.png> <./Assets/eda/consumidores_beatreached.png>]
-<Assets/eda/results_main.png, id=1092, 742.4538pt x 292.6935pt>
+<Assets/eda/results_main.png, id=1103, 742.4538pt x 292.6935pt>
 File: Assets/eda/results_main.png Graphic file (type png)
 <use Assets/eda/results_main.png>
 Package pdftex.def Info: Assets/eda/results_main.png  used on input line 67.
 (pdftex.def)             Requested size: 390.25536pt x 153.84949pt.
  [46 <./Assets/eda/operaciones_carga_preparacion.png> <./Assets/eda/results_main.png>]
-<Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png, id=1100, 693.0693pt x 421.3341pt>
+<Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png, id=1111, 693.0693pt x 421.3341pt>
 File: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png Graphic file (type png)
 <use Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>
 Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png  used on input line 84.
 (pdftex.def)             Requested size: 390.25536pt x 237.24414pt.
-<Assets/rendimiento/tiempoCPUPC.png, id=1103, 859.2903pt x 276.7941pt>
+<Assets/rendimiento/tiempoCPUPC.png, id=1114, 859.2903pt x 276.7941pt>
 File: Assets/rendimiento/tiempoCPUPC.png Graphic file (type png)
 <use Assets/rendimiento/tiempoCPUPC.png>
 Package pdftex.def Info: Assets/rendimiento/tiempoCPUPC.png  used on input line 104.
 (pdftex.def)             Requested size: 390.25536pt x 125.70921pt.
-<Assets/rendimiento/tiempoGPUPC.png, id=1104, 859.2903pt x 290.5254pt>
+<Assets/rendimiento/tiempoGPUPC.png, id=1115, 859.2903pt x 290.5254pt>
 File: Assets/rendimiento/tiempoGPUPC.png Graphic file (type png)
 <use Assets/rendimiento/tiempoGPUPC.png>
 Package pdftex.def Info: Assets/rendimiento/tiempoGPUPC.png  used on input line 114.
 (pdftex.def)             Requested size: 390.25536pt x 131.94543pt.
  [47 <./Assets/rendimiento/tabla_rendimiento_ejecutable_metahorizonlink_vertical.png>]
-<Assets/rendimiento/latenciaPC.png, id=1112, 859.2903pt x 354.123pt>
+<Assets/rendimiento/latenciaPC.png, id=1123, 859.2903pt x 354.123pt>
 File: Assets/rendimiento/latenciaPC.png Graphic file (type png)
 <use Assets/rendimiento/latenciaPC.png>
 Package pdftex.def Info: Assets/rendimiento/latenciaPC.png  used on input line 131.
 (pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
  [48 <./Assets/rendimiento/tiempoCPUPC.png> <./Assets/rendimiento/tiempoGPUPC.png> <./Assets/rendimiento/latenciaPC.png>]
-<Assets/rendimiento/descartesPC.png, id=1121, 658.3797pt x 318.7107pt>
+<Assets/rendimiento/descartesPC.png, id=1132, 658.3797pt x 318.7107pt>
 File: Assets/rendimiento/descartesPC.png Graphic file (type png)
 <use Assets/rendimiento/descartesPC.png>
 Package pdftex.def Info: Assets/rendimiento/descartesPC.png  used on input line 145.
 (pdftex.def)             Requested size: 390.25536pt x 188.91302pt.
-<Assets/rendimiento/distribucionPC.png, id=1123, 1076.1003pt x 357.7365pt>
+<Assets/rendimiento/distribucionPC.png, id=1134, 1076.1003pt x 357.7365pt>
 File: Assets/rendimiento/distribucionPC.png Graphic file (type png)
 <use Assets/rendimiento/distribucionPC.png>
 Package pdftex.def Info: Assets/rendimiento/distribucionPC.png  used on input line 155.
 (pdftex.def)             Requested size: 390.25536pt x 129.73483pt.
-<Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png, id=1125, 589.2414pt x 590.205pt>
+<Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png, id=1136, 589.2414pt x 590.205pt>
 File: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png Graphic file (type png)
 <use Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>
 Package pdftex.def Info: Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png  used on input line 168.
 (pdftex.def)             Requested size: 390.25536pt x 390.90538pt.
  [49 <./Assets/rendimiento/descartesPC.png> <./Assets/rendimiento/distribucionPC.png>]
-<Assets/rendimiento/FPSAPK.png, id=1133, 859.2903pt x 354.123pt>
+<Assets/rendimiento/FPSAPK.png, id=1144, 859.2903pt x 354.123pt>
 File: Assets/rendimiento/FPSAPK.png Graphic file (type png)
 <use Assets/rendimiento/FPSAPK.png>
 Package pdftex.def Info: Assets/rendimiento/FPSAPK.png  used on input line 180.
 (pdftex.def)             Requested size: 390.25536pt x 160.82901pt.
  [50 <./Assets/rendimiento/tabla_rendimiento_ejecutable_quest3s_vertical.png>]
-<Assets/ipq/db.png, id=1142, 388.8126pt x 196.5744pt>
+<Assets/ipq/db.png, id=1153, 388.8126pt x 196.5744pt>
 File: Assets/ipq/db.png Graphic file (type png)
 <use Assets/ipq/db.png>
 Package pdftex.def Info: Assets/ipq/db.png  used on input line 195.
 (pdftex.def)             Requested size: 216.81pt x 109.61598pt.
  [51 <./Assets/rendimiento/FPSAPK.png> <./Assets/ipq/db.png>]
-<Assets/ipq/tabla_pIPQ.png, id=1152, 870.3717pt x 168.3891pt>
+<Assets/ipq/tabla_pIPQ.png, id=1163, 870.3717pt x 168.3891pt>
 File: Assets/ipq/tabla_pIPQ.png Graphic file (type png)
 <use Assets/ipq/tabla_pIPQ.png>
 Package pdftex.def Info: Assets/ipq/tabla_pIPQ.png  used on input line 210.
 (pdftex.def)             Requested size: 390.25536pt x 75.50203pt.
-<Assets/ipq/perfilDescriptivo.png, id=1154, 586.1097pt x 333.1647pt>
+<Assets/ipq/perfilDescriptivo.png, id=1165, 586.1097pt x 333.1647pt>
 File: Assets/ipq/perfilDescriptivo.png Graphic file (type png)
 <use Assets/ipq/perfilDescriptivo.png>
 Package pdftex.def Info: Assets/ipq/perfilDescriptivo.png  used on input line 221.
 (pdftex.def)             Requested size: 390.25536pt x 221.83643pt.
  [52 <./Assets/ipq/tabla_pIPQ.png> <./Assets/ipq/perfilDescriptivo.png>]
-<Assets/ipq/variabilidad.png, id=1162, 665.6067pt x 412.6617pt>
+<Assets/ipq/variabilidad.png, id=1173, 665.6067pt x 412.6617pt>
 File: Assets/ipq/variabilidad.png Graphic file (type png)
 <use Assets/ipq/variabilidad.png>
 Package pdftex.def Info: Assets/ipq/variabilidad.png  used on input line 236.
 (pdftex.def)             Requested size: 390.25536pt x 241.95078pt.
-<Assets/ipq/brecha.png, id=1164, 694.5147pt x 362.0727pt>
+<Assets/ipq/brecha.png, id=1175, 694.5147pt x 362.0727pt>
 File: Assets/ipq/brecha.png Graphic file (type png)
 <use Assets/ipq/brecha.png>
 Package pdftex.def Info: Assets/ipq/brecha.png  used on input line 251.
@@ -1213,92 +1213,106 @@ Overfull \hbox (1.93355pt too wide) in paragraph at lines 449--449
 [66]
 Cap\'{\i }tulo 11.
 (n-anexos.tex
-<Assets/Preguntas IPQ.pdf, id=1302, 597.4822pt x 845.1575pt>
+Overfull \hbox (15.52663pt too wide) in paragraph at lines 8--9
+[]\T1/cmr/m/n/10.95 Trazabilidad de la Ar-qui-tec-tu-ra Di-ri-gi-da por Even-tos: []$\T1/cmtt/m/n/10.95 https : / / github . com / angelargd8 /
+ []
+
+
+Overfull \hbox (24.07747pt too wide) in paragraph at lines 9--10
+[]\T1/cmr/m/n/10.95 Resultados de ren-di-mien-to: []$\T1/cmtt/m/n/10.95 https : / / github . com / angelargd8 / PG-[]analisis-[]resultados /
+ []
+
+
+Overfull \hbox (33.6114pt too wide) in paragraph at lines 10--11
+[]\T1/cmr/m/n/10.95 Resultados de la prue-ba I-group Pre-sen-ce Ques-tion-nai-res: []$\T1/cmtt/m/n/10.95 https : / / github . com / angelargd8 /
+ []
+
+<Assets/Preguntas IPQ.pdf, id=1318, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 15.
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf  used on input line 29.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
-<Assets/Preguntas IPQ.pdf, id=1304, page=1, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1320, page=1, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 29.
 (pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
- [67
+[67
 
-]
+] [68]
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 1>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
 <use Assets/Preguntas IPQ.pdf, page 1>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 15.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
- [68
-
- <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1325, page=2, 597.4822pt x 845.1575pt>
-File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 2>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 2>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
-(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
-File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 2>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 1>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page1 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
  [69
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1347, page=3, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1350, page=2, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 3>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 3>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 3>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 2>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page2 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
  [70
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/Preguntas IPQ.pdf, id=1360, page=4, 597.4822pt x 845.1575pt>
+<Assets/Preguntas IPQ.pdf, id=1372, page=3, 597.4822pt x 845.1575pt>
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 4>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 4>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
 File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
-<use Assets/Preguntas IPQ.pdf, page 4>
-Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 15.
+<use Assets/Preguntas IPQ.pdf, page 3>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page3 used on input line 29.
 (pdftex.def)             Requested size: 537.729pt x 760.63474pt.
  [71
 
  <./Assets/Preguntas IPQ.pdf>]
-<Assets/plantillaVRUnityHub.png, id=1371, 1279.78125pt x 765.35938pt>
+<Assets/Preguntas IPQ.pdf, id=1386, page=4, 597.4822pt x 845.1575pt>
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 29.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 29.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+File: Assets/Preguntas IPQ.pdf Graphic file (type pdf)
+<use Assets/Preguntas IPQ.pdf, page 4>
+Package pdftex.def Info: Assets/Preguntas IPQ.pdf , page4 used on input line 29.
+(pdftex.def)             Requested size: 537.729pt x 760.63474pt.
+ [72
+
+ <./Assets/Preguntas IPQ.pdf>]
+<Assets/plantillaVRUnityHub.png, id=1396, 1279.78125pt x 765.35938pt>
 File: Assets/plantillaVRUnityHub.png Graphic file (type png)
 <use Assets/plantillaVRUnityHub.png>
-Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 22.
+Package pdftex.def Info: Assets/plantillaVRUnityHub.png  used on input line 36.
 (pdftex.def)             Requested size: 390.25536pt x 233.38171pt.
-) [72 <./Assets/plantillaVRUnityHub.png>] (z-main.aux
+) [73 <./Assets/plantillaVRUnityHub.png>] (z-main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -1310,24 +1324,33 @@ LaTeX Info: Redefining \% on input line 10.
 LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: D8294088C175E9D441F955F5CFC05ABC;22039.
+(rerunfilecheck)             Checksum: 93532AC3B315435FC87FCF453F8D9068;22741.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                z-main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24636 strings out of 467510
- 446312 string characters out of 5408795
+ 24641 strings out of 467510
+ 446371 string characters out of 5408795
  1287466 words of memory out of 5000000
- 53220 multiletter control sequences out of 15000+600000
+ 53222 multiletter control sequences out of 15000+600000
  645358 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,18n,79p,1189b,2298s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\angel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/angel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on z-main.pdf (92 pages, 29962905 bytes).
+Output written on z-main.pdf (93 pages, 29969265 bytes).
 PDF statistics:
- 2194 PDF objects out of 2487 (max. 8388607)
- 297 named destinations out of 1000 (max. 500000)
- 1028 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2221 PDF objects out of 2487 (max. 8388607)
+ 300 named destinations out of 1000 (max. 500000)
+ 1044 words of extra memory for PDF output out of 10000 (max. 10000000)
 

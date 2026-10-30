@@ -94,7 +94,7 @@
 \contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{41}{subsection*.115}%
 \contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{41}{subsection*.116}%
 \contentsline {chapter}{\numberline {6}Resultados}{43}{chapter*.117}%
-\contentsline {section}{\numberline {6.1}Trazabilidad de la arquitectura EDA}{43}{section*.118}%
+\contentsline {section}{\numberline {6.1}Trazabilidad de la Arquitectura Dirigida por Eventos}{43}{section*.118}%
 \contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{46}{section*.125}%
 \contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{46}{subsection*.126}%
 \contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{49}{subsection*.132}%
@@ -109,5 +109,7 @@
 \contentsline {chapter}{\numberline {9}Recomendaciones}{61}{chapter*.148}%
 \contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{63}{chapter*.150}%
 \contentsline {chapter}{\numberline {11}Anexos}{67}{chapter*.151}%
-\contentsline {section}{\numberline {11.1}Cuestionario IPQ utilizado}{67}{section*.152}%
-\contentsline {subsection}{\numberline {11.1.1}Configuración del proyecto y plantilla VR de Unity}{72}{subsection*.153}%
+\contentsline {section}{\numberline {11.1}Implementación de Arquitectura Dirigida en un videoclip musical en realidad virtual}{67}{section*.152}%
+\contentsline {section}{\numberline {11.2}Análisis}{67}{section*.153}%
+\contentsline {section}{\numberline {11.3}Cuestionario IPQ utilizado}{67}{section*.154}%
+\contentsline {subsection}{\numberline {11.3.1}Configuración del proyecto y plantilla VR de Unity}{73}{subsection*.155}%
