@@ -2432,54 +2432,58 @@
     <bcf:citekey order="41" intorder="1">microsoft2026csharp</bcf:citekey>
     <bcf:citekey order="41" intorder="2">unity2026scripting</bcf:citekey>
     <bcf:citekey order="42" intorder="1">unity2026scripting</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">scriptableobjects</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">metaquest</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">metaHorizonLink</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">unity2026vroverview</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">unity2026vrtemplate</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">OculusDebugTool</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">OVRMetricTool</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">gameobjects</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">scriptableobjects</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">metaquest</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">metaHorizonLink</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">unity2026vroverview</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">unity2026vrtemplate</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">unity2026xritoolkit</bcf:citekey>
     <bcf:citekey order="50" intorder="1">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">unity2026xritoolkit</bcf:citekey>
-    <bcf:citekey order="51" intorder="2">unity2026xrinput</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">xiang2025trellis2</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">blender2026manual</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">adobe2026mixamo</bcf:citekey>
+    <bcf:citekey order="50" intorder="2">unity2026xrinput</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">xiang2025trellis2</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">blender2026manual</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">adobe2026mixamo</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">chen2022synchronization</bcf:citekey>
+    <bcf:citekey order="54" intorder="3">unity2026timeline</bcf:citekey>
     <bcf:citekey order="55" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="55" intorder="2">chen2022synchronization</bcf:citekey>
-    <bcf:citekey order="55" intorder="3">unity2026timeline</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">chen2022synchronization</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="59" intorder="2">van2003gamepulse</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">unity2026timeline</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">unity2026signalemitter</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="62" intorder="2">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">chen2022synchronization</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">edmunds2006mixed</bcf:citekey>
+    <bcf:citekey order="58" intorder="2">van2003gamepulse</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">unity2026timeline</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">unity2026signalemitter</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">eugster2003publish</bcf:citekey>
+    <bcf:citekey order="61" intorder="2">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="62" intorder="2">edmunds2006mixed</bcf:citekey>
     <bcf:citekey order="63" intorder="1">oberhauser2023vr</bcf:citekey>
-    <bcf:citekey order="63" intorder="2">edmunds2006mixed</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">oberhauser2023vr</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">eugster2003publish</bcf:citekey>
     <bcf:citekey order="65" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">eugster2003publish</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">unity2026scriptableevents</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="68" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">berkman2021igroup</bcf:citekey>
-    <bcf:citekey order="69" intorder="2">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">kobo</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">python</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">numpy</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">pandas</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">matplotlib</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">jupyterNotebook</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">metaquest</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">unity2026scriptableevents</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">OculusDebugTool</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">OVRMetricTool</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">MetaUnityPerf</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">ASWMetaQuest</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">motionToPhotonLatency</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">berkman2021igroup</bcf:citekey>
+    <bcf:citekey order="72" intorder="2">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">berkman2021igroup</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">kobo</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">python</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">pandas</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">jupyterNotebook</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">metaquest</bcf:citekey>
     <bcf:citekey order="81" intorder="1">castro2026immersive</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">schubert2001experience</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">castro2026immersive</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">schubert2001experience</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

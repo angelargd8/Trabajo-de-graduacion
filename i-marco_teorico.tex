@@ -23,6 +23,8 @@ La realidad virtual permite situar al usuario dentro de un entorno generado digi
 Unity es un motor de desarrollo en tiempo real utilizado para crear juegos y aplicaciones en dos y tres dimensiones para diferentes plataformas \cite{unity2026engine}. Su entorno organiza el contenido por medio de escenas compuestas por objetos, componentes y recursos, mientras que su ecosistema permite incorporar sistemas de física, renderizado, audio, programación e interacción. Para el desarrollo de realidad virtual, Unity dispone además de herramientas y paquetes especializados que permiten integrar dispositivos de XR y construir sistemas de interacción dentro de los entornos virtuales \cite{unity2026engine,unity2026vroverview}.
 \subsection{C\#}
 C\# es un lenguaje de programación de uso general, orientado a objetos y con tipado fuerte, utilizado por Unity para desarrollar la lógica de sus aplicaciones \cite{microsoft2026csharp,unity2026scripting}. Mediante \emph{scripts} escritos en C\# es posible controlar el comportamiento de los objetos de una escena, responder a las entradas del usuario, ejecutar eventos y modificar elementos de la aplicación durante su ejecución. En Unity, estos scripts pueden convertirse en componentes por medio de clases derivadas de \emph{MonoBehaviour}, para relacionar el comportamiento programado con los \emph{GameObjects} \cite{unity2026scripting}.
+\subsection{GameObjects}
+Los GameObjects son los bloques de construcción de las escenas dentro de Unity. Estos sirven como un contenedor para componentes funcionales que determinan la acción y apariencia de un objeto. \cite{gameobjects}.
 \subsection{ScriptableObjects}
 Un ScriptableObject es un objeto especializado de Unity que se usa principalmente como un contenedor de datos; este no forma parte de una instancia de un GameObject. Se puede usar para crear una clase personalizada con sus propias variables y métodos, pero con menos sobrecarga que un MonoBehaviour. Una de sus características principales es que no posee una transformación y reside fuera de la jerarquía de la escena, sino que existe a nivel del proyecto como un recurso. Por lo tanto, no se puede usar directamente en un GameObject; en vez de eso, se instancia desde el CreateMenuAsset. A nivel de programación ofrecen una gran flexibilidad ya que permiten: almacenarlos en variables, crearlos o destruirlos dinámicamente en tiempo de ejecución, pasarlos como argumentos, devolverlos desde un método, incluirlos en estructuras de datos, serializarlos y deserializarlos \cite{scriptableobjects}. 
 \subsection{Meta Quest 3S}
@@ -31,10 +33,6 @@ Metaquest 3s son unos visores de VR y realidad mixta (MR por sus siglas en ingl�
 La aplicación de Meta Horizon Link permite conectar las gafas de VR al ordenador, descubrir aplicaciones inmersivas y compilar aplicaciones desarrolladas desde diferentes editores o compilaciones de las aplicaciones en las gafas. \cite{metaHorizonLink}.
 \subsection{Plantilla de realidad virtual y escena de muestra de Unity}
 La plantilla de realidad virtual de Unity proporciona un punto de partida preconfigurado para desarrollar aplicaciones VR, incluyendo ajustes del proyecto, paquetes necesarios y una escena de muestra con componentes y recursos preparados para demostrar interacciones habituales \cite{unity2026vroverview}. Esta escena permite observar ejemplos funcionales de interacción, como manipulación de objetos y otras mecánicas propias de VR, por lo que puede utilizarse como referencia para comprender la configuración de una experiencia antes de desarrollar sistemas propios \cite{unity2026vrtemplate}.
-\subsection{Oculus Debug Tool}
-Herramienta que permite visualizar y registrar información de rendimiento o depuración de aplicaciones para ordenador ejecutadas en el visor con reportes que se pueden exportar en un archivo CSV \cite{OculusDebugTool}.
-\subsection{OVR Metric Tool}
-OVR Metric Tool es una herramienta que brinda métricas de rendimiento para aplicaciones móviles de Oculus y que permite exportar los datos en un archivo CSV \cite{OVRMetricTool}.
 \subsection{XR Origin e interacción mediante controladores de movimiento}
 El XR Origin representa el sistema de referencia del usuario dentro de una escena de XR y agrupa elementos asociados con el seguimiento de la cabeza, la cámara y los dispositivos de entrada. A partir de la información de posicionamiento y rotación proporcionada por el visor y los controladores, Unity actualiza su representación dentro del entorno virtual \cite{unity2026xritoolkit}. El \emph{XR Interaction Toolkit} complementa este sistema mediante componentes Interactor e Interactable, que permiten implementar acciones como seleccionar, tomar y manipular objetos, además de interactuar con interfaces y sistemas de locomoción utilizando las entradas de los controladores de movimiento \cite{unity2026xritoolkit,unity2026xrinput}.
 \subsection{Creación y animación de personajes tridimensionales}
@@ -69,6 +67,26 @@ Un evento representa que una acción o cambio de estado ha ocurrido dentro del s
 El modelo de publicación y suscripción permite que un componente publique un evento mientras otros componentes se suscriben a aquellos eventos que necesitan conocer. De esta manera, el productor no necesita mantener una referencia directa hacia cada consumidor, lo que reduce las dependencias entre componentes y facilita que estos puedan modificarse o reemplazarse de forma independiente. Como resultado, los componentes pueden comunicarse de manera independiente, reduciendo el acoplamiento entre las distintas partes del sistema \cite{eugster2003publish}.
 \subsection{Canales de eventos mediante ScriptableObjects}
 En Unity, los ScriptableObjects pueden utilizarse como canales de eventos que funcionan como intermediarios entre los componentes que producen un evento y aquellos que responden a él. De esta forma, los objetos pueden comunicarse mediante un recurso compartido sin necesitar referencias directas entre sí. Unity propone este patrón para desarrollar sistemas más modulares, facilitar la separación de responsabilidades y reducir las dependencias entre los diferentes componentes del proyecto \cite{unity2026scriptableevents}.
+
+%
+\section{Análisis de rendimiento}
+El análisis de rendimiento contribuye a la evaluación de las condiciones de ejecución de una experiencia en VR. 
+Para poder conocer el rendimiento, se utilizan herramientas de monitoreo y métricas evaluar la fluidez visual, los tiempos de respuesta y el comportamiento del sistema.
+\subsection{Oculus Debug Tool}
+Herramienta que permite visualizar y registrar información de rendimiento o depuración de aplicaciones para ordenador ejecutadas en el visor con reportes que se pueden exportar en un archivo CSV \cite{OculusDebugTool}.
+\subsection{OVR Metric Tool}
+OVR Metric Tool es una herramienta que brinda métricas de rendimiento para aplicaciones móviles de Oculus y que permite exportar los datos en un archivo CSV \cite{OVRMetricTool}.
+\subsection{FPS en Meta Quest}
+Los \emph{Frames per seconds} (FPS por sus siglas en inglés) indican la cantidad de imágenes que una aplicación genera por segundo. 
+Es recomendado que las aplicaciones interactivas deben de alcanzar un mínimo de 72 FPS para mantener una experiencia visual fluida y evitar interrupciones perceptibles en la ejecución de la experiencia interactiva \cite{MetaUnityPerf}. 
+\subsection{Asynchronous Spacewarp (ASW) en Meta Quest}
+\emph{Asynchronous Spacewarp }(ASW por sus siglas en inglés) es una técnica que se usa cuando el sistema no logra
+renderizar los fotogramas a la frecuencia requerida. Para mantener la fluidez visual, genera fotogramas intermedios 
+a partir de los fotogramas anteriormente renderizados, para reducir la necesesidad de procesar nuevos fotogramas completos \cite{ASWMetaQuest}.
+\subsection{Latencia movimiento-fotón}
+La latencia de movimiento a fotón es el tiempo transcurrido entre el movimiento físico del usuario y su representación visual las gafas. 
+Está métrica de rendimiento incluye la detección de movimiento físico hasta el renderizado y la actualización de la imagen en el visor \cite{motionToPhotonLatency}. 
+% Se considera que una latencia menor a 20 ms es aceptable, ya que una menor latencia mejora la capacidad de respuesta y reduce el riesgo de incomodidad . 
 
 % 
 \section{Presencia y evaluación de la experiencia}
