@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {4.2.8}Oculus Debug Tool}{10}{subsection*.31}%
 \contentsline {subsection}{\numberline {4.2.9}OVR Metric Tool}{11}{subsection*.32}%
 \contentsline {subsection}{\numberline {4.2.10}XR Origin e interacción mediante controladores de movimiento}{11}{subsection*.33}%
-\contentsline {subsection}{\numberline {4.2.11}Creación y animación de personajes tridimencionales}{11}{subsection*.34}%
+\contentsline {subsection}{\numberline {4.2.11}Creación y animación de personajes tridimensionales}{11}{subsection*.34}%
 \contentsline {subsubsection}{TRELLIS.2}{11}{section*.35}%
 \contentsline {subsubsection}{Blender}{11}{section*.36}%
 \contentsline {subsubsection}{Mixamo}{12}{section*.37}%
@@ -64,7 +64,7 @@
 \contentsline {subsection}{\numberline {5.2.2}Tecnologías utilizadas y entorno de ejecución}{19}{subsection*.68}%
 \contentsline {section}{\numberline {5.3}Desarrollo del videojuego base}{19}{section*.69}%
 \contentsline {subsection}{\numberline {5.3.1}Construcción de escenas}{19}{subsection*.70}%
-\contentsline {subsection}{\numberline {5.3.2}Creación de personajes tridimencionales}{22}{subsection*.72}%
+\contentsline {subsection}{\numberline {5.3.2}Creación de personajes tridimensionales}{22}{subsection*.72}%
 \contentsline {subsection}{\numberline {5.3.3}Implementacion de escenas}{22}{subsection*.76}%
 \contentsline {section}{\numberline {5.4}Implementación de la Arquitectura Dirigida por Eventos}{23}{section*.77}%
 \contentsline {subsection}{\numberline {5.4.1}Organización general de sistema}{23}{subsection*.78}%

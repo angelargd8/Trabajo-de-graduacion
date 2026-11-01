@@ -46,7 +46,7 @@ En los registros están contados 488 publicaciones y una omisión por parte de \
 \end{figure}
 %% 3
 Acerca de la figura \ref{fig:operaciones_carga_preparacion}, la mediana registrada para la preparación de la secuencia fue de 
-5.867 s (n=1); para la carga de escena, 0.125 (n=11); para la preparación de escena, 0.094 s (n=6); para la descarga de escena, 0.019 s (n=14); y para el preloader, 0.014 s (n=13).
+5.867 s (n=1); para la carga de escena, 0.125 s (n=11); para la preparación de escena, 0.094 s (n=6); para la descarga de escena, 0.019 s (n=14); y para el preloader, 0.014 s (n=13).
 %% IMAGEN
 \begin{figure}[H]
     \centering
@@ -88,7 +88,7 @@ Por lo que el comportamiento en general de las tres capturas es estable, pero pr
 
 
 %%-- ### ⭐ 5.1 Evolución temporal del procesamiento de CPU y GPU
-En la figura \ref{fig:tiempo-cpu-pc} de la evolución del CPU se mantiene entre 1 y 2 ms durante las tres capturas. Aunque, se observan incrementos temporales en específico en la tercera corrida, donde la mediana móvil alcanza aproximadamente 3.6 ms cerca del fotograma 10,700. Mientras uqe la segunda también presenta incrementos importantes en la fase final. Estos cambios indican que existen momentos en los que la aplicación requiere mayor procesamiento, aunque no se observa un aumento continuo durante toda la experiencia. 
+En la figura \ref{fig:tiempo-cpu-pc} de la evolución del CPU se mantiene entre 1 y 2 ms durante las tres capturas. Aunque, se observan incrementos temporales en específico en la tercera corrida, donde la mediana móvil alcanza aproximadamente 3.6 ms cerca del fotograma 10,700. Mientras que la segunda también presenta incrementos importantes en la fase final. Estos cambios indican que existen momentos en los que la aplicación requiere mayor procesamiento, aunque no se observa un aumento continuo durante toda la experiencia. 
 
 En cuanto los tiempos procesamiento de GPU, como se observa en \ref{fig:tiempo-gpu-pc} se muestran periodos que se ven estables, cercanos a 1-2 ms, alternados con incremenros que alcanzan aproximadamente 4 ms en ciertos intervalos. Aunque estos incrementos aparecen en las tres capturas, no ocurren en el los mismos índices de fotogramas. 
 
@@ -148,7 +148,7 @@ Aunque los tiempos de procesamiento de GPU y CPU son bajos, se han registrado in
 \end{figure}
 
 %% ### ⭐ Distribución por corrida del EXE (caja Q1–Q3; bigotes P05–P95)
-Sobre la distribución por corrida, en la figura \ref{fig:distribucionPorCorrida} se puede notar que la segunda corrida tiene al mediana de procesamiento de CPU más alta, con 1.416 ms, luego tercera con 1.312 ms y la primera de 1.252 ms. Los rangos son similares, lo que indica que en la mayor parte de las capturas, los tiempos de procesamiento de GPU no presentaron diferencias importantes.
+Sobre la distribución por corrida, en la figura \ref{fig:distribucionPorCorrida} se puede notar que la segunda corrida tiene la mediana de procesamiento de CPU más alta, con 1.416 ms, luego tercera con 1.312 ms y la primera de 1.252 ms. Los rangos son similares, lo que indica que en la mayor parte de las capturas, los tiempos de procesamiento de GPU no presentaron diferencias importantes.
 %% IMAGEN
 \begin{figure}[H]
     \centering
@@ -201,7 +201,7 @@ Como se muestra en la figura \ref{fig:registrosIPQ}, la base de datos contenía 
 %% tabla IPQ 
 El cuadro \ref{tab:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
 
-La presencia general obtuvo una media de 2005 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 ed 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
+La presencia general obtuvo una media de 2.05 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 de 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
 
 El cuadro  tiene dos puntuaciones de involucramiento: la principal calculada con tres ítems según el modelo revisado, y una puntuación de sensibilidad con cuatro ítems. Esta última incluye el ítem 14 y se muestra para observar cómo cambia el resumen al utilizar la composición original de la dimensión. 
 %% RESULTADOS
@@ -226,7 +226,7 @@ Lo que se puede observar en la figura \ref{fig:perfilPresencia} de perfil descri
 
 %%% # ⭐ 3.2 Distribución de las tres dimensiones y presencia general
 
-La distribución de las puntuaciones individuales mediante diagramas de caja de la figura \ref{fig:variabilidadPresencia} se observa que la presencia general y la presencia espacial muestran medianas cercanas a 2.0 con una concentración de respuestas en valores positivos. Lo que demuestra que la mayoría de participantes experimiento una sensación favorable de presencia dentro del entorno virtual. Aunque tambien hay algunas puntuaciones inferiores, lo que muestra uqe la experiencia no fue percibida de la misma manera para todos los usuarios. 
+La distribución de las puntuaciones individuales mediante diagramas de caja de la figura \ref{fig:variabilidadPresencia} se observa que la presencia general y la presencia espacial muestran medianas cercanas a 2.0 con una concentración de respuestas en valores positivos. Lo que demuestra que la mayoría de participantes experimientó una sensación favorable de presencia dentro del entorno virtual. Aunque tambien hay algunas puntuaciones inferiores, lo que muestra que la experiencia no fue percibida de la misma manera para todos los usuarios. 
 
 Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor dispersión de respuestas alrededor del punto neutral. En el involucramiento se observan puntuaciones tanto negativas como positivas. Y en el realismo presenta una distribución similar. La variación demuestra que la capacidad de la experiencia de captar la atención y transmitir una sensasión de realismo fue diferente entre los participantes. A pesar de que los promedios generales permiten identificar tendencias, las diferencias individuales muestran que la percepción de presencia no fue uniforme en todas sus dimensiones. 
 
@@ -243,7 +243,7 @@ Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor
 
 La figura \ref{fig:Brecha} de brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. De esta misma forma se ve una diferencia promedio de 1.86 puntos a favor de la presencia espacial. 
 
-Este resultado evidencia que, para la mayoría de los participantes, la sensación de encontrarse dentro del mundo virtual fue considerablente mayor que la percepción de realismo del entorno. Lo que diferencia a los dos aspectos de la experiencia inversiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
+Este resultado evidencia que, para la mayoría de los participantes, la sensación de encontrarse dentro del mundo virtual fue considerablente mayor que la percepción de realismo del entorno. Lo que diferencia a los dos aspectos de la experiencia inmersiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
 
 %% IMAGEN DISTRIBUCION
 \begin{figure}[H]
@@ -258,12 +258,12 @@ Este resultado evidencia que, para la mayoría de los participantes, la sensaci�
 \chapter{Discusión}
 
 \section{La arquitectura EDA y la secuenciación de la experiencia}
-Los registros analizados con la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) proporcionan evidencia de cómo se coordinó la experiencia por medio de entos y operaciones. 
+Los registros analizados con la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) proporcionan evidencia de cómo se coordinó la experiencia por medio de eventos y operaciones. 
 En la ejecución analizada se identificaron los once pasos definidos para el recorrido, dessde la solicitud iniciada en el menú hasta el cierre y retorno del menú. 
 Además, la correlación de publicaciones y recepciones permitió resumir 19 relaciones entre productores y consumidores. 
 % Esto responde a los objetivos de diseñar una arquitectura con responsabilidades distribuidas y coordinar los componentes de la experiencia por eventos.
 
-La secuencia también hizo posible seguir las activacioens de los seis segmentos y compararlas con las fronteras musicales configuradas.
+La secuencia también hizo posible seguir las activaciones de los seis segmentos y compararlas con las fronteras musicales configuradas.
 Las diferencias registradas fueron positivas y alcanzaron un máximo de 17.77 ms. Este resultado describe la separación entre el tiempo musical previsto y el registrado en la activación;
 Por sí solo no determina que la diferencia fue perceptible para el usuario; sin embargo, al seguir las activaciones todas se produjeron dentro del mismo segundo musical en el que fueron previstas, sin desplazarse al segundo siguiente.
 
@@ -289,7 +289,7 @@ Entre el 17.63\% y el 22.94\% de las muestras quedaron por debajo de 72 FPS. El 
 se observaron aumentos del tiempo de GPU junto a disminuciones de FPS. Estos resultados describen una ejecución cuya mediana alcanzó la frecuencia objetivo, pero que presentó intervalos con menor rendimiento. 
 Y estos intervalos probablemente fue en la escena con un mayor coste computacional que es la escena de Danniel, ya que esta cargando constantemente segmentos con muchos elementos y usa \emph{object pooling} con sus enemigos, las balas de enemigos y las balas del jugador. 
 
-La arquitectura EDA coordiná qué acciones se solicitan y en qué momentos se activan;
+La arquitectura EDA coordina qué acciones se solicitan y en qué momentos se activan;
 no determina por sí sola cuánto puede tardar la CPU y la GPU en producir cada fotograma. 
 Que el flujo de eventos pueda reconstruirse y que se logren observar las activaciones de segmentos no implica que la experiencia mantenga un rendimiento uniforme en todos los dispositivos.
 Y al ser capturas diferentes entre el registro de la trazabilidad de la arquitectura y las capturas de rendimiento, no se pueden atribuir las disminuciones de FPS observabas directamente a un componente o evento en particular de la arquitectura. 
@@ -301,7 +301,7 @@ Las puntuaciones fueron positivas para 36 de 38 respuestas válidas de presencia
 Por otro lado, las medidas de involucramiento, calculado con el modelo revisado \cite{castro2026immersive} fue de 0.38 (n=38).
 Sin embargo, para este factor es importante mencionar cuando se realizaron las pruebas en curso de Análisis Cognitivo para la Inmersión en Realidad Virtual iban con sus parejas de laboratorio y durante algunas sesiones interfirieron al hablarles directamente a sus compañeros y esto pudo hacer que desviaran la atención del entorno virtual y afectar a sus respuestas de involucramiento. 
 Como las interrupciones no se registraron sistemáticamente, no es posible determinar su efecto sobre las puntuaciones obtenidas.
-En cuanto realismo su medida es de0.15 (n=38). Acerca de esta dimensión se justifica ya que el mundo virtual creado tiene estética \emph{Low-Poly} y no se pretendía realizar un estilo realista.
+En cuanto realismo su medida es de 0.15 (n=38). Acerca de esta dimensión se justifica ya que el mundo virtual creado tiene estética \emph{Low-Poly} y no se pretendía realizar un estilo realista.
 El patrón descriptivo muestra puntuaciones más altas en la sensación de estar dentro del entorno que en el involucramiento y el realismo percibido. 
 
 La comparación individual entre presencia espacial y realismo fue posible para 35 participantes. 
@@ -311,8 +311,8 @@ Una puntuación alta en el primero no implica necesariamente una puntuación igu
 
 El involucramiento tuvo una media de 0.38 con los tres ítems del modelo revisado \cite{castro2026immersive}. 
 En el análisis de sensibilidad, al incluir el ítem 14, la media fue de 0.76. 
-Esta diferencia demuestra que el resumen de incolucramiento depende de la composición de ítems utilizada.
-Por lo que la interpretación prinicpal conserva el modelo revisado adoptado en el análisis.
+Esta diferencia demuestra que el resumen de involucramiento depende de la composición de ítems utilizada.
+Por lo que la interpretación principal conserva el modelo revisado adoptado en el análisis.
  
 \section{Relación entre EDA, rendimiento y presencia}
 Los resultados corresponden a tres niveles diferentes de evaluación. 

@@ -22,7 +22,7 @@ De esta manera, las ideas proporcionadas por Los Skeepers funcionaron como base 
 %----------------------------------------------------------------------------------------------------------------%
 
 \section{Selección de herramientas y recursos}
-Después de definir la experiencia se seleccionaron las herramientas necesarias para su implementación. La elección considero el desarrollo de aplicaciones VR, la programación de interacciones, la creación y modificación de recursos tridimencionales y la ejecución autónoma de la experiencia en los visores de Meta Quest.
+Después de definir la experiencia se seleccionaron las herramientas necesarias para su implementación. La elección considero el desarrollo de aplicaciones VR, la programación de interacciones, la creación y modificación de recursos tridimensionales y la ejecución autónoma de la experiencia en los visores de Meta Quest.
 
 \subsection{Plataforma de desarrollo}
 Se escogió Unity como motor principal de desarrollo debido a sus herramientas para creación de entornos tridimensionales y aplicaciones en VR. El proyecto esta configurado desde la plantilla que proporciona Unity y se utilizaron los componentes proporcionados por el XR Interaction Toolkit para establecer el seguimiento del visor y de los controles. 
@@ -105,9 +105,9 @@ Las escenas se organizaron de manera que pudieran ejecutarse tanto como parte de
 
 
 
-\subsection{Creación de personajes tridimencionales}
-Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimencionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
-Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimencionales como se puede observar en la figura \ref{fig:Trellis2Alex}. 
+\subsection{Creación de personajes tridimensionales}
+Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimensionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
+Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimensionales como se puede observar en la figura \ref{fig:Trellis2Alex}. 
 
 \begin{figure}[!htbp]
     \centering
@@ -393,13 +393,13 @@ Al recibir \emph{ExperienceReady}, \emph{SequenceDirector} reiniciaba el \emph{T
 
 En la experiencia completa, \emph{FullExperienceDirector} consulta este reloj y comparaba con el tiempo músical con los intervalos definidos en \emph{ExperienceSequenceSO}. 
 Cuando correspondía cambiar de segmento, enviaba eventos por el canal \emph{ExperienceSceneActivation} para desactivar el contenido anterior y activar el nuevo. 
-Los intervalos incluían el inicio y excluían el final, por lo que el instnate exacto de cambio pertenecía al segmento entrante. De esta manera, el reloj proporcioanba la referencia temporal y los eventos comunicaban a cada escena qué acción debía realizar. 
+Los intervalos incluían el inicio y excluían el final, por lo que el instante exacto de cambio pertenecía al segmento entrante. De esta manera, el reloj proporcioanba la referencia temporal y los eventos comunicaban a cada escena qué acción debía realizar. 
 
 %%
 \subsubsection{Transiciones y tiempos de anticipacion del Reloj musical}
 
-Las trancisiones visuales se configuraron por medio de objetos \emph{ExperienceTransitionSO} asociados a la entrada de los segmentos. El parámetro \emph{LeadTime} determinaba cuánto antes de la frontera musical comenzaba la transición de salida. \emph{RevealTime} defínia la duración de la transición de entrada una vez activado el segmento. 
-Estos valores cumplían funciones distintas ed \emph{Preload Lead Seconds}, que determinaba con cuánta anticipación comenzaba la preparación de la siguiente escena. 
+Las trancisiones visuales se configuraron por medio de objetos \emph{ExperienceTransitionSO} asociados a la entrada de los segmentos. El parámetro \emph{LeadTime} determinaba cuánto antes de la frontera musical comenzaba la transición de salida. \emph{RevealTime} definía la duración de la transición de entrada una vez activado el segmento. 
+Estos valores cumplían funciones distintas de \emph{Preload Lead Seconds}, que determinaba con cuánta anticipación comenzaba la preparación de la siguiente escena. 
 La transición podía empezar antes del cambio, pero el segmento se seleccionaba según su intervalo musical. Así se distinguían el momento de preparar los recursos, el inicio del efecto visual y el límite musical que determinaba el cambio de segmento. 
 Esta coordinación temporal se ilustra en la figura \ref{fig:SecuenciaTemporal}.
 
@@ -414,7 +414,7 @@ Esta coordinación temporal se ilustra en la figura \ref{fig:SecuenciaTemporal}.
 \subsection{Generación y preparación del BeatMap}
 La generación de los datos musicales se usó \emph{BeatMapGenerator} sobre el archivo de la canción. Esto fue para promediar los canales de audio para crear una señal mono y calculó su energía en ventanas de 1024 muestras.
 Después comparó la envolvente de energía con versiones desplazadas de sí mima para estimar los BPM. También estimó el desplazamiento inicial del pulso buscando la fase con mayor energía acumulada y generó una cuadrícula de ritmos con intervalos constantes de 60/BPM.
-Luego el \emph{BeatIntensityAnalyzer} calculó la intensidad de cada beat por medio de RMS del audio en una ventana de 150 milisegundos alrededor de su tiempo. Los valores se normalizaron entre cero y uno. Y por último, el resultado se guaró en un \emph{BeatMapSO}.
+Luego el \emph{BeatIntensityAnalyzer} calculó la intensidad de cada beat por medio de RMS del audio en una ventana de 150 milisegundos alrededor de su tiempo. Los valores se normalizaron entre cero y uno. Y por último, el resultado se guardó en un \emph{BeatMapSO}.
 
 %%
 \subsubsection{Publicación de beats y respuestas dentro de las escenas}
@@ -463,7 +463,7 @@ Los resultados de ambas configuraciones se analizaron por separado, ya que la ve
 La validación funcional se centró en comprobar que los principales recorridos de la experiencia se ejecutaran y se pudieran seguir por medio de los registros de EDA generados en la consola de Unity. Para ello se exportaron y se analizó una ejecución completa, para relacionar las publicaciones y recepciones con sus identificadores de evento y ejecución.
 Para encontrar evidencias de las etapas definidas para el recorrido, desde la solicitud iniciada en el menú, la carga y preparación de escenas hasta el inicio de reproducción con su cierre de la experiencia y retorno al menú. 
 
-Para verificar la secuenciación se comparó el tiempo musical registrado durante la activación de cada segmento con y se compararon sus tiempos musicales con el valor configurado para que comience un semento. 
+Para verificar la secuenciación se comparó el tiempo musical registrado durante la activación de cada segmento con y se compararon sus tiempos musicales con el valor configurado para que comience un segmento. 
 
 %% IMAGEN
 
@@ -525,12 +525,12 @@ El formulario permitió almacenar las respuestas de manera estructurada y poster
 
 \subsection{Análisis de resultados}
 Las respuestas del IPQ se procesaron de acuerdo con las dimensiones y reglas de puntuación definidas por el instrumento. 
-El análisis fue principalmente de forma descriptivo, debido a que el objetivo fue caracterizar la percepción de presencia generada por la experiencia desarrollada.
+El análisis fue principalmente de forma descriptiva, debido a que el objetivo fue caracterizar la percepción de presencia generada por la experiencia desarrollada.
 
 \subsection{Análisis descriptivo}
 
 Las respuestas del IPQ se organizaron y analizaron en Jupyter Notebook con Python. Se usó Pandas para procesar las respuestas y calcular los resúmenes; NumPy para las operaciones numéricas; Matplotlib para generar las gráficas. 
-Las puntuaicones se expresaron en una escala de -3 a +3. Para calcular las dimensiones, se invirtieron los ítems que tienen una orientación negativa y se usaon los ítems establecidos para cada dimensión en el modelo revisado del instrumento. 
+Las puntuaciones se expresaron en una escala de -3 a +3. Para calcular las dimensiones, se invirtieron los ítems que tienen una orientación negativa y se usaon los ítems establecidos para cada dimensión en el modelo revisado del instrumento. 
 Y la presencia general se analizó por separado con el ítem 8. 
 La tabla de perfil resume, para cada indicador, el número de respuestas válidas, la media, la desviación estándar, la mediana y la cantidad de puntuaciones positivas. 
-Los resultados se obtenidos se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.
+Los resultados obtenidos se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.
