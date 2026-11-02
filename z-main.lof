@@ -19,22 +19,23 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces Secuencia temporal, pregargas y transiciones.}}{38}{figure.caption.103}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Ejemplo de material de vegetación optimizado para la ejecución en Meta Quest.}}{40}{figure.caption.109}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Modelo en Mixamo y Unity}}{41}{figure.caption.111}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }}{43}{figure.caption.117}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Pasos definidos para verificar la trazabilidad del flujo de la experiencia.}}{43}{figure.caption.113}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Pruebas en el curso Análisis Cognitivo para la Inmersión en VR de la Universidad del Valle }}{45}{figure.caption.118}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {17}{\ignorespaces Flujo temporal observado durante una ejecución completa}}{45}{figure.caption.125}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Mapa visual de las relaciones observadas}}{46}{figure.caption.126}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Diferencia entre la frontera musical y la activación registrada}}{47}{figure.caption.127}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Recepciones de BeatReached por consumidor}}{47}{figure.caption.128}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Duración registrada de operaciones de carga y preparación}}{48}{figure.caption.129}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{50}{figure.caption.134}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Latencia movimiento-fotón}}{50}{figure.caption.135}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{51}{figure.caption.136}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{51}{figure.caption.137}%
-\contentsline {figure}{\numberline {26}{\ignorespaces FPS en las capturas del APK}}{53}{figure.caption.140}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Registros de IPQ.}}{53}{figure.caption.143}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Perfil descriptivo de presencia.}}{54}{figure.caption.145}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Variabilidad de presencia entre participantes.}}{55}{figure.caption.146}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Brecha espacial - Realismo.}}{56}{figure.caption.147}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flujo temporal observado durante una ejecución completa}}{47}{figure.caption.126}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Mapa visual de las relaciones observadas}}{48}{figure.caption.127}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Comparación de la frontera musical prevista y la activación registrada por segmento}}{49}{figure.caption.128}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Recepciones de BeatReached por consumidor}}{49}{figure.caption.129}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Duración registrada de operaciones de carga y preparación}}{50}{figure.caption.130}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Evolución temporal del procesamiento de CPU y GPU}}{52}{figure.caption.135}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Latencia movimiento-fotón}}{52}{figure.caption.136}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Incrementos de contadores de fotogramas descartados}}{53}{figure.caption.137}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Distribución por corrida del EXE (caja Q1-Q3; bigotes P05-P95)}}{53}{figure.caption.138}%
+\contentsline {figure}{\numberline {27}{\ignorespaces FPS en las capturas del APK}}{55}{figure.caption.141}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Registros de IPQ.}}{55}{figure.caption.144}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Perfil descriptivo de presencia.}}{56}{figure.caption.146}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Variabilidad de presencia entre participantes.}}{57}{figure.caption.147}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Brecha espacial - Realismo.}}{58}{figure.caption.148}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

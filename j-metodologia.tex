@@ -442,6 +442,9 @@ Luego de mostrar los créditos y completar la transición de salida es cuando \e
 
 %----------------------------------------------------------------------------------------------------------%
 \section{Optimización y validación técnica}
+La optimización y validación técnica permiten evaluar las condiciones
+de ejecución de la experiencia en VR. En esta sección se describen los ajustes realizados para mejorar el rendimiento de la aplicación
+y las pruebas realizadas para verificar su comportamiento en los dispositivos de ejecución objetivos. 
 
 \subsection{Optimización gráfica y de escena}
 Se revisó la cantidad de objetos presentes en las escenas y se redujeron elementos decorativos que generaban una carga innecesaria. Se disminuyó la cantidad de objetos con colisiones que no se usaban y otros objetos repetidos en los escenarios.
@@ -504,8 +507,24 @@ Y esta distinción pemite describir el rendimiento observado en ambas formas de 
 
 
 \subsection{Validación funcional de la arquitectura}
-La validación funcional se centró en comprobar que los principales recorridos de la experiencia se ejecutaran y se pudieran seguir por medio de los registros de EDA generados en la consola de Unity. Para ello se exportaron y se analizó una ejecución completa, para relacionar las publicaciones y recepciones con sus identificadores de evento y ejecución.
-Para encontrar evidencias de las etapas definidas para el recorrido, desde la solicitud iniciada en el menú, la carga y preparación de escenas hasta el inicio de reproducción con su cierre de la experiencia y retorno al menú. 
+La validación funcional se centró en comprobar que los principales recorridos de la experiencia se ejecutaran y se pudieran seguir por medio de los registros de EDA generados en la consola de Unity. 
+Para ello se exportaron y se analizó una ejecución completa, para relacionar las publicaciones y recepciones con sus identificadores de evento y ejecución.
+
+Se definieron once pasos para verificar la trazabilidad del flujo, 
+desde la selección de la experiencia en el menú hasta la presentación de resultados y el retorno al menú principal.
+Estos pasos incluyeron la solicitud, la carga y preparación de escenas, 
+el inicio de reproducción musical, la activación de cada segmento, 
+la finalización de la experiencia como se describe en la figura \ref{fig:oncePasos}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Assets/eda/oncePasos.png}
+    \caption{Pasos definidos para verificar la trazabilidad del flujo de la experiencia.}
+    \label{fig:oncePasos}
+\end{figure}
+
+
+% Para encontrar evidencias de las etapas definidas para el recorrido, desde la solicitud iniciada en el menú, la carga y preparación de escenas hasta el inicio de reproducción con su cierre de la experiencia y retorno al menú. 
 
 Para verificar la secuenciación se comparó el tiempo musical registrado durante la activación de cada segmento con y se compararon sus tiempos musicales con el valor configurado para que comience un segmento. 
 

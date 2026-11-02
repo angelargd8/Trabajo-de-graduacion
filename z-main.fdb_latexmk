@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber z-main"] 1793579455.7013 "z-main.bcf" "z-main.bbl" "z-main" 1793579528.08004 0
+["biber z-main"] 1793592092.79879 "z-main.bcf" "z-main.bbl" "z-main" 1793593211.71766 0
   "m-bibliografia.bib" 1793518688 15798 1f508bae0d13ffaed251ad0644b851c3 ""
-  "z-main.bcf" 1793579527 115962 2e72b6df584ae94eaca9554a38e823cf "pdflatex"
+  "z-main.bcf" 1793593211 116031 9a056c17bc73b11148d63bc7b98af81b "pdflatex"
   (generated)
   "z-main.bbl"
   "z-main.blg"
   (rewritten before read)
-["pdflatex"] 1793579520.06963 "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" "z-main.pdf" "z-main" 1793579528.08066 0
+["pdflatex"] 1793593203.78364 "c:/Users/angel/OneDrive/Documentos/.universidad/.2026/s2/tg/Trabajo-de-graduacion/z-main.tex" "z-main.pdf" "z-main" 1793593211.71822 0
   "0-datos_estudiante.tex" 1793494862 3102 7ffe96b17a29c0f3ba174becd0f0fd21 ""
   "1-opciones_adicionales.tex" 1793309945 1296 239453d49f9160935ffc8cad44a7d632 ""
   "2-paquetes_y_comandos_usuario.tex" 1787902059 41 fe24c14b41d1f360602ae2a783c95d95 ""
@@ -34,9 +34,11 @@
   "Assets/eda/activacion_segmentos_eda.png" 1793341039 112621 cd690b023e03f2e1ab1854ff0004d741 ""
   "Assets/eda/consumidores_beatreached.png" 1793341039 101786 6994ef83ce8044632349af0d67c90568 ""
   "Assets/eda/flujo_temporal_eda.png" 1793341036 273322 8c8bb6106af2f6060b7489f514881352 ""
+  "Assets/eda/oncePasos.png" 1793588390 204106 fa66d65f0a22c7c2140ecbf6e8c1744b ""
   "Assets/eda/operaciones_carga_preparacion.png" 1793341040 124328 03198f4e09d6ab8e2cee81302371ffdd ""
   "Assets/eda/relaciones_productor_evento_consumidores.png" 1793341038 663414 7db1e7279ee312ba773dcdfc980bbcae ""
   "Assets/eda/results_main.png" 1793341428 209266 6d86c0e9c13f4a9066b84856c25254da ""
+  "Assets/eda/tablaFrontera.png" 1793581307 216236 26ff96c47b993fd98757fefdecf4322b ""
   "Assets/ipq/brecha.png" 1793319406 30434 7fadefebde45d826701ce1ce8642658f ""
   "Assets/ipq/db.png" 1793319001 103913 8bc1db9cad0785bf63af36fe82b0ac35 ""
   "Assets/ipq/perfilDescriptivo.png" 1793319200 19920 7142328fad3dec1512528cff6e187248 ""
@@ -216,20 +218,20 @@
   "f-justificacion.tex" 1785995875 5137 9f18c6fed1990bb7c629d9efce79674c ""
   "g-objetivos.tex" 1785996292 1076 196ae2284b3fa4ea57fd5e4228a777af ""
   "i-marco_teorico.tex" 1793558313 27132 45115ed5ec1a40c5ee3502f506e3e14f ""
-  "j-capitulos.tex" 1793499566 27262 f055c1bd1d84ea777b0a0b7233ef9d1b ""
-  "j-metodologia.tex" 1793579519 41082 a5aac3a3d683ae3505060ea4251e4e0f ""
+  "j-capitulos.tex" 1793593203 27736 d49461c9f84799c7b3ea4f50465c235f ""
+  "j-metodologia.tex" 1793588993 42052 7cb93ab97ac33d18e131fe2f71b8ae9c ""
   "k-conclusiones.tex" 1793376402 2625 0b482b450275dfdf95ba4e538b7211a4 ""
   "l-recomendaciones.tex" 1793390185 731 d930ea3468f3a364118fce2220111b04 ""
   "n-anexos.tex" 1793396244 3314 c2c39893ba6a3ab7ec349c3ba58e1090 ""
   "plantilla/escudoUVGnegro.eps" 1785952417 353392 6b41f544f9470c4be57df74868753215 ""
-  "z-main.aux" 1793579527 41718 bff2db718d0c71e8c531752d40ef9f88 "pdflatex"
-  "z-main.bbl" 1793579457 80145 ce874c0df940b4b4a2975041a4668244 "biber z-main"
-  "z-main.lof" 1793579527 3833 a8fa9e522b351b3261f8fe8fd8d2b979 "pdflatex"
-  "z-main.lot" 1793579527 762 3349fd0a724987fe58bafd4737d25294 "pdflatex"
-  "z-main.out" 1793579527 23343 af68c8dad5ffa827d6ca57427a704ba6 "pdflatex"
-  "z-main.run.xml" 1793579527 2420 cc83eef706e687bcfd907d32c2bf918f "pdflatex"
+  "z-main.aux" 1793593211 42731 74617301db29d0325660fb6ae72c1fc2 "pdflatex"
+  "z-main.bbl" 1793592094 80145 ce874c0df940b4b4a2975041a4668244 "biber z-main"
+  "z-main.lof" 1793593211 4011 caf6e79d1484f09fe73e7315678183b6 "pdflatex"
+  "z-main.lot" 1793593211 762 8ca16be3b1aa372129a69ee7303b4e3c "pdflatex"
+  "z-main.out" 1793593211 23343 a5beffa60294caf08d5d77c950266389 "pdflatex"
+  "z-main.run.xml" 1793593211 2420 cc83eef706e687bcfd907d32c2bf918f "pdflatex"
   "z-main.tex" 1793394577 12663 41789f46f7174e1598012a12691c4e26 ""
-  "z-main.toc" 1793579527 11150 0aa50824ce72d7adf7b4397e43fa7370 "pdflatex"
+  "z-main.toc" 1793593211 11149 ffeff52541d09a2c5150c0d7ddf67b83 "pdflatex"
   (generated)
   "z-main.aux"
   "z-main.bcf"

@@ -12,7 +12,12 @@ Contestando a la primera pregunta, cada punto en la figura \ref{fig:flujo_tempor
 \end{figure}
 
 %%-- 2
-La figura \ref{fig:relaciones_productor_evento_consumidores} se puede observar el componente que publicó, evento distribuido y componentes que lo recibieron. Cada conexión corresponde a una relación encontrada en la captura; el número de paréntesis indica cuantas recepciones registro ese consumidor. Y los eventos se agrupan para mostrar el patrón de comunicación. 
+La figura \ref{fig:relaciones_productor_evento_consumidores} 
+se muestran las relaciones entre los componentes productores, los eventos publicados 
+y los componentes consumidores que recibieron los eventos. 
+Cada conexión corresponde a una relación encontrada en la captura; 
+el número de paréntesis indica cuantas recepciones registro ese consumidor. 
+Y los eventos se agrupan para mostrar el patrón de comunicación. 
 %% IMAGEN
 \begin{figure}[H]
     \centering
@@ -23,15 +28,45 @@ La figura \ref{fig:relaciones_productor_evento_consumidores} se puede observar e
 
 %% --3 
 %% 1
-En la figura \ref{fig:activacion_segmentos_eda}, los seis segmentos presentan diferencias positivas: 
-Alex, 17.77 ms; Joaquín, 0.55 ms; Shipi, 12.26 ms; Juan Andrés, 3.06 ms; Danniel, 9.64 ms; y Jeremy, 3.94 ms. La diferencia máxima corresponde a Alex y la mínima a Joaquín. 
+
+Como se observa en el cuadro \ref{fig:tablaFrontera}, los seis segmentos registraron diferencias positivas
+entre la frontera musical configurada y el tiempo de activación registrado.
+Y en la figura \ref{fig:activacion_segmentos_eda} se muestran las diferencias de activación por segmento.
+En donde se ve que La diferencia máxima corresponde a Alex con 17.77 ms y la mínima a Joaquín con 0.55 ms.
 %% IMAGEN
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.9\textwidth]{Assets/eda/c.png}
+%     \caption{Diferencia entre la frontera musical y la activación registrada}
+%     \label{fig:activacion_segmentos_eda}
+% \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/eda/activacion_segmentos_eda.png}
-    \caption{Diferencia entre la frontera musical y la activación registrada}
-    \label{fig:activacion_segmentos_eda}
+
+    % Subfigura (a
+    \begin{subtable}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/eda/tablaFrontera.png}
+        \caption{Comparación de las frontera musical prevista y la configurada en la secuencia}
+        \label{fig:tablaFrontera}
+    \end{subtable}
+
+    \par\medskip
+
+    % Subfigura (b)
+    \begin{subfigure}{0.9\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/eda/activacion_segmentos_eda.png}
+        \caption{Diferencia entre la frontera musical y la activación registrada}
+        \label{fig:activacion_segmentos_eda}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Comparación de la frontera musical prevista y la activación registrada por segmento}
+    \label{fig:comparacion_frontera_rendimiento}
 \end{figure}
+
+
 
 %% 2
 La figura de \ref{fig:consumidores_beatreached} muestra 488 recepciones de \emph{BeatLightController}, 488 de \emph{PlayerBeatVFXController}, 81 de \emph{EnemyWaveSpawner} y 80 de \emph{AlexThrowDirector}. 
@@ -44,10 +79,11 @@ En los registros están contados 488 publicaciones y una omisión por parte de \
     \caption{Recepciones de BeatReached por consumidor}
     \label{fig:consumidores_beatreached}
 \end{figure}
+
 %% 3
 Acerca de la figura \ref{fig:operaciones_carga_preparacion}, la mediana registrada para la preparación de la secuencia fue de 
 5.867 s (n=1); para la carga de escena, 0.125 s (n=11); para la preparación de escena, 0.094 s (n=6); para la descarga de escena, 0.019 s (n=14); y para el preloader, 0.014 s (n=13).
-%% IMAGEN
+% IMAGEN
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Assets/eda/operaciones_carga_preparacion.png}
@@ -199,9 +235,18 @@ Como se muestra en la figura \ref{fig:registrosIPQ}, la base de datos contenía 
 
 
 %% tabla IPQ 
-El cuadro \ref{tab:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. Y la columna n muestra la cantidad respuestas válidas se utilizaron para cada indicador. La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y la mediana señala la el valor central de las respuestas. Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
+El cuadro \ref{tab:puntuacionesIPQ} resume las puntuaciones del IPQ en una escala de $-3$ a $+3$, 
+donde los valores positivos indican una valoración positiva de la dimensión evaluada y los valores cercanos a cero es más neutral. 
+Y la columna n \ref{tab:puntuacionesIPQ} muestra la cantidad respuestas válidas se utilizaron para cada indicador. 
+La media representa la puntuación promedio, la desviación estándar describe cuánto variaron las puntuaciones entre participantes y 
+la mediana señala la el valor central de las respuestas. 
+Y la columna de respuestas positivas cuenta las puntuaciones mayores a cero. 
 
-La presencia general obtuvo una media de 2.05 y la presencia espacial una media de 1.97. Además, 36 de 38 respuestas de presencia general y 35 de 36 fueron positivas. En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
+La presencia general obtuvo una media de 2.05 y la presencia espacial una media de 1.97. 
+Además, 36 de 38 respuestas de presencia general y 35 de 36 fueron positivas. 
+En cambio las medias de involucramiento (0.38) y realismo (0.15) se situaron más cerca de cero, 
+y sus desviaciones estándar muestra que las respuestas variaron entre los participantes. 
+En conjunto, se puede notar que la mayor parte de las puntuaciones son favorables para la sensación de estar dentro del entorno virtual que para el involucramiento y el realismo percibido. 
 
 El cuadro  tiene dos puntuaciones de involucramiento: la principal calculada con tres ítems según el modelo revisado, y una puntuación de sensibilidad con cuatro ítems. Esta última incluye el ítem 14 y se muestra para observar cómo cambia el resumen al utilizar la composición original de la dimensión. 
 %% RESULTADOS
@@ -241,10 +286,14 @@ Por otro lado, las dimensiones de involucramiento y realismo presentan una mayor
  
 %% # ⭐ 3.5 Brecha individual entre presencial espacial y realismo
 
-La figura \ref{fig:Brecha} de brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. De esta misma forma se ve una diferencia promedio de 1.86 puntos a favor de la presencia espacial. 
+La figura \ref{fig:Brecha} de brecha espacial-realismo muestra las diferencias de las puntuaciones de presencia espacial y realismo para los 35 participantes que tienen la información válida en ambas dimensiones. 
+Se puede observar que 33 de 35 participantes, obtuvieron una puntuación mayor en presencia espacial que en realismo. 
+La diferencia media fue de 1.86 puntos a favor de la presencia espacial, lo que muestra una tendencia hacia puntuaciones más altas en esta dimensión. 
 
-Este resultado evidencia que, para la mayoría de los participantes, la sensación de encontrarse dentro del mundo virtual fue considerablente mayor que la percepción de realismo del entorno. Lo que diferencia a los dos aspectos de la experiencia inmersiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
-
+% DISCUSION
+% Estos resultados evidencian que, para la mayoría de los participantes, 
+% la sensación de encontrarse dentro del mundo virtual fue considerablemente mayor que la percepción de realismo del entorno. 
+% Lo que diferencia a los dos aspectos de la experiencia inmersiva que es el sentirse ubicado dentro de un espacio virtual y considerar que el espacio es similar al mundo físico. 
 %% IMAGEN DISTRIBUCION
 \begin{figure}[H]
     \centering
@@ -259,7 +308,7 @@ Este resultado evidencia que, para la mayoría de los participantes, la sensaci�
 
 \section{La arquitectura EDA y la secuenciación de la experiencia}
 Los registros analizados con la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) proporcionan evidencia de cómo se coordinó la experiencia por medio de eventos y operaciones. 
-En la ejecución analizada se identificaron los once pasos definidos para el recorrido, dessde la solicitud iniciada en el menú hasta el cierre y retorno del menú. 
+En la ejecución analizada se identificaron los once pasos definidos para el recorrido \ref{fig:oncePasos}. Desde la solicitud iniciada en el menú hasta el cierre y retorno del menú. 
 Además, la correlación de publicaciones y recepciones permitió resumir 19 relaciones entre productores y consumidores. 
 % Esto responde a los objetivos de diseñar una arquitectura con responsabilidades distribuidas y coordinar los componentes de la experiencia por eventos.
 
@@ -276,8 +325,21 @@ La preparación de la secuencia tuvo una duración mediana de 5.867 s, mientras 
 Estas mediciones describen las operaciones registradas en la ejecución. 
 
 \section{Rendimiento en PC y en Meta Quest 3S}
-Los resultados de rendimiento muestran la diferencia entre los diferentes ejecutables. 
-En la configuración de PC con Meta Horizon Link, las medianas de procesamiento de CPU estuvieron entre 1.252 y 1.416 ms, 
+Los resultados de rendimiento muestran el comportamiento entre la versión ejecutada en PC por medio de Meta Horizon Link y
+la versión autónoma en Meta Quest 3S. En ambas versiones, la captura de datos comienza antes de abrir la aplicación, 
+por lo que incluye el tiempo de apertura de la aplicación.
+
+Este procedimiento responde a los problemas identificados durante las iteraciones anteriores del desarrollo. 
+En las versiones iniciales, en las que no se incorporaba la arquitectura EDA ni que contaban con optimización, 
+se presentaban cierres inesperados al ejecutar la aplicación directamente en las gafas. 
+Luego, en iteraciones posteriores, sin EDA pero con algunos objetos optimizados, la aplicación
+era incapaz de mantener la tasa de fotogramas adecuada, por lo que era necesario apagar el visor y reiniciarlo. 
+Estas dificultades permitieron orientar las decisiones de optimización y la importancia de registrar el comportamiento de la aplicación
+desde el inicio, además de evaluar su estabilidad y rendimiento en diferentes dispositivos. 
+
+En las capturas analizadas, la versión de PC con Meta Horizon Link la que tiene un comportamiento más estable, 
+por lo que para las pruebas con los participantes se está versión es la ideal.
+Las medianas de procesamiento de CPU estuvieron entre 1.252 y 1.416 ms, 
 y las de GPU entre 1.597 y 1.622 ms. La latencia de movimiento a fotón se situó entre 41.896 y 42.542 ms. 
 En las tres capturas se registraron 47,930 fotogramas en total 15,637 en la primera, 16,249 en la segunda y 16,044 en la tercera. 
 Y en las capturas se registraron 373 descartes de la aplicación (136, 138, 99, respectivamente).
@@ -285,8 +347,11 @@ También entre dos y tres descartes del compositor en cada corrida.
 De esta forma, las medianas de procesamiento describen los valores típicos, mientras que los contadores muestran que también existen algunas interrupciones en la entrega de fotogramas.
 
 En las tres corridas en autónomas de Meta Quest 3S, la mediana fue de 72 FPS, aunque los promedios estuvieron entre 69.157 y 70.482 FPS. 
-Entre el 17.63\% y el 22.94\% de las muestras quedaron por debajo de 72 FPS. El tiempo de GPU alcanzó un máximo de 30.022 ms y en el período de aproximadamente 145 a 185 segundos,
-se observaron aumentos del tiempo de GPU junto a disminuciones de FPS. Estos resultados describen una ejecución cuya mediana alcanzó la frecuencia objetivo, pero que presentó intervalos con menor rendimiento. 
+Entre el 17.63\% y el 22.94\% de las muestras quedaron por debajo de 72 FPS que es el umbral mínimo deseado \cite{MetaUnityPerf}. 
+El tiempo de GPU alcanzó un máximo de 30.022 ms y en el período de aproximadamente 145 a 185 segundos,
+se observaron aumentos del tiempo de GPU junto a disminuciones de FPS. 
+Estos resultados describen una ejecución cuya mediana alcanzó la frecuencia objetivo, 
+pero que presentó intervalos con menor rendimiento. 
 Y estos intervalos probablemente fue en la escena con un mayor coste computacional que es la escena de Danniel, ya que esta cargando constantemente segmentos con muchos elementos y usa \emph{object pooling} con sus enemigos, las balas de enemigos y las balas del jugador. 
 
 La arquitectura EDA coordina qué acciones se solicitan y en qué momentos se activan;
@@ -301,7 +366,13 @@ Las puntuaciones fueron positivas para 36 de 38 respuestas válidas de presencia
 Por otro lado, las medidas de involucramiento, calculado con el modelo revisado \cite{castro2026immersive} fue de 0.38 (n=38).
 Sin embargo, para este factor es importante mencionar cuando se realizaron las pruebas en curso de Análisis Cognitivo para la Inmersión en Realidad Virtual iban con sus parejas de laboratorio y durante algunas sesiones interfirieron al hablarles directamente a sus compañeros y esto pudo hacer que desviaran la atención del entorno virtual y afectar a sus respuestas de involucramiento. 
 Como las interrupciones no se registraron sistemáticamente, no es posible determinar su efecto sobre las puntuaciones obtenidas.
-En cuanto realismo su medida es de 0.15 (n=38). Acerca de esta dimensión se justifica ya que el mundo virtual creado tiene estética \emph{Low-Poly} y no se pretendía realizar un estilo realista.
+
+En cuanto realismo su medida es de 0.15 (n=38). 
+Los resultados evidencian que los participantes podían experimentar una sensación
+de encontrarse dentro del entorno virtual sin necesariamente percibirlo como similar al mundo real. 
+Esto distingue dos aspectos de la experiencia inmersiva: la sensación de estar ubicado dentro de un espacio virtual
+y la percepción de realismo del entorno. La diferencia observada también puede relacionarse con la estética \emph{Low-Poly}
+usado en el videoclip, ya que no se pretendía reprensentar un estilo visualmente realista.
 El patrón descriptivo muestra puntuaciones más altas en la sensación de estar dentro del entorno que en el involucramiento y el realismo percibido. 
 
 La comparación individual entre presencia espacial y realismo fue posible para 35 participantes. 
@@ -324,15 +395,4 @@ Aunque los resultados de EDA evidencian el funcionamiento de la secuenciación i
 Por estos motivos, los resultados de rendimiento e IPQ complementan la evaluación de la arquitectura, al permitir observar las condiciones técnicas en las que se ejecuta la experiencia como la percepción de los usuarios. 
 En conjunto, estas evaluaciones aportan una visión más amplia de la implementación.
 
-
-
-% NAIVE DISCUSION
-
-% En cuanto presencial espacial y general las puntuaciones fueron positivas en ambas medidas. Esto lo que indica es que, en la muestra evaluada, la experiencia evaluada produjo una sensación subjetiva de estar en el entorno virtual. 
-% Acerca del involucramiento, esta dimensión refleja la atención dedicada al entorno virtual y la disminución de la atención en el entorno real. La media fue de 0.36 quedo un poco por encima del punto central de la escala (0) y fue menor que la media de la presencia espacial.
-% Hubo 20 puntuaciones positivas, 3 iguales a 0 y 11 negativas entre las 34 respuestas obtenidas. Este resultado indica que el involucramiento para una parte de la muestra, con diferencias entre participantes. 
-% Sin embargo, para este factor es importante mencionar cuando se realizaron las pruebas fue en parejas del curso de Análisis Cognitivo para la Inmersión en Realidad Virtual iban con sus parejas de laboratorio y durante algunas sesiones interfirieron al hablarles directamente y esto pudo hacer que desviaran la atención del entorno virtual y afectar a sus respuestas de involucramiento. Como las interrupciones no se registraron sistemáticamente, no es posible determinar su efecto sobre las puntuaciones obtenidas.
-% El realismo presentó una medida negativa de 26 de 34 puntuaciones por debajo de 0. Este resultado describe una percepción diferente a la sensación de presencia en donde los participantes podian sentirse dentro de la experiencia sin considerar que su mundo visual fuera equivalente al mundo real. Acerca de esta dimensión se justifica ya que el mundo virtual creado tiene estética \emph{Low-Poly} y no se pretendía realizar un estilo realista.
-% El modelo factorial revisado del árticulo de \cite{castro2026immersive} excluye el ítem 14 de involucramiento por sus cargas de varios factores. En esta muestra, incluirlo sube el valor de 0.36 a 0.71. Se incluye también el resultado incluyendo el ítem 14 porque demuestra la sensibilidad de la puntuación a definición de la subescala.
-% Acerca de los límites que se tienen de diseño, es que 34 de los participantes indicaron que no era su primera vez usando VR y uno no respondió esa pregunta.
 

@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Lista de figuras}{\es@scroman {ix}}{section*.7}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {x}}{section*.7}%
 \contentsline {chapter}{Lista de cuadros}{\es@scroman {xi}}{section*.8}%
 \contentsline {chapter}{Resumen}{\es@scroman {xiii}}{section*.9}%
 \contentsline {chapter}{Abstract}{\es@scroman {xv}}{section*.10}%
@@ -89,31 +89,31 @@
 \contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{39}{subsection*.108}%
 \contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{40}{subsection*.110}%
 \contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{41}{subsection*.112}%
-\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{42}{section*.113}%
-\contentsline {subsection}{\numberline {5.6.1}Participantes}{42}{subsection*.114}%
-\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{42}{subsection*.115}%
-\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{43}{subsection*.116}%
-\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{43}{subsection*.118}%
-\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{44}{section*.119}%
-\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{44}{subsection*.120}%
-\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{44}{subsection*.121}%
-\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{44}{subsection*.122}%
-\contentsline {chapter}{\numberline {6}Resultados}{45}{chapter*.123}%
-\contentsline {section}{\numberline {6.1}Trazabilidad de la Arquitectura Dirigida por Eventos}{45}{section*.124}%
-\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{48}{section*.131}%
-\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{48}{subsection*.132}%
-\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{51}{subsection*.138}%
-\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{53}{section*.141}%
-\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{53}{subsection*.142}%
-\contentsline {chapter}{\numberline {7}Discusión}{57}{chapter*.148}%
-\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{57}{section*.149}%
-\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{58}{section*.150}%
-\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{58}{section*.151}%
-\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{59}{section*.152}%
-\contentsline {chapter}{\numberline {8}Conclusiones}{61}{chapter*.153}%
-\contentsline {chapter}{\numberline {9}Recomendaciones}{63}{chapter*.154}%
-\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{65}{chapter*.156}%
-\contentsline {chapter}{\numberline {11}Anexos}{69}{chapter*.157}%
-\contentsline {section}{\numberline {11.1}Implementación de Arquitectura Dirigida en un videoclip musical en realidad virtual}{69}{section*.158}%
-\contentsline {section}{\numberline {11.2}Análisis}{69}{section*.159}%
-\contentsline {section}{\numberline {11.3}Cuestionario IPQ utilizado}{70}{section*.160}%
+\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{44}{section*.114}%
+\contentsline {subsection}{\numberline {5.6.1}Participantes}{44}{subsection*.115}%
+\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{44}{subsection*.116}%
+\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{45}{subsection*.117}%
+\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{45}{subsection*.119}%
+\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{45}{section*.120}%
+\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{46}{subsection*.121}%
+\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{46}{subsection*.122}%
+\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{46}{subsection*.123}%
+\contentsline {chapter}{\numberline {6}Resultados}{47}{chapter*.124}%
+\contentsline {section}{\numberline {6.1}Trazabilidad de la Arquitectura Dirigida por Eventos}{47}{section*.125}%
+\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{50}{section*.132}%
+\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{50}{subsection*.133}%
+\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{53}{subsection*.139}%
+\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{55}{section*.142}%
+\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{55}{subsection*.143}%
+\contentsline {chapter}{\numberline {7}Discusión}{59}{chapter*.149}%
+\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{59}{section*.150}%
+\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{60}{section*.151}%
+\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{61}{section*.152}%
+\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{61}{section*.153}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{63}{chapter*.154}%
+\contentsline {chapter}{\numberline {9}Recomendaciones}{65}{chapter*.155}%
+\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{67}{chapter*.157}%
+\contentsline {chapter}{\numberline {11}Anexos}{71}{chapter*.158}%
+\contentsline {section}{\numberline {11.1}Implementación de Arquitectura Dirigida en un videoclip musical en realidad virtual}{71}{section*.159}%
+\contentsline {section}{\numberline {11.2}Análisis}{71}{section*.160}%
+\contentsline {section}{\numberline {11.3}Cuestionario IPQ utilizado}{72}{section*.161}%
