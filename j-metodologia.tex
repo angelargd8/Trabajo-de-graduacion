@@ -1,6 +1,8 @@
 % - Metodologia -
 \section{Conceptualización y diseño de la experiencia}
-La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. Para ello se tomó como punto de partida la canción y las propuestas creativas de los integrantes de Los Skeepers: Alex, Joaquín, Shipi, Juan Andrés, Danniel  y Jeremy. Quienes definieron la estética y las mecánicas de juego que deseaban incluir en la experiencia.
+La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. 
+Para ello se tomó como punto de partida las propuestas creativas de los integrantes de la banda musical Los Skeepers: Alex, Joaquín, Shipi, Juan Andrés, Danniel y Jeremy, que crearon la canción ``PUNKO'' usada como base musical de la experiencia.
+Cada integrante de la banda definió la estética y las mecánicas del minijuego que deseaban incluir en la experiencia.
 
 \subsection{Dirección artística}
 La dirección artística se desarrolló en conjunto con los integrantes de la banda, quienes elaboraron la canción, moodboards con referencias visuales para representar la estética deseada de sus personajes, ambientes y propuestas de minijuegos. Estas referencias permitieron identificar colores, estilos, vestuarios, escenarios y elementos visuales con la identidad que cada artista buscaba transmitir. 
@@ -109,18 +111,18 @@ Las escenas se organizaron de manera que pudieran ejecutarse tanto como parte de
 Para representar a los integrantes de los Skeepers dentro de la experiencia, se crearon modelos tridimensionales a partir de sus fotografías y las referencias conceptuales definidas en la parte de la dirección artistica. 
 Inicialmente, estas imágenes se subieron a TRELLIS.2 para generar los modelos tridimensionales como se puede observar en la figura \ref{fig:Trellis2Alex}. 
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/Trellis2Alex.jpeg}
+    \includegraphics[width=0.75\textwidth]{Assets/Trellis2Alex.jpeg}
     \caption{Modelo generado por TRELLIS.2}
     \label{fig:Trellis2Alex}
 \end{figure}
 
 Luego, los modelos obtenidos se editaron y mejoraron en Blender \ref{fig:blenderAlex}, realizando ajustes en sus geometrías, materiales y características visuales para mantener la estética propuesta de cada integrante. 
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/blenderAlex.jpeg}
+    \includegraphics[width=0.75\textwidth]{Assets/blenderAlex.jpeg}
     \caption{Modelo modificado en Blender}
     \label{fig:blenderAlex}
 \end{figure}
@@ -128,10 +130,10 @@ Luego, los modelos obtenidos se editaron y mejoraron en Blender \ref{fig:blender
 Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una estructura ósea por medio del proceso automatizado de \emph{rigging} \ref{fig:riggingAlex}. Posteriormente, los personajes se incorporaron en Unity como enemigos dentro de las escenas correspondientes de cada integrante. Y por último, se descargaron animaciones en Mixamo que se configuraron junto a cada enemigo. 
 
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
     \centering
 
-    \begin{subfigure}{0.9\textwidth}
+    \begin{subfigure}{0.75\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Assets/riggingAlex.jpeg}
         \caption{Modelo en Mixamo al realizar el Auto \emph{Rigging}}
@@ -140,7 +142,7 @@ Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una 
 
     \par\medskip
 
-    \begin{subfigure}{0.9\textwidth}
+    \begin{subfigure}{0.75\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Assets/UnityAlex.jpeg}
         \caption{Modelo en Unity con animaciones}
@@ -167,7 +169,9 @@ Esta organización tenía como proposito reducir las dependencias directas entre
 %%
 \subsection{Organización general de sistema}
 
-La comunicación se estructuró en tres ámbitos de responsabilidad. El \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
+% La comunicación se estructuró en tres ámbitos de responsabilidad. 
+La arquitectura se organizó en niveles: \emph{Bootstrap} como servicio global, \emph{ExperienceCore} como servicio musical compartido, y sistemas locales para las escenas de cada minijuego. 
+El \emph{Bootstrap} reunió los servicios generales utilizados durante toda la ejecución de la aplicación.
 \emph{ExperienceCore} contuvo los servicios musicales compartidos mientras estuvo activa una experiencia. 
 Las escenas de cada minijuego mantuvieron su contenido y sus diferentes sistemas de interacción.  
 Mientras que el control de flujo decidió qué debía de cargarse y prepararse, los servicios musicales proporcionaron la reproducción, la referencia temporal, y los sistemas locales ejecutaron las acciones de cada escena. 
@@ -176,7 +180,7 @@ La organización de estos componentes y sus principales relaciones se muestra en
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/OrganizacionGeneralArquitectura.png}
+    \includegraphics[width=0.75\textwidth]{Assets/OrganizacionGeneralArquitectura.png}
     \caption{Organización general de la arquitectura}
     \label{fig:OrganizacionGeneralArquitectura}
 \end{figure}
@@ -239,7 +243,7 @@ Para la ejecución completa, \emph{ExperienceSequenceSO} guardó los segmentos o
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{Assets/ExperienceSceneDefinitionSO.png}
+    \includegraphics[width=0.7\textwidth]{Assets/ExperienceSceneDefinitionSO.png}
     \caption{Configuracion de ExperienceSceneDefinitionSO.}
     \label{fig:ExperienceSceneDefinitionSO}
 \end{figure}
@@ -249,7 +253,7 @@ Estos tiempos definieron los momentos de la canción en los que debían generars
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Assets/ExperienceSequenceSO.png}
+    \includegraphics[width=0.75\textwidth]{Assets/ExperienceSequenceSO.png}
     \caption{Configuracion de ExperienceSequenceSO.}
     \label{fig:ExperienceSequenceSO}
 \end{figure}
@@ -338,7 +342,7 @@ Así se separaron cuatro etapas: carga de la escena, preparación de recursos, e
 \begin{figure*}[p]
     \ContinuedFloat
     \centering
-    \begin{subfigure}{0.9\textwidth}
+    \begin{subfigure}{0.75\textwidth}
         \centering
         \includegraphics[
             width=\linewidth,
@@ -358,13 +362,21 @@ Así se separaron cuatro etapas: carga de la escena, preparación de recursos, e
 
 %%
 \subsection{Reutilización y precarga de recursos}
-Los objetos que se usan repetidamente, como proyectiles, enemigos y segmentos, se administraron por medio de \emph{object pooling}: en lugar de destruir y volver a crear cada objeto, se reutilizaron instancias preparadas. 
+Los objetos que se reutilizaban durante la experiencia como proyectiles, enemigos y segmentos, se administraron por medio de \emph{object pooling}.
+En lugar de destruir y volver a crear cada objeto, se reutilizaron instancias preparadas.  
 
-En la experiencia completa, \emph{FullExperienceDirector} cargó y preparó los dos primeros segmentos antes de iniciar la canción, además que los segmentos marcados con con \emph{Preload Before Playback}.
+En la secuencia completa, \emph{FullExperienceDirector} cargó y preparó los dos primeros segmentos antes de iniciar la canción.
+Además, la configuración de cada segmento se podía precargar anticipadamente en otros segmentos con \emph{Preload Before Playback}.
+En esta experiencia, Danniel fue la única escena marcada con esta opción. Por ello Alex y Joaquin que eran los dos primeros segmentos junto a la escena de Danniel,
+estaban cargados y preparados desde el inicio. Sin embargo, estar cargado no significaba que el contenido de la escena estuviera activo;
+solo se activaba el contenido del segmento correspondiente al momento musical. 
+Durante la reproducción, el director preparaba el siguiente segmento cuando se aproximaba su inicio, tomando en cuenta el valor configurado en \emph{Preload Lead Seconds}. 
+Por lo tanto las demás escenas, que no estaban marcadas para la precarga, se cargaban y preparaban justo antes de su ejecución, 
+en este caso la escena de Shipi, JuanAndres y Jeremy. 
+Al descargar escenas, la configuración podía liberar los recursos que ya no estuvieran en uso. 
+Eso era con el fin de adelantar parte del trabajo de carga a mantener más escenas y recursos en memoria durante ciertos tramos. 
 
-En la configuración, Danniel es la única escena marcada como precarga anticipada debido a que es una escena con bastante carga, al estar constantemente cargando segmentos con enemigos. 
-Por lo tanto, las escenas de Alex, Joaquin y Danniel estaban cargados desde el inicio, aunque solo se activaba el contenido del segmento correspondiente al momento musical. Para las demás escenas, el director precargaba el siguiente segmento tomanto en cuenta \emph{Preload Lead Seconds}. 
-Al descargar escenas, la configuración podía liberar los recursos que ya no estuvieran en uso. Eso era con el fin de adelantar parte del trabajo de carga a mantener más escenas y recursos en memoria durante ciertos tramos. 
+
 
 %%
 \subsection{Inicio de la experiencia y modalidades de ejecución}
@@ -380,7 +392,7 @@ El flujo completo de ejecución, desde la solicitud de la experiencia hasta su f
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Assets/FlujoEjecucion.png}
+    \includegraphics[width=0.50\textwidth]{Assets/FlujoEjecucion.png}
     \caption{Flujo completo de la ejecución de la experiencia.}
     \label{fig:FlujoEjecucion}
 \end{figure}
@@ -405,7 +417,7 @@ Esta coordinación temporal se ilustra en la figura \ref{fig:SecuenciaTemporal}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Assets/SecuenciaTemporal.png}
+    \includegraphics[width=0.75\textwidth]{Assets/SecuenciaTemporal.png}
     \caption{Secuencia temporal, pregargas y transiciones.}
     \label{fig:SecuenciaTemporal}
 \end{figure}
@@ -449,15 +461,47 @@ Las modificaciones se realizaron de manera iterativa y se generaron nuevas compi
 \subsection{Pruebas de rendimiento en los dispositivo objetivos}
 
 El rendimiento se evaluó en dos configuraciones: la versión para PC, ejecutada por Meta Horizon Link, y la version instalada como APK en Meta Quest 3S. 
-Y se realizaron tres corridas en cada configuración. Los datos de la versión en PC se registraron con Oculus Debug Tool, mientras que los de la versión de APK se obtuvieron con OVR Metrics Tool.
+Y se realizaron tres corridas en cada configuración. 
+Los datos de la versión en PC se registraron con Oculus Debug Tool como se puede ver en la figura \ref{fig:OculusDebugTool}, 
+mientras que los de la versión de APK se obtuvieron con OVR Metrics Tool como se puede observar en la figura \ref{fig:OVRMetricsTool}.
 
 Con los datos de rendimiento obtenidos de ambas versiones, se hizo un análisis en Jupyter Notebook con código escrito en Python. Se usó pandas para cargar los archivos CSV de las capturas, organizar los datos y preparar las tablas de resumen; 
 NumPy para las operaciones númericas y tratar valores no válidos; y Matplotlib para generar las gráficas. 
 Las corridas de PC se analizaron los tiempos de procesamiento de CPU y GPU, la latencia movimiento-fotón, los incrementos en los contadores de fotogramas descartados. 
 En las corridas en Quest 3S se analizaron los FPS, el tiempo de procesamiento de GPU y la utilización de CPU y GPU. 
-Estos son los indicadores presentados en tablas y gráficas seleccionadas para el análisis. Los datos de PC se registraron por fotograma, y los de APK se muestrearon aproximadamente cada segundo. 
+Estos son los indicadores presentados en tablas y gráficas seleccionadas para el análisis. 
+Los datos de PC se registraron por fotograma, y los de APK se muestrearon aproximadamente cada segundo, 
+esto es debido a que las diferentes herramientas de monitoreo de rendimiento no registran la misma información. 
 
-Los resultados de ambas configuraciones se analizaron por separado, ya que la versión de PC se ejecuto con conexión al visor, mientras que el APK fue directamente en el Quest 3S. Y esta distinción pemite describir el rendimiento observado en ambas formas de ejecución. 
+Los resultados de ambas configuraciones se analizaron por separado, 
+ya que la versión de PC se ejecutó con conexión al visor, mientras que el APK fue directamente en el Quest 3S. 
+Y esta distinción pemite describir el rendimiento observado en ambas formas de ejecución. 
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/OculusDebugTool.jpeg}
+        \caption{Captura de datos de rendimiento en PC con Oculus Debug Tool}
+        \label{fig:OculusDebugTool}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/OVRMetricsTool.jpeg}
+        \caption{Captura de datos de rendimiento en APK con OVR Metrics Tool}
+        \label{fig:OVRMetricsTool}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Modelo en Mixamo y Unity}
+    \label{fig:ModeloMixamoYUnity}
+\end{figure}
+
+
 
 \subsection{Validación funcional de la arquitectura}
 La validación funcional se centró en comprobar que los principales recorridos de la experiencia se ejecutaran y se pudieran seguir por medio de los registros de EDA generados en la consola de Unity. Para ello se exportaron y se analizó una ejecución completa, para relacionar las publicaciones y recepciones con sus identificadores de evento y ejecución.
@@ -529,8 +573,11 @@ El análisis fue principalmente de forma descriptiva, debido a que el objetivo f
 
 \subsection{Análisis descriptivo}
 
-Las respuestas del IPQ se organizaron y analizaron en Jupyter Notebook con Python. Se usó Pandas para procesar las respuestas y calcular los resúmenes; NumPy para las operaciones numéricas; Matplotlib para generar las gráficas. 
-Las puntuaciones se expresaron en una escala de -3 a +3. Para calcular las dimensiones, se invirtieron los ítems que tienen una orientación negativa y se usaon los ítems establecidos para cada dimensión en el modelo revisado del instrumento. 
-Y la presencia general se analizó por separado con el ítem 8. 
+Las respuestas del IPQ se organizaron y analizaron en Jupyter Notebook con Python. 
+Se usó Pandas para procesar las respuestas y calcular los resúmenes; 
+NumPy para las operaciones numéricas; Matplotlib para generar las gráficas. 
+Las puntuaciones se expresaron en una escala de -3 a +3. Para calcular las dimensiones, 
+se invirtieron los ítems que tienen una orientación negativa y se usaon los ítems establecidos para cada dimensión en el modelo revisado del instrumento. 
+Y la presencia general se analizó por separado con el ítem 8 de sensación de estar allí, dentro del mundo virtual \cite{castro2026immersive}. 
 La tabla de perfil resume, para cada indicador, el número de respuestas válidas, la media, la desviación estándar, la mediana y la cantidad de puntuaciones positivas. 
 Los resultados obtenidos se utilizaron para caracterizar la percepción de presencia obtenida durante la experiencia y relacionarla posteriormente con las características visuales, auditivas e interactivas implementadas.
