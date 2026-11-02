@@ -28,7 +28,15 @@ Los GameObjects son los bloques de construcción de las escenas dentro de Unity.
 \subsection{ScriptableObjects}
 Un ScriptableObject es un objeto especializado de Unity que se usa principalmente como un contenedor de datos; este no forma parte de una instancia de un GameObject. Se puede usar para crear una clase personalizada con sus propias variables y métodos, pero con menos sobrecarga que un MonoBehaviour. Una de sus características principales es que no posee una transformación y reside fuera de la jerarquía de la escena, sino que existe a nivel del proyecto como un recurso. Por lo tanto, no se puede usar directamente en un GameObject; en vez de eso, se instancia desde el CreateMenuAsset. A nivel de programación ofrecen una gran flexibilidad ya que permiten: almacenarlos en variables, crearlos o destruirlos dinámicamente en tiempo de ejecución, pasarlos como argumentos, devolverlos desde un método, incluirlos en estructuras de datos, serializarlos y deserializarlos \cite{scriptableobjects}. 
 \subsection{Meta Quest 3S}
-Metaquest 3S son visores de VR y realidad mixta (MR por sus siglas en inglés) desarrollados por Meta. Son dispositivos independientes que tienen su propio procesador, sensores de seguimiento y sistema operativo de Android. Operan de forma autónoma, soportan conexión a PC por medio de Quest Link o Air Link para ejecutar software más exigente o para el desarrollo de aplicaciones.  Estas gafas son usadas ampliamente para juegos 2D en pantallas gigantes e inmersivas, entretenimiento, experiencias sociales y Fitness \cite{metaquest}. 
+Meta Quest 3S son visores de VR y realidad mixta (MR por sus siglas en inglés) desarrollados por Meta. Son dispositivos independientes que tienen su propio procesador, sensores de seguimiento y sistema operativo de Android. Operan de forma autónoma, soportan conexión a PC por medio de Quest Link o Air Link para ejecutar software más exigente o para el desarrollo de aplicaciones.  Estas gafas son usadas ampliamente para juegos 2D en pantallas gigantes e inmersivas, entretenimiento, experiencias sociales y Fitness \cite{metaquest}. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Assets/metaquest3s.jpeg}
+    \caption{Visores Meta Quest 3S}
+    \label{fig:metaquest3s}
+\end{figure}
+
 \subsection{Meta Horizon Link}
 La aplicación de Meta Horizon Link permite conectar las gafas de VR al ordenador, descubrir aplicaciones inmersivas y compilar aplicaciones desarrolladas desde diferentes editores o compilaciones de las aplicaciones en las gafas. \cite{metaHorizonLink}.
 \subsection{Plantilla de realidad virtual y escena de muestra de Unity}
