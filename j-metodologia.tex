@@ -2,12 +2,16 @@
 \section{Conceptualización y diseño de la experiencia}
 La primera etapa del proyecto estableció las bases conceptuales, visuales e interactivas de la experiencia. 
 Para ello se tomó como punto de partida las propuestas creativas de los integrantes de la banda musical Los Skeepers: Alex, Joaquín, Shipi, Juan Andrés, Danniel y Jeremy, que crearon la canción ``PUNKO'' usada como base musical de la experiencia.
-Cada integrante de la banda definió la estética y las mecánicas del minijuego que deseaban incluir en la experiencia.
+Cada integrante de la banda definió la estética y las mecánicas del minijuego que deseaban incluir en la experiencia. 
 
 \subsection{Dirección artística}
-La dirección artística se desarrolló en conjunto con los integrantes de la banda, quienes elaboraron la canción, moodboards con referencias visuales para representar la estética deseada de sus personajes, ambientes y propuestas de minijuegos. Estas referencias permitieron identificar colores, estilos, vestuarios, escenarios y elementos visuales con la identidad que cada artista buscaba transmitir. 
+La dirección artística se desarrolló en conjunto con los integrantes de la banda, quienes elaboraron la canción, moodboards con referencias visuales para representar la estética deseada de sus personajes, ambientes y propuestas de minijuegos. 
+Estas referencias permitieron identificar colores, estilos, vestuarios, escenarios y elementos visuales con la identidad que cada artista buscaba transmitir. 
+Como parte de este trabajo se desarrollaron los tres minijuegos correspondientes a Alex, Joaquín y Danniel. 
+Los otros tres, correspondientes a Shipi, Juan Andrés y Jeremy, fueron desarrollados como parte de otro trabajo académico.
 La propuesta general tomó como punto de partida la temática de la canción, relacionada con la transición hacia la vida adulta y los distintos desafíos asociados con esta etapa. A partir de esta idea, cada integrante propuso una estética y una mecánica que representasen su sección dentro de la experiencia.
-Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de Realidad Virtual (VR por sus siglas en inglés). A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
+Las propuestas iniciales de los artistas fueron posteriormente revisadas para determinar su viabilidad dentro de un entorno de Realidad Virtual (VR por sus siglas en inglés). A partir de ellas se ajustaron las mecánicas y las formas de interacción, procurando conservar la intención artística original. 
+También se buscaron assets tridimensionales con características visuales similares a las referencias proporcionadas para establecer la estética inicial de cada escena. 
 
 
 \subsection{Diseño de la experiencia interactiva}
@@ -155,14 +159,50 @@ Al tener los modelos modificados, se exportaron a Mixamo para incorporarles una 
 \end{figure}
 
 
-\subsection{Implementacion de escenas}
-Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. Dependiendo de la escena, los movimientos del usuario se utilizaron para luchar, apuntar y disparar. 
+\subsection{Implementación de escenas}
+Las mécanicas se implementaron utilizando los controladores de movimiento del visor como principal medio de interacción. 
+Dependiendo de la escena, los movimientos del usuario se utilizaron para luchar, apuntar y disparar. 
 Las interacciones particulares de cada seccion se mantuvieron independientes entre sí para permitir que cada escena tuviera su propia logica de juego sin afectar el funcionamiento de los demás.
+Las diferentes escenas desarrolladas se pueden observar en la figura \ref{fig:escenas}.
+
+\begin{figure}[H]
+    \centering
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/alex.png}
+        \caption{Escena de Alex}
+        \label{fig:alex}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/joaquin.png}
+        \caption{Escena de Joaquín}
+        \label{fig:joaquin}
+    \end{subfigure}
+
+    \par\medskip
+
+    \begin{subfigure}{0.75\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Assets/danniel.png}
+        \caption{Escena de Danniel}
+        \label{fig:danniel}
+    \end{subfigure}
+
+    % Título general de la figura
+    \caption{Implementación de las escenas}
+    \label{fig:escenas}
+\end{figure}
+
 
 %-----------------------------------------------------------------------------------------------------------------------------------------%
 
 \section{Implementación de la Arquitectura Dirigida por Eventos}
-Al tener las escenas individuales desarrolladas se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. 
+Al tener las escenas individuales desarrolladas se implementó la Arquitectura Dirigida por Eventos (EDA por sus siglas en inglés) para integrar las seis escenas en una misma aplicación y coordinar su ejecución con la reproducción musical. 
 La implementación combinó tres mecanismos: eventos para comunicar solicitudes y cambios de estado, \emph{ScriptableObjects} para almacenar la configuración y un reloj compartido para decidir los momentos de ejecución. Se distribuyeron las responsabilidades de control de flujo, preparación de escenas, reproducción musical y respuesta de los minijuegos. 
 Esta organización tenía como proposito reducir las dependencias directas entre sistemas y mantener una referencia musical común durante la experiencia.
 

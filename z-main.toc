@@ -70,50 +70,50 @@
 \contentsline {section}{\numberline {5.3}Desarrollo del videojuego base}{21}{section*.74}%
 \contentsline {subsection}{\numberline {5.3.1}Construcción de escenas}{21}{subsection*.75}%
 \contentsline {subsection}{\numberline {5.3.2}Creación de personajes tridimensionales}{24}{subsection*.77}%
-\contentsline {subsection}{\numberline {5.3.3}Implementacion de escenas}{25}{subsection*.81}%
-\contentsline {section}{\numberline {5.4}Implementación de la Arquitectura Dirigida por Eventos}{26}{section*.82}%
-\contentsline {subsection}{\numberline {5.4.1}Organización general de sistema}{26}{subsection*.83}%
-\contentsline {subsubsection}{Bootstrap y servicios generales}{27}{section*.85}%
-\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{28}{section*.87}%
-\contentsline {subsection}{\numberline {5.4.2}Comunicación por eventos y control de flujo}{29}{subsection*.89}%
-\contentsline {subsubsection}{Configuración de experiencias y segmentos}{30}{section*.91}%
-\contentsline {subsection}{\numberline {5.4.3}Preparación de escenas y activación de contenido y administración de recursos}{31}{subsection*.94}%
-\contentsline {subsection}{\numberline {5.4.4}Reutilización y precarga de recursos}{35}{subsection*.98}%
-\contentsline {subsection}{\numberline {5.4.5}Inicio de la experiencia y modalidades de ejecución}{35}{subsection*.99}%
-\contentsline {subsection}{\numberline {5.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{37}{subsection*.101}%
-\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{37}{section*.102}%
-\contentsline {subsection}{\numberline {5.4.7}Generación y preparación del BeatMap}{38}{subsection*.104}%
-\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{39}{section*.105}%
-\contentsline {subsection}{\numberline {5.4.8}Finalización de la canción y cierre de la experiencia}{39}{subsection*.106}%
-\contentsline {section}{\numberline {5.5}Optimización y validación técnica}{39}{section*.107}%
-\contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{39}{subsection*.108}%
-\contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{40}{subsection*.110}%
-\contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{41}{subsection*.112}%
-\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{44}{section*.114}%
-\contentsline {subsection}{\numberline {5.6.1}Participantes}{44}{subsection*.115}%
-\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{44}{subsection*.116}%
-\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{45}{subsection*.117}%
-\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{45}{subsection*.119}%
-\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{45}{section*.120}%
-\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{46}{subsection*.121}%
-\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{46}{subsection*.122}%
-\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{46}{subsection*.123}%
-\contentsline {chapter}{\numberline {6}Resultados}{47}{chapter*.124}%
-\contentsline {section}{\numberline {6.1}Trazabilidad de la Arquitectura Dirigida por Eventos}{47}{section*.125}%
-\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{50}{section*.132}%
-\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{50}{subsection*.133}%
-\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{53}{subsection*.139}%
-\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{55}{section*.142}%
-\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{55}{subsection*.143}%
-\contentsline {chapter}{\numberline {7}Discusión}{59}{chapter*.149}%
-\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{59}{section*.150}%
-\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{60}{section*.151}%
-\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{61}{section*.152}%
-\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{61}{section*.153}%
-\contentsline {chapter}{\numberline {8}Conclusiones}{63}{chapter*.154}%
-\contentsline {chapter}{\numberline {9}Recomendaciones}{65}{chapter*.155}%
-\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{67}{chapter*.157}%
-\contentsline {chapter}{\numberline {11}Anexos}{71}{chapter*.158}%
-\contentsline {section}{\numberline {11.1}Implementación de Arquitectura Dirigida en un videoclip musical en realidad virtual}{71}{section*.159}%
-\contentsline {section}{\numberline {11.2}Análisis}{71}{section*.160}%
-\contentsline {section}{\numberline {11.3}Cuestionario IPQ utilizado}{72}{section*.161}%
+\contentsline {subsection}{\numberline {5.3.3}Implementación de escenas}{25}{subsection*.81}%
+\contentsline {section}{\numberline {5.4}Implementación de la Arquitectura Dirigida por Eventos}{27}{section*.83}%
+\contentsline {subsection}{\numberline {5.4.1}Organización general de sistema}{27}{subsection*.84}%
+\contentsline {subsubsection}{Bootstrap y servicios generales}{28}{section*.86}%
+\contentsline {subsubsection}{ExperienceCore y servicios musicales compartidos}{29}{section*.88}%
+\contentsline {subsection}{\numberline {5.4.2}Comunicación por eventos y control de flujo}{30}{subsection*.90}%
+\contentsline {subsubsection}{Configuración de experiencias y segmentos}{31}{section*.92}%
+\contentsline {subsection}{\numberline {5.4.3}Preparación de escenas y activación de contenido y administración de recursos}{32}{subsection*.95}%
+\contentsline {subsection}{\numberline {5.4.4}Reutilización y precarga de recursos}{36}{subsection*.99}%
+\contentsline {subsection}{\numberline {5.4.5}Inicio de la experiencia y modalidades de ejecución}{36}{subsection*.100}%
+\contentsline {subsection}{\numberline {5.4.6}Referencia temporal y seleccion del segmento del Reloj musical}{38}{subsection*.102}%
+\contentsline {subsubsection}{Transiciones y tiempos de anticipacion del Reloj musical}{38}{section*.103}%
+\contentsline {subsection}{\numberline {5.4.7}Generación y preparación del BeatMap}{39}{subsection*.105}%
+\contentsline {subsubsection}{Publicación de beats y respuestas dentro de las escenas}{40}{section*.106}%
+\contentsline {subsection}{\numberline {5.4.8}Finalización de la canción y cierre de la experiencia}{40}{subsection*.107}%
+\contentsline {section}{\numberline {5.5}Optimización y validación técnica}{40}{section*.108}%
+\contentsline {subsection}{\numberline {5.5.1}Optimización gráfica y de escena}{40}{subsection*.109}%
+\contentsline {subsection}{\numberline {5.5.2}Pruebas de rendimiento en los dispositivo objetivos}{41}{subsection*.111}%
+\contentsline {subsection}{\numberline {5.5.3}Validación funcional de la arquitectura}{42}{subsection*.113}%
+\contentsline {section}{\numberline {5.6}Participantes y entorno de evaluación}{45}{section*.115}%
+\contentsline {subsection}{\numberline {5.6.1}Participantes}{45}{subsection*.116}%
+\contentsline {subsection}{\numberline {5.6.2}Procedimiento}{45}{subsection*.117}%
+\contentsline {subsection}{\numberline {5.6.3}Entorno de evaluación}{46}{subsection*.118}%
+\contentsline {subsection}{\numberline {5.6.4}Entorno de evaluación}{46}{subsection*.120}%
+\contentsline {section}{\numberline {5.7}Aplicación del I-Group Presence Questionnaire}{46}{section*.121}%
+\contentsline {subsection}{\numberline {5.7.1}Digitalización del instrumento}{47}{subsection*.122}%
+\contentsline {subsection}{\numberline {5.7.2}Análisis de resultados}{47}{subsection*.123}%
+\contentsline {subsection}{\numberline {5.7.3}Análisis descriptivo}{47}{subsection*.124}%
+\contentsline {chapter}{\numberline {6}Resultados}{49}{chapter*.125}%
+\contentsline {section}{\numberline {6.1}Trazabilidad de la Arquitectura Dirigida por Eventos}{49}{section*.126}%
+\contentsline {section}{\numberline {6.2}Resultados de Rendimiento}{52}{section*.133}%
+\contentsline {subsection}{\numberline {6.2.1}EXE en PC por Meta Horizon Link}{52}{subsection*.134}%
+\contentsline {subsection}{\numberline {6.2.2}APK en Quest 3S}{55}{subsection*.140}%
+\contentsline {section}{\numberline {6.3}Resultados prueba IPQ}{57}{section*.143}%
+\contentsline {subsection}{\numberline {6.3.1}Revisión de la base de datos}{57}{subsection*.144}%
+\contentsline {chapter}{\numberline {7}Discusión}{61}{chapter*.150}%
+\contentsline {section}{\numberline {7.1}La arquitectura EDA y la secuenciación de la experiencia}{61}{section*.151}%
+\contentsline {section}{\numberline {7.2}Rendimiento en PC y en Meta Quest 3S}{62}{section*.152}%
+\contentsline {section}{\numberline {7.3}Percepción de presencia según el IPQ}{63}{section*.153}%
+\contentsline {section}{\numberline {7.4}Relación entre EDA, rendimiento y presencia}{63}{section*.154}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{65}{chapter*.155}%
+\contentsline {chapter}{\numberline {9}Recomendaciones}{67}{chapter*.156}%
+\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{69}{chapter*.158}%
+\contentsline {chapter}{\numberline {11}Anexos}{73}{chapter*.159}%
+\contentsline {section}{\numberline {11.1}Implementación de Arquitectura Dirigida en un videoclip musical en realidad virtual}{73}{section*.160}%
+\contentsline {section}{\numberline {11.2}Análisis}{73}{section*.161}%
+\contentsline {section}{\numberline {11.3}Cuestionario IPQ utilizado}{74}{section*.162}%
